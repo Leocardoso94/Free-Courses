@@ -25,6 +25,14 @@
         border-top: 1px solid #e5e5e5;
         font-size: 0.9em;
     }
+    .stars {
+        background-color: #eee;
+        border: 1px solid #d5d5d5;
+        color: black;
+        padding: 2px;
+        border-radius: 5px;
+        font-size: 12px;
+    }
     ul {
         display: flex;
         flex-wrap: wrap;

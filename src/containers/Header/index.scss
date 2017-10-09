@@ -16,6 +16,10 @@
         display: block;
         margin: auto;
         width: 190px;
+        &:hover {
+            text-decoration: none;
+            color: #ef4021;
+        }
     }
     .menu-button {
         cursor: pointer;

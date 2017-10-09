@@ -17,7 +17,7 @@ class Category extends Component {
 				<List list={coursesInCategory} selectCourse={this.props.selectCourse} />
 				<div className="footer">
 					<p>
-						Caught a mistake or want to add more courses of {this.props.category.title}?  <a href="https://github.com/leocardoso94/" target="_blank" rel="noopener noreferrer">Check How</a>
+						Caught a mistake or want to add more courses of {this.props.category.title}?  <a href="https://github.com/Leocardoso94/Free-Courses" target="_blank" rel="noopener noreferrer">Check How</a>
 					</p>
 				</div>
 			</div>
@@ -33,7 +33,7 @@ class Category extends Component {
 					<br />
 					We don't have any listed course about {this.props.category.title}, yet.
 					<br />
-					If you have any suggestion and would like to collaborate, please <a href="https://github.com/leocardoso94/" target="_blank" rel="noopener noreferrer">check How</a>
+					If you have any suggestion and would like to collaborate, please <a href="https://github.com/Leocardoso94/Free-Courses" target="_blank" rel="noopener noreferrer">check How</a>
 				</p>
 			</div>
 		);

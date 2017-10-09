@@ -27,3 +27,12 @@ body {
         padding: 2em 1.4em 0;
     }
 }
+
+a {
+    color: #3377c0;
+    text-decoration: none;
+    &:hover {
+        color: #2f6cb6;
+        text-decoration: underline;
+    }
+}

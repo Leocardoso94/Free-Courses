@@ -14,7 +14,7 @@ class Course extends Component {
 				<RoundedButton text="check it" link={this.props.course.link} />
 				<div className="footer">
 					<p>
-						Caught a mistake or want to contribute to the project?  <a href="https://github.com/leocardoso94/" target="_blank" rel="noopener noreferrer">Check How</a>
+						Caught a mistake or want to contribute to the project?  <a href="https://github.com/Leocardoso94/Free-Courses" target="_blank" rel="noopener noreferrer">Check How</a>
 					</p>
 				</div>
 			</div>
