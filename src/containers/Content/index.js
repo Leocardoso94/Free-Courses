@@ -10,12 +10,20 @@ class Content extends Component {
 	constructor(props) {
 		super(props);
 
-		this.state = { stars: 0 }
+		this.state = { stars: 0, contributors: [] };
 
 		fetch('https://api.github.com/repos/leocardoso94/free-courses')
 			.then(blob => blob.json()
 				.then(data => this.updateStars(data.stargazers_count)));
 
+		fetch('https://api.github.com/repos/Leocardoso94/Free-Courses/contributors')
+			.then(blob => blob.json()
+				.then(data => this.updateContributors(data)));
+
+	}
+
+	updateContributors(contributors) {
+		this.setState({ contributors });
 	}
 
 	updateStars(stars) {
@@ -51,6 +59,11 @@ class Content extends Component {
 					<li><a target="_blank" rel="noopener noreferrer" href="https://www.freecodecamp.org">freeCodeCamp</a></li>
 					<li><a target="_blank" rel="noopener noreferrer" href="https://github.com/EbookFoundation/free-programming-books">Free programming books</a></li>
 				</ol>
+
+				<h4>Contributors:</h4>
+				{this.state.contributors.map(contributor => {
+					return <a target="_blank" rel="noopener noreferrer" href={contributor.html_url} style={{ marginRight: "5px" }} key={contributor.login}>@{contributor.login}</a>;
+				})}
 			</div>
 		);
 	}
