@@ -21,5 +21,17 @@
         "link": "https://www.codecademy.com/tracks/web",
         "level": "Beginner",
         "description": "Learn how to create websites by structuring and styling your pages with HTML and CSS."
+    },
+    {
+        "title": "HTML & CSS",
+        "author": "Interneting Is Hard",
+        "language": "English",
+        "categories": [
+            "html",
+            "css"
+        ],
+        "link": "https://internetingishard.com",
+        "level": "Beginner",
+        "description": "Friendly web development tutorials for complete beginners."
     }
 ]
