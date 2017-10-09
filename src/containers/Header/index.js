@@ -19,7 +19,7 @@ class Header extends Component {
 					<i className="bar" />
 					<i className="bar" />
 				</a >
-				<a className="logo" href="/"><FaIcon icon="fa-book" /><b>Free Courses</b><FaIcon icon="fa-code" /></a>
+				<a className="logo" href="./"><FaIcon icon="fa-book" /><b>Free Courses</b><FaIcon icon="fa-code" /></a>
 			</div>
 		);
 	}
