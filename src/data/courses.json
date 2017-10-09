@@ -23,6 +23,17 @@
         "description": "Learn how to create websites by structuring and styling your pages with HTML and CSS."
     },
     {
+        "title": "Social Network",
+        "author": "Alex PHP Academy",
+        "language": "English",
+        "categories": [
+            "php", "html", "laravel"
+        ],
+        "link": "https://www.codecourse.com/lessons/social-network",
+        "level": "Beginner - Intermediate",
+        "description": "A social network built with Laravel and Bootstrap. Authenticate, add and accept friend requests, post to a timeline, reply to and like friend's statuses."
+	  },
+	  {
         "title": "HTML & CSS",
         "author": "Interneting Is Hard",
         "language": "English",
