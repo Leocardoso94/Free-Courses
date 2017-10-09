@@ -8,6 +8,14 @@
         "icon": "devicon-react-plain colored"
     },
     {
+        "title": "Sass",
+        "icon": "devicon-sass-original colored"
+    },
+    {
+        "title": "NodeJs",
+        "icon": "devicon-nodejs-plain colored"
+    },
+    {
         "title": "Angular",
         "icon": "devicon-angularjs-plain colored"
     },

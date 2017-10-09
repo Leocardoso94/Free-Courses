@@ -44,5 +44,87 @@
         "link": "https://internetingishard.com",
         "level": "Beginner",
         "description": "Friendly web development tutorials for complete beginners."
+    },
+    {
+        "title": "Introduction To JavaScript",
+        "author": "Codecademy",
+        "language": "English",
+        "categories": [
+            "javascript"
+        ],
+        "link": "https://www.codecademy.com/learn/introduction-to-javascript",
+        "level": "Beginner",
+        "description": "You will learn introductory level object oriented programming using ES6 JavaScript."
+    },
+    {
+        "title": "Make a Website",
+        "author": "Codecademy",
+        "language": "English",
+        "categories": [
+            "html",
+            "css"
+        ],
+        "link": "https://www.codecademy.com/learn/make-a-website",
+        "level": "Beginner",
+        "description": "You'll build four simple websites using web development fundamentals, including HTML5/CSS3 and Bootstrap. You'll learn to understand and modify the structure of basic website, as well as how to change the way a page looks and is laid out."
+    },
+    {
+        "title": "Learn Sass",
+        "author": "Codecademy",
+        "language": "English",
+        "categories": [
+            "css",
+            "sass"
+        ],
+        "link": "https://www.codecademy.com/learn/learn-sass",
+        "level": "Beginner",
+        "description": "This course will teach you how to use nesting, variables, mixins, placeholders, and functions to write more expressive and reusable styles. At the end of the course, you will be able to transition a CSS codebase to SCSS and style multiple websites."
+    },
+    {
+        "title": "Learn Python",
+        "author": "Codecademy",
+        "language": "English",
+        "categories": [
+            "python"
+        ],
+        "link": "https://www.codecademy.com/learn/learn-python",
+        "level": "Beginner - Intermediate",
+        "description": "This course is a great introduction to both fundamental programming concepts and the Python programming language. By the end, you'll be familiar with Python syntax and you'll be able to put into practice what you'll have learned in a final project you'll develop locally."
+    },
+    {
+        "title": "React-fundamentals - Start Learning React",
+        "author": "Egghead.io",
+        "language": "English",
+        "categories": [
+            "react"
+        ],
+        "link": "https://egghead.io/courses/react-fundamentals",
+        "level": "Beginner - Intermediate",
+        "description": "React is a javascript library for building user interfaces from the fine folks at Facebook & Instagram. It strictly focuses on the 'V' in your MVC applications, and touts a blazing fast virtual DOM diff implementation. This series will explore the basic fundamentals of React to get you started."
+    },
+    {
+        "title": "Learn ES6 (ECMAScript 2015)",
+        "author": "Egghead.io",
+        "language": "English",
+        "categories": [
+            "javascript",
+            "es6"
+        ],
+        "link": "https://egghead.io/courses/learn-es6-ecmascript-2015",
+        "level": "Intermediate",
+        "description": "This course takes a look at some of the new features that JavaScript has available with ES6 (ECMAScript 2015). It is a 'montage' from several instructors."
+    },
+    {
+        "title": "Node JS Tutorial for Beginners",
+        "author": "The Net Ninja",
+        "language": "English",
+        "categories": [
+            "nodejs",
+            "express",
+            "mongodb"
+        ],
+        "link": "https://www.youtube.com/playlist?list=PL4cUxeGkcC9gcy9lrvMJ75z9maRw4byYp",
+        "level": "Beginner - Intermediate",
+        "description": "Yo ninjas, in this Node JS tutorial series for beginners, we'll be walking step by step through what Node JS is, and how it all works. We'll also be creating a Node JS application from scratch using express, and hook it up to MongoDB - a noSQL database perfect for using with Node."
     }
 ]
