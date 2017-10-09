@@ -1,0 +1,21 @@
+{
+  "name": "free-courses",
+  "description": "",
+  "main": "''",
+  "authors": [
+    "Leonardo Cardoso"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "font-awesome": "^4.7.0",
+    "devicon": "*"
+  }
+}

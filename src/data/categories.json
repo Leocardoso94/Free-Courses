@@ -1,0 +1,38 @@
+[
+    {
+        "title": "JavaScript",
+        "icon": "devicon-javascript-plain colored"
+    },
+    {
+        "title": "React",
+        "icon": "devicon-react-plain colored"
+    },
+    {
+        "title": "Angular",
+        "icon": "devicon-angularjs-plain colored"
+    },
+    {
+        "title": "AngularJS",
+        "icon": "devicon-angularjs-plain"
+    },
+    {
+        "title": "CSS",
+        "icon": "devicon-css3-plain colored"
+    },
+    {
+        "title": "PHP",
+        "icon": "devicon-php-plain colored"
+    },
+    {
+        "title": "Java",
+        "icon": "devicon-java-plain"
+    },
+    {
+        "title": "HTML",
+        "icon": "devicon-html5-plain colored"
+    },
+    {
+        "title": "Python",
+        "icon": "devicon-python-plain colored"
+    }
+]
