@@ -1,14 +1,11 @@
 .content {
     position: relative;
-    padding: 2.2em 0;
-    max-width: 600px;
+    padding: 2.2em 0; // max-width: 600px;
     margin: 0 auto;
     padding-left: 50px;
+    margin-left: 290px;
     .show {
         opacity: 1;
-    }
-    @media screen and (max-width: 1300px) {
-        margin-left: 290px;
     }
     .title {
         text-align: center;
@@ -39,42 +36,47 @@
         padding: 0;
         margin: 0;
         width: 100%;
-        max-width: 930px;
+        justify-content: space-around;
+        list-style: none;
         .course {
-            display: flex;
-            flex-basis: 33.33333%;
-            padding: 15px 40px 15px 15px;
-            margin-right: 20px;
-            border-radius: 10px;
             cursor: pointer;
-            &:hover {
-                background-color: rgba(220, 220, 220, 0.37);
-                transition: background-color 0.2s linear;
-            }
+            flex-basis: 20%;
+            min-width: 170px;
+            box-shadow: 0 0 1px 1px hsla(0, 0%, 7%, .1), 0 3px 1px 0 hsla(0, 0%, 7%, .1);
+            border-radius: 15px;
+            margin-bottom: 20px;
+            margin-right: 20px;
+            .description,
             .categories {
-                display: flex;
-                flex-wrap: wrap;
-                justify-content: space-around;
-                padding-right: 10px;
+                padding: 0 15px;
             }
-            .tags i {
-                background-color: #05a534;
-                padding: 2px 6px;
-                border-radius: 5px;
-                color: #fff;
-            }
-            .title {
+            .author {
                 margin: 0;
-                color: #545454;
             }
-            .title-holder {
-                display: flex;
-                margin-bottom: 3px;
+            .image img {
+                width: 100%;
+                min-width: 100%;
+                border-top-left-radius: 15px;
+                border-top-right-radius: 15px;
+                box-shadow: 0 4px 2px -2px gray;
             }
             .text-description {
-                color: #878787;
-                font-size: 14px;
+                color: #9c9c9c;
+                font-size: 12px;
                 line-height: 16px;
+            }
+            .categories {
+                padding-bottom: 10px;
+                i {
+                    background-color: #52ca1c;
+                    color: #fff;
+                    padding: 5px;
+                    border-radius: 5px;
+                    font-size: 10px;
+                    font-style: normal;
+                    margin-right: 10px;
+                    display: inline-block;
+                }
             }
         }
     }

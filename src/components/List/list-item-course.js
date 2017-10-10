@@ -7,18 +7,32 @@ class ListItemCategory extends Component {
 		this.state = { course: props.item };
 	}
 
+	getImage() {
+		const defaultImage = 'https://cdn.dribbble.com/users/4764/screenshots/2418753/books_1x.png';
+		return !this.state.course.image ? defaultImage : this.state.course.image;
+	}
+
+	getDescription() {
+		let description = this.state.course.description.replace(/^(.{50}[^\s]*).*/, "$1");
+
+		this.state.course.description.length > 51 ? description += '...' : '';
+
+		return description;
+	}
+
 	render() {
 		return (
 			<li className="course" onClick={() => this.props.selectCourse(this.state.course)}>
-				<div className="categories">
-					<span>tags:</span>
-					{this.state.course.categories.map(category => <span className="tags" key={category}><i>{category}</i></span>)}
+				<div className="image">
+					<img src={this.getImage()} />
 				</div>
 				<div className="description" >
-					<div className="title-holder">
-						<h4 className="title">{this.state.course.title}</h4>
-					</div>
-					<div className="text-description">{this.state.course.description}</div>
+					<h6 className="author">{this.state.course.author}</h6>
+					<h4 className="title">{this.state.course.title}</h4>
+					<p className="text-description">{this.getDescription()}</p>
+				</div>
+				<div className="categories">
+					{this.state.course.categories.map(category => <i key={category}>{category}</i>)}
 				</div>
 			</li>
 		);
