@@ -38,13 +38,15 @@
         "author": "Alex PHP Academy",
         "language": "English",
         "categories": [
-            "php", "html", "laravel"
+            "php",
+            "html",
+            "laravel"
         ],
         "link": "https://www.codecourse.com/lessons/social-network",
         "level": "Beginner - Intermediate",
         "description": "A social network built with Laravel and Bootstrap. Authenticate, add and accept friend requests, post to a timeline, reply to and like friend's statuses."
-	  },
-	  {
+    },
+    {
         "title": "HTML & CSS",
         "author": "Interneting Is Hard",
         "language": "English",
@@ -130,12 +132,36 @@
         "author": "The Net Ninja",
         "language": "English",
         "categories": [
-            "nodejs",
+            "node",
             "express",
             "mongodb"
         ],
         "link": "https://www.youtube.com/playlist?list=PL4cUxeGkcC9gcy9lrvMJ75z9maRw4byYp",
         "level": "Beginner - Intermediate",
         "description": "Yo ninjas, in this Node JS tutorial series for beginners, we'll be walking step by step through what Node JS is, and how it all works. We'll also be creating a Node JS application from scratch using express, and hook it up to MongoDB - a noSQL database perfect for using with Node."
+    },
+    {
+        "title": "Django Tutorial for Beginners",
+        "author": "thenewboston",
+        "language": "English",
+        "categories": [
+            "django",
+            "python"
+        ],
+        "link": "https://www.youtube.com/playlist?list=PL6gx4Cwl9DGBlmzzFcLgDhKTTfNLfX1IK",
+        "level": "Beginner",
+        "description": "Official tutorials for thenewboston Django Tutorials for Beginners series!"
+    },
+    {
+        "title": "Django Girls Tutorial",
+        "author": "Django Girls",
+        "language": "English - Français - 简体中文 - Polski - Українська",
+        "categories": [
+            "django",
+            "python"
+        ],
+        "link": "https://tutorial.djangogirls.org/",
+        "level": "Beginner - Intermediate",
+        "description": "From the basics of python and django to your application deployed on web!"
     }
 ]
