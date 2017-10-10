@@ -24,7 +24,8 @@ To add a new course
         ],
         "link": "https://linkOfCouse.com/",
         "level": "the level of course",
-        "description": "a short description of couse"
+        "description": "a short description of course",
+        "image:" "https://linkToimage.com/image.png" // this is optional
     },
     {
         "title": "JavaScript30",
@@ -35,6 +36,7 @@ To add a new course
         ],
         "link": "https://javascript30.com/",
         "level": "Beginner - Intermediate",
+        "image": "",
         "description": "Beginner to Intermediate developers and designers who want to become comfortable with both JavaScript fundamentals and working in the DOM without a library."
     }
 ```
