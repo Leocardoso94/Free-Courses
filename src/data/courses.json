@@ -137,5 +137,17 @@
         "link": "https://www.youtube.com/playlist?list=PL4cUxeGkcC9gcy9lrvMJ75z9maRw4byYp",
         "level": "Beginner - Intermediate",
         "description": "Yo ninjas, in this Node JS tutorial series for beginners, we'll be walking step by step through what Node JS is, and how it all works. We'll also be creating a Node JS application from scratch using express, and hook it up to MongoDB - a noSQL database perfect for using with Node."
+    },
+    {
+        "title": "Django Tutorial for Beginners",
+        "author": "thenewboston",
+        "language": "English",
+        "categories": [
+            "django",
+            "python"
+        ],
+        "link": "https://www.youtube.com/playlist?list=PL6gx4Cwl9DGBlmzzFcLgDhKTTfNLfX1IK",
+        "level": "Beginner",
+        "description": "Official tutorials for thenewboston Django Tutorials for Beginners series!"
     }
 ]

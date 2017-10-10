@@ -43,8 +43,12 @@
         "title": "Python",
         "icon": "devicon-python-plain colored"
     },
-	 {
-		 "title": "Laravel",
-		 "icon": "devicon-laravel-plain colored"
-	 }
+	  {
+		    "title": "Laravel",
+		    "icon": "devicon-laravel-plain colored"
+	  },
+    {
+        "title": "Django",
+        "icon": "devicon-django-plain"
+    }
 ]
