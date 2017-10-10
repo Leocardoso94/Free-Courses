@@ -37,6 +37,8 @@ class Container extends Component {
 
 	selectCategory(category) {
 		this.setState({ selectedCategory: category, selectedCourse: null });
+		document.querySelector('.sidebar').classList.remove('open');
+		document.querySelector('#menu-button').classList.remove('active');
 	}
 
 	render() {
