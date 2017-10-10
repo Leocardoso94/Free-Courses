@@ -12,7 +12,7 @@
         "icon": "devicon-sass-original colored"
     },
     {
-        "title": "NodeJs",
+        "title": "Node",
         "icon": "devicon-nodejs-plain colored"
     },
     {
@@ -43,10 +43,10 @@
         "title": "Python",
         "icon": "devicon-python-plain colored"
     },
-	  {
-		    "title": "Laravel",
-		    "icon": "devicon-laravel-plain colored"
-	  },
+    {
+        "title": "Laravel",
+        "icon": "devicon-laravel-plain colored"
+    },
     {
         "title": "Django",
         "icon": "devicon-django-plain"
