@@ -9,7 +9,7 @@ class ListItemCategory extends Component {
 
 	getImage() {
 		const defaultImage = 'https://cdn.dribbble.com/users/4764/screenshots/2418753/books_1x.png';
-		return !this.state.course.image ? defaultImage : this.state.course.image;
+		return !this.state.course.image || this.state.course.image === '' ? defaultImage : this.state.course.image;
 	}
 
 	getDescription() {

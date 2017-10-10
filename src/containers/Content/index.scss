@@ -53,12 +53,16 @@
             .author {
                 margin: 0;
             }
-            .image img {
-                width: 100%;
-                min-width: 100%;
-                border-top-left-radius: 15px;
-                border-top-right-radius: 15px;
-                box-shadow: 0 4px 2px -2px gray;
+            .image {
+                height: 150px;
+                overflow: hidden;
+                img {
+                    width: 100%;
+                    min-width: 100%;
+                    border-top-left-radius: 15px;
+                    border-top-right-radius: 15px;
+                    box-shadow: 0 4px 2px -2px gray;
+                }
             }
             .text-description {
                 color: #9c9c9c;

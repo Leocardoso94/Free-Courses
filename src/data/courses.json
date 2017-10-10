@@ -8,22 +8,12 @@
         ],
         "link": "https://javascript30.com/",
         "level": "Beginner - Intermediate",
-        "description": "Beginner to Intermediate developers and designers who want to become comfortable with both JavaScript fundamentals and working in the DOM without a library."
-    },
-    {
-        "title": "Intro to Javascript",
-        "author": "Udacity",
-        "language": "English",
-        "categories": [
-            "javascript"
-        ],
-        "link": "https://www.udacity.com/course/intro-to-javascript--ud803",
-        "level": "Beginner",
-        "description": "Learn the fundamentals of JavaScript, the most popular programming language in web development."
+        "description": "Beginner to Intermediate developers and designers who want to become comfortable with both JavaScript fundamentals and working in the DOM without a library.",
+        "image": "https://s3.amazonaws.com/js30-cdn/sky--purple-kracked.jpg"
     },
     {
         "title": "HTML & CSS",
-        "author": "codecademy",
+        "author": "Codecademy",
         "language": "English - Portuguese(Brazil) - Español - Français",
         "categories": [
             "html",
@@ -56,6 +46,7 @@
         ],
         "link": "https://internetingishard.com",
         "level": "Beginner",
+        "image": "https://internetingishard.com/img/interneting-is-hard-logo-97b225.svg",
         "description": "Friendly web development tutorials for complete beginners."
     },
     {
@@ -113,7 +104,8 @@
         ],
         "link": "https://egghead.io/courses/react-fundamentals",
         "level": "Beginner - Intermediate",
-        "description": "React is a javascript library for building user interfaces from the fine folks at Facebook & Instagram. It strictly focuses on the 'V' in your MVC applications, and touts a blazing fast virtual DOM diff implementation. This series will explore the basic fundamentals of React to get you started."
+        "description": "React is a javascript library for building user interfaces from the fine folks at Facebook & Instagram. It strictly focuses on the 'V' in your MVC applications, and touts a blazing fast virtual DOM diff implementation. This series will explore the basic fundamentals of React to get you started.",
+        "image": "http://www.fellyph.com.br/blog/wp-content/uploads/2016/06/react-js.png"
     },
     {
         "title": "Learn ES6 (ECMAScript 2015)",
@@ -125,7 +117,8 @@
         ],
         "link": "https://egghead.io/courses/learn-es6-ecmascript-2015",
         "level": "Intermediate",
-        "description": "This course takes a look at some of the new features that JavaScript has available with ES6 (ECMAScript 2015). It is a 'montage' from several instructors."
+        "description": "This course takes a look at some of the new features that JavaScript has available with ES6 (ECMAScript 2015). It is a 'montage' from several instructors.",
+        "image": "https://d2eip9sf3oo6c2.cloudfront.net/series/square_covers/000/000/049/full/EGH_LearnES6_Final.png?1496436434"
     },
     {
         "title": "Node JS Tutorial for Beginners",
@@ -138,7 +131,8 @@
         ],
         "link": "https://www.youtube.com/playlist?list=PL4cUxeGkcC9gcy9lrvMJ75z9maRw4byYp",
         "level": "Beginner - Intermediate",
-        "description": "Yo ninjas, in this Node JS tutorial series for beginners, we'll be walking step by step through what Node JS is, and how it all works. We'll also be creating a Node JS application from scratch using express, and hook it up to MongoDB - a noSQL database perfect for using with Node."
+        "description": "Yo ninjas, in this Node JS tutorial series for beginners, we'll be walking step by step through what Node JS is, and how it all works. We'll also be creating a Node JS application from scratch using express, and hook it up to MongoDB - a noSQL database perfect for using with Node.",
+        "image": "https://i.ytimg.com/vi/w-7RQ46RgxU/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLB5gRmx7HePeS9235lqbx2uoJq5bA"
     },
     {
         "title": "Django Tutorial for Beginners",
@@ -150,7 +144,8 @@
         ],
         "link": "https://www.youtube.com/playlist?list=PL6gx4Cwl9DGBlmzzFcLgDhKTTfNLfX1IK",
         "level": "Beginner",
-        "description": "Official tutorials for thenewboston Django Tutorials for Beginners series!"
+        "description": "Official tutorials for thenewboston Django Tutorials for Beginners series!",
+        "image": "https://i.ytimg.com/vi/qgGIqRFvFFk/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLA-pkntIGBhO0V9Ni6L6sEGcIDIdA"
     },
     {
         "title": "Django Girls Tutorial",
@@ -162,6 +157,7 @@
         ],
         "link": "https://tutorial.djangogirls.org/",
         "level": "Beginner - Intermediate",
+        "image": "https://tutorial.djangogirls.org/pt/images/application.png",
         "description": "From the basics of python and django to your application deployed on web!"
     }
 ]
