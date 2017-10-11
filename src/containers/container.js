@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { BrowserRouter, Route } from 'react-router-dom';
+import { Route, HashRouter } from 'react-router-dom';
 
 import './index.scss';
 
@@ -55,11 +55,9 @@ class Container extends Component {
 
 	render() {
 		return (
-			<BrowserRouter >
+			<HashRouter>
 				<div className="container">
 					<Header />
-
-
 					<Route path='/' render={() => (
 						<div className="main" >
 							<SideBar closeSideBar={this.closeSideBar} />
@@ -67,13 +65,11 @@ class Container extends Component {
 								<Route exact path='/' component={Home} />
 								<Route path='/category/:category' component={Category} />
 								<Route path='/course/:id' component={Course} />
-								{/*
-							<Content selectCourse={this.selectCourse} selectedCourse={this.state.selectedCourse} category={this.state.selectedCategory} /> */}
 							</div>
 						</div>
 					)} />
 				</div >
-			</BrowserRouter>
+			</HashRouter>
 		);
 	}
 }
