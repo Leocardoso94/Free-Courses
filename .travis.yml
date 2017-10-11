@@ -1,33 +1,26 @@
-# Use Ubuntu Precise instead of new default Trusty which cause build fail
-# with pre installed yarn v0.17.8
-# https://github.com/facebookincubator/create-react-app/issues/3054
-# TODO: remove after Trusty environment is updated with a lastet version of yarn
-dist: precise
+sudo: false
 language: node_js
+
 node_js:
-  - 6
-  - 8
+  - '6'
+
+# fail asap when there is a failure
+matrix:
+  fast_finish: true
+
+# cache node modules
 cache:
   directories:
-  - node_modules
-  - bower_components
-install: true
-script:
- - 'if [ $TEST_SUITE = "simple" ]; then tasks/e2e-simple.sh; fi'
- - 'if [ $TEST_SUITE = "installs" ]; then tasks/e2e-installs.sh; fi'
- - 'if [ $TEST_SUITE = "kitchensink" ]; then tasks/e2e-kitchensink.sh; fi'
-env:
-  global:
-    - USE_YARN=no
-  matrix:
-    - TEST_SUITE=simple
-    - TEST_SUITE=installs
-    - TEST_SUITE=kitchensink
-matrix:
-  include:
-    - node_js: 0.10
-      env: TEST_SUITE=simple
-# There's a weird Yarn/Lerna bug related to prerelease versions.
-# TODO: reenable after we ship 1.0.
-#    - node_js: 6
-#      env: USE_YARN=yes TEST_SUITE=simple
+    - node_modules
+    - bower_components
+
+before_install:
+  # remove useless/non listed deps
+  - npm prune
+  # faster npm install
+  - npm set progress=false
+  # nyc fail on npm@3.7.1. Remove this patch when node upgrade npm
+  # https://github.com/bcoe/nyc/issues/190
+  - npm install -g npm@latest
+
+script: npm run build
