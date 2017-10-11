@@ -196,5 +196,17 @@
         "level": "Beginner",
         "description": "Basic Intro to React",
         "image": "https://cdn.scotch.io/1/QYfj3qQSSLywYDvBVrQu_getting-started-with-react.png.jpg"
-    }
+    },
+    {
+       "title": "Tango With Django",
+       "author": "Leif Azzopardi",
+       "language": "English",
+       "categories": [
+           "Python",
+           "Django"
+       ],
+       "link": "http://www.tangowithdjango.com",
+       "level": "Beginner",
+       "description": "Hands-on guide for begginers to learn Django. Past editions free."
+   }
 ]
