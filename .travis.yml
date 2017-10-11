@@ -11,8 +11,7 @@ cache:
     - bower_components
 
 before_install:
-  - npm i -g webpack
-  - webpack --config webpack.production.config.js --progress --profile --colors
+  - npm install -g npm@latest
 
 script: 
   - npm test
