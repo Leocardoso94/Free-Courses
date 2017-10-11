@@ -1,9 +1,7 @@
 #!/bin/bash
 set -e # exit with nonzero exit code if anything fails
 
-git config core.ignorecase false
 # run our compile script, discussed above
-npm run build
 
 # go to the out directory and create a *new* Git repo
 cd public
