@@ -50,5 +50,9 @@
     {
         "title": "Django",
         "icon": "devicon-django-plain"
+    },
+    {
+        "title": "Vue",
+        "icon": "devicon-vuejs-plain colored"
     }
 ]
