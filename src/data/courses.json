@@ -159,5 +159,23 @@
         "level": "Beginner - Intermediate",
         "image": "https://tutorial.djangogirls.org/pt/images/application.png",
         "description": "From the basics of python and django to your application deployed on web!"
+    },
+    {
+        "title": "Intro to Javascript",
+        "author": "Udacity",
+        "language" : "English",
+        "categories":["javascript"],
+        "link" : "https://www.udacity.com/course/intro-to-javascript--ud803",
+        "level":"Beginner",
+        "description": "Learn the fundamentals of Javascript, the most popular programming language in web development"
+    },
+    {
+        "title": "Intro to HTML and CSS",
+        "author": "Udacity",
+        "language" : "English",
+        "categories":["html","css"],
+        "link" : "https://www.udacity.com/course/intro-to-html-and-css--ud304",
+        "level":"Beginner",
+        "description": "Learn to think like a front end developer"
     }
 ]
