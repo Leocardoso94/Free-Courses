@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import RoundedButton from './../../components/RoundedButton';
 import './index.scss';
 import ReactCSSTransitionGroup from 'react-transition-group/CSSTransitionGroup';
-
+import BackButton from './../../components/BackButton';
 import courses from './../../data/courses.json';
 courses.forEach((course, index) => {
 	course.id = index;
@@ -28,7 +28,7 @@ class Course extends Component {
 				transitionLeave={false}
 				component="div"
 				className="course-details">
-
+				<BackButton />
 				<h1 className="title">{course.title}</h1>
 				<img src={this.getImage(course)} />
 				<h3>Author: {course.author}</h3>

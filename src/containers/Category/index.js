@@ -6,6 +6,7 @@ import categories from './../../data/categories.json';
 import './index.scss';
 import ReactCSSTransitionGroup from 'react-transition-group/CSSTransitionGroup';
 import CourseList from './course-list';
+import BackButton from './../../components/BackButton';
 
 courses.forEach((course, index) => {
 	course.id = index;
@@ -52,17 +53,18 @@ class Category extends Component {
 				transitionAppear={true}
 				transitionAppearTimeout={500}
 				transitionEnter={false}
-				transitionLeave={false}>
-				<div id="category" className="category" >
-					<h1 className="title"><DevIcon icon={category.icon} /> {category.title}</h1>
-					{coursesInCategory.length === 0 ? this.renderContribute(category) : < CourseList coursesInCategory={coursesInCategory}  />}
-					<div className="footer">
-						<p>
-							Caught a mistake or want to add more courses about {category.title}?  <a href="https://github.com/Leocardoso94/Free-Courses" target="_blank" rel="noopener noreferrer">Check How</a>
-						</p>
-					</div>
+				transitionLeave={false}
+				id="category"
+				component="div"
+				className="category">
+				<BackButton />
+				<h1 className="title"><DevIcon icon={category.icon} /> {category.title}</h1>
+				{coursesInCategory.length === 0 ? this.renderContribute(category) : < CourseList coursesInCategory={coursesInCategory} />}
+				<div className="footer">
+					<p>
+						Caught a mistake or want to add more courses about {category.title}?  <a href="https://github.com/Leocardoso94/Free-Courses" target="_blank" rel="noopener noreferrer">Check How</a>
+					</p>
 				</div>
-
 			</ReactCSSTransitionGroup>
 		);
 	}
