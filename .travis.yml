@@ -1,0 +1,26 @@
+sudo: false
+language: node_js
+
+node_js:
+  - '6'
+
+# fail asap when there is a failure
+matrix:
+  fast_finish: true
+
+# cache node modules
+cache:
+  directories:
+    - node_modules
+    - bower_components
+
+before_install:
+  # remove useless/non listed deps
+  - npm prune
+  # faster npm install
+  - npm set progress=false
+  # nyc fail on npm@3.7.1. Remove this patch when node upgrade npm
+  # https://github.com/bcoe/nyc/issues/190
+  - npm install -g npm@latest
+
+script: npm run build

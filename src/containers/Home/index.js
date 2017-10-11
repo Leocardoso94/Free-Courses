@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import './index.scss';
 import FaIcon from './../../components/Icons/fa-icon';
+import ReactCSSTransitionGroup from 'react-transition-group/CSSTransitionGroup';
+
 
 class Home extends Component {
 	constructor(props) {
@@ -27,7 +29,14 @@ class Home extends Component {
 	}
 	render() {
 		return (
-			<div className="home">
+			<ReactCSSTransitionGroup
+				transitionName="initial"
+				transitionAppear={true}
+				transitionAppearTimeout={500}
+				transitionEnter={false}
+				transitionLeave={false}
+				component="div"
+				className="home">
 				<h1 className="title">Free Courses to Developers</h1>
 				<p>
 					<b>Welcome!</b>
@@ -53,7 +62,7 @@ class Home extends Component {
 				{this.state.contributors.map(contributor => {
 					return <a target="_blank" rel="noopener noreferrer" href={contributor.html_url} style={{ marginRight: "5px" }} key={contributor.login}>@{contributor.login}</a>;
 				})}
-			</div>
+			</ReactCSSTransitionGroup>
 		);
 	}
 }
