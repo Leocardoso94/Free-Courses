@@ -15,4 +15,4 @@ before_install:
 
 script: 
   - npm test
-  - bash ./deploy.sh ; fi
+  - bash ./deploy.sh
