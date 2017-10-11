@@ -9,12 +9,18 @@ const assert = require('assert');
 // });
 
 describe('categories.json', function () {
-
 	const categories = require('../src/data/categories.json');
-	console.log(categories);
-	describe('categories is an object', function () {
-		it('should return true if categories is an object', function () {
+	describe('type of categories', function () {
+		it('should return object', function () {
 			assert.equal('object', (typeof categories));
+		});
+	});
+	describe('title of categories', function () {
+		it('should return false if all categories has a title', function () {
+			let result = categories.some((category) => {
+				return typeof category.title !== 'string';
+			});
+			assert.equal(false, result);
 		});
 	});
 });
