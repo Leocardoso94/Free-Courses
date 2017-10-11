@@ -8,6 +8,9 @@ node_js:
 matrix:
   fast_finish: true
 
+install:  
+  - yarn install
+
 # cache node modules
 cache:
   directories:
@@ -20,4 +23,5 @@ before_install:
   # faster npm install
   - npm set progress=false
 
-script: npm test
+script: 
+  - npm test
