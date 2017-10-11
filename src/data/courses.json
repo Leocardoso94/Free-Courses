@@ -177,5 +177,14 @@
         "link" : "https://www.udacity.com/course/intro-to-html-and-css--ud304",
         "level":"Beginner",
         "description": "Learn to think like a front end developer"
+    },
+       {
+        "title": "Getting Started with React",
+        "author": "Scotch.io",
+        "language" : "English",
+        "categories":["html","css","react"],
+        "link" : "https://scotch.io/courses/getting-started-with-react",
+        "level":"Beginner",
+        "description": "Basic Intro to React"
     }
 ]
