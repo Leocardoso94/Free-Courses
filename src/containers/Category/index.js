@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
 import PropTypes from 'prop-types';
 import DevIcon from './../../components/Icons/dev-icon';
 import courses from './../../data/courses.json';
 import categories from './../../data/categories.json';
 import './index.scss';
 import ReactCSSTransitionGroup from 'react-transition-group/CSSTransitionGroup';
+import CourseList from './course-list';
 
 courses.forEach((course, index) => {
 	course.id = index;
@@ -19,59 +19,7 @@ class Category extends Component {
 		this.state = { courses };
 	}
 
-	getImage(course) {
-		const defaultImage = 'https://cdn.dribbble.com/users/4764/screenshots/2418753/books_1x.png';
-		return !course.image || course.image === '' ? defaultImage : course.image;
-	}
 
-	getDescription(course) {
-		let description = course.description.replace(/^(.{50}[^\s]*).*/, "$1");
-
-		course.description.length > 51 ? description += '...' : '';
-
-		return description;
-	}
-
-	renderCourses(coursesInCategory, category) {
-		return (
-			<ReactCSSTransitionGroup
-			transitionName="initial"
-			transitionAppear={true}
-			transitionAppearTimeout={500}
-			transitionEnter={false}
-			transitionLeave={false}>
-			<div>
-				<ul>
-					{coursesInCategory.map(course => {
-						return (
-							<li className="course" key={course.title + course.author}>
-								<Link to={`/course/${course.id}`}>
-									<div className="image">
-										<img src={this.getImage(course)} />
-									</div>
-									<div className="description">
-										<h6 className="author">{course.author}</h6>
-										<h4 className="title">{course.title}</h4>
-										<p className="text-description">{this.getDescription(course)}</p>
-									</div>
-									<div className="categories">
-										{course.categories.map(categoryOfCourse => <i key={categoryOfCourse}>{categoryOfCourse}</i>)}
-									</div>
-								</Link>
-							</li>
-						);
-					})}
-
-				</ul>
-				<div className="footer">
-					<p>
-						Caught a mistake or want to add more courses of {category.title}?  <a href="https://github.com/Leocardoso94/Free-Courses" target="_blank" rel="noopener noreferrer">Check How</a>
-					</p>
-				</div>
-			</div>
-			</ReactCSSTransitionGroup>
-		);
-	}
 
 	renderContribute(category) {
 		return (
@@ -107,12 +55,19 @@ class Category extends Component {
 				transitionLeave={false}>
 				<div id="category" className="category" >
 					<h1 className="title"><DevIcon icon={category.icon} /> {category.title}</h1>
-					{coursesInCategory.length === 0 ? this.renderContribute(category) : this.renderCourses(coursesInCategory, category)}
+					{coursesInCategory.length === 0 ? this.renderContribute(category) : < CourseList coursesInCategory={coursesInCategory}  />}
+					<div className="footer">
+						<p>
+							Caught a mistake or want to add more courses about {category.title}?  <a href="https://github.com/Leocardoso94/Free-Courses" target="_blank" rel="noopener noreferrer">Check How</a>
+						</p>
+					</div>
 				</div>
+
 			</ReactCSSTransitionGroup>
 		);
 	}
 }
+
 
 Category.propTypes = {
 	match: PropTypes.object.isRequired

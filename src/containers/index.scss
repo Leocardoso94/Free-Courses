@@ -71,20 +71,20 @@ a {
     transition: opacity .5s ease-in;
 }
 
-.initital-enter {
+.initial-enter {
     opacity: 0.01;
 }
 
-.initital-enter.initital-enter-active {
+.initial-enter.initial-enter-active {
     opacity: 1;
     transition: opacity 500ms ease-in;
 }
 
-.initital-leave {
+.initial-leave {
     opacity: 1;
 }
 
-.initital-leave.initital-leave-active {
+.initial-leave.initial-leave-active {
     opacity: 0.01;
     transition: opacity 300ms ease-in;
 }
