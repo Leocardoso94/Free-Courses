@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import RoundedButton from './../../components/RoundedButton';
-import  './index.scss';
+import './index.scss';
+import ReactCSSTransitionGroup from 'react-transition-group/CSSTransitionGroup';
 
 import courses from './../../data/courses.json';
 courses.forEach((course, index) => {
@@ -19,7 +20,15 @@ class Course extends Component {
 		const course = courses.find((crs) => crs.id == id);
 
 		return (
-			<div className="course-details">
+			<ReactCSSTransitionGroup
+				transitionName="initial"
+				transitionAppear={true}
+				transitionAppearTimeout={500}
+				transitionEnter={false}
+				transitionLeave={false}
+				component="div"
+				className="course-details">
+
 				<h1 className="title">{course.title}</h1>
 				<img src={this.getImage(course)} />
 				<h3>Author: {course.author}</h3>
@@ -32,7 +41,7 @@ class Course extends Component {
 						Caught a mistake or want to contribute to the project?  <a href="https://github.com/Leocardoso94/Free-Courses" target="_blank" rel="noopener noreferrer">Check How</a>
 					</p>
 				</div>
-			</div>
+			</ReactCSSTransitionGroup>
 		);
 	}
 }
