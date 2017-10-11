@@ -18,8 +18,8 @@ cache:
 
 before_install:
   - npm i -g webpack
-  - npm run build
+  - webpack --config webpack.production.config.js --progress --profile --colors
 
 script: 
   - npm test
-  - bash ./deploy.sh
+  - - if [ "$TRAVIS_BRANCH" = "master" -a "$TRAVIS_PULL_REQUEST" = "false" ]; bash ./deploy.sh ; fi
