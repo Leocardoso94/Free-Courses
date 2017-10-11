@@ -45,8 +45,12 @@
                 padding-left: 1em;
                 font-size: 0.85em;
             }
-            .item:hover {
-                border-bottom: 2px solid #333;
+            .item {
+                color: #000;
+                text-decoration: none;
+                &:hover {
+                    border-bottom: 2px solid #333;
+                }
             }
             i {
                 margin-right: 10px;

@@ -1,12 +1,8 @@
 import React, { Component } from 'react';
 import './index.scss';
-import PropTypes from 'prop-types';
 import FaIcon from './../../components/Icons/fa-icon';
-import Category from './category';
-import Course from './course';
 
-class Content extends Component {
-
+class Home extends Component {
 	constructor(props) {
 		super(props);
 
@@ -29,16 +25,9 @@ class Content extends Component {
 	updateStars(stars) {
 		this.setState({ stars });
 	}
-
-
-	closeSideBar() {
-		document.querySelector('.sidebar').classList.remove('open');
-		document.querySelector('#menu-button').classList.remove('active');
-	}
-
-	welcome() {
+	render() {
 		return (
-			<div style={{ textAlign: 'center' }}>
+			<div className="home">
 				<h1 className="title">Free Courses to Developers</h1>
 				<p>
 					<b>Welcome!</b>
@@ -67,24 +56,6 @@ class Content extends Component {
 			</div>
 		);
 	}
-
-
-	render() {
-		return (
-			<div className="content" onClick={() => this.closeSideBar()}>
-				{this.props.selectedCourse ? <Course course={this.props.selectedCourse} /> : this.props.category ? <Category category={this.props.category} selectCourse={this.props.selectCourse} /> : this.welcome()}
-			</div>
-		);
-	}
 }
 
-
-
-Content.propTypes = {
-	course: PropTypes.object,
-	category: PropTypes.object,
-	selectCourse: PropTypes.func.isRequired,
-	selectedCourse: PropTypes.object
-};
-
-export default Content;
+export default Home;
