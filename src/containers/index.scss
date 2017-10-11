@@ -41,11 +41,9 @@ body {
         margin: auto;
         padding-left: 0;
     }
-
-    .title{
+    .title {
         text-align: center;
     }
-
     .footer {
         color: #7f8c8d;
         margin-top: 2em;
@@ -62,4 +60,31 @@ a {
         color: #2f6cb6;
         text-decoration: underline;
     }
+}
+
+.initial-appear {
+    opacity: 0.01;
+}
+
+.initial-appear.initial-appear-active {
+    opacity: 1;
+    transition: opacity .5s ease-in;
+}
+
+.initital-enter {
+    opacity: 0.01;
+}
+
+.initital-enter.initital-enter-active {
+    opacity: 1;
+    transition: opacity 500ms ease-in;
+}
+
+.initital-leave {
+    opacity: 1;
+}
+
+.initital-leave.initital-leave-active {
+    opacity: 0.01;
+    transition: opacity 300ms ease-in;
 }

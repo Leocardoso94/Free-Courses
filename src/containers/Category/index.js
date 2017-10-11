@@ -5,6 +5,7 @@ import DevIcon from './../../components/Icons/dev-icon';
 import courses from './../../data/courses.json';
 import categories from './../../data/categories.json';
 import './index.scss';
+import ReactCSSTransitionGroup from 'react-transition-group/CSSTransitionGroup';
 
 courses.forEach((course, index) => {
 	course.id = index;
@@ -33,6 +34,12 @@ class Category extends Component {
 
 	renderCourses(coursesInCategory, category) {
 		return (
+			<ReactCSSTransitionGroup
+			transitionName="initial"
+			transitionAppear={true}
+			transitionAppearTimeout={500}
+			transitionEnter={false}
+			transitionLeave={false}>
 			<div>
 				<ul>
 					{coursesInCategory.map(course => {
@@ -62,6 +69,7 @@ class Category extends Component {
 					</p>
 				</div>
 			</div>
+			</ReactCSSTransitionGroup>
 		);
 	}
 
@@ -91,10 +99,17 @@ class Category extends Component {
 
 
 		return (
-			<div id="category" className="category" >
-				<h1 className="title"><DevIcon icon={category.icon} /> {category.title}</h1>
-				{coursesInCategory.length === 0 ? this.renderContribute(category) : this.renderCourses(coursesInCategory, category)}
-			</div>
+			<ReactCSSTransitionGroup
+				transitionName="initial"
+				transitionAppear={true}
+				transitionAppearTimeout={500}
+				transitionEnter={false}
+				transitionLeave={false}>
+				<div id="category" className="category" >
+					<h1 className="title"><DevIcon icon={category.icon} /> {category.title}</h1>
+					{coursesInCategory.length === 0 ? this.renderContribute(category) : this.renderCourses(coursesInCategory, category)}
+				</div>
+			</ReactCSSTransitionGroup>
 		);
 	}
 }
