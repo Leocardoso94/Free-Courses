@@ -1,47 +1,6 @@
-.content {
-    position: relative;
-    padding: 2.2em 0;
-    margin: 0 auto;
-    max-width: 700px;
-    padding-left: 50px;
-    @media screen and (max-width: 1300px) {
-        margin-left: 290px;
-    }
-    .show {
-        opacity: 1;
-    }
+.category {
     .title {
         text-align: center;
-    }
-    .rounded-button {
-        display: block;
-        width: 200px;
-        margin: 70px auto;
-    }
-    .footer {
-        color: #7f8c8d;
-        margin-top: 2em;
-        padding-top: 2em;
-        border-top: 1px solid #e5e5e5;
-        font-size: 0.9em;
-    }
-    .stars {
-        background-color: #eee;
-        border: 1px solid #d5d5d5;
-        color: black;
-        padding: 2px;
-        border-radius: 5px;
-        font-size: 12px;
-    }
-    .course-details {
-        img {
-            border: 15px;
-            display: block;
-            width: 150px;
-            margin: auto;
-            border-radius: 15px;
-            box-shadow: 0 0 1px 1px rgba(18, 18, 18, 0.1), 0 3px 1px 0 rgba(18, 18, 18, 0.1);
-        }
     }
     ul {
         display: flex;
@@ -99,9 +58,5 @@
                 }
             }
         }
-    }
-    @media screen and (max-width: 900px) {
-        margin: auto;
-        padding-left: 0;
     }
 }
