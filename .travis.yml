@@ -19,7 +19,6 @@ before_install:
   - npm prune
   # faster npm install
   - npm set progress=false
-  - npm i -g webpack
 
 script: 
   - npm test
