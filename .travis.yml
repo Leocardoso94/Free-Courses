@@ -4,6 +4,8 @@ language: node_js
 node_js:
   - '6'
 
+skip_cleanup: true
+
 # fail asap when there is a failure
 matrix:
   fast_finish: true
