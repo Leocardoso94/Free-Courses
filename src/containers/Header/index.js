@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './index.scss';
 
+import { Link } from 'react-router-dom';
 import FaIcon from './../../components/Icons/fa-icon';
 
 class Header extends Component {
@@ -19,7 +20,7 @@ class Header extends Component {
 					<i className="bar" />
 					<i className="bar" />
 				</a >
-				<a className="logo" href="./"><FaIcon icon="fa-book" /><b>Free Courses</b><FaIcon icon="fa-code" /></a>
+				<Link className="logo" to="/"><FaIcon icon="fa-book" /><b>Free Courses</b><FaIcon icon="fa-code" /></Link>
 			</div>
 		);
 	}

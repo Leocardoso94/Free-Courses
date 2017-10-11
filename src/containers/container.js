@@ -1,10 +1,14 @@
 import React, { Component } from 'react';
+import { BrowserRouter, Route } from 'react-router-dom';
+
 import './index.scss';
 
 // Containers
 import Header from './Header';
 import SideBar from './SideBar';
-import Content from './Content';
+import Category from './Category';
+import Course from './Course';
+import Home from './Home';
 
 import categories from './../data/categories.json';
 
@@ -41,15 +45,35 @@ class Container extends Component {
 		document.querySelector('#menu-button').classList.remove('active');
 	}
 
+
+	closeSideBar() {
+		document.querySelector('.sidebar').classList.remove('open');
+		document.querySelector('#menu-button').classList.remove('active');
+	}
+
+
+
 	render() {
 		return (
-			<div className="container">
-				<Header />
-				<div className="main" >
-					<SideBar list={this.state.categories} filterCategory={this.filterCategory} selectCategory={this.selectCategory} />
-					<Content selectCourse={this.selectCourse} selectedCourse={this.state.selectedCourse} category={this.state.selectedCategory} />
-				</div>
-			</div >
+			<BrowserRouter >
+				<div className="container">
+					<Header />
+
+
+					<Route path='/' render={() => (
+						<div className="main" >
+							<SideBar closeSideBar={this.closeSideBar} />
+							<div className="content" onClick={() => this.closeSideBar()}>
+								<Route exact path='/' component={Home} />
+								<Route path='/category/:category' component={Category} />
+								<Route path='/course/:id' component={Course} />
+								{/*
+							<Content selectCourse={this.selectCourse} selectedCourse={this.state.selectedCourse} category={this.state.selectedCategory} /> */}
+							</div>
+						</div>
+					)} />
+				</div >
+			</BrowserRouter>
 		);
 	}
 }

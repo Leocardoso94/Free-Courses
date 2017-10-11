@@ -28,6 +28,33 @@ body {
     }
 }
 
+.content {
+    position: relative;
+    padding: 2.2em 0;
+    margin: 0 auto;
+    max-width: 700px;
+    padding-left: 50px;
+    @media screen and (max-width: 1300px) {
+        margin-left: 290px;
+    }
+    @media screen and (max-width: 900px) {
+        margin: auto;
+        padding-left: 0;
+    }
+
+    .title{
+        text-align: center;
+    }
+
+    .footer {
+        color: #7f8c8d;
+        margin-top: 2em;
+        padding-top: 2em;
+        border-top: 1px solid #e5e5e5;
+        font-size: 0.9em;
+    }
+}
+
 a {
     color: #3377c0;
     text-decoration: none;
