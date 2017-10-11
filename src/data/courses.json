@@ -163,28 +163,38 @@
     {
         "title": "Intro to Javascript",
         "author": "Udacity",
-        "language" : "English",
-        "categories":["javascript"],
-        "link" : "https://www.udacity.com/course/intro-to-javascript--ud803",
-        "level":"Beginner",
+        "language": "English",
+        "categories": [
+            "javascript"
+        ],
+        "link": "https://www.udacity.com/course/intro-to-javascript--ud803",
+        "level": "Beginner",
         "description": "Learn the fundamentals of Javascript, the most popular programming language in web development"
     },
     {
         "title": "Intro to HTML and CSS",
         "author": "Udacity",
-        "language" : "English",
-        "categories":["html","css"],
-        "link" : "https://www.udacity.com/course/intro-to-html-and-css--ud304",
-        "level":"Beginner",
+        "language": "English",
+        "categories": [
+            "html",
+            "css"
+        ],
+        "link": "https://www.udacity.com/course/intro-to-html-and-css--ud304",
+        "level": "Beginner",
         "description": "Learn to think like a front end developer"
     },
-       {
+    {
         "title": "Getting Started with React",
         "author": "Scotch.io",
-        "language" : "English",
-        "categories":["html","css","react"],
-        "link" : "https://scotch.io/courses/getting-started-with-react",
-        "level":"Beginner",
-        "description": "Basic Intro to React"
+        "language": "English",
+        "categories": [
+            "html",
+            "css",
+            "react"
+        ],
+        "link": "https://scotch.io/courses/getting-started-with-react",
+        "level": "Beginner",
+        "description": "Basic Intro to React",
+        "image": "https://cdn.scotch.io/1/QYfj3qQSSLywYDvBVrQu_getting-started-with-react.png.jpg"
     }
 ]
