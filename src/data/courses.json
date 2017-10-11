@@ -198,6 +198,7 @@
         "image": "https://cdn.scotch.io/1/QYfj3qQSSLywYDvBVrQu_getting-started-with-react.png.jpg"
     },
     {
+
         "title": "JavaScript DOM Crash Course",
         "author": "Traversy Media",
         "language": "English",
@@ -208,5 +209,18 @@
         "level": "Beginner",
         "image": "https://www.google.com.ng/imgres?imgurl=https%3A%2F%2Fi.ytimg.com%2Fvi%2FwK2cBMcDTss%2Fmaxresdefault.jpg&imgrefurl=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DwK2cBMcDTss&docid=ski5yWodX_w_YM&tbnid=7CkcCdGQr6OPEM%3A&vet=10ahUKEwjhwf6kienWAhXjKcAKHVjQB20QMwglKAAwAA..i&w=1280&h=720&bih=704&biw=1280&q=Traversy%20Media%20dom%20crash%20course&ved=0ahUKEwjhwf6kienWAhXjKcAKHVjQB20QMwglKAAwAA&iact=mrc&uact=8",
         "description": "A crash course focuses on the DOM."
-    }
+    },
+  {
+       "title": "Tango With Django",
+       "author": "Leif Azzopardi",
+       "language": "English",
+       "categories": [
+           "Python",
+           "Django"
+       ],
+       "link": "http://www.tangowithdjango.com",
+       "level": "Beginner",
+       "description": "Hands-on guide for begginers to learn Django. Past editions free."
+   }
+
 ]
