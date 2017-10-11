@@ -24,4 +24,4 @@ before_install:
   - npm install -g npm@latest
   - npm install -g bower
 
-script: npm run build
+script: npm test
