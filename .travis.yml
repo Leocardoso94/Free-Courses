@@ -17,6 +17,7 @@ cache:
     - bower_components
 
 before_install:
+  - npm i -g webpack
   - npm run build
 
 script: 
