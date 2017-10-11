@@ -1,4 +1,4 @@
-sudo: false
+sudo: true
 language: node_js
 
 node_js:
@@ -17,10 +17,7 @@ cache:
     - bower_components
 
 before_install:
-  # remove useless/non listed deps
-  - npm prune
-  # faster npm install
-  - npm set progress=false
+  - npm run build
 
 script: 
   - npm test
