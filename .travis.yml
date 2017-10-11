@@ -11,6 +11,7 @@ cache:
 
 before_install:
   - npm install -g npm@latest
+  - bower install
 
 script: 
   - npm test
