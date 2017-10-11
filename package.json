@@ -8,7 +8,7 @@
     "start": "webpack-dev-server --progress --profile --colors",
     "lint": "eslint --ext js --ext jsx src || exit 0",
     "dev": " webpack-dashboard -- webpack-dev-server",
-    "test": "export NODE_ENV=test && jest"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -48,6 +48,7 @@
     "html-webpack-plugin": "^2.26.0",
     "jest": "^20.0.4",
     "loglevel": "^1.4.1",
+    "mocha": "^4.0.1",
     "postcss-loader": "^1.2.2",
     "react-addons-test-utils": "^15.6.0",
     "react-hot-loader": "^3.0.0-beta.6",
