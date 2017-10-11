@@ -23,6 +23,8 @@
     "prop-types": "^15.6.0",
     "react": "16.0.0",
     "react-dom": "16.0.0",
+    "react-router": "^4.2.0",
+    "react-router-dom": "^4.2.2",
     "sass-loader": "^6.0.2"
   },
   "devDependencies": {
