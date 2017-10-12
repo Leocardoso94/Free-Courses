@@ -257,5 +257,16 @@
        "link": "https://www.coursera.org/learn/server-side-nodejs",
        "level": "Beginner - Intermediate",
        "description": "A complete course based on NodeJS."
+   },
+   {
+       "title": "Getting Started With Redux",
+       "author": "Dan Abramov",
+       "language": "English",
+       "categories": [
+           "javascript"
+       ],
+       "link": "https://egghead.io/courses/getting-started-with-redux",
+       "level": "Beginner - Intermediate",
+       "description": "Learn how to manage JavaScript state with Redux."
    }
 ]
