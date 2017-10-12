@@ -1,0 +1,18 @@
+language: node_js
+
+node_js:
+  - '6'
+
+cache:
+  yarn: true
+  directories:
+    - node_modules
+    - bower_components
+
+before_install:
+  - npm install -g npm@latest
+  - bower install
+
+script: 
+  - npm test
+  - bash ./deploy.sh
