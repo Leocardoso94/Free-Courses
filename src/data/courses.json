@@ -221,6 +221,41 @@
        "link": "http://www.tangowithdjango.com",
        "level": "Beginner",
        "description": "Hands-on guide for begginers to learn Django. Past editions free."
+   },
+   {
+       "title": " Learn Vue 2: Step By Step",
+       "author": "Laracasts",
+       "language": "English",
+       "categories": [
+           "javascript",
+           "vuejs"
+       ],
+       "link": "https://laracasts.com/series/learn-vue-2-step-by-step",
+       "level": "Beginner",
+       "description": "A hands on approach to learning VueJS"
+   },
+   {
+       "title": "Laravel 5 Fundamentals",
+       "author": "Laracasts",
+       "language": "English",
+       "categories": [
+           "laravel"
+       ],
+       "link": "https://laracasts.com/series/laravel-5-fundamentals",
+       "level": "Beginner",
+       "description": "A beginner level introduction to the Laravel framework"
+   },
+   {
+       "title": "Server-side Development with NodeJS, Express and MongoDB",
+       "author": "The Hong Kong University of Science and Technology",
+       "language": "English",
+       "categories": [
+           "html",
+           "css",
+           "node"
+       ],
+       "link": "https://www.coursera.org/learn/server-side-nodejs",
+       "level": "Beginner - Intermediate",
+       "description": "A complete course based on NodeJS."
    }
-
 ]
