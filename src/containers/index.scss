@@ -44,6 +44,7 @@ body {
     .title {
         text-align: center;
         padding-top: 20px;
+        color: #000;
     }
     .footer {
         color: #7f8c8d;
@@ -55,12 +56,8 @@ body {
 }
 
 a {
-    color: #3377c0;
+    color: #9c27b0;
     text-decoration: none;
-    &:hover {
-        color: #2f6cb6;
-        text-decoration: underline;
-    }
 }
 
 .initial-appear {
