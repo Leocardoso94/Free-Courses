@@ -9,6 +9,7 @@ import SideBar from './SideBar';
 import Category from './Category';
 import Course from './Course';
 import Home from './Home';
+import Contribute from './Contribute';
 
 import categories from './../data/categories.json';
 
@@ -65,6 +66,7 @@ class Container extends Component {
 								<Route exact path='/' component={Home} />
 								<Route path='/category/:category' component={Category} />
 								<Route path='/course/:id' component={Course} />
+								<Route path='/contribute' component={Contribute} />
 							</div>
 						</div>
 					)} />
