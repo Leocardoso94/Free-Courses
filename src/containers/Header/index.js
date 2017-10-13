@@ -21,6 +21,7 @@ class Header extends Component {
 					<i className="bar" />
 				</a >
 				<Link className="logo" to="/"><FaIcon icon="fa-book" /><b>Free Courses</b><FaIcon icon="fa-code" /></Link>
+				<Link className="contribute-link" to="/contribute">Contribute</Link>
 			</div>
 		);
 	}
