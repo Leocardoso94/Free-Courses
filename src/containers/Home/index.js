@@ -60,7 +60,7 @@ class Home extends Component {
 
 				<h4>Contributors:</h4>
 				{this.state.contributors.map(contributor => {
-					return <a target="_blank" rel="noopener noreferrer" href={contributor.html_url} style={{ marginRight: "5px" }} key={contributor.login}>@{contributor.login}</a>;
+					return <a target="_blank" rel="noopener noreferrer" href={contributor.html_url} style={{ marginRight: "5px", display: 'inline-block' }} key={contributor.login}>@{contributor.login}</a>;
 				})}
 			</ReactCSSTransitionGroup>
 		);
