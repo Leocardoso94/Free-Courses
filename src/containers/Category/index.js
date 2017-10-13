@@ -39,13 +39,18 @@ class Category extends Component {
 
 	render() {
 		const categoryName = this.props.match.params.category;
+		let coursesInCategory = [];
+		let category = {};
 
-		const category = categories.find((ctg) => ctg.title === categoryName);
-
-		const coursesInCategory = this.state.courses.filter(course => {
-			return course.categories.some(categoryOfCourse => categoryOfCourse.toLowerCase() === category.title.toLowerCase());
-		});
-
+		if (categoryName !== 'all') {
+			category = categories.find((ctg) => ctg.title === categoryName);
+			coursesInCategory = this.state.courses.filter(course => {
+				return course.categories.some(categoryOfCourse => categoryOfCourse.toLowerCase() === category.title.toLowerCase());
+			});
+		} else {
+			coursesInCategory = courses;
+			category = { title: "All Courses", icon: "devicons devicons-code_badge" };
+		}
 
 		return (
 			<ReactCSSTransitionGroup
@@ -56,11 +61,11 @@ class Category extends Component {
 				transitionLeave={false}
 				id="category"
 				component="div"
-				className="category">
+				className="category" >
 				<BackButton />
 				<h1 className="title"><DevIcon icon={category.icon} /> {category.title}</h1>
 				{coursesInCategory.length === 0 ? this.renderContribute(category) : < CourseList coursesInCategory={coursesInCategory} />}
-				<div className="footer">
+				<div className="footer" >
 					<p>
 						Caught a mistake or want to add more courses about {category.title}?  <a href="https://github.com/Leocardoso94/Free-Courses" target="_blank" rel="noopener noreferrer">Check How</a>
 					</p>
