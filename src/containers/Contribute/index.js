@@ -1,8 +1,21 @@
 import React, { Component } from 'react';
-import PropTypes from 'prop-types';
 import './index.scss';
 
 class Contribute extends Component {
+	constructor(props) {
+		super(props);
+		this.state = { contributors: [] };
+
+		fetch('https://api.github.com/repos/Leocardoso94/Free-Courses/contributors')
+			.then(blob => blob.json()
+				.then(data => this.updateContributors(data)));
+	}
+
+	updateContributors(contributors) {
+		this.setState({ contributors });
+	}
+
+
 	render() {
 		return (
 			<div className="contribute">
@@ -23,13 +36,14 @@ class Contribute extends Component {
 					</ol>
 					<li>After that do a Pull Request by telling what was added</li>
 				</ol>
+				<h4>Contributors:</h4>
+				{this.state.contributors.map(contributor => {
+					return <a target="_blank" rel="noopener noreferrer" href={contributor.html_url} style={{ marginRight: "5px", display: 'inline-block' }} key={contributor.login}>@{contributor.login}</a>;
+				})}
 			</div>
 		);
 	}
 }
 
-Contribute.propTypes = {
-
-};
 
 export default Contribute;
