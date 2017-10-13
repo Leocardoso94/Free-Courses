@@ -26,7 +26,7 @@ class Header extends Component {
 					<FaIcon icon="fa-ellipsis-v" />
 				</span>
 
-				<div className="sub-menu" onClick={() => { document.querySelector('.sub-menu').classList.remove('active'); }}>
+				<div className="sub-menu" onClick={() => { document.querySelector('.sub-menu').classList.toggle('active'); }}>
 					<Link to="/contribute" className="link">Contribute</Link>
 				</div>
 			</div>
