@@ -1,4 +1,4 @@
-# Free Courses to Developers
+# Free Courses to Developers [![Build Status](https://travis-ci.org/Leocardoso94/Free-Courses.svg?branch=master)](https://travis-ci.org/Leocardoso94/Free-Courses)
 
 https://freecourses.github.io/
 
