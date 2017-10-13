@@ -4,7 +4,7 @@ import FaIcon from './../Icons/fa-icon';
 
 const componentName = () => {
 	return (
-		<button className="back-button" onClick={() => window.history.back()}> <FaIcon icon="fa-arrow-left" />  Back</button>
+		<button className="back-button" onClick={() => window.history.back()}> <FaIcon icon="fa-arrow-left" />  back</button>
 	);
 };
 
