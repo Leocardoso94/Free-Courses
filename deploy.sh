@@ -9,7 +9,7 @@ cd public
 git init
 
 # inside this git repo we'll pretend to be a new user
-git config user.name "Travis CI"
+git config user.name "leocardoso94"
 git config user.email "leocardosoti@gmail.com"
 
 # The first and only commit to this new Git repo contains all the
