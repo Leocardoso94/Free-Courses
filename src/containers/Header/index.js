@@ -22,6 +22,13 @@ class Header extends Component {
 				</a >
 				<Link className="logo" to="/"><FaIcon icon="fa-book" /><b>Free Courses</b><FaIcon icon="fa-code" /></Link>
 				<Link className="contribute-link" to="/contribute">Contribute</Link>
+				<span className="ellipsi" onClick={() => { document.querySelector('.sub-menu').classList.toggle('active'); }}>
+					<FaIcon icon="fa-ellipsis-v" />
+				</span>
+
+				<div className="sub-menu" onClick={() => { document.querySelector('.sub-menu').classList.remove('active'); }}>
+					<Link to="/contribute" className="link">Contribute</Link>
+				</div>
 			</div>
 		);
 	}
