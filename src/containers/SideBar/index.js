@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './index.scss';
 import DevIcon from './../../components/Icons/dev-icon';
+import FaIcon from './../../components/Icons/fa-icon';
 import { Link } from 'react-router-dom';
 import PropTypes from 'prop-types';
 import categories from './../../data/categories.json';
@@ -29,6 +30,9 @@ class SideBar extends Component {
 				<div className="sidebar-inner">
 					<input className="search" placeholder="" onChange={(event) => this.filterCategory(event.target.value)} />
 					<ul>
+						<li onClick={() => this.props.closeSideBar()}>
+							<Link className="item" to={`/category/all`}><FaIcon icon="fa-code" />All Courses</Link>
+						</li>
 						{this.state.categories.map(category => {
 							return (
 								<li key={category.title} onClick={() => this.props.closeSideBar()}>
