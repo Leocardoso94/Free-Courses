@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css?family=Cabin:400,700|Source+Sans+Pro:300,400,700');
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,700|Ubuntu:400,700');
 * {
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 h1,
@@ -8,7 +8,7 @@ h2,
 h3,
 h4,
 b {
-    font-family: 'Cabin', sans-serif;
+    font-family: 'Raleway', serif;
 }
 
 body {
@@ -44,6 +44,7 @@ body {
     .title {
         text-align: center;
         padding-top: 20px;
+        color: #000;
     }
     .footer {
         color: #7f8c8d;
@@ -55,12 +56,8 @@ body {
 }
 
 a {
-    color: #3377c0;
+    color: #9c27b0;
     text-decoration: none;
-    &:hover {
-        color: #2f6cb6;
-        text-decoration: underline;
-    }
 }
 
 .initial-appear {

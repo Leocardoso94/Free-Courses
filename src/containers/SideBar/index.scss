@@ -17,7 +17,7 @@
         line-height: 30px;
         box-sizing: border-box;
         padding: 0 15px 0 30px;
-        border: 1px solid #69b6e8;
+        border: 1px solid rgba(156, 39, 176, 0.31);
         color: #2c3e50;
         outline: none;
         border-radius: 15px;
@@ -28,7 +28,7 @@
         vertical-align: middle !important;
         margin-bottom: 2em;
         &:focus {
-            border-color: rgba(71, 99, 255, 0.41);
+            border-color: #9C27B0;
         }
     }
     ul {

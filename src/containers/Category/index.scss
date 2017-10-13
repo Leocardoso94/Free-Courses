@@ -23,12 +23,17 @@
             &:hover {
                 box-shadow: 0px 0px 40px #000000;
             }
+            .title {
+                color: #000;
+                padding-top: 0;
+            }
             .description,
             .categories {
                 padding: 0 15px;
             }
             .author {
                 margin: 0;
+                color: #000;
             }
             .image {
                 margin-bottom: 5px;
@@ -48,7 +53,7 @@
             .categories {
                 padding-bottom: 10px;
                 i {
-                    background-color: #52ca1c;
+                    background-color: #9C27B0;
                     color: #fff;
                     padding: 5px;
                     border-radius: 5px;
@@ -61,4 +66,3 @@
         }
     }
 }
-

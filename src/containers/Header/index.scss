@@ -14,7 +14,10 @@
         line-height: 40px;
     }
     .contribute-link {
-        float: right;
+        float: left;
+        border: 1px solid rgba(156, 39, 176, 0.45);
+        padding: 0 10px;
+        border-radius: 20px;
         margin-right: 20px;
     }
     .logo {
@@ -23,8 +26,7 @@
         margin: auto;
         width: 190px;
         &:hover {
-            text-decoration: none;
-            color: #7986cb;
+            color: #9c27b0;
         }
     }
     .menu-button {
