@@ -25,7 +25,7 @@
         background: #7986cb;
     }
     &::after {
-        background: #3f51b5;
+        background: #2c3e50;
     }
     &:before,
     &::after {
@@ -53,5 +53,11 @@
     &:hover::after {
         -webkit-transform: translate3d(0, 100%, 0);
         transform: translate3d(0, 100%, 0);
+    }
+    @media screen and (max-width: 900px) {
+        background: #2c3e50;
+        color: #fff;
+        padding: 10px 10px;
+        font-size: 16px;
     }
 }
