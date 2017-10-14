@@ -268,5 +268,16 @@
         "link": "https://egghead.io/courses/getting-started-with-redux",
         "level": "Beginner - Intermediate",
         "description": "Learn how to manage JavaScript state with Redux."
+    },
+    {
+        "title": "Learn CSS Layout",
+        "author": "learnlayout.com",
+        "language": "English",
+        "categories": [
+            "css",
+        ],
+        "link": "http://learnlayout.com",
+        "level": "Beginner - Intermediate",
+        "description": "This site teaches the CSS fundamentals that are used in any website's layout."
     }
 ]
