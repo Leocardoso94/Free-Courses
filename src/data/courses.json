@@ -1,4 +1,4 @@
-[
+﻿[
     {
         "title": "JavaScript30",
         "author": "Wes Bos",
@@ -279,5 +279,17 @@
         "link": "http://learnlayout.com",
         "level": "Beginner - Intermediate",
         "description": "This site teaches the CSS fundamentals that are used in any website's layout."
+    },
+    {
+        "title": "Learn Redux",
+        "author": "Wes Bos",
+        "language": "English",
+        "categories": [
+            "react",
+            "redux"
+        ],
+        "link": "https://learnredux.com/",
+        "level": "Beginner - Intermediate",
+        "description": "Dig deeper into React while learning Redux and React Router."
     }
 ]
