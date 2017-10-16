@@ -14,11 +14,11 @@
         line-height: 40px;
     }
     .contribute-link {
-        float: left;
+        position: absolute;
+        right: 50px;
         border: 1px solid rgba(156, 39, 176, 0.45);
         padding: 0 10px;
         border-radius: 20px;
-        margin-right: 20px;
     }
     .logo {
         font-size: 1.5em;
