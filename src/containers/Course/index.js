@@ -1,13 +1,11 @@
 import React, { Component } from 'react';
+import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
 import RoundedButton from './../../components/RoundedButton';
 import './index.scss';
 import ReactCSSTransitionGroup from 'react-transition-group/CSSTransitionGroup';
 import BackButton from './../../components/BackButton';
-import courses from './../../data/courses.json';
-courses.forEach((course, index) => {
-	course.id = index;
-});
+
 
 class Course extends Component {
 	getImage(course) {
@@ -15,9 +13,9 @@ class Course extends Component {
 		return !course.image || course.image === '' ? defaultImage : course.image;
 	}
 	render() {
-		const id = this.props.match.params.id;
+		const id = parseInt(this.props.match.params.id);
 
-		const course = courses.find((crs) => crs.id == id);
+		const course = this.props.courses.find((crs) => crs.id === id);
 
 		return (
 			<ReactCSSTransitionGroup
@@ -46,8 +44,16 @@ class Course extends Component {
 	}
 }
 
-Course.propTypes = {
-	match: PropTypes.object.isRequired
-};
+function mapStateToProps(state) {
+	return {
+		courses: state.courses
+	};
+}
 
-export default Course;
+
+export default connect(mapStateToProps)(Course);
+
+Course.propTypes = {
+	match: PropTypes.object.isRequired,
+	courses: PropTypes.arrayOf(Object)
+};
