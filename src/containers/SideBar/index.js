@@ -1,25 +1,23 @@
 import React, { Component } from 'react';
 import './index.scss';
+import { connect } from 'react-redux';
 import DevIcon from './../../components/Icons/dev-icon';
 import FaIcon from './../../components/Icons/fa-icon';
 import { Link } from 'react-router-dom';
 import PropTypes from 'prop-types';
-import categories from './../../data/categories.json';
 
 class SideBar extends Component {
 
 	constructor(props) {
 		super(props);
 
-		categories.sort((a, b) => a.title < b.title ? -1 : 1);
-
-		this.state = { categories };
+		this.state = { categories: props.categories };
 
 		this.filterCategory = this.filterCategory.bind(this);
 	}
 
 	filterCategory(value) {
-		const filteredCategories = categories.filter(category => category.title.toLowerCase().match(value.toLowerCase()));
+		const filteredCategories = this.props.categories.filter(category => category.title.toLowerCase().match(value.toLowerCase()));
 
 		this.setState({ categories: filteredCategories });
 	}
@@ -50,10 +48,18 @@ class SideBar extends Component {
 	}
 }
 
+function mapStateToProps(state) {
+	// Whatever is returned will show up as props
+	// inside of BookList
+	return {
+		categories: state.categories
+	};
+}
+
+export default connect(mapStateToProps)(SideBar);
+
 
 SideBar.propTypes = {
-	closeSideBar: PropTypes.func.isRequired
+	closeSideBar: PropTypes.func.isRequired,
+	categories: PropTypes.arrayOf(Object)
 };
-
-
-export default SideBar;

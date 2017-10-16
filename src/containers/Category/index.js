@@ -1,26 +1,13 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
+import { connect } from 'react-redux';
 import DevIcon from './../../components/Icons/dev-icon';
-import courses from './../../data/courses.json';
-import categories from './../../data/categories.json';
 import './index.scss';
 import ReactCSSTransitionGroup from 'react-transition-group/CSSTransitionGroup';
 import CourseList from './course-list';
 import BackButton from './../../components/BackButton';
 
-courses.forEach((course, index) => {
-	course.id = index;
-});
-
 class Category extends Component {
-
-	constructor(props) {
-		super(props);
-
-		this.state = { courses };
-	}
-
-
 
 	renderContribute(category) {
 		return (
@@ -29,7 +16,7 @@ class Category extends Component {
 					<b style={{ fontSize: '20px' }}>Sorry!</b>
 					<br />
 					<br />
-					We don't have any listed course about {category.title}, yet.
+					We do not have any listed course about {category.title}, yet.
 					<br />
 					If you have any suggestion and would like to collaborate, please <a href="https://github.com/Leocardoso94/Free-Courses" target="_blank" rel="noopener noreferrer">check How</a>
 				</p>
@@ -43,12 +30,12 @@ class Category extends Component {
 		let category = {};
 
 		if (categoryName !== 'all') {
-			category = categories.find((ctg) => ctg.title === categoryName);
-			coursesInCategory = this.state.courses.filter(course => {
+			category = this.props.categories.find((ctg) => ctg.title === categoryName);
+			coursesInCategory = this.props.courses.filter(course => {
 				return course.categories.some(categoryOfCourse => categoryOfCourse.toLowerCase() === category.title.toLowerCase());
 			});
 		} else {
-			coursesInCategory = courses;
+			coursesInCategory = this.props.courses;
 			category = { title: "All Courses", icon: "devicons devicons-code_badge" };
 		}
 
@@ -75,9 +62,18 @@ class Category extends Component {
 	}
 }
 
+function mapStateToProps(state) {
+	return {
+		courses: state.courses,
+		categories: state.categories
+	};
+}
+
+
+export default connect(mapStateToProps)(Category);
 
 Category.propTypes = {
-	match: PropTypes.object.isRequired
+	match: PropTypes.object.isRequired,
+	courses: PropTypes.arrayOf(Object),
+	categories: PropTypes.arrayOf(Object)
 };
-
-export default Category;
