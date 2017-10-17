@@ -19,14 +19,20 @@
         border: 1px solid rgba(156, 39, 176, 0.45);
         padding: 0 10px;
         border-radius: 20px;
+        transition: all 0.3s ease-in;
+        &:hover {
+            background-color: #9c27b0;
+            color: #fff;
+        }
     }
     .logo {
         font-size: 1.5em;
         text-align: center;
         margin: auto;
         width: 190px;
+        transition: all 0.1s ease-in;
         &:hover {
-            color: #9c27b0;
+            // font-size: 2em;
         }
     }
     .menu-button {
