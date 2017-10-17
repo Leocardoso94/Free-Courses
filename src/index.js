@@ -2,6 +2,9 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { Provider } from 'react-redux';
 import { createStore, applyMiddleware } from 'redux';
+
+//style
+import './index.scss';
 // libs
 import './../bower_components/font-awesome/css/font-awesome.min.css';
 
