@@ -25,12 +25,12 @@ class Category extends Component {
 	}
 
 	render() {
-		const categoryName = this.props.match.params.category;
+		const categoryName = this.props.match.params.category.toLowerCase();
 		let coursesInCategory = [];
 		let category = {};
 
 		if (categoryName !== 'all') {
-			category = this.props.categories.find((ctg) => ctg.title === categoryName);
+			category = this.props.categories.find((ctg) => ctg.title.toLowerCase() === categoryName);
 			coursesInCategory = this.props.courses.filter(course => {
 				return course.categories.some(categoryOfCourse => categoryOfCourse.toLowerCase() === category.title.toLowerCase());
 			});

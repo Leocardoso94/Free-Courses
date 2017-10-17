@@ -29,10 +29,11 @@ const CourseList = ({ coursesInCategory }) => {
 						<h4 className="title">{course.title}</h4>
 						<p className="text-description">{getDescription(course)}</p>
 					</div>
-					<div className="categories">
-						{course.categories.map(categoryOfCourse => <i key={categoryOfCourse}>{categoryOfCourse}</i>)}
-					</div>
 				</Link>
+				<div className="categories">
+					{course.categories.map(categoryOfCourse => <Link className="tag" to={categoryOfCourse} key={categoryOfCourse}>{categoryOfCourse}</Link>)}
+				</div>
+
 			</li>
 		);
 	});

@@ -12,16 +12,15 @@
         list-style: none;
         .course {
             background: #fff;
-            cursor: pointer;
             flex-basis: 20%;
             min-width: 170px;
             box-shadow: 0 0 1px 1px hsla(0, 0%, 7%, .1), 0 3px 1px 0 hsla(0, 0%, 7%, .1);
             border-radius: 15px;
             margin-bottom: 20px;
             margin-right: 20px;
-            transition: box-shadow 0.3s ease-in-out;
+            transition: all 0.5s ease-in-out;
             &:hover {
-                box-shadow: 0px 0px 40px #000000;
+                box-shadow: 0px 0px 40px hsla(0, 0%, 0%, 0.302)
             }
             .title {
                 color: #000;
@@ -36,7 +35,10 @@
                 color: #000;
             }
             .image {
+                background-color: #fff;
                 margin-bottom: 5px;
+                border-top-left-radius: 15px;
+                border-top-right-radius: 15px;
                 img {
                     width: 100%;
                     min-width: 100%;
@@ -52,15 +54,23 @@
             }
             .categories {
                 padding-bottom: 10px;
-                i {
-                    background-color: #9C27B0;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-around;
+                .tag {
+                    background-color: #41bb14;
                     color: #fff;
                     padding: 5px;
                     border-radius: 5px;
                     font-size: 10px;
                     font-style: normal;
                     margin-right: 10px;
-                    display: inline-block;
+                    margin-top: 15px;
+                    transition: all 0.5s ease-in-out;
+                    &:hover {
+                        background-color: #1b5f00;
+                        font-size: 12px;
+                    }
                 }
             }
         }
