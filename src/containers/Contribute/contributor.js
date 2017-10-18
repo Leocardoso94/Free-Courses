@@ -2,7 +2,6 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 const Contributor = ({ contributor }) => {
-	console.log(contributor);
 	return (
 		<li className="contributor">
 			<img className="avatar" src={contributor.avatar_url} />
