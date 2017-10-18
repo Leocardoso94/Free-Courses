@@ -303,5 +303,17 @@
         "link": "https://www.udemy.com/vue-web-apps/?couponCode=GOHACKERS&pmtag=CTBO1202&siteID=MhbOGzq4cI4-kW.oXEWO9ehhdCszMpyOUw&LSNPUBID=MhbOGzq4cI4",
         "level": "Beginner - Intermediate",
         "description": "Create the VueJS 2.0 apps you always wanted. Build 5 apps, learn development secrets, VueRouter, Vuex, & more!"
+    },
+    {
+        "title": "Git e Github para iniciantes",
+        "author": "Willian Justen",
+        "language": "Portuguese",
+        "categories": [
+            "git"
+        ],
+        "link": "https://www.udemy.com/git-e-github-para-iniciantes/",
+        "level": "Beginner",
+        "image": "https://udemy-images.udemy.com/course/480x270/849470_788a_2.jpg",
+        "description": "Tudo que você precisa para começar a versionar seus arquivos e contribuir com a comunidade opensource."
     }
 ]

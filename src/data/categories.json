@@ -54,5 +54,9 @@
     {
         "title": "Vue",
         "icon": "devicon-vuejs-plain colored"
+    },
+    {
+        "title": "Git",
+        "icon": "devicon-git-plain colored"
     }
 ]
