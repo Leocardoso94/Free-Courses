@@ -390,7 +390,7 @@
         "title": "Git e Github para iniciantes",
         "author": "Willian Justen",
         "language": "Portuguese",
-        "flags":[
+        "flags": [
             "flag-icon-br"
         ],
         "categories": [
@@ -405,6 +405,9 @@
         "title": "React 16 Definitivo",
         "author": "Diego Martins de Pinho, Code Prestige",
         "language": "Portuguese",
+        "flags": [
+            "flag-icon-br"
+        ],
         "categories": [
             "react"
         ],
