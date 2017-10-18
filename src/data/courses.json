@@ -315,5 +315,17 @@
         "level": "Beginner",
         "image": "https://udemy-images.udemy.com/course/480x270/849470_788a_2.jpg",
         "description": "Tudo que você precisa para começar a versionar seus arquivos e contribuir com a comunidade opensource."
+    },
+    {
+        "title": "React 16 Definitivo",
+        "author": "Diego Martins de Pinho, Code Prestige",
+        "language": "Portuguese",
+        "categories": [
+            "react"
+        ],
+        "link": "https://www.udemy.com/react-16/",
+        "level": "Intermediate",
+        "description": "Tudo o que você precisa saber sobre a versão 16 do React",
+        "image": "https://udemy-images.udemy.com/course/240x135/1378412_4da7_2.jpg"
     }
 ]
