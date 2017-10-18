@@ -291,5 +291,17 @@
         "link": "https://learnredux.com/",
         "level": "Beginner - Intermediate",
         "description": "Dig deeper into React while learning Redux and React Router."
+    },
+    {
+        "title": "Vue JS 2.0 - Mastering Web Apps",
+        "author": "David Katz",
+        "language": "English",
+        "categories": [
+            "javascript",
+            "vue"
+        ],
+        "link": "https://www.udemy.com/vue-web-apps/?couponCode=GOHACKERS&pmtag=CTBO1202&siteID=MhbOGzq4cI4-kW.oXEWO9ehhdCszMpyOUw&LSNPUBID=MhbOGzq4cI4",
+        "level": "Beginner - Intermediate",
+        "description": "Create the VueJS 2.0 apps you always wanted. Build 5 apps, learn development secrets, VueRouter, Vuex, & more!"
     }
 ]
