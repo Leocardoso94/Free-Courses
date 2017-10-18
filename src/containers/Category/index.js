@@ -25,21 +25,21 @@ class Category extends Component {
 	}
 
 	render() {
-		const categoryName = this.props.match.params.category;
+		const categoryName = this.props.match.params.category.trim();
 		let coursesInCategory = [];
 		let category = {};
 
 		if (categoryName === 'all') {
 			coursesInCategory = this.props.courses;
 			category = { title: "All Courses", icon: "devicons devicons-code_badge" };
-
 		} else {
-			if (!this.props.categories.some(ctg => { ctg.title === categoryName; })) {
-				category = { title: categoryName, icon: "devicons devicons-code_badge" };
-			}
-			else {
+			if (this.props.categories.some(ctg => ctg.title.toLowerCase() === categoryName.toLowerCase())) {
 				category = this.props.categories.find((ctg) => ctg.title.toLowerCase() === categoryName.toLowerCase());
 			}
+			else {
+				category = { title: categoryName, icon: "devicons devicons-code_badge" };
+			}
+
 			coursesInCategory = this.props.courses.filter(course => {
 				return course.categories.some(categoryOfCourse => categoryOfCourse.toLowerCase() === category.title.toLowerCase());
 			});
