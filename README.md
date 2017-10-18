@@ -18,6 +18,9 @@ To add a new course
         "title": "title of course",
         "author": "Author of course",
         "language": "language of course",
+        "flags": [
+            "flag of the language"
+        ],
         "categories": [
             "category 1",
             "category 2"
@@ -31,6 +34,9 @@ To add a new course
         "title": "JavaScript30",
         "author": "Wes Bos",
         "language": "English",
+        "flags": [
+            "flag-icon-us"
+        ],
         "categories": [
             "javascript"
         ],
@@ -40,6 +46,8 @@ To add a new course
         "description": "Beginner to Intermediate developers and designers who want to become comfortable with both JavaScript fundamentals and working in the DOM without a library."
     }
 ```
+
+Flag icons can be found here: https://github.com/lipis/flag-icon-css  http://flag-icon-css.lip.is/
 
 To add a new category
 1. Open the categories.json
