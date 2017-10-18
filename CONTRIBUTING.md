@@ -7,7 +7,6 @@ Please note we have a code of conduct, please follow it in all your interactions
 
 ## Guide to add new courses
 
-
 1. Fork this project
 2. Go to the folder /src/data
 3. And add a new object to the .json files
@@ -21,7 +20,7 @@ To add a new course
         "author": "Author of course",
         "language": "language of course",
         "flags": [
-            "flag of the language"
+            "flag of the language" // this is optional
         ],
         "categories": [
             "category 1",
