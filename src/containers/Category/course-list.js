@@ -18,23 +18,6 @@ const CourseList = ({ coursesInCategory }) => {
 		return description;
 	}
 
-	function getFlag(course) {
-		const flags =
-			[
-				{
-					language: 'english',
-					icon: 'flag-icon-us'
-				}
-			];
-
-		const flagsOfCourse = [];
-		flags.map(flag => {
-			if (flag.language === course.language.toLowerCase().trim())
-				flagsOfCourse.push(<span key={flag.language} className={"flag-icon " + flag.icon}></span >);
-		});
-
-		return flagsOfCourse;
-	}
 
 	const courses = coursesInCategory.map(course => {
 		return (
@@ -47,9 +30,11 @@ const CourseList = ({ coursesInCategory }) => {
 						<h6 className="author">{course.author}</h6>
 						<h4 className="title">{course.title}</h4>
 						<p className="text-description">{getDescription(course)}</p>
-						{getFlag(course)}
 					</div>
 				</Link>
+				<div className="flags">
+					{course.flags ? course.flags.map(flag => <span key={flag} className={"flag-icon " + flag}></span >) : ''}
+				</div>
 				<div className="categories">
 					{course.categories.map(categoryOfCourse => <Link className="tag" to={categoryOfCourse} key={categoryOfCourse}>{categoryOfCourse}</Link>)}
 				</div>

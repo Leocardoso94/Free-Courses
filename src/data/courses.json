@@ -3,6 +3,9 @@
         "title": "JavaScript30",
         "author": "Wes Bos",
         "language": "English",
+        "flags": [
+            "flag-icon-us"
+        ],
         "categories": [
             "javascript"
         ],
@@ -15,6 +18,12 @@
         "title": "HTML & CSS",
         "author": "Codecademy",
         "language": "English - Portuguese(Brazil) - Español - Français",
+        "flags": [
+            "flag-icon-us",
+            "flag-icon-br",
+            "flag-icon-es",
+            "flag-icon-fr"
+        ],
         "categories": [
             "html",
             "css"
@@ -27,6 +36,9 @@
         "title": "Social Network",
         "author": "Alex PHP Academy",
         "language": "English",
+        "flags": [
+            "flag-icon-us"
+        ],
         "categories": [
             "php",
             "html",
@@ -40,6 +52,9 @@
         "title": "HTML & CSS",
         "author": "Interneting Is Hard",
         "language": "English",
+        "flags": [
+            "flag-icon-us"
+        ],
         "categories": [
             "html",
             "css"
@@ -53,6 +68,9 @@
         "title": "Introduction To JavaScript",
         "author": "Codecademy",
         "language": "English",
+        "flags": [
+            "flag-icon-us"
+        ],
         "categories": [
             "javascript"
         ],
@@ -64,6 +82,9 @@
         "title": "Make a Website",
         "author": "Codecademy",
         "language": "English",
+        "flags": [
+            "flag-icon-us"
+        ],
         "categories": [
             "html",
             "css"
@@ -76,6 +97,9 @@
         "title": "Learn Sass",
         "author": "Codecademy",
         "language": "English",
+        "flags": [
+            "flag-icon-us"
+        ],
         "categories": [
             "css",
             "sass"
@@ -88,6 +112,9 @@
         "title": "Learn Python",
         "author": "Codecademy",
         "language": "English",
+        "flags": [
+            "flag-icon-us"
+        ],
         "categories": [
             "python"
         ],
@@ -99,6 +126,9 @@
         "title": "React-fundamentals - Start Learning React",
         "author": "Egghead.io",
         "language": "English",
+        "flags": [
+            "flag-icon-us"
+        ],
         "categories": [
             "react"
         ],
@@ -111,6 +141,9 @@
         "title": "Learn ES6 (ECMAScript 2015)",
         "author": "Egghead.io",
         "language": "English",
+        "flags": [
+            "flag-icon-us"
+        ],
         "categories": [
             "javascript",
             "es6"
@@ -124,6 +157,9 @@
         "title": "Node JS Tutorial for Beginners",
         "author": "The Net Ninja",
         "language": "English",
+        "flags": [
+            "flag-icon-us"
+        ],
         "categories": [
             "node",
             "express",
@@ -138,6 +174,9 @@
         "title": "Django Tutorial for Beginners",
         "author": "thenewboston",
         "language": "English",
+        "flags": [
+            "flag-icon-us"
+        ],
         "categories": [
             "django",
             "python"
@@ -150,7 +189,14 @@
     {
         "title": "Django Girls Tutorial",
         "author": "Django Girls",
-        "language": "English - Français - 简体中文 - Polski - Українська",
+        "language": "English - Français - 简体中文 - Polski - Українська - Português",
+        "flags": [
+            "flag-icon-us",
+            "flag-icon-fr",
+            "flag-icon-es",
+            "flag-icon-cn",
+            "flag-icon-pl"
+        ],
         "categories": [
             "django",
             "python"
@@ -164,6 +210,9 @@
         "title": "Intro to Javascript",
         "author": "Udacity",
         "language": "English",
+        "flags": [
+            "flag-icon-us"
+        ],
         "categories": [
             "javascript"
         ],
@@ -175,6 +224,9 @@
         "title": "Intro to HTML and CSS",
         "author": "Udacity",
         "language": "English",
+        "flags": [
+            "flag-icon-us"
+        ],
         "categories": [
             "html",
             "css"
@@ -187,6 +239,9 @@
         "title": "Getting Started with React",
         "author": "Scotch.io",
         "language": "English",
+        "flags": [
+            "flag-icon-us"
+        ],
         "categories": [
             "html",
             "css",
@@ -201,6 +256,9 @@
         "title": "JavaScript DOM Crash Course",
         "author": "Traversy Media",
         "language": "English",
+        "flags": [
+            "flag-icon-us"
+        ],
         "categories": [
             "javascript"
         ],
@@ -213,6 +271,9 @@
         "title": "Tango With Django",
         "author": "Leif Azzopardi",
         "language": "English",
+        "flags": [
+            "flag-icon-us"
+        ],
         "categories": [
             "Python",
             "Django"
@@ -225,6 +286,9 @@
         "title": " Learn Vue 2: Step By Step",
         "author": "Laracasts",
         "language": "English",
+        "flags": [
+            "flag-icon-us"
+        ],
         "categories": [
             "javascript",
             "vue"
@@ -237,6 +301,9 @@
         "title": "Laravel 5 Fundamentals",
         "author": "Laracasts",
         "language": "English",
+        "flags": [
+            "flag-icon-us"
+        ],
         "categories": [
             "laravel"
         ],
@@ -248,6 +315,9 @@
         "title": "Server-side Development with NodeJS, Express and MongoDB",
         "author": "The Hong Kong University of Science and Technology",
         "language": "English",
+        "flags": [
+            "flag-icon-us"
+        ],
         "categories": [
             "html",
             "css",
@@ -261,6 +331,9 @@
         "title": "Getting Started With Redux",
         "author": "Dan Abramov",
         "language": "English",
+        "flags": [
+            "flag-icon-us"
+        ],
         "categories": [
             "javascript",
             "redux"
@@ -273,6 +346,9 @@
         "title": "Learn CSS Layout",
         "author": "learnlayout.com",
         "language": "English",
+        "flags": [
+            "flag-icon-us"
+        ],
         "categories": [
             "css"
         ],
@@ -284,6 +360,9 @@
         "title": "Learn Redux",
         "author": "Wes Bos",
         "language": "English",
+        "flags": [
+            "flag-icon-us"
+        ],
         "categories": [
             "react",
             "redux"
@@ -296,6 +375,9 @@
         "title": "Vue JS 2.0 - Mastering Web Apps",
         "author": "David Katz",
         "language": "English",
+        "flags": [
+            "flag-icon-us"
+        ],
         "categories": [
             "javascript",
             "vue"
@@ -308,6 +390,9 @@
         "title": "Git e Github para iniciantes",
         "author": "Willian Justen",
         "language": "Portuguese",
+        "flags":[
+            "flag-icon-br"
+        ],
         "categories": [
             "git"
         ],
