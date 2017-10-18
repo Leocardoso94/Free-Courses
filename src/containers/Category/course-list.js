@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
 import ReactCSSTransitionGroup from 'react-transition-group/CSSTransitionGroup';
 
+
 const CourseList = ({ coursesInCategory }) => {
 	function getImage(course) {
 		const defaultImage = 'https://cdn.dribbble.com/users/4764/screenshots/2418753/books_1x.png';
@@ -17,6 +18,7 @@ const CourseList = ({ coursesInCategory }) => {
 		return description;
 	}
 
+
 	const courses = coursesInCategory.map(course => {
 		return (
 			<li className="course" key={course.title + course.author}>
@@ -30,6 +32,9 @@ const CourseList = ({ coursesInCategory }) => {
 						<p className="text-description">{getDescription(course)}</p>
 					</div>
 				</Link>
+				<div className="flags">
+					{course.flags ? course.flags.map(flag => <span key={flag} className={"flag-icon " + flag}></span >) : ''}
+				</div>
 				<div className="categories">
 					{course.categories.map(categoryOfCourse => <Link className="tag" to={categoryOfCourse} key={categoryOfCourse}>{categoryOfCourse}</Link>)}
 				</div>
@@ -37,6 +42,7 @@ const CourseList = ({ coursesInCategory }) => {
 			</li>
 		);
 	});
+
 
 	return (
 		<ReactCSSTransitionGroup
