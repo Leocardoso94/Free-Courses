@@ -73,3 +73,5 @@ To add a new category
 Icon classes can be found here: http://konpa.github.io/devicon/ or http://vorillaz.github.io/devicons/#/cheat
 
 ## Code of Conduct
+
+Check [Code of Conduct](https://github.com/Leocardoso94/Free-Courses/blob/master/CODE_OF_CONDUCT.md)
