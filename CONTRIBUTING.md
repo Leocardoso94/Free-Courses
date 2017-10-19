@@ -7,7 +7,11 @@ email, or any other method with the owners of this repository before making a ch
 
 Please note we have a code of conduct, please follow it in all your interactions with the project.
 
-## Guide to add new courses
+# Guide to add new courses
+
+## Submit this form to add a New Course https://goo.gl/forms/RxP02pQtnPCbapQ43
+
+Or you can add a course add a object to the json file
 
 1. Fork this project
 2. Go to the folder /src/data
