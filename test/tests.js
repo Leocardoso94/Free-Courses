@@ -1,5 +1,4 @@
-const assert = require('assert');
-
+import assert from 'assert';
 // describe('Array', function () {
 // 	describe('#indexOf()', function () {
 // 		it('should return -1 when the value is not present', function () {
@@ -8,22 +7,6 @@ const assert = require('assert');
 // 	});
 // });
 
-describe('courses.json', function () {
-	const categories = require('../src/data/courses.json');
-	describe('type of categories', function () {
-		it('should return object', function () {
-			assert.equal('object', (typeof categories));
-		});
-	});
-	describe('title of categories', function () {
-		it('should return true if all categories has a title', function () {
-			let result = categories.every((category) => {
-				return typeof category.title === 'string';
-			});
-			assert.equal(true, result);
-		});
-	});
-});
 
 describe('courses.json', function () {
 	const courses = require('../src/data/courses.json');
