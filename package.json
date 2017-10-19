@@ -4,6 +4,7 @@
   "description": "free courses to developers",
   "main": "''",
   "scripts": {
+    "test:tdd": "mocha tests/**/*.spec.js --watch",
     "build": "webpack --config webpack.production.config.js --progress --profile --colors",
     "start": "webpack-dev-server --progress --profile --colors",
     "lint": "eslint --ext js --ext jsx src || exit 0",

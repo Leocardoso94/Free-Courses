@@ -16,11 +16,11 @@ describe('courses.json', function () {
 		});
 	});
 	describe('title of categories', function () {
-		it('should return false if all categories has a title', function () {
-			let result = categories.some((category) => {
-				return typeof category.title !== 'string';
+		it('should return true if all categories has a title', function () {
+			let result = categories.every((category) => {
+				return typeof category.title === 'string';
 			});
-			assert.equal(false, result);
+			assert.equal(true, result);
 		});
 	});
 });
@@ -33,47 +33,47 @@ describe('courses.json', function () {
 		});
 	});
 	describe('courses properties', function () {
-		it('should return false if all courses has a title', function () {
-			let result = courses.some((category) => {
-				return typeof category.title !== 'string';
+		it('should return true if all courses has a title', function () {
+			let result = courses.every((category) => {
+				return typeof category.title === 'string';
 			});
-			assert.equal(false, result);
+			assert.equal(true, result);
 		});
-		it('should return false if all courses has a author', function () {
-			let result = courses.some((category) => {
-				return typeof category.author !== 'string';
+		it('should return true if all courses has a author', function () {
+			let result = courses.every((category) => {
+				return typeof category.author === 'string';
 			});
-			assert.equal(false, result);
+			assert.equal(true, result);
 		});
-		it('should return false if all courses has a language', function () {
-			let result = courses.some((category) => {
-				return typeof category.language !== 'string';
+		it('should return true if all courses has a language', function () {
+			let result = courses.every((category) => {
+				return typeof category.language === 'string';
 			});
-			assert.equal(false, result);
+			assert.equal(true, result);
 		});
-		it('should return false if all courses has a link', function () {
-			let result = courses.some((category) => {
-				return typeof category.link !== 'string';
+		it('should return true if all courses has a link', function () {
+			let result = courses.every((category) => {
+				return typeof category.link === 'string';
 			});
-			assert.equal(false, result);
+			assert.equal(true, result);
 		});
-		it('should return false if all courses has a level', function () {
-			let result = courses.some((category) => {
-				return typeof category.level !== 'string';
+		it('should return true if all courses has a level', function () {
+			let result = courses.every((category) => {
+				return typeof category.level === 'string';
 			});
-			assert.equal(false, result);
+			assert.equal(true, result);
 		});
-		it('should return false if all courses has a description', function () {
-			let result = courses.some((category) => {
-				return typeof category.description !== 'string';
+		it('should return true if all courses has a description', function () {
+			let result = courses.every((category) => {
+				return typeof category.description === 'string';
 			});
-			assert.equal(false, result);
+			assert.equal(true, result);
 		});
-		it('should return false if all courses has a category', function () {
-			let result = courses.some((category) => {
-				return category.categories.length === 0;
+		it('should return true if all courses has a category', function () {
+			let result = courses.every((category) => {
+				return category.categories.length > 0;
 			});
-			assert.equal(false, result);
+			assert.equal(true, result);
 		});
 	});
 });
