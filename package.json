@@ -4,12 +4,13 @@
   "description": "free courses to developers",
   "main": "''",
   "scripts": {
+    "test:tdd": "mocha src/**/*spec.js  --watch --require babel-register",
     "build": "webpack --config webpack.production.config.js --progress --profile --colors",
     "start": "webpack-dev-server --progress --profile --colors",
     "lint": "eslint --ext js --ext jsx src || exit 0",
     "dev": " webpack-dashboard -- webpack-dev-server",
     "prepush": "npm run lint && npm run test",
-    "test": "mocha"
+    "test": "mocha src/**/*spec.js --require babel-register"
   },
   "repository": {
     "type": "git",
@@ -43,6 +44,7 @@
     "babel-preset-react": "^6.23.0",
     "babel-runtime": "^6.22.0",
     "bower": "^1.8.2",
+    "chai": "^4.1.2",
     "css-loader": "0.26.1",
     "enzyme": "^2.9.1",
     "eslint": "^4.3.0",
