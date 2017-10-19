@@ -30,10 +30,10 @@ This should help a new contributor envision success as they get started, and ans
   Please 🙏 only claim if you want to start working on it within a day.  
   Once claimed we add you as contributor to this repository.
 - [ ] 👌 **Accept our invitation** to this repository. Once accepted, assign yourself to this repository
-- [ ] 👓 **Please review** our [Code of Conduct](http://hood.ie/code-of-conduct/)  
+- [ ] 👓 **Please review** our [Code of Conduct](https://github.com/Leocardoso94/Free-Courses/blob/master/CODE_OF_CONDUCT.md)  
   In a nutshell: be patient and actively kind with us 😊
 - [ ] 🔄 **replace** the `available` label with `in progress`.
-- [ ] [**Setup the repository locally**](https://github.com/hoodiehq/...) Ensure the tests pass, or docs build...
+- [ ] **Setup the repository locally** Ensure the tests pass, or docs build...
 - [ ] **Do the main thing**
   - Perhaps suggestions on sub-tasks
   - Or a good workflow/feeback loop
