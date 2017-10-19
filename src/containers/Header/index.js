@@ -10,7 +10,6 @@ class Header extends Component {
 		const SideBar = document.querySelector('.sidebar');
 		MenuButton.classList.toggle('active');
 		SideBar.classList.toggle('open');
-		console.log(SideBar);
 	}
 	render() {
 		return (
