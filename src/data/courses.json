@@ -415,5 +415,21 @@
         "level": "Intermediate",
         "description": "Tudo o que você precisa saber sobre a versão 16 do React",
         "image": "https://udemy-images.udemy.com/course/240x135/1378412_4da7_2.jpg"
-    }
+    },
+    {
+        "title": "Node.js Real Time Chat",
+        "author": "The New Boston",
+        "language": "English",
+        "flags": [
+            "flag-icon-us"
+        ],
+        "categories": [
+            "javascript",
+            "node"
+        ],
+        "link": "https://thenewboston.com/videos.php?cat=86&video=19814",
+        "level": "Beginner - Intermediate",
+        "image": "https://thenewboston.com/images/logo.png",
+        "description": "Beginner to Intermediate developers who want to build Real Time Chat apps based on Node.js"
+     }
 ]
