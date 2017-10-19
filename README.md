@@ -4,10 +4,15 @@ https://freecourses.github.io/
 
 Free courses to developers is a platform where you can find several courses on development totally for free.
 
+## Now you can add a course via google forms
+
+Link: https://goo.gl/forms/RxP02pQtnPCbapQ43
+
 ### Contribute
 Please contribute to the project if you know how to make it better, including this README :)
 
 Check the [CONTRIBUTING.md](https://github.com/Leocardoso94/Free-Courses/blob/master/CONTRIBUTING.md)
+
 
 ### To run
 
