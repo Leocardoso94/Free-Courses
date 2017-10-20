@@ -10,10 +10,9 @@ cache:
     - bower_components
 
 before_install:
-  - npm install -g npm@latest
   - bower install
 
-script: 
+script:
   - npm test
   - npm run lint
   - bash ./deploy.sh
