@@ -1,439 +1,110 @@
 ﻿[
   {
-    "title": "JavaScript30",
-    "author": "Wes Bos",
-    "language": "English",
-    "flags": [
-      "flag-icon-us"
-    ],
-    "categories": [
-      "javascript"
-    ],
-    "link": "https://javascript30.com/",
+    "title": "Django Girls Tutorial",
+    "description": "From the basics of python and django to your application deployed on web!",
+    "link": "https://tutorial.djangogirls.org/",
+    "author": "Django Girls",
     "level": "Beginner - Intermediate",
-    "description": "Beginner to Intermediate developers and designers who want to become comfortable with both JavaScript fundamentals and working in the DOM without a library.",
-    "image": "https://s3.amazonaws.com/js30-cdn/sky--purple-kracked.jpg"
-  },
-  {
-    "title": "HTML & CSS",
-    "author": "Codecademy",
-    "language": "English - Portuguese(Brazil) - Español - Français",
-    "flags": [
-      "flag-icon-us",
-      "flag-icon-br",
-      "flag-icon-es",
-      "flag-icon-fr"
-    ],
-    "categories": [
-      "html",
-      "css"
-    ],
-    "link": "https://www.codecademy.com/tracks/web",
-    "level": "Beginner",
-    "description": "Learn how to create websites by structuring and styling your pages with HTML and CSS."
-  },
-  {
-    "title": "Social Network",
-    "author": "Alex PHP Academy",
-    "language": "English",
-    "flags": [
-      "flag-icon-us"
-    ],
-    "categories": [
-      "php",
-      "html",
-      "laravel"
-    ],
-    "link": "https://www.codecourse.com/lessons/social-network",
-    "level": "Beginner - Intermediate",
-    "description": "A social network built with Laravel and Bootstrap. Authenticate, add and accept friend requests, post to a timeline, reply to and like friend's statuses."
-  },
-  {
-    "title": "HTML & CSS",
-    "author": "Interneting Is Hard",
-    "language": "English",
-    "flags": [
-      "flag-icon-us"
-    ],
-    "categories": [
-      "html",
-      "css"
-    ],
-    "link": "https://internetingishard.com",
-    "level": "Beginner",
-    "image": "https://internetingishard.com/img/interneting-is-hard-logo-97b225.svg",
-    "description": "Friendly web development tutorials for complete beginners."
-  },
-  {
-    "title": "Introduction To JavaScript",
-    "author": "Codecademy",
-    "language": "English",
-    "flags": [
-      "flag-icon-us"
-    ],
-    "categories": [
-      "javascript"
-    ],
-    "link": "https://www.codecademy.com/learn/introduction-to-javascript",
-    "level": "Beginner",
-    "description": "You will learn introductory level object oriented programming using ES6 JavaScript."
-  },
-  {
-    "title": "Make a Website",
-    "author": "Codecademy",
-    "language": "English",
-    "flags": [
-      "flag-icon-us"
-    ],
-    "categories": [
-      "html",
-      "css"
-    ],
-    "link": "https://www.codecademy.com/learn/make-a-website",
-    "level": "Beginner",
-    "description": "You'll build four simple websites using web development fundamentals, including HTML5/CSS3 and Bootstrap. You'll learn to understand and modify the structure of basic website, as well as how to change the way a page looks and is laid out."
-  },
-  {
-    "title": "Learn Sass",
-    "author": "Codecademy",
-    "language": "English",
-    "flags": [
-      "flag-icon-us"
-    ],
-    "categories": [
-      "css",
-      "sass"
-    ],
-    "link": "https://www.codecademy.com/learn/learn-sass",
-    "level": "Beginner",
-    "description": "This course will teach you how to use nesting, variables, mixins, placeholders, and functions to write more expressive and reusable styles. At the end of the course, you will be able to transition a CSS codebase to SCSS and style multiple websites."
-  },
-  {
-    "title": "Learn Python",
-    "author": "Codecademy",
-    "language": "English",
-    "flags": [
-      "flag-icon-us"
-    ],
-    "categories": [
-      "python"
-    ],
-    "link": "https://www.codecademy.com/learn/learn-python",
-    "level": "Beginner - Intermediate",
-    "description": "This course is a great introduction to both fundamental programming concepts and the Python programming language. By the end, you'll be familiar with Python syntax and you'll be able to put into practice what you'll have learned in a final project you'll develop locally."
-  },
-  {
-    "title": "React-fundamentals - Start Learning React",
-    "author": "Egghead.io",
-    "language": "English",
-    "flags": [
-      "flag-icon-us"
-    ],
-    "categories": [
-      "react"
-    ],
-    "link": "https://egghead.io/courses/react-fundamentals",
-    "level": "Beginner - Intermediate",
-    "description": "React is a javascript library for building user interfaces from the fine folks at Facebook & Instagram. It strictly focuses on the 'V' in your MVC applications, and touts a blazing fast virtual DOM diff implementation. This series will explore the basic fundamentals of React to get you started.",
-    "image": "http://www.fellyph.com.br/blog/wp-content/uploads/2016/06/react-js.png"
-  },
-  {
-    "title": "Learn ES6 (ECMAScript 2015)",
-    "author": "Egghead.io",
-    "language": "English",
-    "flags": [
-      "flag-icon-us"
-    ],
-    "categories": [
-      "javascript",
-      "es6"
-    ],
-    "link": "https://egghead.io/courses/learn-es6-ecmascript-2015",
-    "level": "Intermediate",
-    "description": "This course takes a look at some of the new features that JavaScript has available with ES6 (ECMAScript 2015). It is a 'montage' from several instructors.",
-    "image": "https://d2eip9sf3oo6c2.cloudfront.net/series/square_covers/000/000/049/full/EGH_LearnES6_Final.png?1496436434"
-  },
-  {
-    "title": "Node JS Tutorial for Beginners",
-    "author": "The Net Ninja",
-    "language": "English",
-    "flags": [
-      "flag-icon-us"
-    ],
-    "categories": [
-      "node",
-      "express",
-      "mongodb"
-    ],
-    "link": "https://www.youtube.com/playlist?list=PL4cUxeGkcC9gcy9lrvMJ75z9maRw4byYp",
-    "level": "Beginner - Intermediate",
-    "description": "Yo ninjas, in this Node JS tutorial series for beginners, we'll be walking step by step through what Node JS is, and how it all works. We'll also be creating a Node JS application from scratch using express, and hook it up to MongoDB - a noSQL database perfect for using with Node.",
-    "image": "https://i.ytimg.com/vi/w-7RQ46RgxU/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLB5gRmx7HePeS9235lqbx2uoJq5bA"
+    "categories": "django,python",
+    "language": "English - Français - 简体中文 - Polski - Українська - Português",
+    "image": "https://tutorial.djangogirls.org/pt/images/application.png",
+    "flags": "flag-icon-us,flag-icon-fr,flag-icon-es,flag-icon-cn,flag-icon-pl"
   },
   {
     "title": "Django Tutorial for Beginners",
-    "author": "thenewboston",
-    "language": "English",
-    "flags": [
-      "flag-icon-us"
-    ],
-    "categories": [
-      "django",
-      "python"
-    ],
-    "link": "https://www.youtube.com/playlist?list=PL6gx4Cwl9DGBlmzzFcLgDhKTTfNLfX1IK",
-    "level": "Beginner",
     "description": "Official tutorials for thenewboston Django Tutorials for Beginners series!",
-    "image": "https://i.ytimg.com/vi/qgGIqRFvFFk/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLA-pkntIGBhO0V9Ni6L6sEGcIDIdA"
-  },
-  {
-    "title": "Django Girls Tutorial",
-    "author": "Django Girls",
-    "language": "English - Français - 简体中文 - Polski - Українська - Português",
-    "flags": [
-      "flag-icon-us",
-      "flag-icon-fr",
-      "flag-icon-es",
-      "flag-icon-cn",
-      "flag-icon-pl"
-    ],
-    "categories": [
-      "django",
-      "python"
-    ],
-    "link": "https://tutorial.djangogirls.org/",
-    "level": "Beginner - Intermediate",
-    "image": "https://tutorial.djangogirls.org/pt/images/application.png",
-    "description": "From the basics of python and django to your application deployed on web!"
-  },
-  {
-    "title": "Intro to Javascript",
-    "author": "Udacity",
-    "language": "English",
-    "flags": [
-      "flag-icon-us"
-    ],
-    "categories": [
-      "javascript"
-    ],
-    "link": "https://www.udacity.com/course/intro-to-javascript--ud803",
+    "link": "https://www.youtube.com/playlist?list=PL6gx4Cwl9DGBlmzzFcLgDhKTTfNLfX1IK",
+    "author": "thenewboston",
     "level": "Beginner",
-    "description": "Learn the fundamentals of Javascript, the most popular programming language in web development"
-  },
-  {
-    "title": "Intro to HTML and CSS",
-    "author": "Udacity",
+    "categories": "django,python",
     "language": "English",
-    "flags": [
-      "flag-icon-us"
-    ],
-    "categories": [
-      "html",
-      "css"
-    ],
-    "link": "https://www.udacity.com/course/intro-to-html-and-css--ud304",
-    "level": "Beginner",
-    "description": "Learn to think like a front end developer"
+    "image": "https://i.ytimg.com/vi/qgGIqRFvFFk/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLA-pkntIGBhO0V9Ni6L6sEGcIDIdA",
+    "flags": "flag-icon-us"
   },
   {
     "title": "Getting Started with React",
-    "author": "Scotch.io",
-    "language": "English",
-    "flags": [
-      "flag-icon-us"
-    ],
-    "categories": [
-      "html",
-      "css",
-      "react"
-    ],
-    "link": "https://scotch.io/courses/getting-started-with-react",
-    "level": "Beginner",
     "description": "Basic Intro to React",
-    "image": "https://cdn.scotch.io/1/QYfj3qQSSLywYDvBVrQu_getting-started-with-react.png.jpg"
-  },
-  {
-    "title": "JavaScript DOM Crash Course",
-    "author": "Traversy Media",
-    "language": "English",
-    "flags": [
-      "flag-icon-us"
-    ],
-    "categories": [
-      "javascript"
-    ],
-    "link": "https://www.youtube.com/watch?v=0ik6X4DJKCc&list=PLillGF-RfqbYE6Ik_EuXA2iZFcE082B3s",
+    "link": "https://scotch.io/courses/getting-started-with-react",
+    "author": "Scotch.io",
     "level": "Beginner",
-    "image": "https://i.ytimg.com/vi/wK2cBMcDTss/maxresdefault.jpg",
-    "description": "A crash course focuses on the DOM."
-  },
-  {
-    "title": "Tango With Django",
-    "author": "Leif Azzopardi",
+    "categories": "html,css,react",
     "language": "English",
-    "flags": [
-      "flag-icon-us"
-    ],
-    "categories": [
-      "Python",
-      "Django"
-    ],
-    "link": "http://www.tangowithdjango.com",
-    "level": "Beginner",
-    "description": "Hands-on guide for begginers to learn Django. Past editions free."
-  },
-  {
-    "title": " Learn Vue 2: Step By Step",
-    "author": "Laracasts",
-    "language": "English",
-    "flags": [
-      "flag-icon-us"
-    ],
-    "categories": [
-      "javascript",
-      "vue"
-    ],
-    "link": "https://laracasts.com/series/learn-vue-2-step-by-step",
-    "level": "Beginner",
-    "description": "A hands on approach to learning VueJS"
-  },
-  {
-    "title": "Laravel 5 Fundamentals",
-    "author": "Laracasts",
-    "language": "English",
-    "flags": [
-      "flag-icon-us"
-    ],
-    "categories": [
-      "laravel"
-    ],
-    "link": "https://laracasts.com/series/laravel-5-fundamentals",
-    "level": "Beginner",
-    "description": "A beginner level introduction to the Laravel framework"
-  },
-  {
-    "title": "Server-side Development with NodeJS, Express and MongoDB",
-    "author": "The Hong Kong University of Science and Technology",
-    "language": "English",
-    "flags": [
-      "flag-icon-us"
-    ],
-    "categories": [
-      "html",
-      "css",
-      "node"
-    ],
-    "link": "https://www.coursera.org/learn/server-side-nodejs",
-    "level": "Beginner - Intermediate",
-    "description": "A complete course based on NodeJS."
+    "image": "https://cdn.scotch.io/1/QYfj3qQSSLywYDvBVrQu_getting-started-with-react.png.jpg",
+    "flags": "flag-icon-us"
   },
   {
     "title": "Getting Started With Redux",
-    "author": "Dan Abramov",
-    "language": "English",
-    "flags": [
-      "flag-icon-us"
-    ],
-    "categories": [
-      "javascript",
-      "redux"
-    ],
+    "description": "Learn how to manage JavaScript state with Redux.",
     "link": "https://egghead.io/courses/getting-started-with-redux",
+    "author": "Dan Abramov",
     "level": "Beginner - Intermediate",
-    "description": "Learn how to manage JavaScript state with Redux."
-  },
-  {
-    "title": "Learn CSS Layout",
-    "author": "learnlayout.com",
+    "categories": "javascript,redux",
     "language": "English",
-    "flags": [
-      "flag-icon-us"
-    ],
-    "categories": [
-      "css"
-    ],
-    "link": "http://learnlayout.com",
-    "level": "Beginner - Intermediate",
-    "description": "This site teaches the CSS fundamentals that are used in any website's layout."
-  },
-  {
-    "title": "Learn Redux",
-    "author": "Wes Bos",
-    "language": "English",
-    "flags": [
-      "flag-icon-us"
-    ],
-    "categories": [
-      "react",
-      "redux"
-    ],
-    "link": "https://learnredux.com/",
-    "level": "Beginner - Intermediate",
-    "description": "Dig deeper into React while learning Redux and React Router."
-  },
-  {
-    "title": "Vue JS 2.0 - Mastering Web Apps",
-    "author": "David Katz",
-    "language": "English",
-    "flags": [
-      "flag-icon-us"
-    ],
-    "categories": [
-      "javascript",
-      "vue"
-    ],
-    "link": "https://www.udemy.com/vue-web-apps/?couponCode=GOHACKERS&pmtag=CTBO1202&siteID=MhbOGzq4cI4-kW.oXEWO9ehhdCszMpyOUw&LSNPUBID=MhbOGzq4cI4",
-    "level": "Beginner - Intermediate",
-    "description": "Create the VueJS 2.0 apps you always wanted. Build 5 apps, learn development secrets, VueRouter, Vuex, & more!"
+    "flags": "flag-icon-us"
   },
   {
     "title": "Git e Github para iniciantes",
-    "author": "Willian Justen",
-    "language": "Portuguese",
-    "flags": [
-      "flag-icon-br"
-    ],
-    "categories": [
-      "git"
-    ],
+    "description": "Tudo que você precisa para começar a versionar seus arquivos e contribuir com a comunidade opensource.",
     "link": "https://www.udemy.com/git-e-github-para-iniciantes/",
+    "author": "Willian Justen",
     "level": "Beginner",
-    "image": "https://udemy-images.udemy.com/course/480x270/849470_788a_2.jpg",
-    "description": "Tudo que você precisa para começar a versionar seus arquivos e contribuir com a comunidade opensource."
-  },
-  {
-    "title": "React 16 Definitivo",
-    "author": "Diego Martins de Pinho, Code Prestige",
+    "categories": "git",
     "language": "Portuguese",
-    "flags": [
-      "flag-icon-br"
-    ],
-    "categories": [
-      "react"
-    ],
-    "link": "https://www.udemy.com/react-16/",
-    "level": "Intermediate",
-    "description": "Tudo o que você precisa saber sobre a versão 16 do React",
-    "image": "https://udemy-images.udemy.com/course/240x135/1378412_4da7_2.jpg"
+    "image": "https://udemy-images.udemy.com/course/480x270/849470_788a_2.jpg",
+    "flags": "flag-icon-br"
   },
   {
-    "title": "Node.js Real Time Chat",
-    "author": "The New Boston",
+    "title": "HTML & CSS",
+    "description": "Learn how to create websites by structuring and styling your pages with HTML and CSS.",
+    "link": "https://www.codecademy.com/tracks/web",
+    "author": "Codecademy",
+    "level": "Beginner",
+    "categories": "html,css",
+    "language": "English - Portuguese(Brazil) - Español - Français",
+    "flags": "flag-icon-us flag-icon-br,flag-icon-es,flag-icon-fr"
+  },
+  {
+    "title": "HTML & CSS",
+    "description": "Friendly web development tutorials for complete beginners.",
+    "link": "https://internetingishard.com",
+    "author": "Interneting Is Hard",
+    "level": "Beginner",
+    "categories": "html,css",
     "language": "English",
-    "flags": [
-      "flag-icon-us"
-    ],
-    "categories": [
-      "javascript",
-      "node"
-    ],
-    "link": "https://thenewboston.com/videos.php?cat=86&video=19814",
-    "level": "Beginner - Intermediate",
-    "image": "https://thenewboston.com/images/logo.png",
-    "description": "Beginner to Intermediate developers who want to build Real Time Chat apps based on Node.js"
+    "image": "https://internetingishard.com/img/interneting-is-hard-logo-97b225.svg",
+    "flags": "flag-icon-us"
   },
   {
-    "dayThatWasAdded": "2017-10-20T09:54:55.463Z",
+    "title": "Intro to HTML and CSS",
+    "description": "Learn to think like a front end developer",
+    "link": "https://www.udacity.com/course/intro-to-html-and-css--ud304",
+    "author": "Udacity",
+    "level": "Beginner",
+    "categories": "html,css",
+    "language": "English",
+    "flags": "flag-icon-us"
+  },
+  {
+    "title": "Intro to Javascript",
+    "description": "Learn the fundamentals of Javascript, the most popular programming language in web development",
+    "link": "https://www.udacity.com/course/intro-to-javascript--ud803",
+    "author": "Udacity",
+    "level": "Beginner",
+    "categories": "javascript",
+    "language": "English",
+    "flags": "flag-icon-us"
+  },
+  {
+    "title": "Introduction To JavaScript",
+    "description": "You will learn introductory level object oriented programming using ES6 JavaScript.",
+    "link": "https://www.codecademy.com/learn/introduction-to-javascript",
+    "author": "Codecademy",
+    "level": "Beginner",
+    "categories": "javascript",
+    "language": "English",
+    "flags": "flag-icon-us"
+  },
+  {
     "title": "Java Tutorial for Complete Beginners",
     "description": "Learn to program using the Java programming language",
     "link": "https://www.udemy.com/java-tutorial/",
@@ -441,6 +112,194 @@
     "level": "Beginner",
     "categories": "Java",
     "language": "English",
-    "image": "https://udemy-images.udemy.com/course/240x135/24823_963e_14.jpg"
+    "image": "https://udemy-images.udemy.com/course/240x135/24823_963e_14.jpg",
+    "flags": "flag-icon-us"
+  },
+  {
+    "title": "JavaScript DOM Crash Course",
+    "description": "A crash course focuses on the DOM.",
+    "link": "https://www.youtube.com/watch?v=0ik6X4DJKCc&list=PLillGF-RfqbYE6Ik_EuXA2iZFcE082B3s",
+    "author": "Traversy Media",
+    "level": "Beginner",
+    "categories": "javascript",
+    "language": "English",
+    "image": "https://i.ytimg.com/vi/wK2cBMcDTss/maxresdefault.jpg",
+    "flags": "flag-icon-us"
+  },
+  {
+    "title": "JavaScript30",
+    "description": "Beginner to Intermediate developers and designers who want to become comfortable with both JavaScript fundamentals and working in the DOM without a library.",
+    "link": "https://javascript30.com/",
+    "author": "Wes Bos",
+    "level": "Beginner - Intermediate",
+    "categories": "javascript",
+    "language": "English",
+    "image": "https://s3.amazonaws.com/js30-cdn/sky--purple-kracked.jpg",
+    "flags": "flag-icon-us"
+  },
+  {
+    "title": "Laravel 5 Fundamentals",
+    "description": "A beginner level introduction to the Laravel framework",
+    "link": "https://laracasts.com/series/laravel-5-fundamentals",
+    "author": "Laracasts",
+    "level": "Beginner",
+    "categories": "laravel",
+    "language": "English",
+    "flags": "flag-icon-us"
+  },
+  {
+    "title": "Learn CSS Layout",
+    "description": "This site teaches the CSS fundamentals that are used in any website's layout.",
+    "link": "http://learnlayout.com",
+    "author": "learnlayout.com",
+    "level": "Beginner - Intermediate",
+    "categories": "css",
+    "language": "English",
+    "flags": "flag-icon-us"
+  },
+  {
+    "title": "Learn ES6 (ECMAScript 2015)",
+    "description": "This course takes a look at some of the new features that JavaScript has available with ES6 (ECMAScript 2015). It is a 'montage' from several instructors.",
+    "link": "https://egghead.io/courses/learn-es6-ecmascript-2015",
+    "author": "Egghead.io",
+    "level": "Intermediate",
+    "categories": "javascript,es6",
+    "language": "English",
+    "image": "https://d2eip9sf3oo6c2.cloudfront.net/series/square_covers/000/000/049/full/EGH_LearnES6_Final.png?1496436434",
+    "flags": "flag-icon-us"
+  },
+  {
+    "title": "Learn Python",
+    "description": "This course is a great introduction to both fundamental programming concepts and the Python programming language. By the end, you'll be familiar with Python syntax and you'll be able to put into practice what you'll have learned in a final project you'll develop locally.",
+    "link": "https://www.codecademy.com/learn/learn-python",
+    "author": "Codecademy",
+    "level": "Beginner - Intermediate",
+    "categories": "python",
+    "language": "English",
+    "flags": "flag-icon-us"
+  },
+  {
+    "title": "Learn Redux",
+    "description": "Dig deeper into React while learning Redux and React Router.",
+    "link": "https://learnredux.com/",
+    "author": "Wes Bos",
+    "level": "Beginner - Intermediate",
+    "categories": "react,redux",
+    "language": "English",
+    "flags": "flag-icon-us"
+  },
+  {
+    "title": "Learn Sass",
+    "description": "This course will teach you how to use nesting, variables, mixins, placeholders, and functions to write more expressive and reusable styles. At the end of the course, you will be able to transition a CSS codebase to SCSS and style multiple websites.",
+    "link": "https://www.codecademy.com/learn/learn-sass",
+    "author": "Codecademy",
+    "level": "Beginner",
+    "categories": "css,sass",
+    "language": "English",
+    "flags": "flag-icon-us"
+  },
+  {
+    "title": "Learn Vue 2: Step By Step",
+    "description": "A hands on approach to learning VueJS",
+    "link": "https://laracasts.com/series/learn-vue-2-step-by-step",
+    "author": "Laracasts",
+    "level": "Beginner",
+    "categories": "javascript,vue",
+    "language": "English",
+    "flags": "flag-icon-us"
+  },
+  {
+    "title": "Make a Website",
+    "description": "You'll build four simple websites using web development fundamentals, including HTML5/CSS3 and Bootstrap. You'll learn to understand and modify the structure of basic website, as well as how to change the way a page looks and is laid out.",
+    "link": "https://www.codecademy.com/learn/make-a-website",
+    "author": "Codecademy",
+    "level": "Beginner",
+    "categories": "html,css",
+    "language": "English",
+    "flags": "flag-icon-us"
+  },
+  {
+    "title": "Node JS Tutorial for Beginners",
+    "description": "Yo ninjas, in this Node JS tutorial series for beginners, we'll be walking step by step through what Node JS is, and how it all works. We'll also be creating a Node JS application from scratch using express, and hook it up to MongoDB - a noSQL database perfect for using with Node.",
+    "link": "https://www.youtube.com/playlist?list=PL4cUxeGkcC9gcy9lrvMJ75z9maRw4byYp",
+    "author": "The Net Ninja",
+    "level": "Beginner - Intermediate",
+    "categories": "node,express,mongodb",
+    "language": "English",
+    "image": "https://i.ytimg.com/vi/w-7RQ46RgxU/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLB5gRmx7HePeS9235lqbx2uoJq5bA",
+    "flags": "flag-icon-us"
+  },
+  {
+    "title": "Node.js Real Time Chat",
+    "description": "Beginner to Intermediate developers who want to build Real Time Chat apps based on Node.js",
+    "link": "https://thenewboston.com/videos.php?cat=86&video=19814",
+    "author": "The New Boston",
+    "level": "Beginner - Intermediate",
+    "categories": "javascript,node",
+    "language": "English",
+    "image": "https://thenewboston.com/images/logo.png",
+    "flags": "flag-icon-us"
+  },
+  {
+    "title": "React 16 Definitivo",
+    "description": "Tudo o que você precisa saber sobre a versão 16 do React",
+    "link": "https://www.udemy.com/react-16/",
+    "author": "Diego Martins de Pinho, Code Prestige",
+    "level": "Intermediate",
+    "categories": "react",
+    "language": "Portuguese",
+    "image": "https://udemy-images.udemy.com/course/240x135/1378412_4da7_2.jpg",
+    "flags": "flag-icon-br"
+  },
+  {
+    "title": "React-fundamentals - Start Learning React",
+    "description": "React is a javascript library for building user interfaces from the fine folks at Facebook & Instagram. It strictly focuses on the 'V' in your MVC applications, and touts a blazing fast virtual DOM diff implementation. This series will explore the basic fundamentals of React to get you started.",
+    "link": "https://egghead.io/courses/react-fundamentals",
+    "author": "Egghead.io",
+    "level": "Beginner - Intermediate",
+    "categories": "react",
+    "language": "English",
+    "image": "http://www.fellyph.com.br/blog/wp-content/uploads/2016/06/react-js.png",
+    "flags": "flag-icon-us"
+  },
+  {
+    "title": "Server-side Development with NodeJS, Express and MongoDB",
+    "description": "A complete course based on NodeJS.",
+    "link": "https://www.coursera.org/learn/server-side-nodejs",
+    "author": "The Hong Kong University of Science and Technology",
+    "level": "Beginner - Intermediate",
+    "categories": "html,css,node",
+    "language": "English",
+    "flags": "flag-icon-us"
+  },
+  {
+    "title": "Social Network",
+    "description": "A social network built with Laravel and Bootstrap. Authenticate, add and accept friend requests, post to a timeline, reply to and like friend's statuses.",
+    "link": "https://www.codecourse.com/lessons/social-network",
+    "author": "Alex PHP Academy",
+    "level": "Beginner - Intermediate",
+    "categories": "php,html,laravel",
+    "language": "English",
+    "flags": "flag-icon-us"
+  },
+  {
+    "title": "Tango With Django",
+    "description": "Hands-on guide for begginers to learn Django. Past editions free.",
+    "link": "http://www.tangowithdjango.com",
+    "author": "Leif Azzopardi",
+    "level": "Beginner",
+    "categories": "Python,django",
+    "language": "English",
+    "flags": "flag-icon-us"
+  },
+  {
+    "title": "Vue JS 2.0 - Mastering Web Apps",
+    "description": "Create the VueJS 2.0 apps you always wanted. Build 5 apps, learn development secrets, VueRouter, Vuex, & more!",
+    "link": "https://www.udemy.com/vue-web-apps/?couponCode=GOHACKERS&pmtag=CTBO1202&siteID=MhbOGzq4cI4-kW.oXEWO9ehhdCszMpyOUw&LSNPUBID=MhbOGzq4cI4",
+    "author": "David Katz",
+    "level": "Beginner - Intermediate",
+    "categories": "javascript,vue",
+    "language": "English",
+    "flags": "flag-icon-us"
   }
 ]
