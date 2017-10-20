@@ -20,7 +20,7 @@ class Header extends Component {
 					<i className="bar" />
 				</a >
 				<Link className="logo" to="/"><b>FreeCourses</b></Link>
-				<Link className="contribute-link" to="/contribute">Contribute</Link>
+				<Link className="contribute-link" to="/contribute">Add a Course <FaIcon icon="fa-plus"/></Link>
 				<span className="ellipsi" onClick={() => { document.querySelector('.sub-menu').classList.toggle('active'); }}>
 					<FaIcon icon="fa-ellipsis-v" />
 				</span>
