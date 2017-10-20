@@ -3,7 +3,7 @@ import './index.scss';
 import Contributor from './contributor';
 import FaIcon from './../../components/Icons/fa-icon';
 import ReactCSSTransitionGroup from 'react-transition-group/CSSTransitionGroup';
-import TweetButton from './../../components/TweetButton';
+import { TweetButton, FaceButton } from './../../components/ShareButtons';
 
 class Home extends Component {
   constructor(props) {
@@ -62,7 +62,7 @@ class Home extends Component {
           <span >Made with <FaIcon icon="fa-heart" color="red" /> by <a target="_blank" rel="noopener noreferrer" href="https://github.com/Leocardoso94">@LeoCardoso94</a></span>
           <br />
           <br />
-          <TweetButton text="FreeCourses. A collection of free courses for developers https://freecourses.github.io/" title="Share" />
+          <TweetButton text="FreeCourses. A collection of free courses for developers https://freecourses.github.io/" title="Share" /><FaceButton text="https://freecourses.github.io/" title="Share" />
         </p>
         <h3 style={{ textAlign: 'left', marginTop: '40px' }}>Useful links:</h3>
         <ol style={{ textAlign: 'left' }}>

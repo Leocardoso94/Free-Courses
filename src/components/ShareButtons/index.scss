@@ -1,0 +1,30 @@
+.share-button {
+    border: 1px solid rgba(156, 39, 176, 0.45);
+    padding: 0 10px;
+    border-radius: 20px;
+    transition: all 0.3s ease-in;
+    margin: 10px;
+    display: inline-block;
+    &:hover {
+        background-color: #9c27b0;
+        color: #fff;
+    }
+}
+
+.face {
+    border: 1px solid rgba(59, 89, 152, 0.45);
+    color: #3b5998;
+    &:hover {
+        background-color: #3b5998;
+        color: #fff;
+    }
+}
+
+.twitter {
+    border: 1px solid rgba( 29, 202, 255, 0.45);
+    color: #1dcaff;
+    &:hover {
+        background-color: #1dcaff;
+        color: #fff;
+    }
+}
