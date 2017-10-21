@@ -301,5 +301,15 @@
     "categories": "javascript,vue",
     "language": "English",
     "flags": "flag-icon-us"
+  },
+  {
+    "title": "Vue JS - Hexschool",
+    "description": "The VueJS course for for begginers.",
+    "link": "https://quip.com/N3iKAEDJEVmD",
+    "author": "Hexschool",
+    "level": "Beginner",
+    "categories": "vue",
+    "language": "正體中文",
+    "flags": "flag-icon-tw"
   }
 ]
