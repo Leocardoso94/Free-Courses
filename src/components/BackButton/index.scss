@@ -1,16 +1,14 @@
 .back-button {
     cursor: pointer;
-    float: left;
     display: block;
     margin: 1em;
     padding: 2px 1.5em;
     border: none;
-    color: inherit;
+    color: rgb(111, 26, 126);
     vertical-align: middle;
     z-index: 1;
     font-size: 20px;
     background: #fff;
-    color: #37474f;
     overflow: hidden;
     font-weight: bold;
     transition: color 0.3s;
@@ -24,7 +22,7 @@
         background: #7986cb;
     }
     &::after {
-        background: #2c3e50;
+        background: rgb(111, 26, 126);
     }
     &:before,
     &::after {

@@ -99,3 +99,16 @@ a {
     opacity: 0.01;
     transition: opacity 300ms ease-in;
 }
+
+.button{
+  border: 1px solid rgba(156, 39, 176, 0.45);
+  padding: 0 10px;
+  border-radius: 20px;
+  transition: all 0.3s ease-in;
+  display: inline-block;
+  color: #9C27B0;
+  &:hover {
+      background-color: #9c27b0;
+      color: #fff;
+  }
+}

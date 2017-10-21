@@ -5,7 +5,7 @@ import './index.scss';
 
 const TweetButton = ({ text, title }) => {
   return (
-    <a className="share-button twitter" rel="noopener noreferrer" target="_blank"
+    <a className="button twitter" rel="noopener noreferrer" target="_blank"
       href={"https://twitter.com/intent/tweet?text=" + text}><FaIcon icon="fa-twitter" />  {title}
     </a>
   );
@@ -18,7 +18,7 @@ TweetButton.propTypes = {
 
 const FaceButton = ({ text, title }) => {
   return (
-    <a className="share-button face" rel="noopener noreferrer" target="_blank"
+    <a className="button face" rel="noopener noreferrer" target="_blank"
       href={"https://www.facebook.com/sharer/sharer.php?u=" + text}><FaIcon icon="fa-facebook" />  {title}
     </a>
   );
