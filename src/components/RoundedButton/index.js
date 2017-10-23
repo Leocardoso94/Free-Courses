@@ -3,16 +3,13 @@ import PropTypes from 'prop-types';
 
 import './index.scss';
 
-const RoundedButton = ({ color, backgroundColor, text, link, borderColor }) => (
-	<a href={link} target="_blank" className="rounded-button" style={{ backgroundColor, color, borderColor }}>{text}</a >
+const RoundedButton = ({ text, link }) => (
+  <a href={link} target="_blank" className="rounded-button button">{text}</a >
 );
 
 RoundedButton.propTypes = {
-	color: PropTypes.string,
-	backgroundColor: PropTypes.string,
-	text: PropTypes.string.isRequired,
-	link: PropTypes.string,
-	borderColor: PropTypes.string
+  text: PropTypes.string.isRequired,
+  link: PropTypes.string
 };
 
 export default RoundedButton;

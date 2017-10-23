@@ -25,18 +25,24 @@ class Category extends Component {
 	}
 
 	render() {
-		const categoryName = this.props.match.params.category.toLowerCase();
+		const categoryName = this.props.match.params.category.trim();
 		let coursesInCategory = [];
 		let category = {};
 
-		if (categoryName !== 'all') {
-			category = this.props.categories.find((ctg) => ctg.title.toLowerCase() === categoryName);
+		if (categoryName === 'all') {
+			coursesInCategory = this.props.courses;
+			category = { title: "All Courses", icon: "devicons devicons-code_badge" };
+		} else {
+			if (this.props.categories.some(ctg => ctg.title.toLowerCase() === categoryName.toLowerCase())) {
+				category = this.props.categories.find((ctg) => ctg.title.toLowerCase() === categoryName.toLowerCase());
+			}
+			else {
+				category = { title: categoryName, icon: "devicons devicons-code_badge" };
+			}
+
 			coursesInCategory = this.props.courses.filter(course => {
 				return course.categories.some(categoryOfCourse => categoryOfCourse.toLowerCase() === category.title.toLowerCase());
 			});
-		} else {
-			coursesInCategory = this.props.courses;
-			category = { title: "All Courses", icon: "devicons devicons-code_badge" };
 		}
 
 		return (
@@ -50,7 +56,7 @@ class Category extends Component {
 				component="div"
 				className="category" >
 				<BackButton />
-				<h1 className="title"><DevIcon icon={category.icon} /> {category.title}</h1>
+				<h1 className="title"> <DevIcon icon={category.icon} /> {category.title}</h1>
 				{coursesInCategory.length === 0 ? this.renderContribute(category) : < CourseList coursesInCategory={coursesInCategory} />}
 				<div className="footer" >
 					<p>

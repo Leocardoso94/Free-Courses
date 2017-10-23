@@ -9,4 +9,28 @@
         border-radius: 5px;
         font-size: 12px;
     }
+    h4 {
+        text-align: center;
+        font-size: 20px;
+    }
+    .contributors {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        li {
+            list-style-type: none;
+        }
+        .contributor {
+            margin: 20px;
+            text-align: center;
+            &__link {
+                display: block;
+                color: #d0021b;
+            }
+        }
+        .avatar {
+            width: 100px;
+            border-radius: 50%;
+        }
+    }
 }

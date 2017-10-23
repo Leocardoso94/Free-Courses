@@ -16,6 +16,7 @@
   ],
   "dependencies": {
     "font-awesome": "^4.7.0",
-    "devicon": "*"
+    "devicon": "*",
+    "flag-icon-css": "^2.8.0"
   }
 }

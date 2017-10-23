@@ -5,7 +5,7 @@ import PropTypes from 'prop-types';
 
 const BackButton = ({ text }) => {
 	return (
-		<button className="back-button" onClick={() => window.history.back()}> <FaIcon icon="fa-arrow-left" />{text}</button>
+		<a className="back-button" onClick={() => window.history.back()}> <FaIcon icon="fa-arrow-left" />{text}</a>
 	);
 };
 
