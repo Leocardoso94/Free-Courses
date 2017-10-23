@@ -311,5 +311,17 @@
     "categories": "vue",
     "language": "正體中文",
     "flags": "flag-icon-tw"
-  }
+  },
+    {
+        "dayThatWasAdded": "2017-10-23T12:40:32.545Z",
+        "title": "Swift 3 and Xcode 8",
+        "description": "App Development for IOS, Spring 2017",
+        "link": "https://www.youtube.com/watch?v=ilQ-tq772VI&list=PLPA-ayBrweUz32NSgNZdl0_QISw-f12Ai",
+        "author": "Paul Hegarty - Stanford",
+        "level": "Beginner, Intermediate",
+        "categories": "Swift",
+        "language": "English",
+        "githubuser": "KaiqueMunhoz",
+        "flags": "flag-icon-us"
+    }
 ]
