@@ -1,4 +1,4 @@
-﻿[
+[
   {
     "title": "Django Girls Tutorial",
     "description": "From the basics of python and django to your application deployed on web!",
@@ -312,16 +312,29 @@
     "language": "正體中文",
     "flags": "flag-icon-tw"
   },
-    {
-        "dayThatWasAdded": "2017-10-23T12:40:32.545Z",
-        "title": "Swift 3 and Xcode 8",
-        "description": "App Development for IOS, Spring 2017",
-        "link": "https://www.youtube.com/watch?v=ilQ-tq772VI&list=PLPA-ayBrweUz32NSgNZdl0_QISw-f12Ai",
-        "author": "Paul Hegarty - Stanford",
-        "level": "Beginner, Intermediate",
-        "categories": "Swift",
-        "language": "English",
-        "githubuser": "KaiqueMunhoz",
-        "flags": "flag-icon-us"
-    }
+  {
+    "dayThatWasAdded": "2017-10-23T12:40:32.545Z",
+    "title": "Swift 3 and Xcode 8",
+    "description": "App Development for IOS, Spring 2017",
+    "link": "https://www.youtube.com/watch?v=ilQ-tq772VI&list=PLPA-ayBrweUz32NSgNZdl0_QISw-f12Ai",
+    "author": "Paul Hegarty - Stanford",
+    "level": "Beginner, Intermediate",
+    "categories": "Swift",
+    "language": "English",
+    "githubuser": "KaiqueMunhoz",
+    "flags": "flag-icon-us"
+  },
+  {
+    "title": "React JS and Redux - Mastering Web Apps",
+    "author": "David Katz",
+    "language": "English",
+    "categories": [
+      "javascript",
+      "react",
+      "redux"
+    ],
+    "link": "https://www.udemy.com/react-js-and-redux-mastering-web-apps/?couponCode=GOHACKERS2",
+    "level": "Beginner - Intermediate",
+    "description": "Create the React JS & Redux apps you always wanted. Build 4 projects, discover development tricks, and master React!"
+  }
 ]
