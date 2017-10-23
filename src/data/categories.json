@@ -78,5 +78,9 @@
   {
     "title": "Webpack",
     "icon": "devicon-webpack-plain  colored"
+  },
+  {
+    "title": "Swift",
+    "icon": "devicon-swift-plain"
   }
 ]
