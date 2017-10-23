@@ -303,5 +303,18 @@
         "link": "https://www.udemy.com/vue-web-apps/?couponCode=GOHACKERS&pmtag=CTBO1202&siteID=MhbOGzq4cI4-kW.oXEWO9ehhdCszMpyOUw&LSNPUBID=MhbOGzq4cI4",
         "level": "Beginner - Intermediate",
         "description": "Create the VueJS 2.0 apps you always wanted. Build 5 apps, learn development secrets, VueRouter, Vuex, & more!"
+    }, 
+    {
+        "title": "React JS and Redux - Mastering Web Apps",
+        "author": "David Katz",
+        "language": "English",
+        "categories": [
+            "javascript",
+            "react",
+            "redux"
+        ],
+        "link": "https://www.udemy.com/react-js-and-redux-mastering-web-apps/?couponCode=GOHACKERS2",
+        "level": "Beginner - Intermediate",
+        "description": "Create the React JS & Redux apps you always wanted. Build 4 projects, discover development tricks, and master React!"
     }
 ]
