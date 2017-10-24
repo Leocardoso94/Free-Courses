@@ -71,6 +71,7 @@ module.exports = {
         staticFileGlobsIgnorePatterns: [/\.map$/, /manifest\.json$/]
       }),
     new WebpackPwaManifest({
+      filename: "manifest.json",
       name: 'FreeCourses',
       short_name: 'FreeCourses',
       description: 'This is a list of free courses about programming.',
