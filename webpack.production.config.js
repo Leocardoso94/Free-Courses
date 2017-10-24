@@ -75,9 +75,9 @@ module.exports = {
       name: 'FreeCourses',
       short_name: 'FreeCourses',
       description: 'This is a list of free courses about programming.',
-      background_color: '#01579b',
-      theme_color: '#01579b',
-      'theme-color': '#01579b',
+      background_color: '#ffffff',
+      theme_color: '#ffffff',
+      'theme-color': '#ffffff',
       start_url: '/',
       publicPath: PUBLIC_PATH,
       ios: {
