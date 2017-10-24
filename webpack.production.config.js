@@ -9,18 +9,18 @@ const WebpackPwaManifest = require('webpack-pwa-manifest');
 const PUBLIC_PATH = 'https://freecourses.github.io/';
 const ServiceWorkerWebpackPlugin = require('serviceworker-webpack-plugin');
 
-  loaders.push({
-    test: /\.scss$/,
-    loader: ExtractTextPlugin.extract({ fallback: 'style-loader', use: 'css-loader?sourceMap&localIdentName=[local]___[hash:base64:5]!sass-loader?outputStyle=expanded' }),
-    exclude: ['node_modules']
-  });
+loaders.push({
+  test: /\.scss$/,
+  loader: ExtractTextPlugin.extract({ fallback: 'style-loader', use: 'css-loader?sourceMap&localIdentName=[local]___[hash:base64:5]!sass-loader?outputStyle=expanded' }),
+  exclude: ['node_modules']
+});
 
 module.exports = {
   entry: [
     './src/index.js'
   ],
   output: {
-    publicPath: PUBLIC_PATH,
+    publicPath: './',
     path: path.join(__dirname, 'public'),
     filename: 'bundle.js'
   },
@@ -78,11 +78,33 @@ module.exports = {
       theme_color: '#01579b',
       'theme-color': '#01579b',
       start_url: '/',
+      publicPath: PUBLIC_PATH,
+      ios: {
+        'apple-mobile-web-app-title': 'FreeCourses',
+        'apple-mobile-web-app-status-bar-style': 'black'
+      },
       icons: [
         {
           src: path.resolve('src/img/book.png'),
           sizes: [96, 128, 192, 256, 384, 512],
           destination: path.join('assets', 'icons')
+        },
+        {
+          src: path.resolve('src/img/book.png'),
+          sizes: [120, 152, 167, 180, 1024],
+          destination: path.join('icons', 'ios'),
+          ios: true
+        },
+        {
+          src: path.resolve('src/img/book.png'),
+          size: 1024,
+          destination: path.join('icons', 'ios'),
+          ios: 'startup'
+        },
+        {
+          src: path.resolve('src/img/book.png'),
+          sizes: [36, 48, 72, 96, 144, 192, 512],
+          destination: path.join('icons', 'android')
         }
       ]
     })
