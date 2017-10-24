@@ -1,3 +1,11 @@
+(function () {
+  if ('serviceWorker' in navigator) {
+ navigator.serviceWorker.register('./service-worker.js', {scope: '/'})
+ .then(() => console.log('Service Worker registered successfully.'))
+ .catch(error => console.log('Service Worker registration failed:', error));
+ }
+ })();
+
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { Provider } from 'react-redux';
@@ -21,3 +29,5 @@ ReactDOM.render(
 		<Container />
 	</Provider>
 	, document.getElementById('app'));
+
+
