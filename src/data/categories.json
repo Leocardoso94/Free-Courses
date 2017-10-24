@@ -82,5 +82,9 @@
   {
     "title": "Swift",
     "icon": "devicon-swift-plain"
+  },
+  {
+    "title": "Rails",
+    "icon": "devicon-rails-plain colored"
   }
 ]
