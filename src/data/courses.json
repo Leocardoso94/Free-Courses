@@ -336,5 +336,17 @@
     "link": "https://www.udemy.com/react-js-and-redux-mastering-web-apps/?couponCode=GOHACKERS2",
     "level": "Beginner - Intermediate",
     "description": "Create the React JS & Redux apps you always wanted. Build 4 projects, discover development tricks, and master React!"
-  }
+  },
+  {
+        "dayThatWasAdded": "2017-10-24T19:43:49.797Z",
+        "title": "Ruby on Rails para iniciantes",
+        "description": "Playlist do Curso de Ruby on Rails para Iniciantes",
+        "link": "https://www.youtube.com/playlist?list=PLe3LRfCs4go-mkvHRMSXEOG-HDbzesyaP",
+        "author": "Jackson Pires",
+        "level": "Beginner",
+        "categories": "Rails",
+        "language": "Portuguese",
+        "githubuser": "KaiqueMunhoz",
+        "flags": "flag-icon-br"
+    }
 ]
