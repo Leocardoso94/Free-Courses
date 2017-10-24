@@ -7,6 +7,7 @@ var ExtractTextPlugin = require('extract-text-webpack-plugin');
 const SWPrecacheWebpackPlugin = require('sw-precache-webpack-plugin');
 const WebpackPwaManifest = require('webpack-pwa-manifest');
 const PUBLIC_PATH = 'https://freecourses.github.io/';
+const ServiceWorkerWebpackPlugin = require('serviceworker-webpack-plugin');
 
   loaders.push({
     test: /\.scss$/,
@@ -57,11 +58,14 @@ module.exports = {
         js: ['bundle.js'],
       }
     }),
+    new ServiceWorkerWebpackPlugin({
+      entry: path.join(__dirname, 'src/sw.js'),
+    }),
     new SWPrecacheWebpackPlugin(
       {
         cacheId: 'my-domain-cache-id',
         dontCacheBustUrlsMatching: /\.\w{8}\./,
-        filename: 'service-worker.js',
+        filename: 'sw.js',
         minify: true,
         navigateFallback: PUBLIC_PATH + 'index.html',
         staticFileGlobsIgnorePatterns: [/\.map$/, /manifest\.json$/]
