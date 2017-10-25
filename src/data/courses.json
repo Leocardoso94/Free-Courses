@@ -348,5 +348,15 @@
         "language": "Portuguese",
         "githubuser": "KaiqueMunhoz",
         "flags": "flag-icon-br"
+    },
+    {
+      "title": "Try jQuery",
+      "description": "Learn the basic building blocks of jQuery.",
+      "link": "https://www.codeschool.com/courses/try-jquery",
+      "author": "Gregg Pollack",
+      "level": "Beginner - Intermediate",
+      "categories": "jQuery",
+      "language": "English",
+      "flags": "flag-icon-us"
     }
 ]
