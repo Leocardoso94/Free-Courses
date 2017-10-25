@@ -1,11 +1,4 @@
-(function () {
-  if ('serviceWorker' in navigator) {
- navigator.serviceWorker.register('./sw.js', {scope: '/'})
- .then(() => console.log('Service Worker registered successfully.'))
- .catch(error => console.log('Service Worker registration failed:', error));
- }
- })();
-
+import register from './registerServiceWorker';
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { Provider } from 'react-redux';
@@ -15,19 +8,21 @@ import { createStore, applyMiddleware } from 'redux';
 import './index.scss';
 // libs
 import './../bower_components/font-awesome/css/font-awesome.min.css';
-import  './../bower_components/flag-icon-css/css/flag-icon.min.css';
+import './../bower_components/flag-icon-css/css/flag-icon.min.css';
 
 // Containers
 import Container from './containers/container';
 import reducers from './reducers';
 
+register();
+
 const createStoreWithMiddleware = applyMiddleware()(createStore);
 
 
 ReactDOM.render(
-	<Provider store={createStoreWithMiddleware(reducers)}>
-		<Container />
-	</Provider>
-	, document.getElementById('app'));
+  <Provider store={createStoreWithMiddleware(reducers)}>
+    <Container />
+  </Provider>
+  , document.getElementById('app'));
 
 
