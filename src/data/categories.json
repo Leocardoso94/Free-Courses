@@ -86,9 +86,13 @@
   {
     "title": "Rails",
     "icon": "devicon-rails-plain colored"
-  }
+  },
   {
     "title": "Less",
     "icon": "devicon-less-plain-wordmark colored"
   },
+  {
+    "title": "jQuery",
+    "icon": "devicon-jquery-plain colored"
+  }
 ]
