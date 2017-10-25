@@ -1,6 +1,7 @@
 import courses from './../data/courses.json';
-courses.forEach((course, index) => {
-  course.id = index;
+import snakeCase from 'lodash.snakecase';
+courses.forEach((course) => {
+  course.id = snakeCase(course.title + course.author);
   if (typeof course.categories === 'string')
     course.categories = course.categories.split(',');
   if (typeof course.flags === 'string')

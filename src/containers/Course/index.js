@@ -13,7 +13,7 @@ class Course extends Component {
 		return !course.image || course.image === '' ? defaultImage : course.image;
 	}
 	render() {
-		const id = parseInt(this.props.match.params.id);
+		const id = this.props.match.params.id;
 
 		const course = this.props.courses.find((crs) => crs.id === id);
 

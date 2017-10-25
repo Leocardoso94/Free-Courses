@@ -20,6 +20,7 @@
   "license": "MIT",
   "homepage": "https://freecourses.github.io/",
   "dependencies": {
+    "lodash.snakecase": "^4.1.1",
     "node-sass": "^4.3.0",
     "prop-types": "^15.6.0",
     "react": "16.0.0",
