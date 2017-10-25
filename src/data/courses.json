@@ -348,5 +348,15 @@
         "language": "Portuguese",
         "githubuser": "KaiqueMunhoz",
         "flags": "flag-icon-br"
+    },
+    {
+      "title": "Shaping Up With AngularJS",
+      "description": "Learn to add behavior to your HTML and speed up your application’s responsiveness..",
+      "link": "https://www.codeschool.com/courses/shaping-up-with-angularjs",
+      "author": "Gregg Pollack",
+      "level": "Beginner - Intermediate",
+      "categories": "AngularJS",
+      "language": "English",
+      "flags": "flag-icon-us"
     }
 ]
