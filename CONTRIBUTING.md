@@ -11,8 +11,7 @@ Please note we have a code of conduct, please follow it in all your interactions
 
 ## Submit this form to add a New Course https://goo.gl/forms/RxP02pQtnPCbapQ43
 
-### Or you can add a course add a object to the .json file
-
+### Or you can add a object to the .json file
 
 To add a new course:
 
@@ -48,7 +47,7 @@ To add a new course:
 
 Flag icons can be found here: https://github.com/lipis/flag-icon-css  http://flag-icon-css.lip.is/
 
-## To add a new Category
+## To add a new Category:
 
 1. Fork this project
 2. Go to the folder /src/data
