@@ -338,25 +338,36 @@
     "description": "Create the React JS & Redux apps you always wanted. Build 4 projects, discover development tricks, and master React!"
   },
   {
-        "dayThatWasAdded": "2017-10-24T19:43:49.797Z",
-        "title": "Ruby on Rails para iniciantes",
-        "description": "Playlist do Curso de Ruby on Rails para Iniciantes",
-        "link": "https://www.youtube.com/playlist?list=PLe3LRfCs4go-mkvHRMSXEOG-HDbzesyaP",
-        "author": "Jackson Pires",
-        "level": "Beginner",
-        "categories": "Rails",
-        "language": "Portuguese",
-        "githubuser": "KaiqueMunhoz",
-        "flags": "flag-icon-br"
-    },
-    {
-      "title": "Try Docker",
-      "description": "Dive into the basics of Docker and take control of your development environment with containers.",
-      "link": "https://www.codeschool.com/courses/try-docker",
-      "author": "Jon Friskics",
-      "level": "Beginner - Intermediate",
-      "categories": "Docker",
-      "language": "English",
-      "flags": "flag-icon-us"
-    }
+    "dayThatWasAdded": "2017-10-24T19:43:49.797Z",
+    "title": "Ruby on Rails para iniciantes",
+    "description": "Playlist do Curso de Ruby on Rails para Iniciantes",
+    "link": "https://www.youtube.com/playlist?list=PLe3LRfCs4go-mkvHRMSXEOG-HDbzesyaP",
+    "author": "Jackson Pires",
+    "level": "Beginner",
+    "categories": "Rails",
+    "language": "Portuguese",
+    "githubuser": "KaiqueMunhoz",
+    "flags": "flag-icon-br"
+  },
+  {
+    "title": "Try Docker",
+    "description": "Dive into the basics of Docker and take control of your development environment with containers.",
+    "link": "https://www.codeschool.com/courses/try-docker",
+    "author": "Jon Friskics",
+    "level": "Beginner - Intermediate",
+    "categories": "Docker",
+    "language": "English",
+    "flags": "flag-icon-us"
+  },
+  {
+    "title": "Swift - The Ultimate Guide To Mac and iOS Development",
+    "description": "Learn how to use Swift, a language that is created by the world's largest company 'Apple'.",
+    "link": "https://www.udemy.com/swift-ios-mac/?couponCode=SWIFT_FREE&siteID=UeOSfRUOS3E-gGVwlTaKcegJYuXJhwOQjQ&LSNPUBID=UeOSfRUOS3E",
+    "author": "Frahaan Hussain",
+    "level": "Beginner - Intermediate",
+    "categories": "Swift",
+    "language": "English",
+    "flags": "flag-icon-us",
+    "image": "https://udemy-images.udemy.com/course/240x135/1368248_af89.jpg"
+  }
 ]
