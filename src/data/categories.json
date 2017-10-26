@@ -86,5 +86,9 @@
   {
     "title": "Rails",
     "icon": "devicon-rails-plain colored"
+  },
+    {
+    "title": "Docker",
+    "icon": "devicon-docker-plain colored"
   }
 ]
