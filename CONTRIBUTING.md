@@ -11,7 +11,43 @@ Please note we have a code of conduct, please follow it in all your interactions
 
 ## Submit this form to add a New Course https://goo.gl/forms/RxP02pQtnPCbapQ43
 
-## To add a new Category
+### Or you can add a object to the .json file
+
+To add a new course:
+
+
+1. Fork this project
+2. Go to the folder /src/data
+3. Open the couses.json
+4. Add a new object, example:
+```
+   {
+        "title": "title of course",
+        "author": "Author of course",
+        "language": "language of course",
+        "flags": "flag of the language" // this is optional        ,
+        "categories": "category 1,  category 2",        
+        "link": "https://linkOfCouse.com/",
+        "level": "the level of course",
+        "description": "a short description of course",
+        "image:" "https://linkToimage.com/image.png" // this is optional
+    },
+    {
+        "title": "JavaScript30",
+        "author": "Wes Bos",
+        "language": "English",
+        "flags": "flag-icon-us",
+        "categories": "javascript",
+        "link": "https://javascript30.com/",
+        "level": "Beginner - Intermediate",
+        "image": "",
+        "description": "Beginner to Intermediate developers and designers who want to become comfortable with both JavaScript fundamentals and working in the DOM without a library."
+    }
+```
+
+Flag icons can be found here: https://github.com/lipis/flag-icon-css  http://flag-icon-css.lip.is/
+
+## To add a new Category:
 
 1. Fork this project
 2. Go to the folder /src/data

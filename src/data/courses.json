@@ -348,5 +348,15 @@
         "language": "Portuguese",
         "githubuser": "KaiqueMunhoz",
         "flags": "flag-icon-br"
+    },
+    {
+      "title": "Try Docker",
+      "description": "Dive into the basics of Docker and take control of your development environment with containers.",
+      "link": "https://www.codeschool.com/courses/try-docker",
+      "author": "Jon Friskics",
+      "level": "Beginner - Intermediate",
+      "categories": "Docker",
+      "language": "English",
+      "flags": "flag-icon-us"
     }
 ]
