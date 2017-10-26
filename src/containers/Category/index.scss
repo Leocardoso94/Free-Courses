@@ -3,17 +3,13 @@
         text-align: center;
     }
     ul {
-        display: flex;
-        flex-wrap: wrap;
-        padding: 0;
-        margin: 0;
         width: 100%;
-        justify-content: space-around;
         list-style: none;
         .course {
             background: #fff;
             position: relative;
             flex-basis: 20%;
+            max-width: 200px;
             min-width: 170px;
             box-shadow: 0 0 1px 1px hsla(0, 0%, 7%, .1), 0 3px 1px 0 hsla(0, 0%, 7%, .1);
             border-radius: 15px;
@@ -55,13 +51,12 @@
         font-size: 12px;
         line-height: 16px;
     }
-    .flags{
+    .flags {
         padding-bottom: 40px;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-
-        .flag-icon{
+        .flag-icon {
             margin: 10px;
         }
     }

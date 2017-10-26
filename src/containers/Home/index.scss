@@ -1,5 +1,8 @@
 .home {
     text-align: center;
+    .title {
+        padding-top: 0;
+    }
     .stars {
         display: inline-block;
         background-color: #eee;
