@@ -15,9 +15,10 @@
             border-radius: 15px;
             margin-bottom: 20px;
             margin-right: 20px;
-            transition: all 0.5s ease-in-out;
+            transition: all 0.5s ease;
             &:hover {
-                box-shadow: 0px 0px 40px hsla(0, 0%, 0%, 0.302)
+                box-shadow: 0px 0px 40px hsla(0, 0%, 0%, 0.302);
+                transform: scale(1.05);
             }
             .title {
                 color: #000;

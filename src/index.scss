@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Catamaran:400,700|Montserrat:400,700');
+@import url('https://fonts.googleapis.com/css?family=Catamaran:400,700|Sniglet:400,700');
 * {
     font-family: 'Catamaran', sans-serif;
 }
@@ -8,7 +8,7 @@ h2,
 h3,
 h4,
 b {
-    font-family: 'Montserrat', serif;
+    font-family: 'Sniglet', serif;
 }
 
 body {
@@ -100,15 +100,15 @@ a {
     transition: opacity 300ms ease-in;
 }
 
-.button{
-  border: 1px solid rgba(156, 39, 176, 0.45);
-  padding: 0 10px;
-  border-radius: 20px;
-  transition: all 0.3s ease-in;
-  display: inline-block;
-  color: #9C27B0;
-  &:hover {
-      background-color: #9c27b0;
-      color: #fff;
-  }
+.button {
+    border: 1px solid rgba(156, 39, 176, 0.45);
+    padding: 0 10px;
+    border-radius: 20px;
+    transition: all 0.3s ease-in;
+    display: inline-block;
+    color: #9C27B0;
+    &:hover {
+        background-color: #9c27b0;
+        color: #fff;
+    }
 }
