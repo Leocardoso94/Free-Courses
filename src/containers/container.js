@@ -13,14 +13,9 @@ import Contribute from './Contribute';
 
 import categories from './../data/categories.json';
 
-
-
 ReactGA.initialize('UA-108689470-1');
-
-
 const history = createHistory();
 history.listen((location) => {
-
   ReactGA.set({ page: location.pathname + location.hash });
   ReactGA.pageview(location.pathname + location.hash);
 });
