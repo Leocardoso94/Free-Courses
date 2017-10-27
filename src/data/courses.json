@@ -369,5 +369,25 @@
     "language": "English",
     "flags": "flag-icon-us",
     "image": "https://udemy-images.udemy.com/course/240x135/1368248_af89.jpg"
+  },
+  {
+    "title": "Learn Webpack 2 from scratch",
+    "description": "Learn how to build web applications using Javascript's most popular build tool... Webpack 2",
+    "link": "https://www.udemy.com/learn-webpack-2-from-scratch/",
+    "author": "Robert Guss",
+    "level": "Beginner - Intermediate",
+    "categories": "Webpack",
+    "language": "English",
+    "flags": "flag-icon-us"
+  },
+  {
+    "title": "Curso Angular 4",
+    "description": "Playlist do Curso de Angular 4/2",
+    "link": "https://www.youtube.com/watch?v=tPOMG0D57S0&list=PLGxZ4Rq3BOBoSRcKWEdQACbUCNWLczg2G",
+    "author": "Loiane Groner",
+    "level": "Beginner - Intermediate",
+    "categories": "Angular",
+    "language": "Portuguese",
+    "flags": "flag-icon-br"
   }
 ]
