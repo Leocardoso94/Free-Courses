@@ -1,6 +1,7 @@
 .face {
     border: 1px solid rgba(59, 89, 152, 0.45);
     color: #3b5998;
+    padding: 5px 10px;
     &:hover {
         background-color: #3b5998;
         color: #fff;
@@ -12,6 +13,7 @@
     color: #1dcaff;
     display: inline-block;
     margin: 10px;
+    padding: 5px 10px;
     &:hover {
         background-color: #1dcaff;
         color: #fff;
