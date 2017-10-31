@@ -397,7 +397,7 @@
     "link": "https://www.youtube.com/watch?v=khT9AyUuLOs&list=PLwXQLZ3FdTVGJxKF3ShplF8nMuuxldlEk",
     "author": "Node Studio Treinamentos",
     "level": "Beginner",
-    "categories": "Materialize",
+    "categories": "Materialize,CSS",
     "language": "Portuguese - Brazil",
     "githubuser": "KaiqueMunhoz",
     "flags": "flag-icon-br"
@@ -409,7 +409,7 @@
     "link": "https://www.youtube.com/watch?v=D9OpSGViDgA&list=PL3C05B7A66AC502CF",
     "author": "Loiane Groner",
     "level": "Beginner",
-    "categories": "Sass",
+    "categories": "Sass,CSS",
     "language": "Portuguese - Brazil",
     "githubuser": "KaiqueMunhoz",
     "flags": "flag-icon-br"
