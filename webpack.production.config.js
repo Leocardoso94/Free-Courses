@@ -63,7 +63,7 @@ module.exports = {
     }),
     new SWPrecacheWebpackPlugin(
       {
-        cacheId: 'my-domain-cache-id',
+        cacheId: 'freecourses-cache-id',
         dontCacheBustUrlsMatching: /\.\w{8}\./,
         filename: 'sw.js',
         minify: true,

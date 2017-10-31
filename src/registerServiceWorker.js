@@ -25,6 +25,7 @@ function registerValidSW(swUrl) {
     .register(swUrl)
     .then(registration => {
       registration.update();
+      console.log("SW updated");
     })
     .catch(error => {
       console.error('Error during service worker registration:', error);
