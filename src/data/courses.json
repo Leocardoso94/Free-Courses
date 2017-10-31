@@ -389,5 +389,29 @@
     "categories": "Angular",
     "language": "Portuguese",
     "flags": "flag-icon-br"
+  },
+  {
+    "dayThatWasAdded": "2017-10-31T16:37:42.525Z",
+    "title": "Curso de Materialize CSS",
+    "description": "O curso consiste na criação de sites responsivos usando as principais ferramentas do framework Materialize CSS. Abordamos desde o básico ao avançado, ou seja, a configuração do ambiente e a instalação do framework até a criação de um site responsivo e agradável de forma correta.",
+    "link": "https://www.youtube.com/watch?v=khT9AyUuLOs&list=PLwXQLZ3FdTVGJxKF3ShplF8nMuuxldlEk",
+    "author": "Node Studio Treinamentos",
+    "level": "Beginner",
+    "categories": "Materialize",
+    "language": "Portuguese - Brazil",
+    "githubuser": "KaiqueMunhoz",
+    "flags": "flag-icon-br"
+  },
+  {
+    "dayThatWasAdded": "2017-10-31T16:47:44.590Z",
+    "title": "Curso CSS3 com Sass e Compass",
+    "description": "Overview sobre essa nova maneira de escrever CSS que é o Sass e também um overview rápido sobre o framework de CSS3 Compass. Como essa aula é apenas um overview, não entrei em detalhes, vamos aprender todos os detalhes no decorrer do curso.",
+    "link": "https://www.youtube.com/watch?v=D9OpSGViDgA&list=PL3C05B7A66AC502CF",
+    "author": "Loiane Groner",
+    "level": "Beginner",
+    "categories": "Sass",
+    "language": "Portuguese - Brazil",
+    "githubuser": "KaiqueMunhoz",
+    "flags": "flag-icon-br"
   }
 ]
