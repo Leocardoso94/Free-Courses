@@ -94,5 +94,10 @@
   {
     "title": "JQuery",
     "icon": "devicon-jquery-plain-wordmark colored"
+  },
+  {
+    "title": "Materialize",
+    "icon": "devicons devicons-materializecss",
+    "iconColor": "#ee6e73"
   }
 ]
