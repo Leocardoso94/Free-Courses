@@ -25,7 +25,10 @@ function registerValidSW(swUrl) {
     .register(swUrl)
     .then(registration => {
       registration.update();
-      console.log("SW updated");
+      setInterval(() => {
+        registration.update();
+        console.log("Update");
+      }, 1000);
     })
     .catch(error => {
       console.error('Error during service worker registration:', error);
