@@ -424,5 +424,16 @@
     "language": "English",
     "image": "https://assets.datacamp.com/production/course_735/shields/original/shield_image_course_735_20171006-213-1p9i00n?1507253517",
     "flags": "flag-icon-us"
+  },
+  {
+    "title": "Try Git",
+    "description": "Learn how to use Git by reviewing the basic concepts of Git version control. Try out this introductory course that was created with GitHub.",
+    "link": "https://www.codeschool.com/courses/try-git",
+    "author": "Gregg Pollack, Olivier Lacan",
+    "level": "Beginner",
+    "categories": "git",
+    "language": "English",
+    "image": "https://d1ffx7ull4987f.cloudfront.net/images/achievements/large_badge/621/level-1-on-try-git-b54d1cd9fa940e4a3c1925056d38eca2.png",
+    "flags": "flag-icon-us"
   }
 ]
