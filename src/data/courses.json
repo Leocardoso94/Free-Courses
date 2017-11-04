@@ -435,5 +435,16 @@
     "language": "English",
     "image": "https://d1ffx7ull4987f.cloudfront.net/images/achievements/large_badge/621/level-1-on-try-git-b54d1cd9fa940e4a3c1925056d38eca2.png",
     "flags": "flag-icon-us"
+  },
+  {
+    "title": "MongoDB University",
+    "description": "Learn all MongoDB courses here and much more like how to integrate MongoDB with different technologies.",
+    "link": "https://university.mongodb.com",
+    "author": "MongoDB University",
+    "level": "Beginner, Intermediate, Advanced",
+    "categories": "mongodb,node",
+    "language": "English",
+    "image": "https://university.mongodb.com/static/images/svg/university-logo.svg",
+    "flags": "flag-icon-us"
   }
 ]
