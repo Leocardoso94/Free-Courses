@@ -457,5 +457,16 @@
     "language": "English",
     "image": "http://railscasts.com/assets/railscasts_logo-7101a7cd0a48292a0c07276981855edb.png",
     "flags": "flag-icon-us"
+  },
+  {
+    "dayThatWasAdded": "2017-11-06T12:55:52.018Z",
+    "title": "Learn CSS Layout",
+    "description": "This site teaches the CSS fundamentals that are used in any website's layout.\n\nI assume you already know what selectors, properties, and values are. And you probably know a thing or two about layout, though it may still be a rage-provoking activity for you. If you want to learn HTML and CSS from the beginning, you should check out this tutorial. Otherwise, let's see if we can save you some fury on your next project.",
+    "link": "http://learnlayout.com/",
+    "author": "Greg Smith",
+    "level": "Intermediate",
+    "categories": "CSS",
+    "language": "English, Portuguese - Brazil, Spanish, Italian, French, Others",
+    "image": "http://learnlayout.com/images/logo.png"
   }
 ]
