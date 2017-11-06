@@ -1,13 +1,27 @@
-var webpack = require('webpack');
-var path = require('path');
-var loaders = require('./webpack.loaders');
-var HtmlWebpackPlugin = require('html-webpack-plugin');
-var WebpackCleanupPlugin = require('webpack-cleanup-plugin');
-var ExtractTextPlugin = require('extract-text-webpack-plugin');
+const webpack = require('webpack');
+const path = require('path');
+const loaders = require('./webpack.loaders');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
+const WebpackCleanupPlugin = require('webpack-cleanup-plugin');
+const ExtractTextPlugin = require('extract-text-webpack-plugin');
 const SWPrecacheWebpackPlugin = require('sw-precache-webpack-plugin');
 const WebpackPwaManifest = require('webpack-pwa-manifest');
+const SitemapPlugin = require('sitemap-webpack-plugin').default;
 const PUBLIC_PATH = 'https://freecourses.github.io/';
 const ServiceWorkerWebpackPlugin = require('serviceworker-webpack-plugin');
+const snakeCase = require('lodash.snakecase');
+
+const paths = [];
+const courses = require('./src/data/courses.json');
+const categories = require('./src/data/categories.json');
+
+courses.forEach(course => {
+  paths.push('/course/' + snakeCase(course.title + course.author));
+});
+
+categories.forEach(category => {
+  paths.push('/category/' + category.title);
+});
 
 loaders.push({
   test: /\.scss$/,
@@ -32,6 +46,7 @@ module.exports = {
   },
   plugins: [
     new WebpackCleanupPlugin(),
+    new SitemapPlugin('https://freecourses.github.io/#/', paths),
     new webpack.DefinePlugin({
       'process.env': {
         NODE_ENV: '"production"'
