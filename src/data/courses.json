@@ -468,5 +468,16 @@
     "categories": "CSS",
     "language": "English, Portuguese - Brazil, Spanish, Italian, French, Others",
     "image": "http://learnlayout.com/images/logo.png"
+  },
+  {
+    "dayThatWasAdded": "2017-11-06T16:21:54.023Z",
+    "title": "What The Flexbox?!",
+    "description": "The first 13 videos are aimed at understanding the fundamentals of Flexbox - we will take a deep dive into understanding rows, columns, axes, wrapping, alignment, centering and layout. The last 7 are code alongs where we will build everything from a navigation to a mobile app layout entirely with Flexbox!",
+    "link": "https://flexbox.io/",
+    "author": "Wes Bos",
+    "level": "Beginner, Intermediate",
+    "categories": "CSS",
+    "language": "English",
+    "image": "https://flexbox.io/images/WTF/covers/1.jpg"
   }
 ]
