@@ -479,5 +479,15 @@
     "categories": "CSS",
     "language": "English",
     "image": "https://flexbox.io/images/WTF/covers/1.jpg"
+  },
+  {
+    "title": "Angular 2 Tutorial",
+    "description": "Playlist for Angular 2 Tutorial",
+    "link": "https://www.youtube.com/watch?v=zj7_4VDFQPA&list=PLC3y8-rFHvwg5gEu2KF4sbGvpUqMRSBSW",
+    "author": "Codevolution",
+    "level": "Beginner, Intermediate",
+    "categories": "Angular",
+    "language": "English",
+    "flags": "flag-icon-us"
   }
 ]
