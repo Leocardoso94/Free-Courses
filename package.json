@@ -70,6 +70,7 @@
     "react-addons-test-utils": "^15.6.0",
     "react-hot-loader": "^3.0.0-beta.6",
     "react-test-renderer": "^15.6.1",
+    "robotstxt-webpack-plugin": "^3.0.2",
     "serviceworker-webpack-plugin": "^0.2.3",
     "sitemap-webpack-plugin": "^0.5.1",
     "style-loader": "0.13.1",

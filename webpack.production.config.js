@@ -7,6 +7,7 @@ const ExtractTextPlugin = require('extract-text-webpack-plugin');
 const SWPrecacheWebpackPlugin = require('sw-precache-webpack-plugin');
 const WebpackPwaManifest = require('webpack-pwa-manifest');
 const SitemapPlugin = require('sitemap-webpack-plugin').default;
+const RobotstxtPlugin = require('robotstxt-webpack-plugin').default;
 const PUBLIC_PATH = 'https://freecourses.github.io/';
 const ServiceWorkerWebpackPlugin = require('serviceworker-webpack-plugin');
 const snakeCase = require('lodash.snakecase');
@@ -46,7 +47,6 @@ module.exports = {
   },
   plugins: [
     new WebpackCleanupPlugin(),
-    new SitemapPlugin('https://freecourses.github.io/#/', paths),
     new webpack.DefinePlugin({
       'process.env': {
         NODE_ENV: '"production"'
@@ -123,6 +123,23 @@ module.exports = {
           destination: path.join('icons', 'android')
         }
       ]
-    })
+    }),
+    new RobotstxtPlugin({
+      sitemap: PUBLIC_PATH + 'sitemap.xml',
+      host: PUBLIC_PATH,
+      policy: [
+        {
+          userAgent: 'Googlebot',
+          allow: '/',
+          crawlDelay: 2
+        },
+        {
+          userAgent: '*',
+          allow: '/',
+          crawlDelay: 10,
+        }
+      ]
+    }),
+    new SitemapPlugin(PUBLIC_PATH + '#/', paths),
   ]
 };
