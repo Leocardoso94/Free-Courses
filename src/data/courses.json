@@ -148,16 +148,6 @@
     "flags": "flag-icon-us"
   },
   {
-    "title": "Learn CSS Layout",
-    "description": "This site teaches the CSS fundamentals that are used in any website's layout.",
-    "link": "http://learnlayout.com",
-    "author": "learnlayout.com",
-    "level": "Beginner - Intermediate",
-    "categories": "css",
-    "language": "English",
-    "flags": "flag-icon-us"
-  },
-  {
     "title": "Learn ES6 (ECMAScript 2015)",
     "description": "This course takes a look at some of the new features that JavaScript has available with ES6 (ECMAScript 2015). It is a 'montage' from several instructors.",
     "link": "https://egghead.io/courses/learn-es6-ecmascript-2015",
@@ -461,7 +451,7 @@
   {
     "dayThatWasAdded": "2017-11-06T12:55:52.018Z",
     "title": "Learn CSS Layout",
-    "description": "This site teaches the CSS fundamentals that are used in any website's layout.\n\nI assume you already know what selectors, properties, and values are. And you probably know a thing or two about layout, though it may still be a rage-provoking activity for you. If you want to learn HTML and CSS from the beginning, you should check out this tutorial. Otherwise, let's see if we can save you some fury on your next project.",
+    "description": "This site teaches the CSS fundamentals that are used in any website's layout.I assume you already know what selectors, properties, and values are. And you probably know a thing or two about layout, though it may still be a rage-provoking activity for you. If you want to learn HTML and CSS from the beginning, you should check out this tutorial. Otherwise, let's see if we can save you some fury on your next project.",
     "link": "http://learnlayout.com/",
     "author": "Greg Smith",
     "level": "Intermediate",
