@@ -489,5 +489,15 @@
     "categories": "Angular",
     "language": "English",
     "flags": "flag-icon-us"
+  },
+  {
+    "title": "Express Foundation",
+    "description": "You might have heard about rapidly-growing-in-popularity technologies such as NodeJS or the M.E.A.N stack (MongoDB, ExpressJS, AngularJS, and NodeJS). The brilliance of NodeJS is its fast performance and the ability to leverage JavaScript on the server. That's right; now developers can use a single language for the browser and the server code. Even more so, they can use JavaScript for the database layer with MongoDB. Therefore, the full stack JavaScript becomes a new standard for web development.",
+    "link": "https://node.university/p/express-foundation",
+    "author": "node.university",
+    "level": "Beginner",
+    "categories": "express, node",
+    "language": "English",
+    "flags": "flag-icon-us"
   }
 ]
