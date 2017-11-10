@@ -527,5 +527,18 @@
     "image": "http://pythonschool.net/news/images/learn_to_program.jpg",
     "githubUser": "mussaimo",
     "flags": "flag-icon-us"
-  }
+  },
+  {
+        "daythatwasadded": "2017-11-10T20:07:56.508Z",
+        "title": "Aprende Vue2 y Firebase paso a paso ",
+        "description": "La mejor forma de dar el salto a JavaScript moderno. ",
+        "link": "https://wmedia.teachable.com/p/aprende-vue2-y-firebase-paso-a-paso",
+        "author": "Juan Andrés Núñez",
+        "level": "Beginner",
+        "categories": "JavaScript, Vue",
+        "language": "Spanish",
+        "image": "https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://www.filepicker.io/api/file/GZHIaVwKQkyufoJD7ip5",
+        "githubUser": "https://github.com/tipoqueno",
+        "flags": "flag-icon-es"
+    }
 ]
