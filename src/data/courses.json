@@ -489,5 +489,56 @@
     "categories": "express, node",
     "language": "English",
     "flags": "flag-icon-us"
-  }
+  },
+    {
+        "daythatwasadded": "2017-11-09T20:44:17.329Z",
+        "title": "Flask Mega Tutorial",
+        "description": "A series of articles that explore the basic to advanced concept of  writing web applications in Python using the Flask micro-framework.",
+        "link": "https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world",
+        "author": "Miguel Grinberg",
+        "level": "Beginner",
+        "categories": "FLask",
+        "language": "English",
+        "githubUser": "mussaimo",
+        "flags": "flag-icon-us"
+    },
+    {
+        "daythatwasadded": "2017-11-09T20:48:40.659Z",
+        "title": "Eloquent JavaScript",
+        "description": "An online book about JavaScript that seeks to make it easy for beginners to flow between the need to knows and the must know os JavaScript development",
+        "link": "http://eloquentjavascript.net/",
+        "author": "Marijn Haverbeke.",
+        "level": "Beginner, Intermediate",
+        "categories": "JavaScript",
+        "language": "English",
+        "image": "http://eloquentjavascript.net/img/cover.png",
+        "githubUser": "mussaimo",
+        "flags": "flag-icon-us"
+    },
+    {
+        "daythatwasadded": "2017-11-09T20:54:19.091Z",
+        "title": "OOP in Python",
+        "description": "Python School provides a way for existing ICT teachers to gain the knowledge and skills necessary to teach Computing and Computer Science in schools.\n\nThe materials are designed to enable you to gain the experience necessary to teach Computing at Key Stage 3, GCSE and A-Level.",
+        "link": "http://pythonschool.net/category/oop.html",
+        "author": "Sue Sentance and Adam McNicol.",
+        "level": "Beginner",
+        "categories": "Python",
+        "language": "English",
+        "image": "http://pythonschool.net/news/images/learn_to_program.jpg",
+        "githubUser": "mussaimo",
+        "flags": "flag-icon-us"
+    },
+    {
+        "daythatwasadded": "2017-11-09T20:56:31.046Z",
+        "title": "Python School",
+        "description": "Python School provides a way for existing ICT teachers to gain the knowledge and skills necessary to teach Computing and Computer Science in schools.\n\nThe materials are designed to enable you to gain the experience necessary to teach Computing at Key Stage 3, GCSE and A-Level.",
+        "link": "http://pythonschool.net/",
+        "author": "Sue Sentance and Adam McNicol.",
+        "level": "Beginner, Intermediate",
+        "categories": "Python",
+        "language": "English",
+        "image": "http://pythonschool.net/news/images/learn_to_program.jpg",
+        "githubUser": "mussaimo",
+        "flags": "flag-icon-us"
+    }
 ]
