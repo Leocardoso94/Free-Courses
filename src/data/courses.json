@@ -540,5 +540,25 @@
         "image": "https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://www.filepicker.io/api/file/GZHIaVwKQkyufoJD7ip5",
         "githubUser": "https://github.com/tipoqueno",
         "flags": "flag-icon-es"
-    }
+    },
+  {
+    "title": "Try jQuery",
+    "description": "Learn the basics of jQuery 2.0, a JavaScript library, to modify elements on the page and improve user interaction.",
+    "link": "https://www.codeschool.com/courses/try-jquery",
+    "author": "Codeschool",
+    "level": "Beginner",
+    "categories": "jquery",
+    "language": "English",
+    "flags": "flag-icon-us"
+  },
+  {
+    "title": "Introduction to jQuery",
+    "description": "Introduction to jQuery",
+    "link": "https://www.codecademy.com/learn/learn-jquery",
+    "author": "Codecademy",
+    "level": "Beginner",
+    "categories": "jquery",
+    "language": "English",
+    "flags": "flag-icon-us"
+  }
 ]
