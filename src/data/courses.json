@@ -560,5 +560,15 @@
     "categories": "jquery",
     "language": "English",
     "flags": "flag-icon-us"
+  },
+  {
+    "title": "Try Laravel",
+    "description": "Dig into an overview of the Laravel framework and learn how to start building PHP applications with MVC architecture.",
+    "link": "https://www.codeschool.com/courses/try-laravel",
+    "author": "Codeschool",
+    "level": "Beginner,Intermediate",
+    "categories": "laravel",
+    "language": "English",
+    "flags": "flag-icon-us"
   }
 ]
