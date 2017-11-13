@@ -1,25 +1,24 @@
-# Free Courses to Developers [![Build Status](https://travis-ci.org/Leocardoso94/Free-Courses.svg?branch=master)](https://travis-ci.org/Leocardoso94/Free-Courses)
+# Free Courses to Developers 
+[![Build Status](https://travis-ci.org/Leocardoso94/Free-Courses.svg?branch=master)](https://travis-ci.org/Leocardoso94/Free-Courses)
 
 https://freecourses.github.io/
 
-Free courses to developers is a platform where you can find several courses on development totally for free.
+Freecourses is a platform which offers a collection of free course links for various development languages and frameworks. You will find every course which is listed here is either free or trial version for learning. So enjoy the content.
 
-## Now you can add a course via google forms
+## Now you can add a course via Google forms
 
 Link: https://goo.gl/forms/RxP02pQtnPCbapQ43
 
 ### Contribute
-Please contribute to the project if you know how to make it better, including this README :)
-
-Check the [CONTRIBUTING.md](https://github.com/Leocardoso94/Free-Courses/blob/master/CONTRIBUTING.md)
+You can also contribute to the project. For contribution please check [CONTRIBUTING.md](https://github.com/Leocardoso94/Free-Courses/blob/master/CONTRIBUTING.md)
 
 
-### To run
+### To run locally
 
 * You'll need to have [bower](https://bower.io/) and [node](https://nodejs.org/en/) installed in your system.
 
 
-* install the dependencies:
+* Install the dependencies:
 
 ```
 npm install && bower install
@@ -37,22 +36,21 @@ npm start
 npm run dev
 ```
 
-Open the web browser to `http://localhost:8080/`
+* Open the web browser to `http://localhost:8080/`
 
 
-### To build the production package
+### To build the Production package
 
 ```
 npm run build
 ```
 
 
-### Eslint
-There is a `.eslint.yaml` config for eslint ready with React plugin.
+### ESLint
+There is a `.eslint.yaml` config for ESLint ready with React plugin.
 
 To run linting, run:
 
 ```
 npm run lint
 ```
-
