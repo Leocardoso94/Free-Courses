@@ -103,5 +103,9 @@
   {
     "title": "DotNET",
     "icon": "devicon-dot-net-plain colored"
+  },
+  {
+    "title": "React Native",
+    "icon": "devicons devicons-react"
   }
 ]

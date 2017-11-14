@@ -529,18 +529,18 @@
     "flags": "flag-icon-us"
   },
   {
-        "daythatwasadded": "2017-11-10T20:07:56.508Z",
-        "title": "Aprende Vue2 y Firebase paso a paso ",
-        "description": "La mejor forma de dar el salto a JavaScript moderno. ",
-        "link": "https://wmedia.teachable.com/p/aprende-vue2-y-firebase-paso-a-paso",
-        "author": "Juan Andrés Núñez",
-        "level": "Beginner",
-        "categories": "JavaScript, Vue",
-        "language": "Spanish",
-        "image": "https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://www.filepicker.io/api/file/GZHIaVwKQkyufoJD7ip5",
-        "githubUser": "https://github.com/tipoqueno",
-        "flags": "flag-icon-es"
-    },
+    "daythatwasadded": "2017-11-10T20:07:56.508Z",
+    "title": "Aprende Vue2 y Firebase paso a paso ",
+    "description": "La mejor forma de dar el salto a JavaScript moderno. ",
+    "link": "https://wmedia.teachable.com/p/aprende-vue2-y-firebase-paso-a-paso",
+    "author": "Juan Andrés Núñez",
+    "level": "Beginner",
+    "categories": "JavaScript, Vue",
+    "language": "Spanish",
+    "image": "https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://www.filepicker.io/api/file/GZHIaVwKQkyufoJD7ip5",
+    "githubUser": "https://github.com/tipoqueno",
+    "flags": "flag-icon-es"
+  },
   {
     "title": "Try jQuery",
     "description": "Learn the basics of jQuery 2.0, a JavaScript library, to modify elements on the page and improve user interaction.",
@@ -579,6 +579,18 @@
     "level": "Beginner,Intermediate,Advanced",
     "categories": "dotnet",
     "language": "English",
+    "flags": "flag-icon-us"
+  },
+  {
+    "daythatwasadded": "2017-11-14T13:54:04.234Z",
+    "title": "React Native Basics: Build a Currency Converter",
+    "description": "Learn to Use Navigation, Setup Redux, Design Components, Work with a Remote API, and More",
+    "link": "https://learn.handlebarlabs.com/p/react-native-basics-build-a-currency-converter",
+    "author": "Spencer Carli",
+    "level": "Beginner",
+    "categories": "React Native",
+    "language": "English",
+    "githubUser": "deadcoder0904",
     "flags": "flag-icon-us"
   }
 ]
