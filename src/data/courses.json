@@ -570,5 +570,15 @@
     "categories": "laravel",
     "language": "English",
     "flags": "flag-icon-us"
+  },
+  {
+    "title": "DotNET Free courses",
+    "description": "DotNET free course list by Microsoft, Codeschool, MVA and many more.",
+    "link": "https://www.asp.net/freecourses",
+    "author": "Microsoft",
+    "level": "Beginner,Intermediate,Advanced",
+    "categories": "dotnet",
+    "language": "English",
+    "flags": "flag-icon-us"
   }
 ]

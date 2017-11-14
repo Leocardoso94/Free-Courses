@@ -99,5 +99,9 @@
     "title": "Materialize",
     "icon": "devicons devicons-materializecss",
     "iconColor": "#ee6e73"
+  },
+  {
+    "title": "DotNET",
+    "icon": "devicon-dot-net-plain colored"
   }
 ]
