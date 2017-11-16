@@ -592,5 +592,17 @@
     "language": "English",
     "githubUser": "deadcoder0904",
     "flags": "flag-icon-us"
+  },
+  {
+    "daythatwasadded": "2017-11-15T23:56:42.362Z",
+    "title": "How to Use Git and GitHub",
+    "description": "Learn to use version control, an important tool for any developer. This course will focus on Git, a specific version control system, and GitHub.",
+    "link": "https://in.udacity.com/course/how-to-use-git-and-github--ud775",
+    "author": "Udacity",
+    "level": "Beginner",
+    "categories": "Git",
+    "language": "English",
+    "githubUser": "nhaniph",
+    "flags": "flag-icon-us"
   }
 ]
