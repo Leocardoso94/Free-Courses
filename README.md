@@ -11,7 +11,7 @@ You can also contribute to the project. Check below different ways for contribut
 
 ### Via Google forms
 
-Link: https://goo.gl/forms/RxP02pQtnPCbapQ43]
+Link: https://goo.gl/forms/S3AJKJlYPj9MqQj93
 
 ### Via Github
 
