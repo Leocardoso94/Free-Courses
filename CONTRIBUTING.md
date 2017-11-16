@@ -15,7 +15,7 @@ Add your course by filling this [Google Form](https://goo.gl/forms/RxP02pQtnPCba
 
 ### Add JSON Object in code
 
-To add new course please follow below steps:
+To add new course please follow steps:
 
 1. Fork this repo
 2. Go to the folder /src/data
