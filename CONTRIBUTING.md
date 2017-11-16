@@ -11,7 +11,7 @@ Please note we have a code of conduct, please follow it in all your interactions
 
 ### Fill this Google Form
 
-Add your course by filling this [Google Form](https://goo.gl/forms/RxP02pQtnPCbapQ43)
+Add your course by filling this [Google Form](https://goo.gl/forms/S3AJKJlYPj9MqQj93)
 
 ### Add JSON Object in code
 
