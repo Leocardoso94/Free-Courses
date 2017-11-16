@@ -18,8 +18,8 @@ Add your course by filling this [Google Form](https://goo.gl/forms/RxP02pQtnPCba
 To add new course please follow steps:
 
 1. Fork this repo
-2. Go to the folder /src/data
-3. Open the couses.json
+2. Go to the folder `/src/data`
+3. Open the `couses.json`
 4. Add a new JSON Object, Example as follows:
 
 ```
@@ -52,8 +52,8 @@ Flag icons can be found here: [flag-icon-css](https://github.com/lipis/flag-icon
 To add a new category:
 
 1. Fork this repo
-2. Go to the folder /src/data
-3. Open the categories.json
+2. Go to the folder `/src/data`
+3. Open the `categories.json`
 4. Add a new JSON Object, Example as follows:
 
 ```
