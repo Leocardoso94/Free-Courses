@@ -11,7 +11,7 @@ Please note we have a code of conduct, please follow it in all your interactions
 
 ### Fill this Google Form
 
-Add your course by filling the following Google Form https://goo.gl/forms/RxP02pQtnPCbapQ43
+Add your course by filling this [Google Form](https://goo.gl/forms/RxP02pQtnPCbapQ43)
 
 ### Add JSON Object in code
 
@@ -80,4 +80,4 @@ Check [Code of Conduct](https://github.com/Leocardoso94/Free-Courses/blob/master
 
 ## Contributors:
 
-Check all the contributors here: https://freecourses.github.io/#/contribute
+Check all the [Contributors](https://freecourses.github.io/#/contribute)
