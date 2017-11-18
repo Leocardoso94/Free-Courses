@@ -604,5 +604,15 @@
     "language": "English",
     "githubUser": "nhaniph",
     "flags": "flag-icon-us"
+  },
+  {
+    "title": "React Foundation",
+    "description": "You will start by learning the basics of React. Fundamentals like how it is a JavaScript library developed to build reusable UI components that present changing data. You’ll then learn about the philosophy behind React, which will help you to approach new projects on the right foot. Finally, you’ll get hands-on with everything from forms, components, states, events, and eventually integration.",
+    "link": "https://node.university/p/react-foundation",
+    "author": "Azat Mardan",
+    "level": "Beginner",
+    "categories": "react",
+    "language": "English",
+    "flags": "flag-icon-us"
   }
 ]
