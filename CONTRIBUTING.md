@@ -7,19 +7,21 @@ email, or any other method with the owners of this repository before making a ch
 
 Please note we have a code of conduct, please follow it in all your interactions with the project.
 
-# Guide to add new courses
+## Guide to add new courses
 
-## Submit this form to add a New Course https://goo.gl/forms/RxP02pQtnPCbapQ43
+### Fill this Google Form
 
-### Or you can add a object to the .json file
+Add your course by filling this [Google Form](https://goo.gl/forms/S3AJKJlYPj9MqQj93)
 
-To add a new course:
+### Add JSON Object in code
 
+To add new course please follow steps:
 
-1. Fork this project
-2. Go to the folder /src/data
-3. Open the couses.json
-4. Add a new object, example:
+1. Fork this repo
+2. Go to the folder `/src/data`
+3. Open the `couses.json`
+4. Add a new JSON Object, Example as follows:
+
 ```
    {
         "title": "title of course",
@@ -45,20 +47,21 @@ To add a new course:
     }
 ```
 
-Flag icons can be found here: https://github.com/lipis/flag-icon-css  http://flag-icon-css.lip.is/
+Flag icons can be found here: [flag-icon-css](https://github.com/lipis/flag-icon-css)
 
-## To add a new Category:
+To add a new category:
 
-1. Fork this project
-2. Go to the folder /src/data
-3. Open the categories.json
-4. Add a new object example:
+1. Fork this repo
+2. Go to the folder `/src/data`
+3. Open the `categories.json`
+4. Add a new JSON Object, Example as follows:
+
 ```
     {
         "title": "Title of Category",
         "icon": "icon of category"
     },
-     {
+    {
         "title": "JavaScript",
         "icon": "devicon-javascript-plain colored"
     },
@@ -69,7 +72,7 @@ Flag icons can be found here: https://github.com/lipis/flag-icon-css  http://fla
     }
 ```
 
-Icon classes can be found here: http://konpa.github.io/devicon/ or http://vorillaz.github.io/devicons/#/cheat
+Icon classes can be found here: [Devicon](http://konpa.github.io/devicon/) or [Devicon Cheatsheet](http://vorillaz.github.io/devicons/#/cheat)
 
 ## Code of Conduct
 
@@ -77,4 +80,4 @@ Check [Code of Conduct](https://github.com/Leocardoso94/Free-Courses/blob/master
 
 ## Contributors:
 
-Check all the contributors here: https://freecourses.github.io/#/contribute
+Check all the [Contributors](https://freecourses.github.io/#/contribute)

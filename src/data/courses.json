@@ -539,18 +539,18 @@
     "flags": "flag-icon-us"
   },
   {
-        "daythatwasadded": "2017-11-10T20:07:56.508Z",
-        "title": "Aprende Vue2 y Firebase paso a paso ",
-        "description": "La mejor forma de dar el salto a JavaScript moderno. ",
-        "link": "https://wmedia.teachable.com/p/aprende-vue2-y-firebase-paso-a-paso",
-        "author": "Juan Andrés Núñez",
-        "level": "Beginner",
-        "categories": "JavaScript, Vue",
-        "language": "Spanish",
-        "image": "https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://www.filepicker.io/api/file/GZHIaVwKQkyufoJD7ip5",
-        "githubUser": "https://github.com/tipoqueno",
-        "flags": "flag-icon-es"
-    },
+    "daythatwasadded": "2017-11-10T20:07:56.508Z",
+    "title": "Aprende Vue2 y Firebase paso a paso ",
+    "description": "La mejor forma de dar el salto a JavaScript moderno. ",
+    "link": "https://wmedia.teachable.com/p/aprende-vue2-y-firebase-paso-a-paso",
+    "author": "Juan Andrés Núñez",
+    "level": "Beginner",
+    "categories": "JavaScript, Vue",
+    "language": "Spanish",
+    "image": "https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://www.filepicker.io/api/file/GZHIaVwKQkyufoJD7ip5",
+    "githubUser": "https://github.com/tipoqueno",
+    "flags": "flag-icon-es"
+  },
   {
     "title": "Try jQuery",
     "description": "Learn the basics of jQuery 2.0, a JavaScript library, to modify elements on the page and improve user interaction.",
@@ -590,5 +590,50 @@
     "categories": "dotnet",
     "language": "English",
     "flags": "flag-icon-us"
+  },
+  {
+    "daythatwasadded": "2017-11-14T13:54:04.234Z",
+    "title": "React Native Basics: Build a Currency Converter",
+    "description": "Learn to Use Navigation, Setup Redux, Design Components, Work with a Remote API, and More",
+    "link": "https://learn.handlebarlabs.com/p/react-native-basics-build-a-currency-converter",
+    "author": "Spencer Carli",
+    "level": "Beginner",
+    "categories": "React Native",
+    "language": "English",
+    "githubUser": "deadcoder0904",
+    "flags": "flag-icon-us"
+  },
+  {
+    "daythatwasadded": "2017-11-15T23:56:42.362Z",
+    "title": "How to Use Git and GitHub",
+    "description": "Learn to use version control, an important tool for any developer. This course will focus on Git, a specific version control system, and GitHub.",
+    "link": "https://in.udacity.com/course/how-to-use-git-and-github--ud775",
+    "author": "Udacity",
+    "level": "Beginner",
+    "categories": "Git",
+    "language": "English",
+    "githubUser": "nhaniph",
+    "flags": "flag-icon-us"
+  },
+  {
+    "title": "React Foundation",
+    "description": "You will start by learning the basics of React. Fundamentals like how it is a JavaScript library developed to build reusable UI components that present changing data. You’ll then learn about the philosophy behind React, which will help you to approach new projects on the right foot. Finally, you’ll get hands-on with everything from forms, components, states, events, and eventually integration.",
+    "link": "https://node.university/p/react-foundation",
+    "author": "Azat Mardan",
+    "level": "Beginner",
+    "categories": "react",
+    "language": "English",
+    "flags": "flag-icon-us"
+  },
+  {
+    "title": "Node and MongoDB Foundation",
+    "description": "Intro to Node and MongoDB for Absolute Beginners",
+    "link": "https://node.university/p/node-npm-and-mongodb-foundation",
+    "author": "Azat Mardan",
+    "level": "Beginner",
+    "categories": "node,mongodb",
+    "language": "English",
+    "flags": "flag-icon-us"
   }
 ]
+
