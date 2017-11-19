@@ -614,5 +614,16 @@
     "categories": "react",
     "language": "English",
     "flags": "flag-icon-us"
+  },
+  {
+    "title": "Node and MongoDB Foundation",
+    "description": "Intro to Node and MongoDB for Absolute Beginners",
+    "link": "https://node.university/p/node-npm-and-mongodb-foundation",
+    "author": "Azat Mardan",
+    "level": "Beginner",
+    "categories": "node,mongodb",
+    "language": "English",
+    "flags": "flag-icon-us"
   }
 ]
+
