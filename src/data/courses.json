@@ -43,6 +43,16 @@
     "flags": "flag-icon-us"
   },
   {
+    "title": "The Road to learn React",
+    "description": "Your journey to master plain React",
+    "link": "https://roadtoreact.com/",
+    "author": "Robin Wieruch",
+    "level": "Beginner",
+    "categories": "javascript,react",
+    "language": "English",
+    "flags": "flag-icon-us"
+  },
+  {
     "title": "Git e Github para iniciantes",
     "description": "Tudo que você precisa para começar a versionar seus arquivos e contribuir com a comunidade opensource.",
     "link": "https://www.udemy.com/git-e-github-para-iniciantes/",
