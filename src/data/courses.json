@@ -634,6 +634,36 @@
     "categories": "node,mongodb",
     "language": "English",
     "flags": "flag-icon-us"
+  },
+  {
+    "title": "Try Python",
+    "description": "​Explore the basics of Python and learn what it means to store and manipulate numbers and words as well as make decisions with your program.",
+    "link": "https://www.codeschool.com/courses/try-python",
+    "author": "Sarah Holderness",
+    "level": "Beginner",
+    "categories": "python",
+    "language": "English",
+    "flags": "flag-icon-us"
+  },
+  {
+    "title": "Try Ember",
+    "description": "​Pack your bags and help the Woodland Wanderers as you learn how to use Ember and Ember CLI to build your next ambitious web applications.",
+    "link": "https://www.codeschool.com/courses/try-ember",
+    "author": "Nathaniel Bibler",
+    "level": "Beginner",
+    "categories": "javascript",
+    "language": "English",
+    "flags": "flag-icon-us"
+  },
+  {
+    "title": "Try PHP",
+    "description": "​​Explore the basics of PHP and learn what it takes to work within the one of the most popular web languages.",
+    "link": "https://www.codeschool.com/courses/try-php",
+    "author": "Hampton Paulk",
+    "level": "Beginner",
+    "categories": "php",
+    "language": "English",
+    "flags": "flag-icon-us"
   }
 ]
 
