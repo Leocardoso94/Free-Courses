@@ -5,10 +5,10 @@ import { Link } from 'react-router-dom';
 import Masonry from 'react-masonry-component';
 
 const CourseList = ({ coursesInCategory }) => {
-  function getImage(course) {
-    const defaultImage = 'https://cdn.dribbble.com/users/4764/screenshots/2418753/books_1x.png';
-    return !course.image || course.image === '' ? defaultImage : course.image;
-  }
+  // function getImage(course) {
+  //   const defaultImage = 'https://cdn.dribbble.com/users/4764/screenshots/2418753/books_1x.png';
+  //   return !course.image || course.image === '' ? defaultImage : course.image;
+  // }
 
   function getDescription(course) {
     let description = course.description.replace(/^(.{50}[^\s]*).*/, "$1");
@@ -23,9 +23,9 @@ const CourseList = ({ coursesInCategory }) => {
     return (
       <li className="course" key={course.title + course.author}>
         <Link to={`/course/${course.id}`}>
-          <div className="image">
+          {/* <div className="image">
             <img src={getImage(course)} />
-          </div>
+          </div> */}
           <div className="description">
             <h6 className="author">{course.author}</h6>
             <h4 className="title">{course.title}</h4>
