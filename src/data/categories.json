@@ -107,5 +107,9 @@
   {
     "title": "React Native",
     "icon": "devicons devicons-react"
+  },
+  {
+    "title": "Go",
+    "icon": "devicon-go-plain colored"
   }
 ]

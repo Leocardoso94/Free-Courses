@@ -664,6 +664,17 @@
     "categories": "php",
     "language": "English",
     "flags": "flag-icon-us"
+  },
+  {
+    "daythatwasadded": "2017-11-21T17:37:42.791Z",
+    "title": "Learn to Code",
+    "description": "Learn to Code Google's Go Programming Language",
+    "link": "https://greatercommons.com/cwg",
+    "author": "Todd McLeod",
+    "level": "Beginner",
+    "categories": "GO",
+    "language": "English",
+    "githubUser": "williangd",
+    "flags": "flag-icon-us"
   }
 ]
-
