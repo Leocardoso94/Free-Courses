@@ -27,7 +27,7 @@
     "link": "https://scotch.io/courses/getting-started-with-react",
     "author": "Scotch.io",
     "level": "Beginner",
-    "categories": "html,css,react",
+    "categories": "react",
     "language": "English",
     "image": "https://cdn.scotch.io/1/QYfj3qQSSLywYDvBVrQu_getting-started-with-react.png.jpg",
     "flags": "flag-icon-us"
@@ -268,7 +268,7 @@
     "link": "https://www.coursera.org/learn/server-side-nodejs",
     "author": "The Hong Kong University of Science and Technology",
     "level": "Beginner - Intermediate",
-    "categories": "html,css,node",
+    "categories": "MongoDB,Express,node",
     "language": "English",
     "flags": "flag-icon-us"
   },
