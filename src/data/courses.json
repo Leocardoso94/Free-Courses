@@ -676,5 +676,17 @@
     "language": "English",
     "githubUser": "williangd",
     "flags": "flag-icon-us"
-  }
+  },
+      {
+        "daythatwasadded": "2017-11-25T13:17:46.579Z",
+        "title": "Laravel Tutorial",
+        "description": "This tutorial will guide the developers and students who want to learn how to develop a website using Laravel.",
+        "link": "https://www.tutorialspoint.com/laravel/",
+        "author": "TutorialsPoint",
+        "level": "Beginner, Intermediate",
+        "categories": "Laravel",
+        "language": "English",
+        "image": "https://www.tutorialspoint.com/laravel/images/laravel.jpg",
+        "githubUser": "majidalavizadeh"
+    }
 ]
