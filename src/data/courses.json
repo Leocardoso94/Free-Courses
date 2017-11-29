@@ -677,16 +677,27 @@
     "githubUser": "williangd",
     "flags": "flag-icon-us"
   },
-      {
-        "daythatwasadded": "2017-11-25T13:17:46.579Z",
-        "title": "Laravel Tutorial",
-        "description": "This tutorial will guide the developers and students who want to learn how to develop a website using Laravel.",
-        "link": "https://www.tutorialspoint.com/laravel/",
-        "author": "TutorialsPoint",
-        "level": "Beginner, Intermediate",
-        "categories": "Laravel",
-        "language": "English",
-        "image": "https://www.tutorialspoint.com/laravel/images/laravel.jpg",
-        "githubUser": "majidalavizadeh"
-    }
+  {
+    "daythatwasadded": "2017-11-25T13:17:46.579Z",
+    "title": "Laravel Tutorial",
+    "description": "This tutorial will guide the developers and students who want to learn how to develop a website using Laravel.",
+    "link": "https://www.tutorialspoint.com/laravel/",
+    "author": "TutorialsPoint",
+    "level": "Beginner, Intermediate",
+    "categories": "Laravel",
+    "language": "English",
+    "image": "https://www.tutorialspoint.com/laravel/images/laravel.jpg",
+    "githubUser": "majidalavizadeh"
+  },
+  {
+    "daythatwasadded": "2017-11-29T03:52:27.976Z",
+    "title": "Learn Python the Hard Way",
+    "description": "Online version (by the original author - no worries, this isn't a pirate link!) of the \"Learn Python the Hard Way.\" book. It emphasizes repetition and concept understanding.",
+    "link": "https://learnpythonthehardway.org/python3/",
+    "author": "Zed Shaw",
+    "level": "Beginner",
+    "categories": "Python",
+    "language": "English",
+    "githubUser": "Fred-Barclay"
+  }
 ]
