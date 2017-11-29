@@ -57,6 +57,8 @@ class Home extends Component {
           <br />
           <br />
           FreeCourses is free and <a target="_blank" rel="noopener noreferrer" href="https://github.com/Leocardoso94/Free-Courses">open source </a>. <a className="stars" target="_blank" rel="noopener noreferrer" href="https://github.com/Leocardoso94/Free-Courses"><FaIcon icon="fa-github" color="#000" /><FaIcon icon="fa-star" color="#ff8f00" /> {this.state.stars} Stars</a>
+          <br/>
+          Please support us on <a target="_blank" rel="noopener noreferrer" href="https://www.producthunt.com/posts/freecourses">product hunt! </a>
           <br />
           <br />
           <span >Made with <FaIcon icon="fa-heart" color="red" /> by <a target="_blank" rel="noopener noreferrer" href="https://github.com/Leocardoso94">@LeoCardoso94</a></span>
