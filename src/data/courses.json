@@ -699,5 +699,17 @@
     "categories": "Python",
     "language": "English",
     "githubUser": "Fred-Barclay"
+  },
+  {
+    "title": "Python tutorials step by step",
+    "description": "With this Python tutorial, we aim to teach all basic to advanced level Python programming concepts to a large no. of aspirants in the most efficient way. We've organized this course in such a manner that you can learn Python with least efforts, without investing a lot of your time and finally be able to apply this knowledge to your live projects.",
+    "link": "http://www.techbeamers.com/python-tutorial-step-by-step",
+    "author": "Meenakshi",
+    "level": "Beginner",
+    "categories": "python",
+    "language": "English",
+    "flags": "flag-icon-us"
   }
 ]
+
+
