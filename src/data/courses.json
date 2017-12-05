@@ -709,6 +709,16 @@
     "categories": "python",
     "language": "English",
     "flags": "flag-icon-us"
+  },
+  {
+    "title": "Introduction to Node.js",
+    "description": "The ultimate beginner guide to creating web applications using Node.js, Express and MongoDB.",
+    "link": "https://www.edx.org/course/introduction-node-js-microsoft-dev283x",
+    "author": "Microsoft",
+    "level": "Beginner",
+    "categories": "nodejs",
+    "language": "English",
+    "flags": "flag-icon-us"
   }
 ]
 
