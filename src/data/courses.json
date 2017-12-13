@@ -587,7 +587,7 @@
     "link": "https://www.asp.net/freecourses",
     "author": "Microsoft",
     "level": "Beginner,Intermediate,Advanced",
-    "categories": "dotnet",
+    "categories": "dotnet,csharp",
     "language": "English",
     "flags": "flag-icon-us"
   },
@@ -717,6 +717,16 @@
     "author": "Microsoft",
     "level": "Beginner",
     "categories": "nodejs",
+    "language": "English",
+    "flags": "flag-icon-us"
+  },
+  {
+    "title": "Git I",
+    "description": "When developing applications, you would often collaborate with other developers. Git is the most popular version control system that developers use to track and share code.",
+    "link": "http://progate.com/languages/git",
+    "author": "Progate",
+    "level": "Beginner",
+    "categories": "git",
     "language": "English",
     "flags": "flag-icon-us"
   }
