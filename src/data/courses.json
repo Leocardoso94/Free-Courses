@@ -729,6 +729,16 @@
     "categories": "git",
     "language": "English",
     "flags": "flag-icon-us"
+  },
+  {
+    "title": "Introduction to Git for Data Science",
+    "description": "Version control is one of the power tools of programming. It allows you to keep track of what you did when, undo any changes you have decided you don't want, and collaborate at scale with other people. This course will introduce you to Git, a modern version control tool that is very popular with data scientists and software developers alike, and show you how it can help you get more done in less time and with less pain.",
+    "link": "https://www.datacamp.com/courses/introduction-to-git-for-data-science",
+    "author": "Greg Wilson",
+    "level": "Beginner,intermediate",
+    "categories": "git",
+    "language": "English",
+    "flags": "flag-icon-us"
   }
 ]
 
