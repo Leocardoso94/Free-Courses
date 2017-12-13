@@ -9,7 +9,8 @@ cache:
     - node_modules
     - bower_components
 
-before_install:
+before_script:
+  - npm install -g bower
   - bower install
 
 script:
