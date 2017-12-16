@@ -739,7 +739,19 @@
     "categories": "git",
     "language": "English",
     "flags": "flag-icon-us"
+  },
+  {
+    "title": "Learning Vue 1.0: Step By Step",
+    "description": "Learning Vue 1.0: Step By Step",
+    "link": "https://laracasts.com/series/learning-vue-step-by-step",
+    "author": "Laracasts",
+    "level": "Beginner",
+    "categories": "vue",
+    "language": "English",
+    "flags": "flag-icon-us"
   }
 ]
+
+
 
 
