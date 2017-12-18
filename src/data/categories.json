@@ -111,5 +111,9 @@
   {
     "title": "Go",
     "icon": "devicon-go-plain colored"
+  },
+  {
+    "title": "Newsletter",
+    "icon": "devicon-javascript-plain colored"
   }
 ]

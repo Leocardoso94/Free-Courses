@@ -749,6 +749,16 @@
     "categories": "vue",
     "language": "English",
     "flags": "flag-icon-us"
+  },
+  {
+    "title": "JavaScript Weekly",
+    "description": "A free, once–weekly e-mail round-up of JavaScript news and articles.",
+    "link": "http://javascriptweekly.com/",
+    "author": "Cooper Press and Peter Cooper",
+    "level": "Beginner,intermediate,advanced",
+    "categories": "newsletter",
+    "language": "English",
+    "flags": "flag-icon-us"
   }
 ]
 
