@@ -46,7 +46,7 @@ class Home extends Component {
         transitionLeave={false}
         component="div"
         className="home">
-        <h1 className="title">Free Courses to Developers</h1>
+        <h1 className="title">Free Courses</h1>
         <p>
           <b>Welcome!</b>
           <br />
