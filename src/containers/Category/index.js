@@ -18,7 +18,8 @@ class Category extends Component {
 					<br />
 					We do not have any listed course about {category.title}, yet.
 					<br />
-					If you have any suggestion and would like to collaborate, please <a href="https://github.com/Leocardoso94/Free-Courses" target="_blank" rel="noopener noreferrer">check How</a>
+          If you have any suggestion and would like to collaborate, please <a href="https://github.com/Leocardoso94/Free-Courses" target="_blank"
+          >check How</a>
 				</p>
 			</div>
 		);
@@ -60,7 +61,8 @@ class Category extends Component {
 				{coursesInCategory.length === 0 ? this.renderContribute(category) : < CourseList coursesInCategory={coursesInCategory} />}
 				<div className="footer" >
 					<p>
-						Caught a mistake or want to add more courses about {category.title}?  <a href="https://github.com/Leocardoso94/Free-Courses" target="_blank" rel="noopener noreferrer">Check How</a>
+            Caught a mistake or want to add more courses about {category.title}?  <a href="https://github.com/Leocardoso94/Free-Courses" target="_blank"
+            >Check How</a>
 					</p>
 				</div>
 			</ReactCSSTransitionGroup>

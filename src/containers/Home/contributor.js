@@ -5,7 +5,7 @@ const Contributor = ({ contributor }) => {
 	return (
 		<li className="contributor">
 			<img className="avatar" src={contributor.avatar_url} />
-			<a target="_blank" className="contributor__link" rel="noopener noreferrer" href={contributor.html_url} >@{contributor.login}</a>
+			<a target="_blank" className="contributor__link"  href={contributor.html_url} >@{contributor.login}</a>
 		</li>
 	);
 };
