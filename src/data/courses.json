@@ -779,5 +779,16 @@
     "categories": "Python",
     "language": "Portuguese - Brazil",
     "flags": "flag-icon-br"
+  },
+  {
+    "title": "Angular 5",
+    "description": "Build the web applications of tomorrow using the new Angular web framework from Google.",
+    "link": "https://codecraft.tv/courses/angular/",
+    "author": "Asim",
+    "level": "Intermediate",
+    "categories": "Angular",
+    "language": "English",
+    "flags": "flag-icon-us",
+    "image": "https://codecraft.tv/assets/images/courses/angular/angular.w555.playicon.noptim.jpg"
   }
 ]
