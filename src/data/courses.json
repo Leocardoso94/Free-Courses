@@ -769,11 +769,15 @@
     "categories": "newsletter",
     "language": "English",
     "flags": "flag-icon-us"
+  },
+  {
+    "title": "Python para zumbis",
+    "description": "Aprenda a programar de um modo profissional e divertido.",
+    "link": "https://www.pycursos.com/python-para-zumbis/",
+    "author": "Fernando Masanori",
+    "level": "Beginner",
+    "categories": "Python",
+    "language": "Portuguese - Brazil",
+    "flags": "flag-icon-br"
   }
 ]
-
-
-
-
-
-
