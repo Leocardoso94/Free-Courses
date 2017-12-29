@@ -3,15 +3,17 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { Provider } from 'react-redux';
 import { createStore, applyMiddleware } from 'redux';
-//style
-import './index.scss';
-// libs
-import './../bower_components/font-awesome/css/font-awesome.min.css';
-import './../bower_components/flag-icon-css/css/flag-icon.min.css';
-
-// Containers
-import Container from './containers/container';
 import reducers from './reducers';
+
+//style
+import style from './index.scss';
+
+// libs
+import './../node_modules/font-awesome/css/font-awesome.min.css';
+import './../node_modules/flag-icon-css/css/flag-icon.min.css';
+
+import Container from './containers/container';
+
 
 
 
@@ -25,5 +27,3 @@ ReactDOM.render(
     <Container />
   </Provider>
   , document.getElementById('app'));
-
-

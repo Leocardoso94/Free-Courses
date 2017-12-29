@@ -27,6 +27,8 @@
   "license": "MIT",
   "homepage": "https://freecourses.github.io/",
   "dependencies": {
+    "flag-icon-css": "^2.9.0",
+    "font-awesome": "^4.7.0",
     "lodash.snakecase": "^4.1.1",
     "node-sass": "^4.3.0",
     "prop-types": "^15.6.0",
