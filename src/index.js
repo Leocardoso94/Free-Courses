@@ -6,7 +6,7 @@ import { createStore, applyMiddleware } from 'redux';
 import reducers from './reducers';
 
 //style
-import style from './index.scss';
+import './index.scss';
 
 // libs
 import './../node_modules/font-awesome/css/font-awesome.min.css';
