@@ -7,11 +7,6 @@ cache:
   yarn: true
   directories:
     - node_modules
-    - bower_components
-
-before_script:
-  - npm install -g bower
-  - bower install
 
 script:
   - npm prune
