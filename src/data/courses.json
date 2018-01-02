@@ -792,21 +792,21 @@
     "image": "https://codecraft.tv/assets/images/courses/angular/angular.w555.playicon.noptim.jpg"
   },
   {
-     "title": "Programming, Data Structures and Algorithms in Python",
-     "description": "This is a introductory course which teaches basic programming concepts in Python. The course also covers various data structures such as sorting, searching, linked list, trees, etc. and their implementation in python.The videos of this course are also available on Youtube. The name of youtube channel is:NOC16 July-Sep CS11",
-     "link": "http://nptel.ac.in/courses/106106145/",
-     "author": "Prof. Madhavan Mukund",
-     "level": "Beginner-Intermediate",
-     "categories": "Python",
-     "language": "English",
-   },
-   {
-     "title": "A Byte of Python",
-     "description": "A Byte of Python is a free book on programming using the Python language. It serves as a tutorial or guide to the Python language for a beginner audience. If all you know about computers is how to save text files, then this is the book for you.",
-     "link": "https://python.swaroopch.com/",
-     "author": "Swaroop C.H.",
-     "level": "Beginner",
-     "categories": "Python",
-     "language": "English"
-   }
+    "title": "Programming, Data Structures and Algorithms in Python",
+    "description": "This is a introductory course which teaches basic programming concepts in Python. The course also covers various data structures such as sorting, searching, linked list, trees, etc. and their implementation in python.The videos of this course are also available on Youtube. The name of youtube channel is:NOC16 July-Sep CS11",
+    "link": "http://nptel.ac.in/courses/106106145/",
+    "author": "Prof. Madhavan Mukund",
+    "level": "Beginner-Intermediate",
+    "categories": "Python",
+    "language": "English"
+  },
+  {
+    "title": "A Byte of Python",
+    "description": "A Byte of Python is a free book on programming using the Python language. It serves as a tutorial or guide to the Python language for a beginner audience. If all you know about computers is how to save text files, then this is the book for you.",
+    "link": "https://python.swaroopch.com/",
+    "author": "Swaroop C.H.",
+    "level": "Beginner",
+    "categories": "Python",
+    "language": "English"
+  }
 ]
