@@ -74,6 +74,9 @@ class Home extends Component {
           <li><a target="_blank"
           href="https://github.com/EbookFoundation/free-programming-books">Free programming books</a></li>
         </ol>
+
+        <a className="bmc-button" target="_blank" href="https://www.buymeacoffee.com/leocardoso"><img src="https://www.buymeacoffee.com/assets/img/BMC-btn-logo.svg" alt="BMC logo"/><span>Buy me a coffee</span></a>
+
         <h4>Contributors</h4>
 
         <ul className="contributors">
