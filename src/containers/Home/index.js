@@ -57,7 +57,7 @@ class Home extends Component {
            href="https://github.com/Leocardoso94/Free-Courses/blob/master/README.md">see how</a>
           <br />
           <br />
-          FreeCourses is free and <a target="_blank"
+          Free Courses is<a target="_blank"
           href="https://github.com/Leocardoso94/Free-Courses">open source </a>. <a className="stars" target="_blank"
           href="https://github.com/Leocardoso94/Free-Courses"><FaIcon icon="fa-github" color="#000" /><FaIcon icon="fa-star" color="#ff8f00" /> {this.state.stars} Stars</a>
           <br />
@@ -75,9 +75,11 @@ class Home extends Component {
           href="https://github.com/EbookFoundation/free-programming-books">Free programming books</a></li>
         </ol>
 
+        <h4>If you want to donate something:</h4>
+
         <a className="bmc-button" target="_blank" href="https://www.buymeacoffee.com/leocardoso"><img src="https://www.buymeacoffee.com/assets/img/BMC-btn-logo.svg" alt="BMC logo"/><span>Buy me a coffee</span></a>
 
-        <h4>Contributors</h4>
+        <h4>Special thanks to all contributors:</h4>
 
         <ul className="contributors">
           {this.contributorsList()}
