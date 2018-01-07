@@ -25,7 +25,7 @@ You can also contribute to the project. Check below different ways for contribut
 <a href="https://www.buymeacoffee.com/leocardoso"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;"  target="_blank"></a>
 </div>
 
-## Courses \n------\n\n
+ Courses \n------\n\n
 `;
 const findCoursesInCategory = (categoryTitle = '') => {
   return courses.filter(course => course.categories.some(categoryOfCourse => categoryOfCourse.toLowerCase() === categoryTitle.toLowerCase()));
@@ -42,7 +42,7 @@ categories.forEach(category => {
 
 
   const coursesInCategory = findCoursesInCategory(category.title);
-  console.log(coursesInCategory)
+
   if (coursesInCategory.length > 0) {
     string += `### ${category.title}\n\n`;
     writeCourse(coursesInCategory);
@@ -50,7 +50,7 @@ categories.forEach(category => {
 
 });
 
-// console.log(string);
+
 
 fs.writeFile('./README.md', string, () => {
   console.log("finish");
