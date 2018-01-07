@@ -3,7 +3,7 @@
 First of all, thank you for taking the time to contribute! :+1::tada:
 
 When contributing to this repository, please first discuss the change you wish to make via issue,
-email, or any other method with the owners of this repository before making a change. 
+email, or any other method with the owners of this repository before making a change.
 
 Please note we have a code of conduct, please follow it in all your interactions with the project.
 
@@ -28,7 +28,7 @@ To add new course please follow steps:
         "author": "Author of course",
         "language": "language of course",
         "flags": "flag of the language" // this is optional        ,
-        "categories": "category 1,  category 2",        
+        "categories": "category 1,  category 2",
         "link": "https://linkOfCouse.com/",
         "level": "the level of course",
         "description": "a short description of course",
@@ -74,10 +74,46 @@ To add a new category:
 
 Icon classes can be found here: [Devicon](http://konpa.github.io/devicon/) or [Devicon Cheatsheet](http://vorillaz.github.io/devicons/#/cheat)
 
+
+## Environment setup
+
+### To run locally
+
+* You'll need to have [bower](https://bower.io/) and [node](https://nodejs.org/en/) installed in your system.
+
+```
+npm install && bower install
+```
+
+* Run development server:
+
+```
+npm start
+```
+
+* Or you can run development server with [webpack-dashboard](https://github.com/FormidableLabs/webpack-dashboard):
+
+```
+npm run dev
+```
+
+* Open the Web browser to `http://localhost:8080/`
+
+### To build the Production package
+
+```
+npm run build
+```
+
+### ESLint
+There is a `.eslint.yaml` config for ESLint ready with React plugin.
+
+To run linting, run:
+
+```
+npm run lint
+```
+
 ## Code of Conduct
 
 Check [Code of Conduct](https://github.com/Leocardoso94/Free-Courses/blob/master/CODE_OF_CONDUCT.md)
-
-## Contributors:
-
-Check all the [Contributors](https://freecourses.github.io/#/contribute)
