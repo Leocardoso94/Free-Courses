@@ -9,14 +9,8 @@ Freecourses is a platform which offers a collection of free course links for var
 
 You can also contribute to the project. Check below different ways for contributions please check in [CONTRIBUTING.md](https://github.com/Leocardoso94/Free-Courses/blob/master/CONTRIBUTING.md)
 
-
-## If you like the project and want to make a donation, buy me a coffee
-<div align="center">
-<a href="https://www.buymeacoffee.com/leocardoso"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;"  target="_blank"></a>
-</div>
-
- Courses 
-------
+--------------------
+ # Courses 
 
 
 ### Angular
@@ -466,4 +460,11 @@ You can also contribute to the project. Check below different ways for contribut
 - [Learn Webpack 2 from scratch](https://www.udemy.com/learn-webpack-2-from-scratch/)
 
 	- Learn how to build web applications using Javascript's most popular build tool... Webpack 2
+
+
+------------------
+### If you like the project and want to make a donation, buy me a coffee
+
+
+<a href="https://www.buymeacoffee.com/leocardoso"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;"  target="_blank"></a>
 

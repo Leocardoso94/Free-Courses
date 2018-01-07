@@ -11,7 +11,8 @@
     "dev": " webpack-dashboard -- webpack-dev-server",
     "prepush": "npm run lint && npm run test",
     "test": "mocha src/**/*spec.js --require babel-register",
-    "test:coverage": "nyc npm test"
+    "test:coverage": "nyc npm test",
+    "readme": "node readme.js"
   },
   "nyc": {
     "reporter": [
