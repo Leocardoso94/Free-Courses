@@ -65,7 +65,7 @@ class Home extends Component {
           href="https://github.com/Leocardoso94">@LeoCardoso94</a></span>
           <br />
           <br />
-          <TweetButton text="FreeCourses. A collection of free courses for developers https://freecourses.github.io/" title="Share" /><FaceButton text="https://freecourses.github.io/" title="Share" />
+          <TweetButton text="https://freecourses.github.io/" title="Share" /><FaceButton text="https://freecourses.github.io/" title="Share" />
         </p>
         <h3 style={{ textAlign: 'left', marginTop: '40px' }}>Useful links:</h3>
         <ol style={{ textAlign: 'left' }}>
