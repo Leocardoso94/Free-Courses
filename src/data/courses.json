@@ -797,5 +797,55 @@
     "level": "Beginner",
     "categories": "Python",
     "language": "English"
+  },
+  {
+    "title": "Angular (v2.x e v4.x)",
+    "description": "Angular 2 é um framework que permite desenvolver aplicações web e mobile, mantido pela Google. Apesar de ser a segunda versão do framework, Angular 2 não é a continuação do Angular 1 com melhores e novas funcionalidades, foi reescrito.\n\nNesse curso vamos aprender como desenvolver com Angular 2.x e 4.x e TypeScript. Você vai aprender os conceitos básicos e intermediários do Angular, desde os primeiros passos até uma aplicação completa com requisições ao servidor e rotas.\n\nVamos aprender os conceitos de componentes, templates, diretivas, serviços, data-binding, validação de formulários, formulários reativos, roteamento (single page application – SPA) e como conectar ao servidor e trabalhar com RxJS (Observables).\n\nNão é necessário saber Angular 1 para esse curso, já que o Angular v2 foi reescrito. Vamos aprender todos os conceitos do zero, então não se preocupe!",
+    "link": "https://loiane.training/course/angular-2/",
+    "author": "Loiane Groner",
+    "level": "Beginner, Intermediate",
+    "categories": "Angular",
+    "language": "Portuguese - Brazil",
+    "flags": "flag-icon-br"
+  },
+  {
+    "title": "AngularJS",
+    "description": "Tudo sobre angularjs",
+    "link": "https://www.youtube.com/playlist?list=PLQCmSnNFVYnTD5p2fR4EXmtlR6jQJMbPb",
+    "author": "Rodrigo Branas",
+    "level": "Beginner, Intermediate",
+    "categories": "AngularJs",
+    "language": "Portuguese - Brazil",
+    "flags": "flag-icon-br"
+  },
+  {
+    "title": "Java Hibernate Tutorial",
+    "description": "This tutorial will teach you how to use Hibernate to develop your database based web applications in simple and easy steps",
+    "link": "https://www.youtube.com/playlist?list=PL-nvlz_b2YHigPMfw2G37_D54386hdNQ4",
+    "author": " Vivekananda Reddy",
+    "level": "Beginner, Intermediate",
+    "categories": "Java",
+    "language": "English",
+    "flags": "flag-icon-us"
+  },
+  {
+    "title": "Curso de JavaScript desde 0",
+    "description": "Curso de JavaScript desde 1",
+    "link": "https://www.youtube.com/playlist?list=PLU8oAlHdN5BmpobVmj1IlneKlVLJ84TID",
+    "author": " pildorasinformaticas",
+    "level": "Beginner",
+    "categories": "JavaScript",
+    "language": "Spanish",
+    "flags": "flag-icon-es"
+  },
+  {
+    "title": "Cursos de Angular js",
+    "description": "Cursos de Angular js",
+    "link": "https://www.youtube.com/playlist?list=PLRjuMxvCRGQ6kaHKyiBhOGxeXKLYpOJuZ",
+    "author": " Ariel Bautista",
+    "level": "Beginner",
+    "categories": "AngularJs",
+    "language": "Spanish",
+    "flags": "flag-icon-es"
   }
 ]

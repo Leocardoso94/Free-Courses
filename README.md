@@ -14,6 +14,7 @@ You can also contribute to the project. Check below different ways for contribut
 
 
 - [Angular](#angular)
+- [AngularJS](#angularjs)
 - [CSS](#css)
 - [Django](#django)
 - [Docker](#docker)
@@ -40,6 +41,16 @@ You can also contribute to the project. Check below different ways for contribut
 - [Webpack](#webpack)
 ### Angular
 
+- [Angular (v2.x e v4.x)](https://loiane.training/course/angular-2/)
+
+	- Angular 2 é um framework que permite desenvolver aplicações web e mobile, mantido pela Google. Apesar de ser a segunda versão do framework, Angular 2 não é a continuação do Angular 1 com melhores e novas funcionalidades, foi reescrito.
+
+Nesse curso vamos aprender como desenvolver com Angular 2.x e 4.x e TypeScript. Você vai aprender os conceitos básicos e intermediários do Angular, desde os primeiros passos até uma aplicação completa com requisições ao servidor e rotas.
+
+Vamos aprender os conceitos de componentes, templates, diretivas, serviços, data-binding, validação de formulários, formulários reativos, roteamento (single page application – SPA) e como conectar ao servidor e trabalhar com RxJS (Observables).
+
+Não é necessário saber Angular 1 para esse curso, já que o Angular v2 foi reescrito. Vamos aprender todos os conceitos do zero, então não se preocupe!
+
 - [Angular 2 Tutorial](https://www.youtube.com/watch?v=zj7_4VDFQPA&list=PLC3y8-rFHvwg5gEu2KF4sbGvpUqMRSBSW)
 
 	- Playlist for Angular 2 Tutorial
@@ -51,6 +62,16 @@ You can also contribute to the project. Check below different ways for contribut
 - [Curso Angular 4](https://www.youtube.com/watch?v=tPOMG0D57S0&list=PLGxZ4Rq3BOBoSRcKWEdQACbUCNWLczg2G)
 
 	- Playlist do Curso de Angular 4/2
+
+### AngularJS
+
+- [AngularJS](https://www.youtube.com/playlist?list=PLQCmSnNFVYnTD5p2fR4EXmtlR6jQJMbPb)
+
+	- Tudo sobre angularjs
+
+- [Cursos de Angular js](https://www.youtube.com/playlist?list=PLRjuMxvCRGQ6kaHKyiBhOGxeXKLYpOJuZ)
+
+	- Cursos de Angular js
 
 ### CSS
 
@@ -192,6 +213,10 @@ You can also contribute to the project. Check below different ways for contribut
 
 ### Java
 
+- [Java Hibernate Tutorial](https://www.youtube.com/playlist?list=PL-nvlz_b2YHigPMfw2G37_D54386hdNQ4)
+
+	- This tutorial will teach you how to use Hibernate to develop your database based web applications in simple and easy steps
+
 - [Java Tutorial for Complete Beginners](https://www.udemy.com/java-tutorial/)
 
 	- Learn to program using the Java programming language
@@ -201,6 +226,10 @@ You can also contribute to the project. Check below different ways for contribut
 - [Aprende Vue2 y Firebase paso a paso ](https://wmedia.teachable.com/p/aprende-vue2-y-firebase-paso-a-paso)
 
 	- La mejor forma de dar el salto a JavaScript moderno. 
+
+- [Curso de JavaScript desde 0](https://www.youtube.com/playlist?list=PLU8oAlHdN5BmpobVmj1IlneKlVLJ84TID)
+
+	- Curso de JavaScript desde 1
 
 - [Eloquent JavaScript](http://eloquentjavascript.net/)
 
