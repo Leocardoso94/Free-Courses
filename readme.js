@@ -20,7 +20,7 @@ Freecourses is a platform which offers a collection of free course links for var
 You can also contribute to the project. Check below different ways for contributions please check in [CONTRIBUTING.md](https://github.com/Leocardoso94/Free-Courses/blob/master/CONTRIBUTING.md)
 
 --------------------
- # Courses \n\n
+ # Contents \n\n
 `;
 const findCoursesInCategory = (categoryTitle = '') => {
   return courses.filter(course => course.categories.some(categoryOfCourse => categoryOfCourse.toLowerCase() === categoryTitle.toLowerCase()));
@@ -32,6 +32,17 @@ const writeCourse = (coursesInCategory = []) => {
 
 };
 
+categories.forEach(category => {
+
+
+  const coursesInCategory = findCoursesInCategory(category.title);
+
+  if (coursesInCategory.length > 0) {
+    string += `- [${category.title}](#${category.title.replace(' ', '')})\n`;
+
+  }
+
+});
 
 categories.forEach(category => {
 
