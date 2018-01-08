@@ -230,17 +230,6 @@
     "flags": "flag-icon-us"
   },
   {
-    "title": "Node.js Real Time Chat",
-    "description": "Beginner to Intermediate developers who want to build Real Time Chat apps based on Node.js",
-    "link": "https://thenewboston.com/videos.php?cat=86&video=19814",
-    "author": "The New Boston",
-    "level": "Beginner - Intermediate",
-    "categories": "javascript,node",
-    "language": "English",
-    "image": "https://thenewboston.com/images/logo.png",
-    "flags": "flag-icon-us"
-  },
-  {
     "title": "React 16 Definitivo",
     "description": "Tudo o que você precisa saber sobre a versão 16 do React",
     "link": "https://www.udemy.com/react-16/",

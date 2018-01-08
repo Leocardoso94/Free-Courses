@@ -1,5 +1,5 @@
-# Free Courses to Developers [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![Build Status](https://travis-ci.org/Leocardoso94/Free-Courses.svg?branch=master)](https://travis-ci.org/Leocardoso94/Free-Courses) [![GitHub issues](https://img.shields.io/github/issues/Leocardoso94/Free-Courses.svg)](https://github.com/Leocardoso94/Free-Courses/issues) [![GitHub forks](https://img.shields.io/github/forks/Leocardoso94/Free-Courses.svg)](https://github.com/Leocardoso94/Free-Courses/network) [![GitHub stars](https://img.shields.io/github/stars/Leocardoso94/Free-Courses.svg)](https://github.com/Leocardoso94/Free-Courses/stargazers) [![GitHub license](https://img.shields.io/github/license/Leocardoso94/Free-Courses.svg)](https://github.com/Leocardoso94/Free-Courses/blob/master/LICENSE)
+# Free Courses to Developers
+ [![GitHub issues](https://img.shields.io/github/issues/Leocardoso94/Free-Courses.svg)](https://github.com/Leocardoso94/Free-Courses/issues) [![GitHub forks](https://img.shields.io/github/forks/Leocardoso94/Free-Courses.svg)](https://github.com/Leocardoso94/Free-Courses/network) [![GitHub stars](https://img.shields.io/github/stars/Leocardoso94/Free-Courses.svg)](https://github.com/Leocardoso94/Free-Courses/stargazers) [![GitHub license](https://img.shields.io/github/license/Leocardoso94/Free-Courses.svg)](https://github.com/Leocardoso94/Free-Courses/blob/master/LICENSE)
 
 https://freecourses.github.io/
 
@@ -209,10 +209,6 @@ You can also contribute to the project. Check below different ways for contribut
 
 	- A hands on approach to learning VueJS
 
-- [Node.js Real Time Chat](https://thenewboston.com/videos.php?cat=86&video=19814)
-
-	- Beginner to Intermediate developers who want to build Real Time Chat apps based on Node.js
-
 - [React JS and Redux - Mastering Web Apps](https://www.udemy.com/react-js-and-redux-mastering-web-apps/?couponCode=GOHACKERS2)
 
 	- Create the React JS & Redux apps you always wanted. Build 4 projects, discover development tricks, and master React!
@@ -271,16 +267,6 @@ You can also contribute to the project. Check below different ways for contribut
 
 	- A complete course based on NodeJS.
 
-### Newsletter
-
-- [JavaScript Weekly](http://javascriptweekly.com/)
-
-	- A free, once–weekly e-mail round-up of JavaScript news and articles.
-
-- [Ruby Weekly](https://rubyweekly.com/)
-
-	- A free, once–weekly e-mail round-up of Ruby news and articles.
-
 ### Node
 
 - [Express Foundation](https://node.university/p/express-foundation)
@@ -298,10 +284,6 @@ You can also contribute to the project. Check below different ways for contribut
 - [Node and MongoDB Foundation](https://node.university/p/node-npm-and-mongodb-foundation)
 
 	- Intro to Node and MongoDB for Absolute Beginners
-
-- [Node.js Real Time Chat](https://thenewboston.com/videos.php?cat=86&video=19814)
-
-	- Beginner to Intermediate developers who want to build Real Time Chat apps based on Node.js
 
 - [Server-side Development with NodeJS, Express and MongoDB](https://www.coursera.org/learn/server-side-nodejs)
 

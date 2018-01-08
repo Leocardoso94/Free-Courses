@@ -2,7 +2,6 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
 
-import Masonry from 'react-masonry-component';
 
 const CourseList = ({ coursesInCategory }) => {
   function getImage(course) {
@@ -23,8 +22,7 @@ const CourseList = ({ coursesInCategory }) => {
     return (
       <li className="course" key={course.title + course.author}>
         <Link to={`/course/${course.id}`}>
-          <div className="image">
-            <img src={getImage(course)} />
+          <div className="image" style={{ backgroundImage: `url(${getImage(course)})` }}>
           </div>
           <div className="description">
             <h6 className="author">{course.author}</h6>
@@ -43,20 +41,8 @@ const CourseList = ({ coursesInCategory }) => {
     );
   });
 
-
-  const masonryOptions = {
-    transitionDuration: 0
-  };
-
   return (
-    <Masonry
-      elementType={'ul'} // default 'div'
-      options={masonryOptions} // default {}
-      disableImagesLoaded={false} // default false
-      updateOnEachImageLoad={false} // d
-      component="ul">
-      {courses}
-    </Masonry>
+    <ul>{courses}</ul>
   );
 };
 

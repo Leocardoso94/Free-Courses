@@ -6,12 +6,16 @@
     ul {
         width: 100%;
         list-style: none;
+        padding: 0;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
 
         .course {
             background: #fff;
             position: relative;
-            flex-basis: 20%;
-            max-width: 200px;
+            width: 30%;
             min-width: 170px;
             box-shadow: 0 0 1px 1px hsla(0, 0%, 7%, 0.1), 0 3px 1px 0 hsla(0, 0%, 7%, 0.1);
             border-radius: 15px;
@@ -48,14 +52,12 @@
         margin-bottom: 5px;
         border-top-left-radius: 15px;
         border-top-right-radius: 15px;
+        width: 100%;
+        height: 180px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
 
-        img {
-            width: 100%;
-            min-width: 100%;
-            border-top-left-radius: 15px;
-            border-top-right-radius: 15px;
-            box-shadow: 0 4px 2px -2px gray;
-        }
     }
 
     .text-description {
