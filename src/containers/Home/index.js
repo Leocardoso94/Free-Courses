@@ -58,7 +58,7 @@ class Home extends Component {
           <br />
           <br />
           Free Courses is <a target="_blank"
-          href="https://github.com/Leocardoso94/Free-Courses">open source </a>. <a className="stars" target="_blank"
+          href="https://github.com/Leocardoso94/Free-Courses">open source</a>. <a className="stars" target="_blank"
           href="https://github.com/Leocardoso94/Free-Courses"><FaIcon icon="fa-github" color="#000" /><FaIcon icon="fa-star" color="#ff8f00" /> {this.state.stars} Stars</a>
           <br />
           <span >Made with <FaIcon icon="fa-heart" color="red" /> by <a target="_blank"
