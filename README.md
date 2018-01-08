@@ -33,7 +33,7 @@ You can also contribute to the project. Check below different ways for contribut
 - [Python](#python)
 - [Rails](#rails)
 - [React](#react)
-- [React Native](#reactnative)
+- [React Native](#react-native)
 - [Sass](#sass)
 - [Swift](#swift)
 - [Vue](#vue)

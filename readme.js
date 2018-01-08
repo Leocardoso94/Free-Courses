@@ -38,7 +38,7 @@ categories.forEach(category => {
   const coursesInCategory = findCoursesInCategory(category.title);
 
   if (coursesInCategory.length > 0) {
-    string += `- [${category.title}](#${category.title.replace(' ', '').toLowerCase()})\n`;
+    string += `- [${category.title}](#${category.title.replace(' ', '-').toLowerCase()})\n`;
 
   }
 
