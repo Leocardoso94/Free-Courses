@@ -37,7 +37,6 @@
     "react-addons-css-transition-group": "^15.6.2",
     "react-dom": "16.0.0",
     "react-ga": "^2.3.5",
-    "react-masonry-component": "^6.0.1",
     "react-redux": "^5.0.6",
     "react-router": "^4.2.0",
     "react-router-dom": "^4.2.2",
