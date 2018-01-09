@@ -44,9 +44,7 @@ You can also contribute to the project. Check below different ways for contribut
 - [Angular (v2.x e v4.x)](https://loiane.training/course/angular-2/)
 
 	- Angular 2 é um framework que permite desenvolver aplicações web e mobile, mantido pela Google. Apesar de ser a segunda versão do framework, Angular 2 não é a continuação do Angular 1 com melhores e novas funcionalidades, foi reescrito.
-
 Nesse curso vamos aprender como desenvolver com Angular 2.x e 4.x e TypeScript. Você vai aprender os conceitos básicos e intermediários do Angular, desde os primeiros passos até uma aplicação completa com requisições ao servidor e rotas.
-
 Vamos aprender os conceitos de componentes, templates, diretivas, serviços, data-binding, validação de formulários, formulários reativos, roteamento (single page application – SPA) e como conectar ao servidor e trabalhar com RxJS (Observables).
 
 Não é necessário saber Angular 1 para esse curso, já que o Angular v2 foi reescrito. Vamos aprender todos os conceitos do zero, então não se preocupe!
