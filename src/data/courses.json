@@ -847,5 +847,15 @@
     "categories": "AngularJs",
     "language": "Spanish",
     "flags": "flag-icon-es"
+  },
+  {
+    "title": "Powering Up With React",
+    "description": "Discover how React can help you take control of your UI code with composable user interfaces.",
+    "link": "https://www.codeschool.com/courses/powering-up-with-react",
+    "author": "Sergio Cruz - Codeschool",
+    "level": "Beginner",
+    "categories": "react",
+    "language": "English",
+    "flags": "flag-icon-us"
   }
 ]
