@@ -9,7 +9,7 @@ const WebpackPwaManifest = require('webpack-pwa-manifest');
 const SitemapPlugin = require('sitemap-webpack-plugin').default;
 const RobotstxtPlugin = require('robotstxt-webpack-plugin').default;
 const PUBLIC_PATH = 'https://freecourses.github.io/';
-const SocialTags = require('social-tags-webpack-plugin')
+const SocialTags = require('social-tags-webpack-plugin');
 const ServiceWorkerWebpackPlugin = require('serviceworker-webpack-plugin');
 const snakeCase = require('lodash.snakecase');
 
