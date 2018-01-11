@@ -9,6 +9,7 @@ const WebpackPwaManifest = require('webpack-pwa-manifest');
 const SitemapPlugin = require('sitemap-webpack-plugin').default;
 const RobotstxtPlugin = require('robotstxt-webpack-plugin').default;
 const PUBLIC_PATH = 'https://freecourses.github.io/';
+const SocialTags = require('social-tags-webpack-plugin')
 const ServiceWorkerWebpackPlugin = require('serviceworker-webpack-plugin');
 const snakeCase = require('lodash.snakecase');
 
@@ -141,5 +142,27 @@ module.exports = {
       ]
     }),
     new SitemapPlugin(PUBLIC_PATH + '#/', paths),
+    new SocialTags({
+      appUrl: PUBLIC_PATH,
+      facebook: {
+        'fb:app_id': "1745275342447895",
+        'og:url': PUBLIC_PATH,
+        'og:type': "website",
+        'og:title': "Free Courses",
+        'og:image': './src/img/share_image.png',
+        'og:description': "A collection of free programming courses maintained by the community. Learn about the most varied programming languages for free",
+        'og:site_name': "Free Courses",
+        'og:locale': "en_US",
+        'og:article:author': "",
+      },
+      twitter: {
+        "twitter:card": "summary",
+        "twitter:creator": "@leocardoso94_",
+        "twitter:url": PUBLIC_PATH,
+        "twitter:title": "Free Courses",
+        "twitter:description": "A collection of free programming courses maintained by the community. Learn about the most varied programming languages for free",
+        "twitter:image": './src/img/share_image.png',
+      },
+    })
   ]
 };

@@ -6352,6 +6352,10 @@ sntp@2.x.x:
   dependencies:
     hoek "4.x.x"
 
+social-tags-webpack-plugin@^0.0.6:
+  version "0.0.6"
+  resolved "https://registry.yarnpkg.com/social-tags-webpack-plugin/-/social-tags-webpack-plugin-0.0.6.tgz#5740ff3cfde184b589710385c2ed4bad98fb1378"
+
 socket.io-adapter@0.5.0:
   version "0.5.0"
   resolved "https://registry.yarnpkg.com/socket.io-adapter/-/socket.io-adapter-0.5.0.tgz#cb6d4bb8bec81e1078b99677f9ced0046066bb8b"
