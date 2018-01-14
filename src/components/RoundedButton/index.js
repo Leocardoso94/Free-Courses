@@ -9,7 +9,7 @@ const RoundedButton = ({ text, link }) => (
 
 RoundedButton.propTypes = {
   text: PropTypes.string.isRequired,
-  link: PropTypes.string
+  link: PropTypes.string.isRequired
 };
 
 export default RoundedButton;

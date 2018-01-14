@@ -1,10 +1,9 @@
 const fs = require('fs');
+const categories = require('./src/data/categories.json').sort((a, b) => (a.title < b.title ? -1 : 1));
+const courses = require('./src/data/courses.json').sort((a, b) => (a.title < b.title ? -1 : 1));
 
-const categories = require('./src/data/categories.json').sort((a, b) => a.title < b.title ? -1 : 1);
-const courses = require('./src/data/courses.json').sort((a, b) => a.title < b.title ? -1 : 1);
 courses.forEach((course) => {
-  if (typeof course.categories === 'string')
-    course.categories = course.categories.replace(/ *, */g, ',').split(',');
+  if (typeof course.categories === 'string') course.categories = course.categories.replace(/ *, */g, ',').split(',');
 });
 
 
@@ -22,38 +21,30 @@ You can also contribute to the project. Check below different ways for contribut
 --------------------
  # Contents \n\n
 `;
-const findCoursesInCategory = (categoryTitle = '') => {
-  return courses.filter(course => course.categories.some(categoryOfCourse => categoryOfCourse.toLowerCase() === categoryTitle.toLowerCase()));
-};
+const findCoursesInCategory = (categoryTitle = '') => courses.filter(course => course.categories.some(categoryOfCourse => categoryOfCourse.toLowerCase() === categoryTitle.toLowerCase()));
 
 
 const writeCourse = (coursesInCategory = []) => {
-  coursesInCategory.forEach(course => string += `- [${course.title}](${course.link})\n\n\t- ${course.description}\n\n`);
-
+  coursesInCategory.forEach((course) => {
+    string += `- [${course.title}](${course.link})\n\n\t- ${course.description}\n\n`;
+  });
 };
 
-categories.forEach(category => {
-
-
+categories.forEach((category) => {
   const coursesInCategory = findCoursesInCategory(category.title);
 
   if (coursesInCategory.length > 0) {
     string += `- [${category.title}](#${category.title.replace(' ', '-').toLowerCase()})\n`;
-
   }
-
 });
 
-categories.forEach(category => {
-
-
+categories.forEach((category) => {
   const coursesInCategory = findCoursesInCategory(category.title);
 
   if (coursesInCategory.length > 0) {
     string += `### ${category.title}\n\n`;
     writeCourse(coursesInCategory);
   }
-
 });
 
 
@@ -67,7 +58,6 @@ string += `
 `;
 
 
-
 fs.writeFile('./README.md', string, () => {
-  console.log("finish");
+  console.log('finish');
 });
