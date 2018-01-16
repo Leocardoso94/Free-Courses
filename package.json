@@ -12,7 +12,8 @@
     "prepush": "npm run lint && npm run test",
     "test": "mocha src/**/*spec.js --require babel-register",
     "test:coverage": "nyc npm test",
-    "readme": "node readme.js"
+    "readme": "node readme.js",
+    "fix:lint": "eslint --fix src/**/*.js"
   },
   "nyc": {
     "reporter": [

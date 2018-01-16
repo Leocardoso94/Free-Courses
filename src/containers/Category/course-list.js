@@ -9,25 +9,15 @@ const CourseList = ({ coursesInCategory }) => {
     return !course.image || course.image === '' ? defaultImage : course.image;
   }
 
-  function getDescription(course) {
-    let description = course.description.replace(/^(.{50}[^\s]*).*/, '$1');
-
-    if (course.description.length > 51) description += '...';
-
-    return description;
-  }
-
-
   const courses = coursesInCategory.map((course, index) => (
     <Fade delay={10 * index} key={course.title + course.author}>
       <li className="course">
         <Link to={`/course/${course.id}`}>
-          <div className="image" style={{ backgroundImage: `url(${getImage(course)})` }}>
-          </div>
+          <div className="image" style={{ backgroundImage: `url(${getImage(course)})` }} />
           <div className="description">
             <h6 className="author">{course.author}</h6>
             <h4 className="title">{course.title}</h4>
-            <p className="text-description">{getDescription(course)}</p>
+            <p className="text-description">{course.description}</p>
           </div>
         </Link>
         <div className="flags">

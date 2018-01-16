@@ -34,7 +34,13 @@ export default () => (
         render={() => (
           <div className="main" >
             <SideBar closeSideBar={closeSideBar} />
-            <div className="content" onClick={() => closeSideBar()}>
+            <div
+              className="content"
+              tabIndex="0"
+              role="link"
+              onKeyPress={() => closeSideBar()}
+              onClick={() => closeSideBar()}
+            >
               <Route exact path="/" component={Home} />
               <Route path="/category/:category" component={Category} />
               <Route path="/course/:id" component={Course} />
