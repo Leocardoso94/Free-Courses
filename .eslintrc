@@ -1,13 +1,19 @@
 {
   "extends": "airbnb",
-  "plugins": [
-    "mocha"
-  ],
   "rules": {
-    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+    "react/jsx-filename-extension": [
+      1,
+      {
+        "extensions": [
+          ".js",
+          ".jsx"
+        ]
+      }
+    ],
     "comma-dangle": "off"
   },
   "env": {
-    "browser": true
+    "browser": true,
+    "mocha": true
   }
 }

@@ -14,5 +14,4 @@ cache:
 
 script:
   - yarn test
-  - yarn run lint
   - bash ./deploy.sh
