@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
+import ReactCSSTransitionGroup from 'react-transition-group/CSSTransitionGroup';
 import './index.scss';
 import Contributor from './contributor';
 import FaIcon from './../../components/Icons/fa-icon';
-import ReactCSSTransitionGroup from 'react-transition-group/CSSTransitionGroup';
 import { TweetButton, FaceButton } from './../../components/ShareButtons';
+
 
 class Home extends Component {
   constructor(props) {
