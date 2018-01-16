@@ -15,8 +15,7 @@
         .course {
             background: #fff;
             position: relative;
-            width: 30%;
-            min-width: 170px;
+            max-width: 250px;
             box-shadow: 0 0 1px 1px hsla(0, 0%, 7%, 0.1), 0 3px 1px 0 hsla(0, 0%, 7%, 0.1);
             border-radius: 15px;
             margin-bottom: 20px;
@@ -26,7 +25,7 @@
 
             &:hover {
                 box-shadow: 0px 0px 40px hsla(0, 0%, 0%, 0.302);
-                transform: scale(1.05);
+                transform: translateY(-10px);
             }
 
             .title {

@@ -28,8 +28,8 @@ class Home extends Component {
   }
 
   contributorsList() {
-    return this.state.contributors.map(contributor => {
-      return <Contributor contributor={contributor} key={contributor.login} />;
+    return this.state.contributors.map((contributor, index) => {
+      return <Contributor contributor={contributor} index={index} key={contributor.login} />;
     });
   }
 
@@ -54,15 +54,15 @@ class Home extends Component {
           This is a list of free courses about programming.
 					<br />
           You can contribute to the project adding more courses, <a target="_blank"
-           href="https://github.com/Leocardoso94/Free-Courses/blob/master/README.md">see how</a>
+            href="https://github.com/Leocardoso94/Free-Courses/blob/master/README.md">see how</a>
           <br />
           <br />
           Free Courses is <a target="_blank"
-          href="https://github.com/Leocardoso94/Free-Courses">open source</a>. <a className="stars" target="_blank"
-          href="https://github.com/Leocardoso94/Free-Courses"><FaIcon icon="fa-github" color="#000" /><FaIcon icon="fa-star" color="#ff8f00" /> {this.state.stars} Stars</a>
+            href="https://github.com/Leocardoso94/Free-Courses">open source</a>. <a className="stars" target="_blank"
+              href="https://github.com/Leocardoso94/Free-Courses"><FaIcon icon="fa-github" color="#000" /><FaIcon icon="fa-star" color="#ff8f00" /> {this.state.stars} Stars</a>
           <br />
           <span >Made with <FaIcon icon="fa-heart" color="red" /> by <a target="_blank"
-          href="https://github.com/Leocardoso94">@LeoCardoso94</a></span>
+            href="https://github.com/Leocardoso94">@LeoCardoso94</a></span>
           <br />
           <br />
           <TweetButton text="https://freecourses.github.io/" title="Share" /><FaceButton text="https://freecourses.github.io/" title="Share" />
@@ -70,14 +70,14 @@ class Home extends Component {
         <h3 style={{ textAlign: 'left', marginTop: '40px' }}>Useful links:</h3>
         <ol style={{ textAlign: 'left' }}>
           <li><a target="_blank"
-          href="https://www.freecodecamp.org">freeCodeCamp</a></li>
+            href="https://www.freecodecamp.org">freeCodeCamp</a></li>
           <li><a target="_blank"
-          href="https://github.com/EbookFoundation/free-programming-books">Free programming books</a></li>
+            href="https://github.com/EbookFoundation/free-programming-books">Free programming books</a></li>
         </ol>
 
         <h4>If you want to donate something:</h4>
 
-        <a className="bmc-button" target="_blank" href="https://www.buymeacoffee.com/leocardoso"><img src="https://www.buymeacoffee.com/assets/img/BMC-btn-logo.svg" alt="BMC logo"/><span>Buy me a coffee</span></a>
+        <a className="bmc-button" target="_blank" href="https://www.buymeacoffee.com/leocardoso"><img src="https://www.buymeacoffee.com/assets/img/BMC-btn-logo.svg" alt="BMC logo" /><span>Buy me a coffee</span></a>
 
         <h4>Special thanks to all contributors:</h4>
 
