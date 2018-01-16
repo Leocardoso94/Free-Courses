@@ -7,10 +7,10 @@ import './index.scss';
 import BackButton from './../../components/BackButton';
 
 
-const Course = () => {
-  const { match: { params: { id } } } = this.props;
+const Course = (props) => {
+  const { match: { params: { id } } } = props;
 
-  const course = this.props.courses.find(crs => crs.id === id);
+  const course = props.courses.find(crs => crs.id === id);
 
   return (
     <ReactCSSTransitionGroup
