@@ -67,23 +67,17 @@ class Home extends Component {
           <br />
           <TweetButton text="https://freecourses.github.io/" title="Share" /><FaceButton text="https://freecourses.github.io/" title="Share" />
         </p>
-        <h3 style={{ textAlign: 'left', marginTop: '40px' }}>Useful links:</h3>
-        <ol style={{ textAlign: 'left' }}>
-          <li><a target="_blank"
-            href="https://www.freecodecamp.org">freeCodeCamp</a></li>
-          <li><a target="_blank"
-            href="https://github.com/EbookFoundation/free-programming-books">Free programming books</a></li>
-        </ol>
-
-        <h4>If you want to donate something:</h4>
-
-        <a className="bmc-button" target="_blank" href="https://www.buymeacoffee.com/leocardoso"><img src="https://www.buymeacoffee.com/assets/img/BMC-btn-logo.svg" alt="BMC logo" /><span>Buy me a coffee</span></a>
 
         <h4>Special thanks to all contributors:</h4>
 
         <ul className="contributors">
           {this.contributorsList()}
         </ul>
+
+        <h4>If you want to donate something:</h4>
+
+        <a className="bmc-button" target="_blank" href="https://www.buymeacoffee.com/leocardoso"><img src="https://www.buymeacoffee.com/assets/img/BMC-btn-logo.svg" alt="BMC logo" /><span>Buy me a coffee</span></a>
+
       </ReactCSSTransitionGroup>
     );
   }
