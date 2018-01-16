@@ -13,7 +13,6 @@ cache:
     - node_modules
 
 script:
-  - npm prune
-  - npm test
-  - npm run lint
+  - yarn test
+  - yarn run lint
   - bash ./deploy.sh
