@@ -32,7 +32,7 @@ class SideBar extends Component {
             </li>
             {this.state.categories.map(category => (
               <li key={category.title} onClick={() => this.props.closeSideBar()}>
-                <Link className="item" to={`/category/${category.title}`}>
+                <Link className="item" to={`/category/${category.title.toLowerCase()}`}>
                   {category.icon ? <DevIcon icon={category.icon} color={category.iconColor} /> : ''}
                   {category.title}
                 </Link>
