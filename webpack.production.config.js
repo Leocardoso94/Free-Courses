@@ -23,7 +23,7 @@ courses.forEach((course) => {
 });
 
 categories.forEach((category) => {
-  paths.push(`/category/${category.title}`);
+  paths.push(`/category/${category.title.toLowerCase()}`);
 });
 
 loaders.push({
