@@ -132,16 +132,19 @@ module.exports = {
         {
           userAgent: 'Googlebot',
           allow: '/',
-          crawlDelay: 2
         },
         {
           userAgent: '*',
           allow: '/',
-          crawlDelay: 10,
         }
       ]
     }),
-    new SitemapPlugin(`${PUBLIC_PATH}#/`, paths),
+    new SitemapPlugin(`${PUBLIC_PATH}#/`, paths, {
+      fileName: 'sitemap.xml',
+      lastMod: true,
+      changeFreq: 'monthly',
+      priority: '0.8'
+    }),
     new SocialTags({
       appUrl: PUBLIC_PATH,
       facebook: {
