@@ -9,8 +9,8 @@ const CourseList = ({ coursesInCategory }) => {
     return !course.image || course.image === '' ? defaultImage : course.image;
   }
 
-  const courses = coursesInCategory.map((course, index) => (
-    <Fade delay={10 * index} key={course.title + course.author}>
+  const courses = coursesInCategory.map(course => (
+    <Fade delay={100} key={course.title + course.author}>
       <li className="course">
         <Link to={`/course/${course.id}`}>
           <div className="image" style={{ backgroundImage: `url(${getImage(course)})` }} />
