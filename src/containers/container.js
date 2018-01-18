@@ -1,5 +1,5 @@
 import React from 'react';
-import { Route, HashRouter } from 'react-router-dom';
+import { Route, HashRouter, Router } from 'react-router-dom';
 import { createBrowserHistory as createHistory } from 'history';
 import ReactGA from 'react-ga';
 
@@ -26,7 +26,7 @@ const closeSideBar = () => {
 
 
 export default () => (
-  <HashRouter>
+  <Router history={history}>
     <div className="container">
       <Header />
       <Route
@@ -50,6 +50,6 @@ export default () => (
         )}
       />
     </div >
-  </HashRouter>
+  </Router>
 );
 

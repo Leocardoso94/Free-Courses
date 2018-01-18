@@ -2,6 +2,7 @@ const webpack = require('webpack');
 const path = require('path');
 const loaders = require('./webpack.loaders');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+const CopyWebpackPlugin = require('copy-webpack-plugin');
 const WebpackCleanupPlugin = require('webpack-cleanup-plugin');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
 const SWPrecacheWebpackPlugin = require('sw-precache-webpack-plugin');
@@ -37,7 +38,7 @@ module.exports = {
     './src/index.js'
   ],
   output: {
-    publicPath: './',
+    publicPath: '/',
     path: path.join(__dirname, 'public'),
     filename: 'bundle.js'
   },
@@ -75,6 +76,13 @@ module.exports = {
         js: ['bundle.js'],
       }
     }),
+    new CopyWebpackPlugin([
+      {
+        from: './404.html',
+        to: './',
+        ignore: ['.*']
+      }
+    ]),
     new ServiceWorkerWebpackPlugin({
       entry: path.join(__dirname, 'src/sw.js'),
     }),
