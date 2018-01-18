@@ -2,8 +2,8 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { Fade } from 'react-reveal';
 
-const Contributor = ({ contributor, index }) => (
-  <Fade delay={100 * index}>
+const Contributor = ({ contributor }) => (
+  <Fade delay={100}>
     <li className="contributor">
       <img className="avatar" src={contributor.avatar_url} alt={contributor.login} />
       <a
@@ -17,8 +17,7 @@ const Contributor = ({ contributor, index }) => (
 );
 
 Contributor.propTypes = {
-  contributor: PropTypes.object.isRequired,
-  index: PropTypes.number.isRequired
+  contributor: PropTypes.object.isRequired
 };
 
 export default Contributor;
