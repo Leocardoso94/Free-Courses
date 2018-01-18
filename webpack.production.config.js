@@ -147,7 +147,7 @@ module.exports = {
         }
       ]
     }),
-    new SitemapPlugin(`${PUBLIC_PATH}#/`, paths, {
+    new SitemapPlugin(`${PUBLIC_PATH}`, paths, {
       fileName: 'sitemap.xml',
       lastMod: true,
       changeFreq: 'monthly',
