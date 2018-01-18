@@ -61,7 +61,7 @@
     "webpack-cleanup-plugin": "^0.4.2",
     "webpack-dashboard": "^0.3.0",
     "webpack-dev-server": "^2.4.1",
-    "webpack-pwa-manifest": "^3.3.2"
+    "webpack-pwa-manifest": "^3.4.1"
   },
   "devDependencies": {
     "babel-core": "^6.23.1",
