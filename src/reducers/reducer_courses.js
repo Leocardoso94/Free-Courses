@@ -7,6 +7,8 @@ courses.forEach((course) => {
   if (typeof course.flags === 'string') { course.flags = course.flags.split(','); }
 });
 
+const reversed = courses.slice(0).reverse();
+
 export default function () {
-  return courses;
+  return reversed;
 }
