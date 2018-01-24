@@ -857,5 +857,16 @@
     "categories": "react",
     "language": "English",
     "flags": "flag-icon-us"
+  },
+  {
+    "title": "CSS GRID",
+    "description": "LEARN CSS GRID WITH WES BOS IN 25 PRETTY GOOD VIDEOS FROM FUNDAMENTALS TO REAL WORLD IN ABOUT 4 HOURS.",
+    "link": "https://cssgrid.io/",
+    "author": "Wes Bos",
+    "level": "Beginner - Intermediate",
+    "categories": "css",
+    "language": "English",
+    "image": "https://res.cloudinary.com/wesbos/image/fetch/q_auto,f_auto/https://courses.wesbos.com/images/GRID-poster.png",
+    "flags": "flag-icon-us"
   }
 ]
