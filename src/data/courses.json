@@ -740,26 +740,6 @@
     "flags": "flag-icon-us"
   },
   {
-    "title": "JavaScript Weekly",
-    "description": "A free, once–weekly e-mail round-up of JavaScript news and articles.",
-    "link": "http://javascriptweekly.com/",
-    "author": "Cooper Press and Peter Cooper",
-    "level": "Beginner,Intermediate,Advanced",
-    "categories": "newsletter",
-    "language": "English",
-    "flags": "flag-icon-us"
-  },
-  {
-    "title": "Ruby Weekly",
-    "description": "A free, once–weekly e-mail round-up of Ruby news and articles.",
-    "link": "https://rubyweekly.com/",
-    "author": "Cooper Press",
-    "level": "Beginner,Intermediate,Advanced",
-    "categories": "newsletter",
-    "language": "English",
-    "flags": "flag-icon-us"
-  },
-  {
     "title": "Python para zumbis",
     "description": "Aprenda a programar de um modo profissional e divertido.",
     "link": "https://www.pycursos.com/python-para-zumbis/",

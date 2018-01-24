@@ -7,10 +7,7 @@
         width: 100%;
         list-style: none;
         padding: 0;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: center;
+        margin: 0 auto;
 
         .course {
             background: #fff;
@@ -19,7 +16,7 @@
             box-shadow: 0 0 1px 1px hsla(0, 0%, 7%, 0.1), 0 3px 1px 0 hsla(0, 0%, 7%, 0.1);
             border-radius: 15px;
             margin: 20px;
-            transition: all 0.5s ease;
+            transition: all 1.5s ease;
 
             &:hover {
                 box-shadow: 0px 0px 40px hsla(0, 0%, 0%, 0.302);
@@ -45,16 +42,14 @@
     }
 
     .image {
-        background-color: #fff;
         margin-bottom: 5px;
         border-top-left-radius: 15px;
         border-top-right-radius: 15px;
         width: 100%;
-        height: 180px;
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
 
+        img{
+          width: 100%;
+        }
     }
 
     .text-description {
@@ -62,8 +57,8 @@
         font-size: 12px;
         line-height: 16px;
         white-space: nowrap;
-  text-overflow: ellipsis;
-  overflow: hidden;
+        text-overflow: ellipsis;
+        overflow: hidden;
     }
 
     .flags {
@@ -94,8 +89,7 @@
             border-radius: 5px;
             font-size: 10px;
             font-style: normal;
-            margin-right: 10px;
-            margin-top: 15px;
+            margin: 10px;
             transition: all 0.5s ease-in-out;
 
             &:hover {

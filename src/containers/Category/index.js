@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 import DevIcon from './../../components/Icons/dev-icon';
@@ -62,7 +62,11 @@ const Category = (props) => {
     >
       <BackButton />
       <h1 className="title"> <DevIcon icon={category.icon} /> {category.title}</h1>
-      {coursesInCategory.length === 0 ? renderContribute(category) : <CourseList coursesInCategory={coursesInCategory} />}
+      {
+        coursesInCategory.length === 0
+          ? renderContribute(category)
+          : <CourseList coursesInCategory={coursesInCategory} />
+      }
       <div className="footer" >
         <p>
           Caught a mistake or want to add more courses about {category.title}?
@@ -90,6 +94,6 @@ export default connect(mapStateToProps)(Category);
 
 Category.propTypes = {
   match: PropTypes.object.isRequired,
-  courses: PropTypes.arrayOf(Object),
-  categories: PropTypes.arrayOf(Object)
+  courses: PropTypes.arrayOf(Object).isRequired,
+  categories: PropTypes.arrayOf(Object).isRequired
 };

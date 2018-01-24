@@ -6,12 +6,8 @@ const DevIcon = ({ icon }) => (
 );
 
 DevIcon.propTypes = {
-  color: PropTypes.string,
   icon: PropTypes.string.isRequired
 };
 
-DevIcon.defaultProps = {
-  color: 'black'
-};
 
 export default DevIcon;
