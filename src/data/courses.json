@@ -1,14 +1,5 @@
 [
   {
-    "title": "Under-the-hood:REACTJS",
-    "description": "Entire React code base explanation by visual block schemes (Stack+Fiber versions)",
-    "link": "https://bogdan-lyashenko.github.io/Under-the-hood-ReactJS/",
-    "author": " Bogdan Lyashenko",
-    "level": "Intermediate",
-    "categories": "react",
-    "language": "English - Chinese - Korean"
-  },
-  {
     "title": "Django Girls Tutorial",
     "description": "From the basics of python and django to your application deployed on web!",
     "link": "https://tutorial.djangogirls.org/",
@@ -857,5 +848,15 @@
     "language": "English",
     "image": "https://res.cloudinary.com/wesbos/image/fetch/q_auto,f_auto/https://courses.wesbos.com/images/GRID-poster.png",
     "flags": "flag-icon-us"
+  },
+  {
+    "title": "Under-the-hood:REACTJS",
+    "description": "Entire React code base explanation by visual block schemes (Stack+Fiber versions)",
+    "link": "https://bogdan-lyashenko.github.io/Under-the-hood-ReactJS/",
+    "author": " Bogdan Lyashenko",
+    "level": "Intermediate",
+    "categories": "react",
+    "language": "English - Chinese - Korean",
+    "flags" : "flag-icon-us, flag-icon-kr, flag-icon-cn"
   }
 ]
