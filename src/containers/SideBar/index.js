@@ -5,20 +5,16 @@ import PropTypes from 'prop-types';
 import './index.scss';
 import DevIcon from './../../components/Icons/dev-icon';
 import FaIcon from './../../components/Icons/fa-icon';
+import { fetchCategories, filterCategory } from '../../actions/index';
 
 class SideBar extends Component {
-  constructor(props) {
-    super(props);
 
-    this.state = { categories: props.categories };
-
-    this.filterCategory = this.filterCategory.bind(this);
+  componentWillMount() {
+    this.props.fetchCategories();
   }
 
   filterCategory(value) {
-    const filteredCategories = this.props.categories.filter(category => category.title.toLowerCase().match(value.toLowerCase()));
-
-    this.setState({ categories: filteredCategories });
+    this.props.filterCategory(value);
   }
 
   render() {
@@ -30,7 +26,7 @@ class SideBar extends Component {
             <li onClick={() => this.props.closeSideBar()}>
               <Link className="item" to="/category/all"><FaIcon icon="fa-code" />All Courses</Link>
             </li>
-            {this.state.categories.map(category => (
+            {this.props.categories.map(category => (
               <li key={category.title} onClick={() => this.props.closeSideBar()}>
                 <Link className="item" to={`/category/${category.title.toLowerCase()}`}>
                   {category.icon ? <DevIcon icon={category.icon} color={category.iconColor} /> : ''}
@@ -45,10 +41,12 @@ class SideBar extends Component {
   }
 }
 
-export default connect(({ categories }) => ({ categories }))(SideBar);
+export default connect(({ categories }) => ({ categories }), { fetchCategories, filterCategory })(SideBar);
 
 
 SideBar.propTypes = {
   closeSideBar: PropTypes.func.isRequired,
-  categories: PropTypes.arrayOf(Object)
+  categories: PropTypes.arrayOf(Object).isRequired,
+  fetchCategories: PropTypes.func.isRequired,
+  filterCategory: PropTypes.func.isRequired
 };
