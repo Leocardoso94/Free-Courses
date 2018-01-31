@@ -8,7 +8,6 @@ import FaIcon from './../../components/Icons/fa-icon';
 import { fetchCategories, filterCategory } from '../../actions/index';
 
 class SideBar extends Component {
-
   componentWillMount() {
     this.props.fetchCategories();
   }
@@ -41,7 +40,8 @@ class SideBar extends Component {
   }
 }
 
-export default connect(({ categories }) => ({ categories }), { fetchCategories, filterCategory })(SideBar);
+export default
+connect(({ categories }) => ({ categories }), { fetchCategories, filterCategory })(SideBar);
 
 
 SideBar.propTypes = {
