@@ -10,4 +10,8 @@ FaIcon.propTypes = {
   icon: PropTypes.string.isRequired
 };
 
+FaIcon.defaultProps = {
+  color: ''
+};
+
 export default FaIcon;
