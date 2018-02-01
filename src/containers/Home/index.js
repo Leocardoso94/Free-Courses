@@ -28,7 +28,12 @@ class Home extends Component {
   }
 
   contributorsList() {
-    return this.state.contributors.map((contributor, index) => <Contributor contributor={contributor} index={index} key={contributor.login} />);
+    return this.state.contributors
+      .map((contributor, index) => (<Contributor
+        contributor={contributor}
+        index={index}
+        key={contributor.login}
+      />));
   }
 
   updateStars(stars) {
@@ -52,28 +57,40 @@ class Home extends Component {
           <br />
           This is a list of free courses about programming.
           <br />
-          You can contribute to the project adding more courses, <a
+          You can contribute to the project adding more courses,
+          <a
             target="_blank"
             href="https://github.com/Leocardoso94/Free-Courses/blob/master/README.md"
-          >see how
+          >
+            see how
           </a>
           <br />
           <br />
-          Free Courses is <a
+          Free Courses is &nbsp;
+          <a
             target="_blank"
             href="https://github.com/Leocardoso94/Free-Courses"
-          >open source
-          </a>. <a
-                            className="stars" target="_blank"
-                            href="https://github.com/Leocardoso94/Free-Courses"
-                          ><FaIcon icon="fa-github" color="#000" /><FaIcon icon="fa-star" color="#ff8f00" /> {this.state.stars} Stars
-                                </a>
-          <br />
-          <span >Made with <FaIcon icon="fa-heart" color="red" /> by <a
-            target="_blank"
-            href="https://github.com/Leocardoso94"
-          >@LeoCardoso94
+          >
+            open source.
           </a>
+          <br />
+          <a
+            className="stars"
+            target="_blank"
+            href="https://github.com/Leocardoso94/Free-Courses"
+          >
+            <FaIcon icon="fa-github" color="#000" />
+            <FaIcon icon="fa-star" color="#ff8f00" /> {this.state.stars} Stars
+          </a>
+          <br />
+          <span >Made with <FaIcon icon="fa-heart" color="red" />
+          &nbsp;by
+            <a
+              target="_blank"
+              href="https://github.com/Leocardoso94"
+            >
+              &nbsp; @LeoCardoso94
+            </a>
           </span>
           <br />
           <br />
