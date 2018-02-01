@@ -3,13 +3,15 @@ import { FETCH_CATEGORIES, FILTER_CATEGORIES, FETCH_COURSES } from './actions_ty
 import categories from './../data/categories.json';
 import courses from './../data/courses.json';
 
-courses.forEach((course) => {
-  course.id = snakeCase(course.title + course.author);
-  if (typeof course.categories === 'string') { course.categories = course.categories.replace(/ *, */g, ',').split(','); }
-  if (typeof course.flags === 'string') { course.flags = course.flags.split(','); }
-});
+const reversedCourses = courses.map((course) => {
+  const obj = {};
+  obj.id = snakeCase(course.title + course.author);
+  if (typeof course.categories === 'string') { obj.categories = course.categories.replace(/ *, */g, ',').split(','); }
+  if (typeof course.flags === 'string') { obj.flags = course.flags.split(','); }
 
-const reversedCourses = courses.slice(0).reverse();
+  return Object.assign(course, obj);
+}).slice(0).reverse();
+
 categories.sort((a, b) => (a.title < b.title ? -1 : 1));
 
 export function fetchCategories() {
