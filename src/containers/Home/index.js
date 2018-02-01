@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import ReactCSSTransitionGroup from 'react-transition-group/CSSTransitionGroup';
+import ReactCSSTransitionGroup from 'react-addons-css-transition-group';
 import './index.scss';
 import Contributor from './contributor';
 import FaIcon from './../../components/Icons/fa-icon';
@@ -84,7 +84,7 @@ class Home extends Component {
           </a>
           <br />
           <span >Made with <FaIcon icon="fa-heart" color="red" />
-          &nbsp;by
+            &nbsp;by
             <a
               target="_blank"
               href="https://github.com/Leocardoso94"
@@ -106,6 +106,8 @@ class Home extends Component {
         <h4>If you want to donate something:</h4>
 
         <a className="bmc-button" target="_blank" href="https://www.buymeacoffee.com/leocardoso"><img src="https://www.buymeacoffee.com/assets/img/BMC-btn-logo.svg" alt="BMC logo" /><span>Buy me a coffee</span></a>
+
+        <br />
 
       </ReactCSSTransitionGroup>
     );
