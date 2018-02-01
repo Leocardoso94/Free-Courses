@@ -21,7 +21,8 @@
           "to"
         ]
       }
-    ]
+    ],
+    "react/jsx-no-target-blank": "off"
   },
   "env": {
     "browser": true,

@@ -78,7 +78,7 @@ class Category extends Component {
               target="_blank"
             >
               Check How
-          </a>
+            </a>
           </p>
         </div>
       </ReactCSSTransitionGroup>

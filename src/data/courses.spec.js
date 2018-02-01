@@ -1,6 +1,8 @@
 import { expect } from 'chai';
 import courses from './courses.json';
 
+
+/* eslint no-unused-expressions: "off" */
 describe('ReducerCourses', () => {
   it('should return true if courses return an array', () => {
     expect(courses).to.be.an('array');

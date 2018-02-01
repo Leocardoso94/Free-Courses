@@ -21,7 +21,6 @@ class Home extends Component {
         .then(data => this.updateContributors(data)));
 
     this.contributorsList = this.contributorsList.bind(this);
-
   }
 
   updateContributors(contributors) {
@@ -29,9 +28,7 @@ class Home extends Component {
   }
 
   contributorsList() {
-    return this.state.contributors.map((contributor, index) => {
-      return <Contributor contributor={contributor} index={index} key={contributor.login} />;
-    });
+    return this.state.contributors.map((contributor, index) => <Contributor contributor={contributor} index={index} key={contributor.login} />);
   }
 
   updateStars(stars) {
@@ -41,29 +38,43 @@ class Home extends Component {
     return (
       <ReactCSSTransitionGroup
         transitionName="initial"
-        transitionAppear={true}
+        transitionAppear
         transitionAppearTimeout={500}
         transitionEnter={false}
         transitionLeave={false}
         component="div"
-        className="home">
+        className="home"
+      >
         <h1 className="title">Free Courses</h1>
         <p>
           <b>Welcome!</b>
           <br />
           <br />
           This is a list of free courses about programming.
-					<br />
-          You can contribute to the project adding more courses, <a target="_blank"
-            href="https://github.com/Leocardoso94/Free-Courses/blob/master/README.md">see how</a>
+          <br />
+          You can contribute to the project adding more courses, <a
+            target="_blank"
+            href="https://github.com/Leocardoso94/Free-Courses/blob/master/README.md"
+          >see how
+          </a>
           <br />
           <br />
-          Free Courses is <a target="_blank"
-            href="https://github.com/Leocardoso94/Free-Courses">open source</a>. <a className="stars" target="_blank"
-              href="https://github.com/Leocardoso94/Free-Courses"><FaIcon icon="fa-github" color="#000" /><FaIcon icon="fa-star" color="#ff8f00" /> {this.state.stars} Stars</a>
+          Free Courses is <a
+            target="_blank"
+            href="https://github.com/Leocardoso94/Free-Courses"
+          >open source
+          </a>. <a
+                            className="stars" target="_blank"
+                            href="https://github.com/Leocardoso94/Free-Courses"
+                          ><FaIcon icon="fa-github" color="#000" /><FaIcon icon="fa-star" color="#ff8f00" /> {this.state.stars} Stars
+                                </a>
           <br />
-          <span >Made with <FaIcon icon="fa-heart" color="red" /> by <a target="_blank"
-            href="https://github.com/Leocardoso94">@LeoCardoso94</a></span>
+          <span >Made with <FaIcon icon="fa-heart" color="red" /> by <a
+            target="_blank"
+            href="https://github.com/Leocardoso94"
+          >@LeoCardoso94
+          </a>
+          </span>
           <br />
           <br />
           <TweetButton text="https://freecourses.github.io/" title="Share" /><FaceButton text="https://freecourses.github.io/" title="Share" />

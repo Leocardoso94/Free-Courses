@@ -13,7 +13,7 @@
     "test": "mocha src/**/*spec.js --require babel-register",
     "test:coverage": "nyc npm test",
     "readme": "node readme.js",
-    "fix:lint": "eslint --fix src/**/*.js"
+    "fix:lint": "eslint --fix --ext js --ext jsx src"
   },
   "nyc": {
     "reporter": [

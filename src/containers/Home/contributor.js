@@ -17,7 +17,7 @@ const Contributor = ({ contributor }) => (
 );
 
 Contributor.propTypes = {
-  contributor: PropTypes.object.isRequired
+  contributor: PropTypes.objectOf(Object).isRequired
 };
 
 export default Contributor;

@@ -1,6 +1,7 @@
 import { expect } from 'chai';
 import categories from './categories.json';
 
+/* eslint no-unused-expressions: "off" */
 describe('categories', () => {
   it('should return true if categories return an array', () => {
     expect(categories).to.be.an('array');
