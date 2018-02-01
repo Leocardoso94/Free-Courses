@@ -12,22 +12,33 @@ class SideBar extends Component {
     this.props.fetchCategories();
   }
 
-  filterCategory(value) {
-    this.props.filterCategory(value);
-  }
-
   render() {
     return (
       <aside className="sidebar">
         <div className="sidebar-inner">
-          <input className="search" placeholder="" onChange={event => this.filterCategory(event.target.value)} />
+          <input
+            className="search"
+            placeholder=""
+            onChange={event => this.props.filterCategory(event.target.value)}
+          />
           <ul>
-            <li onClick={() => this.props.closeSideBar()}>
-              <Link className="item" to="/category/all"><FaIcon icon="fa-code" />All Courses</Link>
+            <li>
+              <Link
+                className="item"
+                to="/category/all"
+                onClick={() => this.props.closeSideBar()}
+                onKeyPress={() => this.props.closeSideBar()}
+              ><FaIcon icon="fa-code" />All Courses
+              </Link>
             </li>
             {this.props.categories.map(category => (
-              <li key={category.title} onClick={() => this.props.closeSideBar()}>
-                <Link className="item" to={`/category/${category.title.toLowerCase()}`}>
+              <li key={category.title} >
+                <Link
+                  className="item"
+                  to={`/category/${category.title.toLowerCase()}`}
+                  onClick={() => this.props.closeSideBar()}
+                  onKeyPress={() => this.props.closeSideBar()}
+                >
                   {category.icon ? <DevIcon icon={category.icon} color={category.iconColor} /> : ''}
                   {category.title}
                 </Link>
@@ -42,7 +53,6 @@ class SideBar extends Component {
 
 export default
 connect(({ categories }) => ({ categories }), { fetchCategories, filterCategory })(SideBar);
-
 
 SideBar.propTypes = {
   closeSideBar: PropTypes.func.isRequired,

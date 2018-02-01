@@ -6,7 +6,7 @@ const FaIcon = ({ color, icon }) => (
 );
 
 FaIcon.propTypes = {
-  color: PropTypes.string.isRequired,
+  color: PropTypes.string,
   icon: PropTypes.string.isRequired
 };
 

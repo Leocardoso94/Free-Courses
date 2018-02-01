@@ -33,26 +33,23 @@ class Category extends Component {
     this.props.fetchCourses();
   }
   render() {
-
     const categoryName = this.props.match.params.category.trim();
     let coursesInCategory = [];
     let category = {};
+    const fallBack = { title: categoryName, icon: 'devicons devicons-code_badge' };
 
     if (categoryName === 'all') {
       coursesInCategory = this.props.courses;
       category = { title: 'All Courses', icon: 'devicons devicons-code_badge' };
     } else {
-      if (categories.some(ctg => ctg.title.toLowerCase() === categoryName.toLowerCase())) {
-        category = categories
-          .find(ctg =>
-            ctg.title.toLowerCase() === categoryName.toLowerCase());
-      } else {
-        category = { title: categoryName, icon: 'devicons devicons-code_badge' };
-      }
+      category = categories
+        .find(ctg =>
+          ctg.title.toLowerCase() === categoryName.toLowerCase()) || fallBack;
 
       coursesInCategory = this.props.courses
         .filter(course => course.categories
-          .some(categoryOfCourse => categoryOfCourse.toLowerCase() === category.title.toLowerCase()));
+          .some(categoryOfCourse =>
+            categoryOfCourse.toLowerCase() === category.title.toLowerCase()));
     }
 
     return (
@@ -79,7 +76,8 @@ class Category extends Component {
             <a
               href="https://github.com/Leocardoso94/Free-Courses"
               target="_blank"
-            >Check How
+            >
+              Check How
           </a>
           </p>
         </div>
