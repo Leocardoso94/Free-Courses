@@ -4,15 +4,11 @@
 <head>
   <meta charset="utf-8">
   <title>Free Courses</title>
-  <script type="text/javascript">
-    (function () {
-      var redirect = sessionStorage.redirect;
-      delete sessionStorage.redirect;
-      if (redirect && redirect != location.href) {
-        history.replaceState(null, null, redirect);
-      }
-    })();
+
+  <script>
+    sessionStorage.redirect = location.href;
   </script>
+  <meta http-equiv="refresh" content="0;URL='https://freecourses.github.io/'"></meta>
 </head>
 
 <body>
