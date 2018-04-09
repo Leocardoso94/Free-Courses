@@ -1,5 +1,4 @@
-[
-  {
+[{
     "title": "Django Girls Tutorial",
     "description": "From the basics of python and django to your application deployed on web!",
     "link": "https://tutorial.djangogirls.org/",
@@ -857,6 +856,17 @@
     "level": "Intermediate",
     "categories": "react",
     "language": "English - Chinese - Korean",
-    "flags" : "flag-icon-us, flag-icon-kr, flag-icon-cn"
+    "flags": "flag-icon-us, flag-icon-kr, flag-icon-cn"
+  },
+  {
+    "title": "Basic programming using Python",
+    "description": "Free certificate course of 30 days, which starts at 1st of every month and end at 30th. This is beginner course which upon completion gives a digital free certificate.",
+    "link": "https://yaksh.fossee.in/exam/course_modules/451",
+    "author": "Arun KP",
+    "level": "Beginner",
+    "categories": "Python",
+    "flags": "flag-icon-us",
+    "language": "English",
+    "yourGithubUser": "https://github.com/shivendrarox"
   }
 ]
