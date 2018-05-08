@@ -868,5 +868,17 @@
     "flags": "flag-icon-us",
     "language": "English",
     "yourGithubUser": "https://github.com/shivendrarox"
+  },
+  {
+    "title": "Practical JavaScript",
+    "description": "Build a strong JavaScript foundation for web development",
+    "link": "https://watchandcode.com/p/practical-javascript",
+    "author": "Gordon Zhu",
+    "level": "Beginner, Intermediate",
+    "categories": "JavaScript",
+    "language": "English",
+    "image": "https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:1440/https://d2vvqscadf4c1f.cloudfront.net/Ge2Mtr9TT7W8TqrYWCqh_Pattern-1.gif",
+    "yourGithubUser": "AishaSharif",
+    "flags": "flag-icon-us"
   }
 ]
