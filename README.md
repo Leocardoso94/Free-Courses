@@ -494,11 +494,3 @@ Não é necessário saber Angular 1 para esse curso, já que o Angular v2 foi re
 - [Learn Webpack 2 from scratch](https://www.udemy.com/learn-webpack-2-from-scratch/)
 
 	- Learn how to build web applications using Javascript's most popular build tool... Webpack 2
-
-
-------------------
-### If you like the project and want to make a donation, buy me a coffee
-
-
-<a href="https://www.buymeacoffee.com/leocardoso"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;"  target="_blank"></a>
-
