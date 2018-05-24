@@ -1,4 +1,5 @@
-[{
+[
+  {
     "title": "Django Girls Tutorial",
     "description": "From the basics of python and django to your application deployed on web!",
     "link": "https://tutorial.djangogirls.org/",
@@ -880,5 +881,80 @@
     "image": "https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:1440/https://d2vvqscadf4c1f.cloudfront.net/Ge2Mtr9TT7W8TqrYWCqh_Pattern-1.gif",
     "yourGithubUser": "AishaSharif",
     "flags": "flag-icon-us"
+  },
+  {
+    "carimboDeDatahora": "2018-05-22T13:29:12.092Z",
+    "title": "Vue JS Ninja",
+    "description": "Playlist do curso de Vue JS",
+    "link": "https://www.youtube.com/watch?v=07-TvnH7XNo&list=PLcoYAcR89n-qq1vGRbaUiV6Q9puy0qigW",
+    "author": "Tiago Matos",
+    "level": "Beginner, Intermediate",
+    "categories": "Vue",
+    "language": "Portuguese - Brazil",
+    "yourGithubUser": "crisgon",
+    "flags": "flag-icon-br"
+  },
+  {
+    "carimboDeDatahora": "2018-05-22T13:31:15.075Z",
+    "title": "Introdução ao FireBase",
+    "description": "Playlist do curso: introdução ao firebase",
+    "link": "https://www.youtube.com/watch?v=uP_v6RhnP5U&list=PLHlHvK2lnJnccBL9grcoRxv8CsLa9Q_4q",
+    "author": "Balta.io",
+    "level": "Beginner",
+    "categories": "Firebase",
+    "language": "Portuguese - Brazil",
+    "yourGithubUser": "crisgon",
+    "flags": "flag-icon-br"
+  },
+  {
+    "carimboDeDatahora": "2018-05-22T13:34:14.741Z",
+    "title": "Desvendando a linguagem Javascript",
+    "description": "Esse curso foca em explorar as principais características do Javascript",
+    "link": "https://www.youtube.com/watch?v=093dIOCNeIc&list=PLQCmSnNFVYnT1-oeDOSBnt164802rkegc",
+    "author": "Rodrigo Branas",
+    "level": "Beginner, Intermediate",
+    "categories": "JavaScript",
+    "language": "Portuguese - Brazil",
+    "yourGithubUser": "crisgon",
+    "flags": "flag-icon-br"
+  },
+  {
+    "carimboDeDatahora": "2018-05-22T13:37:23.133Z",
+    "title": "Curso de PHP",
+    "description": "Curso completo para quem quer aprender a criar sites utilizando as tecnologias de HTML5 + CSS3 + JavaScript de uma maneira simples e objetiva.",
+    "link": "https://www.cursoemvideo.com/course/curso-php-iniciante/",
+    "author": "Gustavo Guanabara",
+    "level": "Beginner",
+    "categories": "PHP",
+    "language": "Portuguese - Brazil",
+    "image": "https://www.cursoemvideo.com/wp-content/uploads/2017/01/curso-gratis-php.jpg",
+    "yourGithubUser": "crisgon",
+    "flags": "flag-icon-br"
+  },
+  {
+    "carimboDeDatahora": "2018-05-22T13:39:26.469Z",
+    "title": "Curso POO Java",
+    "description": "Curso de Orientação a Objetos com Java.",
+    "link": "https://www.cursoemvideo.com/course/curso-de-poo-java/",
+    "author": "Gustavo Guanabara",
+    "level": "Intermediate",
+    "categories": "Java",
+    "language": "Portuguese - Brazil",
+    "image": "https://www.cursoemvideo.com/wp-content/uploads/2017/01/POOJAVA420x294.png",
+    "yourGithubUser": "crisgon",
+    "flags": "flag-icon-br"
+  },
+  {
+    "carimboDeDatahora": "2018-05-22T13:40:22.533Z",
+    "title": "Curso de Java",
+    "description": ". Nesse curso de Java grátis e completo, o professor Gustavo Guanabara vai mostrar como criar aplicativos que utilizem Java para rodar em Desktop. Será usado Java SE 8 com IDE NetBeans e os exemplos serão feitos usando a API Swing, que cria interfaces gráficas atraentes.",
+    "link": "https://www.cursoemvideo.com/course/curso-java-iniciante/",
+    "author": "Gustavo Guanabara",
+    "level": "Beginner",
+    "categories": "Java",
+    "language": "Portuguese - Brazil",
+    "image": "https://www.cursoemvideo.com/wp-content/uploads/2017/01/curso-gratis-java.jpg",
+    "yourGithubUser": "crisgon",
+    "flags": "flag-icon-br"
   }
 ]
