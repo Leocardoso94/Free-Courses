@@ -4,6 +4,7 @@ import courses from './../data/courses.json';
 
 const Course = createContext();
 /* eslint react/prop-types: 0 */
+/* eslint react/no-unused-state: 0 */
 
 export class CourseProvider extends Component {
   state = {
@@ -14,16 +15,14 @@ export class CourseProvider extends Component {
       if (typeof course.flags === 'string') { obj.flags = course.flags.split(','); }
 
       return Object.assign(course, obj);
-    }).slice(0).reverse()
+    })
+      .slice(0)
+      .reverse()
   }
 
   render() {
     return (
-      <Course.Provider
-        value={{
-          courses: this.state.courses
-        }}
-      >
+      <Course.Provider value={this.state} >
         {this.props.children}
       </Course.Provider>
     );
