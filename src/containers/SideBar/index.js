@@ -6,8 +6,8 @@ import DevIcon from './../../components/Icons/dev-icon';
 import FaIcon from './../../components/Icons/fa-icon';
 import { CategoriesConsumer } from '../../contexts/Categories';
 
-const RenderCategoryItem = (category, closeSideBar) => (
-  <li key={category.title} >
+const RenderCategoryItem = ({ category, closeSideBar }) => (
+  <li >
     <Link
       className="item"
       to={`/category/${category.title.toLowerCase()}`}
@@ -19,6 +19,11 @@ const RenderCategoryItem = (category, closeSideBar) => (
     </Link>
   </li>
 );
+
+RenderCategoryItem.propTypes = {
+  closeSideBar: PropTypes.func.isRequired,
+  category: PropTypes.objectOf(PropTypes.string).isRequired
+};
 
 
 const SideBar = ({ closeSideBar }) => (
@@ -45,6 +50,7 @@ const SideBar = ({ closeSideBar }) => (
               <RenderCategoryItem
                 category={category}
                 closeSideBar={closeSideBar}
+                key={category.title}
               />
             ))}
           </ul>
