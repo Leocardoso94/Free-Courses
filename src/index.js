@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import register from './registerServiceWorker';
+import { register } from './registerServiceWorker';
 import Container from './containers/container';
 import ContextProvider from './contexts';
 
