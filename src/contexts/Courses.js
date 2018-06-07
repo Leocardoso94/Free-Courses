@@ -17,7 +17,8 @@ export class CourseProvider extends Component {
       return Object.assign(course, obj);
     })
       .slice(0)
-      .reverse()
+      .reverse(),
+    findCourseById: id => this.state.courses.find(crs => crs.id === id)
   }
 
   render() {
