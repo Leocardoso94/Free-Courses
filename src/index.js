@@ -13,6 +13,7 @@ import './../node_modules/font-awesome/css/font-awesome.min.css';
 import './../node_modules/flag-icon-css/css/flag-icon.min.css';
 
 import Container from './containers/container';
+import ContextProvider from './contexts';
 
 
 register();
@@ -22,7 +23,9 @@ const createStoreWithMiddleware = applyMiddleware()(createStore);
 
 ReactDOM.render(
   <Provider store={createStoreWithMiddleware(reducers)}>
-    <Container />
+    <ContextProvider>
+      <Container />
+    </ContextProvider>
   </Provider>
   , document.getElementById('app')
 );
