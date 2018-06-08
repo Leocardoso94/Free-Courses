@@ -14,9 +14,12 @@ const CourseList = ({ coursesInCategory }) => {
     return !course.image || course.image === '' ? defaultImage : course.image;
   }
 
-  const renderTags = course => course.categories
-    .map(categoryOfCourse =>
-      <Link className="tag" to={categoryOfCourse} key={categoryOfCourse}>{categoryOfCourse}</Link>);
+  const renderTags = course =>
+    course.categories.map(categoryOfCourse => (
+      <Link className="tag" to={categoryOfCourse} key={categoryOfCourse}>
+        {categoryOfCourse}
+      </Link>
+    ));
 
   const courses = coursesInCategory.map(course => (
     <li className="course" key={course.title + course.author}>
@@ -31,11 +34,11 @@ const CourseList = ({ coursesInCategory }) => {
         </div>
       </Link>
       <div className="flags">
-        {course.flags ? course.flags.map(flag => <span key={flag} className={`flag-icon ${flag}`} />) : ''}
+        {course.flags
+          ? course.flags.map(flag => <span key={flag} className={`flag-icon ${flag}`} />)
+          : ''}
       </div>
-      <div className="categories">
-        {renderTags(course)}
-      </div>
+      <div className="categories">{renderTags(course)}</div>
     </li>
   ));
 
