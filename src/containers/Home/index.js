@@ -103,9 +103,6 @@ class Home extends Component {
           {this.contributorsList()}
         </ul>
 
-        <h4>If you want to donate something:</h4>
-
-        <a className="bmc-button" target="_blank" href="https://www.buymeacoffee.com/leocardoso"><img src="https://www.buymeacoffee.com/assets/img/BMC-btn-logo.svg" alt="BMC logo" /><span>Buy me a coffee</span></a>
 
         <br />
 
