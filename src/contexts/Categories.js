@@ -1,16 +1,16 @@
-import React, { Component, createContext } from 'react';
-import categories from './../data/categories.json';
+import React, { createContext } from 'react';
+import categoriesJson from './../data/categories.json';
 
 const Categories = createContext();
 /* eslint react/prop-types: 0 */
 /* eslint react/no-unused-state: 0 */
 
-export class CategoriesProvider extends Component {
+export class CategoriesProvider extends React.Component {
   state = {
-    categories: categories.sort((a, b) => (a.title < b.title ? -1 : 1)),
+    categories: categoriesJson.sort((a, b) => (a.title < b.title ? -1 : 1)),
     filterCategory: (value) => {
       this.setState({
-        categories: categories.filter(category => category.title.toLowerCase()
+        categories: categoriesJson.filter(category => category.title.toLowerCase()
           .match(value.toLowerCase()))
       });
     }
@@ -25,5 +25,12 @@ export class CategoriesProvider extends Component {
   }
 }
 
-
 export const CategoriesConsumer = Categories.Consumer;
+
+export const withCategories = Component => props => (
+  <CategoriesConsumer>
+    {({ categories, filterCategory }) => (
+      <Component {...props} categories={categories} filterCategory={filterCategory} />
+    )}
+  </CategoriesConsumer>
+);
