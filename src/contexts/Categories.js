@@ -1,5 +1,5 @@
 import React, { createContext } from 'react';
-import categoriesJson from './../data/categories.json';
+import { API_URL } from '../utils';
 
 const Categories = createContext();
 /* eslint react/prop-types: 0 */
@@ -7,13 +7,23 @@ const Categories = createContext();
 
 export class CategoriesProvider extends React.Component {
   state = {
-    categories: categoriesJson.sort((a, b) => (a.title < b.title ? -1 : 1)),
+    categories: [],
+    allCategories: [],
     filterCategory: (value) => {
       this.setState({
-        categories: categoriesJson.filter(category => category.title.toLowerCase()
+        categories: this.state.allCategories.filter(category => category.title.toLowerCase()
           .match(value.toLowerCase()))
       });
     }
+  }
+
+  componentDidMount = async () => {
+    const categories = await (await fetch(`${API_URL}/categories`)).json();
+
+    this.setState({
+      categories: categories.sort((a, b) => (a.title < b.title ? -1 : 1)),
+      allCategories: categories.sort((a, b) => (a.title < b.title ? -1 : 1))
+    });
   }
 
   render() {
@@ -29,8 +39,8 @@ export const CategoriesConsumer = Categories.Consumer;
 
 export const withCategories = Component => props => (
   <CategoriesConsumer>
-    {({ categories, filterCategory }) => (
-      <Component {...props} categories={categories} filterCategory={filterCategory} />
+    {({ categories, filterCategory, allCategories }) => (
+      <Component {...props} categories={categories} filterCategory={filterCategory} allCategories={allCategories} />
     )}
   </CategoriesConsumer>
 );

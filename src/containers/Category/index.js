@@ -5,9 +5,9 @@ import DevIcon from './../../components/Icons/dev-icon';
 import './index.scss';
 import CourseList from './course-list';
 import BackButton from './../../components/BackButton';
-import categoriesData from './../../data/categories.json';
 import { withCourses } from '../../contexts/Courses';
 import SimpleFooter from '../../components/SimpleFooter';
+import { withCategories } from '../../contexts/Categories';
 
 const renderContribute = category => (
   <div style={{ textAlign: 'center' }}>
@@ -31,7 +31,7 @@ const someCategoryIsEqual = (categoryOfCourse, category) =>
 const filterCoursesByCategory = ({ categories }, category) =>
   categories.some(categoryOfCourse => someCategoryIsEqual(categoryOfCourse, category));
 
-const getCoursesInCategory = (categoryName, courses) => {
+const getCoursesInCategory = (categoryName, courses, allCategories) => {
   let coursesInCategory = [];
   let category = {};
   const fallBack = { title: categoryName, icon: 'devicons devicons-code_badge' };
@@ -41,16 +41,16 @@ const getCoursesInCategory = (categoryName, courses) => {
     category = { title: 'All Courses', icon: 'devicons devicons-code_badge' };
   } else {
     category =
-      categoriesData.find(ctg => ctg.title.toLowerCase() === categoryName.toLowerCase()) ||
+      allCategories.find(ctg => ctg.title.toLowerCase() === categoryName.toLowerCase()) ||
       fallBack;
     coursesInCategory = courses.filter(course => filterCoursesByCategory(course, category));
   }
   return { coursesInCategory, category };
 };
 
-const Category = ({ match, courses }) => {
+const Category = ({ match, courses, allCategories }) => {
   const categoryName = match.params.category.trim();
-  const { coursesInCategory, category } = getCoursesInCategory(categoryName, courses);
+  const { coursesInCategory, category } = getCoursesInCategory(categoryName, courses, allCategories);
 
   return (
     <ReactCSSTransitionGroup
@@ -82,4 +82,4 @@ Category.propTypes = {
   courses: PropTypes.arrayOf(Object).isRequired
 };
 
-export default withCourses(Category);
+export default withCategories(withCourses(Category));
