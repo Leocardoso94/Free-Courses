@@ -7,25 +7,12 @@ const WebpackCleanupPlugin = require('webpack-cleanup-plugin');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
 const SWPrecacheWebpackPlugin = require('sw-precache-webpack-plugin');
 const WebpackPwaManifest = require('webpack-pwa-manifest');
-const SitemapPlugin = require('sitemap-webpack-plugin').default;
-const RobotstxtPlugin = require('robotstxt-webpack-plugin').default;
 const SocialTags = require('social-tags-webpack-plugin');
 const ServiceWorkerWebpackPlugin = require('serviceworker-webpack-plugin');
-const snakeCase = require('lodash.snakecase');
+
 
 const PUBLIC_PATH = 'https://freecourses.github.io/';
 
-const paths = [];
-const courses = require('./src/data/courses.json');
-const categories = require('./src/data/categories.json');
-
-courses.forEach((course) => {
-  paths.push(`/course/${snakeCase(course.title + course.author)}`);
-});
-
-categories.forEach((category) => {
-  paths.push(`/category/${category.title.toLowerCase()}`);
-});
 
 loaders.push({
   test: /\.scss$/,
@@ -132,26 +119,6 @@ module.exports = {
           destination: path.join('icons', 'android')
         }
       ]
-    }),
-    new RobotstxtPlugin({
-      sitemap: `${PUBLIC_PATH}sitemap.xml`,
-      host: PUBLIC_PATH,
-      policy: [
-        {
-          userAgent: 'Googlebot',
-          allow: '/',
-        },
-        {
-          userAgent: '*',
-          allow: '/',
-        }
-      ]
-    }),
-    new SitemapPlugin(`${PUBLIC_PATH}`, paths, {
-      fileName: 'sitemap.xml',
-      lastMod: true,
-      changeFreq: 'monthly',
-      priority: '0.8'
     }),
     new SocialTags({
       appUrl: PUBLIC_PATH,
