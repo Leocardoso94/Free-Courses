@@ -8,6 +8,7 @@ import BackButton from './../../components/BackButton';
 import { withCourses } from '../../contexts/Courses';
 import SimpleFooter from '../../components/SimpleFooter';
 import { withCategories } from '../../contexts/Categories';
+import Loading from '../../components/Loading';
 
 const renderContribute = category => (
   <div style={{ textAlign: 'center' }}>
@@ -48,9 +49,15 @@ const getCoursesInCategory = (categoryName, courses, allCategories) => {
   return { coursesInCategory, category };
 };
 
-const Category = ({ match, courses, allCategories }) => {
+const Category = ({
+  match, courses, allCategories, loading
+}) => {
   const categoryName = match.params.category.trim();
   const { coursesInCategory, category } = getCoursesInCategory(categoryName, courses, allCategories);
+
+
+  if (loading) return <Loading />;
+
 
   return (
     <ReactCSSTransitionGroup
@@ -79,7 +86,9 @@ const Category = ({ match, courses, allCategories }) => {
 
 Category.propTypes = {
   match: PropTypes.objectOf(Object).isRequired,
-  courses: PropTypes.arrayOf(Object).isRequired
+  courses: PropTypes.arrayOf(Object).isRequired,
+  allCategories: PropTypes.arrayOf(Object).isRequired,
+  loading: PropTypes.bool.isRequired
 };
 
 export default withCategories(withCourses(Category));

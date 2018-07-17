@@ -1,6 +1,6 @@
 import React, { createContext } from 'react';
 import snakeCase from 'lodash.snakecase';
-import coursesJSON from './../data/courses.json';
+import { API_URL } from '../utils';
 
 const Course = createContext();
 /* eslint react/prop-types: 0 */
@@ -8,8 +8,17 @@ const Course = createContext();
 
 export class CourseProvider extends React.Component {
   state = {
-    courses: coursesJSON
-      .map((course) => {
+    courses: [],
+    findCourseById: id => this.state.courses.find(crs => crs.id === id),
+    loading: true,
+  };
+
+  componentDidMount = async () => {
+    const courses = await (await fetch(`${API_URL}/courses`)).json();
+
+    this.setState({
+      loading: false,
+      courses: courses.map((course) => {
         const obj = {};
         obj.id = snakeCase(course.title + course.author);
         if (typeof course.categories === 'string') {
@@ -21,10 +30,10 @@ export class CourseProvider extends React.Component {
 
         return Object.assign(course, obj);
       })
-      .slice(0)
-      .reverse(),
-    findCourseById: id => this.state.courses.find(crs => crs.id === id)
-  };
+        .slice(0)
+        .reverse(),
+    });
+  }
 
   render() {
     return <Course.Provider value={this.state}>{this.props.children}</Course.Provider>;
@@ -36,8 +45,8 @@ export const CoursesConsumer = Course.Consumer;
 // This function takes a component...
 export const withCourses = Component => props => (
   <CoursesConsumer>
-    {({ courses, findCourseById }) => (
-      <Component {...props} courses={courses} findCourseById={findCourseById} />
+    {({ courses, findCourseById, loading }) => (
+      <Component {...props} courses={courses} findCourseById={findCourseById} loading={loading} />
     )}
   </CoursesConsumer>
 );
