@@ -2,28 +2,28 @@ const webpack = require('webpack');
 const path = require('path');
 const loaders = require('./webpack.loaders');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
-const CopyWebpackPlugin = require('copy-webpack-plugin');
 const WebpackCleanupPlugin = require('webpack-cleanup-plugin');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
 const SWPrecacheWebpackPlugin = require('sw-precache-webpack-plugin');
 const WebpackPwaManifest = require('webpack-pwa-manifest');
 const SocialTags = require('social-tags-webpack-plugin');
 const ServiceWorkerWebpackPlugin = require('serviceworker-webpack-plugin');
-
+const CopyWebpackPlugin = require('copy-webpack-plugin');
 
 const PUBLIC_PATH = 'https://freecourses.github.io/';
 
-
 loaders.push({
   test: /\.scss$/,
-  loader: ExtractTextPlugin.extract({ fallback: 'style-loader', use: 'css-loader?sourceMap&localIdentName=[local]___[hash:base64:5]!sass-loader?outputStyle=expanded' }),
+  loader: ExtractTextPlugin.extract({
+    fallback: 'style-loader',
+    use:
+      'css-loader?sourceMap&localIdentName=[local]___[hash:base64:5]!sass-loader?outputStyle=expanded'
+  }),
   exclude: ['node_modules']
 });
 
 module.exports = {
-  entry: [
-    './src/index.js'
-  ],
+  entry: ['./src/index.js'],
   output: {
     publicPath: '/',
     path: path.join(__dirname, 'public'),
@@ -60,7 +60,7 @@ module.exports = {
       favicon: './src/img/favicon.ico',
       files: {
         css: ['style.css'],
-        js: ['bundle.js'],
+        js: ['bundle.js']
       }
     }),
     new CopyWebpackPlugin([
@@ -68,10 +68,15 @@ module.exports = {
         from: './404.html',
         to: './',
         ignore: ['.*']
+      },
+      {
+        from: path.resolve(__dirname, 'src/data/'),
+        to: './',
+        ignore: ['.*']
       }
     ]),
     new ServiceWorkerWebpackPlugin({
-      entry: path.join(__dirname, 'src/sw.js'),
+      entry: path.join(__dirname, 'src/sw.js')
     }),
     new SWPrecacheWebpackPlugin({
       cacheId: 'freecourses-cache-id',
@@ -128,19 +133,21 @@ module.exports = {
         'og:type': 'website',
         'og:title': 'Free Courses',
         'og:image': './src/img/share_image.png',
-        'og:description': 'A collection of free programming courses maintained by the community. Learn about the most varied programming languages for free',
+        'og:description':
+          'A collection of free programming courses maintained by the community. Learn about the most varied programming languages for free',
         'og:site_name': 'Free Courses',
         'og:locale': 'en_US',
-        'og:article:author': '',
+        'og:article:author': ''
       },
       twitter: {
         'twitter:card': 'summary',
         'twitter:creator': '@leocardoso94_',
         'twitter:url': PUBLIC_PATH,
         'twitter:title': 'Free Courses',
-        'twitter:description': 'A collection of free programming courses maintained by the community. Learn about the most varied programming languages for free',
-        'twitter:image': './src/img/share_image.png',
-      },
+        'twitter:description':
+          'A collection of free programming courses maintained by the community. Learn about the most varied programming languages for free',
+        'twitter:image': './src/img/share_image.png'
+      }
     })
   ]
 };

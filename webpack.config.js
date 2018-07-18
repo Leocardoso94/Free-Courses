@@ -4,6 +4,7 @@ const loaders = require('./webpack.loaders');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const DashboardPlugin = require('webpack-dashboard/plugin');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
+const CopyWebpackPlugin = require('copy-webpack-plugin');
 
 const HOST = process.env.HOST || 'localhost';
 const PORT = process.env.PORT || '8080';
@@ -17,7 +18,7 @@ loaders.push({
 module.exports = {
   entry: [
     'react-hot-loader/patch',
-    './src/index.js', // your app's entry point
+    './src/index.js' // your app's entry point
   ],
   devtool: process.env.WEBPACK_DEVTOOL || 'eval-source-map',
   output: {
@@ -59,8 +60,15 @@ module.exports = {
       favicon: './src/img/favicon.ico',
       files: {
         css: ['style.css'],
-        js: ['bundle.js'],
+        js: ['bundle.js']
       }
     }),
+    new CopyWebpackPlugin([
+      {
+        from: path.resolve(__dirname, 'src/data/'),
+        to: './',
+        ignore: ['.*']
+      }
+    ])
   ]
 };
