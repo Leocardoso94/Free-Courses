@@ -1,6 +1,11 @@
-@import url('https://fonts.googleapis.com/css?family=Catamaran:400,700|Sniglet:400,700');
+@import url("https://fonts.googleapis.com/css?family=Catamaran:400,700|Sniglet:400,700");
+
 * {
     font-family: 'Catamaran', sans-serif;
+}
+
+*:focus {
+    outline: none;
 }
 
 h1,
@@ -33,9 +38,9 @@ body {
 
 .main {
     z-index: 1;
-    padding-left: 60px;
     overflow-x: hidden;
     position: static;
+
     @media screen and (max-width: 900px) {
         padding: 2em 1.4em 0;
     }
@@ -43,22 +48,25 @@ body {
 
 .content {
     position: relative;
-    padding: 2.2em 0;
+    padding: 0 2em;
     margin: 0 auto;
-    max-width: 700px;
-    padding-left: 50px;
+    margin-left: 280px;
+
     @media screen and (max-width: 1300px) {
         margin-left: 290px;
     }
+
     @media screen and (max-width: 900px) {
         margin: auto;
-        padding-left: 0;
+        padding: 0;
     }
+
     .title {
         text-align: center;
         padding-top: 20px;
         color: #000;
     }
+
     .footer {
         color: #7f8c8d;
         margin-top: 2em;
@@ -108,6 +116,7 @@ a {
     transition: all 0.3s ease-in;
     display: inline-block;
     color: #9C27B0;
+
     &:hover {
         background-color: #9c27b0;
         color: #fff;

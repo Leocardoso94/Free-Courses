@@ -1,13 +1,13 @@
-"use strict";
-var webpack = require('webpack');
-var path = require('path');
-var loaders = require('./webpack.loaders');
-var HtmlWebpackPlugin = require('html-webpack-plugin');
-var DashboardPlugin = require('webpack-dashboard/plugin');
-var ExtractTextPlugin = require('extract-text-webpack-plugin');
+const webpack = require('webpack');
+const path = require('path');
+const loaders = require('./webpack.loaders');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
+const DashboardPlugin = require('webpack-dashboard/plugin');
+const ExtractTextPlugin = require('extract-text-webpack-plugin');
+const CopyWebpackPlugin = require('copy-webpack-plugin');
 
-const HOST = process.env.HOST || "localhost";
-const PORT = process.env.PORT || "8080";
+const HOST = process.env.HOST || 'localhost';
+const PORT = process.env.PORT || '8080';
 
 loaders.push({
   test: /\.scss$/,
@@ -18,7 +18,7 @@ loaders.push({
 module.exports = {
   entry: [
     'react-hot-loader/patch',
-    './src/index.js', // your app's entry point
+    './src/index.js' // your app's entry point
   ],
   devtool: process.env.WEBPACK_DEVTOOL || 'eval-source-map',
   output: {
@@ -33,7 +33,7 @@ module.exports = {
     loaders
   },
   devServer: {
-    contentBase: "./public",
+    contentBase: './public',
     // do not print bundle build stats
     noInfo: true,
     // enable HMR
@@ -43,8 +43,8 @@ module.exports = {
     // serve index.html in place of 404 responses to allow HTML5 history
     historyApiFallback: true,
     port: PORT,
-		host: HOST,
-		open: true
+    host: HOST,
+    open: true
   },
   plugins: [
     new webpack.NoEmitOnErrorsPlugin(),
@@ -56,12 +56,19 @@ module.exports = {
     }),
     new DashboardPlugin(),
     new HtmlWebpackPlugin({
-			template: './src/template.html',
-			favicon: './src/img/favicon.ico',
+      template: './src/template.html',
+      favicon: './src/img/favicon.ico',
       files: {
         css: ['style.css'],
-        js: [ "bundle.js"],
+        js: ['bundle.js']
       }
     }),
+    new CopyWebpackPlugin([
+      {
+        from: path.resolve(__dirname, 'src/data/'),
+        to: './',
+        ignore: ['.*']
+      }
+    ])
   ]
 };

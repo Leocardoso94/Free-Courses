@@ -1,65 +1,65 @@
-import React, { Component } from 'react';
-import './index.scss';
-import { connect } from 'react-redux';
-import DevIcon from './../../components/Icons/dev-icon';
-import FaIcon from './../../components/Icons/fa-icon';
+import React from 'react';
 import { Link } from 'react-router-dom';
 import PropTypes from 'prop-types';
+import './index.scss';
+import DevIcon from './../../components/Icons/dev-icon';
+import FaIcon from './../../components/Icons/fa-icon';
+import { withCategories } from '../../contexts/Categories';
 
-class SideBar extends Component {
+const RenderCategoryItem = ({ category, closeSideBar }) => (
+  <li >
+    <Link
+      className="item"
+      to={`/category/${category.title.toLowerCase()}`}
+      onClick={() => closeSideBar()}
+      onKeyPress={() => closeSideBar()}
+    >
+      {category.icon && <DevIcon icon={category.icon} color={category.iconColor} /> }
+      {category.title}
+    </Link>
+  </li>
+);
 
-  constructor(props) {
-    super(props);
+RenderCategoryItem.propTypes = {
+  closeSideBar: PropTypes.func.isRequired,
+  category: PropTypes.objectOf(PropTypes.string).isRequired
+};
 
-    this.state = { categories: props.categories };
 
-    this.filterCategory = this.filterCategory.bind(this);
-  }
+const SideBar = ({ closeSideBar, categories, filterCategory }) => (
+  <aside className="sidebar">
+    <div className="sidebar-inner">
+      <input
+        className="search"
+        placeholder=""
+        onChange={event => filterCategory(event.target.value)}
+      />
+      <ul>
+        <li>
+          <Link
+            className="item"
+            to="/category/all"
+            onClick={() => closeSideBar()}
+            onKeyPress={() => closeSideBar()}
+          ><FaIcon icon="fa-code" />All Courses
+          </Link>
+        </li>
+        {categories.map(category => (
+          <RenderCategoryItem
+            category={category}
+            closeSideBar={closeSideBar}
+            key={category.title}
+          />
+        ))}
+      </ul>
+    </div>
+  </aside>
+);
 
-  filterCategory(value) {
-    const filteredCategories = this.props.categories.filter(category => category.title.toLowerCase().match(value.toLowerCase()));
-
-    this.setState({ categories: filteredCategories });
-  }
-
-  render() {
-    return (
-      <aside className="sidebar">
-        <div className="sidebar-inner">
-          <input className="search" placeholder="" onChange={(event) => this.filterCategory(event.target.value)} />
-          <ul>
-            <li onClick={() => this.props.closeSideBar()}>
-              <Link className="item" to={`/category/all`}><FaIcon icon="fa-code" />All Courses</Link>
-            </li>
-            {this.state.categories.map(category => {
-              return (
-                <li key={category.title} onClick={() => this.props.closeSideBar()}>
-                  <Link className="item" to={`/category/${category.title}`}>
-                    {category.icon ? <DevIcon icon={category.icon} color={category.iconColor} /> : ''}
-                    {category.title}
-                  </Link>
-                </li>
-              );
-            })}
-          </ul>
-        </div>
-      </aside>
-    );
-  }
-}
-
-function mapStateToProps(state) {
-  // Whatever is returned will show up as props
-  // inside of BookList
-  return {
-    categories: state.categories
-  };
-}
-
-export default connect(mapStateToProps)(SideBar);
-
+export default withCategories(SideBar);
 
 SideBar.propTypes = {
   closeSideBar: PropTypes.func.isRequired,
-  categories: PropTypes.arrayOf(Object)
+  filterCategory: PropTypes.func.isRequired,
+  categories: PropTypes.arrayOf(Object).isRequired
 };

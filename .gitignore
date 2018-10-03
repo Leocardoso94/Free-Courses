@@ -33,3 +33,5 @@ bower_components
 
 # Ignore build files
 public
+
+fast-deploy.sh

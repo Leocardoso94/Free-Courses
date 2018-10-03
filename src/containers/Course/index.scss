@@ -1,15 +1,18 @@
 .course-details {
-    img {
-        border: 15px;
-        display: block;
-        width: 150px;
-        margin: auto;
-        border-radius: 15px;
-        box-shadow: 0 0 1px 1px rgba(18, 18, 18, 0.1), 0 3px 1px 0 rgba(18, 18, 18, 0.1);
-    }
-    .rounded-button {
-        display: block;
-        width: 200px;
-        margin: 70px auto;
-    }
+  max-width: 900px;
+  margin: 0 auto;
+  img {
+    border: 15px;
+    display: block;
+    width: 150px;
+    margin: auto;
+    border-radius: 15px;
+    box-shadow: 0 0 1px 1px rgba(18, 18, 18, 0.1), 0 3px 1px 0 rgba(18, 18, 18, 0.1);
+  }
+  .rounded-button {
+    display: block;
+    width: 200px;
+    margin: 70px auto;
+    padding: 10px 15px;
+  }
 }

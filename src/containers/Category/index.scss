@@ -6,23 +6,21 @@
     ul {
         width: 100%;
         list-style: none;
+        padding: 0;
+        margin: 0 auto;
 
         .course {
             background: #fff;
             position: relative;
-            flex-basis: 20%;
-            max-width: 200px;
-            min-width: 170px;
+            max-width: 250px;
             box-shadow: 0 0 1px 1px hsla(0, 0%, 7%, 0.1), 0 3px 1px 0 hsla(0, 0%, 7%, 0.1);
             border-radius: 15px;
-            margin-bottom: 20px;
-            margin-right: 20px;
-            margin-top: 10px;
-            transition: all 0.5s ease;
+            margin: 20px;
+            transition: all 1.5s ease;
 
             &:hover {
                 box-shadow: 0px 0px 40px hsla(0, 0%, 0%, 0.302);
-                transform: scale(1.05);
+                transform: translateY(-10px);
             }
 
             .title {
@@ -44,17 +42,13 @@
     }
 
     .image {
-        background-color: #fff;
         margin-bottom: 5px;
         border-top-left-radius: 15px;
         border-top-right-radius: 15px;
+        width: 100%;
 
-        img {
-            width: 100%;
-            min-width: 100%;
-            border-top-left-radius: 15px;
-            border-top-right-radius: 15px;
-            box-shadow: 0 4px 2px -2px gray;
+        img{
+          width: 100%;
         }
     }
 
@@ -62,6 +56,9 @@
         color: #9c9c9c;
         font-size: 12px;
         line-height: 16px;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
     }
 
     .flags {
@@ -92,8 +89,7 @@
             border-radius: 5px;
             font-size: 10px;
             font-style: normal;
-            margin-right: 10px;
-            margin-top: 15px;
+            margin: 10px;
             transition: all 0.5s ease-in-out;
 
             &:hover {

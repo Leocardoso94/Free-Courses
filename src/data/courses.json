@@ -230,17 +230,6 @@
     "flags": "flag-icon-us"
   },
   {
-    "title": "Node.js Real Time Chat",
-    "description": "Beginner to Intermediate developers who want to build Real Time Chat apps based on Node.js",
-    "link": "https://thenewboston.com/videos.php?cat=86&video=19814",
-    "author": "The New Boston",
-    "level": "Beginner - Intermediate",
-    "categories": "javascript,node",
-    "language": "English",
-    "image": "https://thenewboston.com/images/logo.png",
-    "flags": "flag-icon-us"
-  },
-  {
     "title": "React 16 Definitivo",
     "description": "Tudo o que você precisa saber sobre a versão 16 do React",
     "link": "https://www.udemy.com/react-16/",
@@ -328,11 +317,7 @@
     "title": "React JS and Redux - Mastering Web Apps",
     "author": "David Katz",
     "language": "English",
-    "categories": [
-      "javascript",
-      "react",
-      "redux"
-    ],
+    "categories": ["javascript", "react", "redux"],
     "link": "https://www.udemy.com/react-js-and-redux-mastering-web-apps/?couponCode=GOHACKERS2",
     "level": "Beginner - Intermediate",
     "description": "Create the React JS & Redux apps you always wanted. Build 4 projects, discover development tricks, and master React!"
@@ -751,26 +736,6 @@
     "flags": "flag-icon-us"
   },
   {
-    "title": "JavaScript Weekly",
-    "description": "A free, once–weekly e-mail round-up of JavaScript news and articles.",
-    "link": "http://javascriptweekly.com/",
-    "author": "Cooper Press and Peter Cooper",
-    "level": "Beginner,Intermediate,Advanced",
-    "categories": "newsletter",
-    "language": "English",
-    "flags": "flag-icon-us"
-  },
-  {
-    "title": "Ruby Weekly",
-    "description": "A free, once–weekly e-mail round-up of Ruby news and articles.",
-    "link": "https://rubyweekly.com/",
-    "author": "Cooper Press",
-    "level": "Beginner,Intermediate,Advanced",
-    "categories": "newsletter",
-    "language": "English",
-    "flags": "flag-icon-us"
-  },
-  {
     "title": "Python para zumbis",
     "description": "Aprenda a programar de um modo profissional e divertido.",
     "link": "https://www.pycursos.com/python-para-zumbis/",
@@ -792,21 +757,257 @@
     "image": "https://codecraft.tv/assets/images/courses/angular/angular.w555.playicon.noptim.jpg"
   },
   {
-     "title": "Programming, Data Structures and Algorithms in Python",
-     "description": "This is a introductory course which teaches basic programming concepts in Python. The course also covers various data structures such as sorting, searching, linked list, trees, etc. and their implementation in python.The videos of this course are also available on Youtube. The name of youtube channel is:NOC16 July-Sep CS11",
-     "link": "http://nptel.ac.in/courses/106106145/",
-     "author": "Prof. Madhavan Mukund",
-     "level": "Beginner-Intermediate",
-     "categories": "Python",
-     "language": "English",
-   },
-   {
-     "title": "A Byte of Python",
-     "description": "A Byte of Python is a free book on programming using the Python language. It serves as a tutorial or guide to the Python language for a beginner audience. If all you know about computers is how to save text files, then this is the book for you.",
-     "link": "https://python.swaroopch.com/",
-     "author": "Swaroop C.H.",
-     "level": "Beginner",
-     "categories": "Python",
-     "language": "English"
-   }
+    "title": "Programming, Data Structures and Algorithms in Python",
+    "description": "This is a introductory course which teaches basic programming concepts in Python. The course also covers various data structures such as sorting, searching, linked list, trees, etc. and their implementation in python.The videos of this course are also available on Youtube. The name of youtube channel is:NOC16 July-Sep CS11",
+    "link": "http://nptel.ac.in/courses/106106145/",
+    "author": "Prof. Madhavan Mukund",
+    "level": "Beginner-Intermediate",
+    "categories": "Python",
+    "language": "English"
+  },
+  {
+    "title": "A Byte of Python",
+    "description": "A Byte of Python is a free book on programming using the Python language. It serves as a tutorial or guide to the Python language for a beginner audience. If all you know about computers is how to save text files, then this is the book for you.",
+    "link": "https://python.swaroopch.com/",
+    "author": "Swaroop C.H.",
+    "level": "Beginner",
+    "categories": "Python",
+    "language": "English"
+  },
+  {
+    "title": "Angular (v2.x e v4.x)",
+    "description": "Angular 2 é um framework que permite desenvolver aplicações web e mobile, mantido pela Google. Apesar de ser a segunda versão do framework, Angular 2 não é a continuação do Angular 1 com melhores e novas funcionalidades, foi reescrito.\n\nNesse curso vamos aprender como desenvolver com Angular 2.x e 4.x e TypeScript. Você vai aprender os conceitos básicos e intermediários do Angular, desde os primeiros passos até uma aplicação completa com requisições ao servidor e rotas.\n\nVamos aprender os conceitos de componentes, templates, diretivas, serviços, data-binding, validação de formulários, formulários reativos, roteamento (single page application – SPA) e como conectar ao servidor e trabalhar com RxJS (Observables).\n\nNão é necessário saber Angular 1 para esse curso, já que o Angular v2 foi reescrito. Vamos aprender todos os conceitos do zero, então não se preocupe!",
+    "link": "https://loiane.training/course/angular-2/",
+    "author": "Loiane Groner",
+    "level": "Beginner, Intermediate",
+    "categories": "Angular",
+    "language": "Portuguese - Brazil",
+    "flags": "flag-icon-br"
+  },
+  {
+    "title": "AngularJS",
+    "description": "Tudo sobre angularjs",
+    "link": "https://www.youtube.com/playlist?list=PLQCmSnNFVYnTD5p2fR4EXmtlR6jQJMbPb",
+    "author": "Rodrigo Branas",
+    "level": "Beginner, Intermediate",
+    "categories": "AngularJs",
+    "language": "Portuguese - Brazil",
+    "flags": "flag-icon-br"
+  },
+  {
+    "title": "Java Hibernate Tutorial",
+    "description": "This tutorial will teach you how to use Hibernate to develop your database based web applications in simple and easy steps",
+    "link": "https://www.youtube.com/playlist?list=PL-nvlz_b2YHigPMfw2G37_D54386hdNQ4",
+    "author": " Vivekananda Reddy",
+    "level": "Beginner, Intermediate",
+    "categories": "Java",
+    "language": "English",
+    "flags": "flag-icon-us"
+  },
+  {
+    "title": "Curso de JavaScript desde 0",
+    "description": "Curso de JavaScript desde 1",
+    "link": "https://www.youtube.com/playlist?list=PLU8oAlHdN5BmpobVmj1IlneKlVLJ84TID",
+    "author": " pildorasinformaticas",
+    "level": "Beginner",
+    "categories": "JavaScript",
+    "language": "Spanish",
+    "flags": "flag-icon-es"
+  },
+  {
+    "title": "Cursos de Angular js",
+    "description": "Cursos de Angular js",
+    "link": "https://www.youtube.com/playlist?list=PLRjuMxvCRGQ6kaHKyiBhOGxeXKLYpOJuZ",
+    "author": " Ariel Bautista",
+    "level": "Beginner",
+    "categories": "AngularJs",
+    "language": "Spanish",
+    "flags": "flag-icon-es"
+  },
+  {
+    "title": "Powering Up With React",
+    "description": "Discover how React can help you take control of your UI code with composable user interfaces.",
+    "link": "https://www.codeschool.com/courses/powering-up-with-react",
+    "author": "Sergio Cruz - Codeschool",
+    "level": "Beginner",
+    "categories": "react",
+    "language": "English",
+    "flags": "flag-icon-us"
+  },
+  {
+    "title": "CSS GRID",
+    "description": "LEARN CSS GRID WITH WES BOS IN 25 PRETTY GOOD VIDEOS FROM FUNDAMENTALS TO REAL WORLD IN ABOUT 4 HOURS.",
+    "link": "https://cssgrid.io/",
+    "author": "Wes Bos",
+    "level": "Beginner - Intermediate",
+    "categories": "css",
+    "language": "English",
+    "image": "https://res.cloudinary.com/wesbos/image/fetch/q_auto,f_auto/https://courses.wesbos.com/images/GRID-poster.png",
+    "flags": "flag-icon-us"
+  },
+  {
+    "title": "Under-the-hood:REACTJS",
+    "description": "Entire React code base explanation by visual block schemes (Stack+Fiber versions)",
+    "link": "https://bogdan-lyashenko.github.io/Under-the-hood-ReactJS/",
+    "author": " Bogdan Lyashenko",
+    "level": "Intermediate",
+    "categories": "react",
+    "language": "English - Chinese - Korean",
+    "flags": "flag-icon-us, flag-icon-kr, flag-icon-cn"
+  },
+  {
+    "title": "Basic programming using Python",
+    "description": "Free certificate course of 30 days, which starts at 1st of every month and end at 30th. This is beginner course which upon completion gives a digital free certificate.",
+    "link": "https://yaksh.fossee.in/exam/course_modules/451",
+    "author": "Arun KP",
+    "level": "Beginner",
+    "categories": "Python",
+    "flags": "flag-icon-us",
+    "language": "English"
+  },
+  {
+    "title": "Practical JavaScript",
+    "description": "Build a strong JavaScript foundation for web development",
+    "link": "https://watchandcode.com/p/practical-javascript",
+    "author": "Gordon Zhu",
+    "level": "Beginner, Intermediate",
+    "categories": "JavaScript",
+    "language": "English",
+    "image": "https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:1440/https://d2vvqscadf4c1f.cloudfront.net/Ge2Mtr9TT7W8TqrYWCqh_Pattern-1.gif",
+    "flags": "flag-icon-us"
+  },
+  {
+    "title": "Vue JS Ninja",
+    "description": "Playlist do curso de Vue JS",
+    "link": "https://www.youtube.com/watch?v=07-TvnH7XNo&list=PLcoYAcR89n-qq1vGRbaUiV6Q9puy0qigW",
+    "author": "Tiago Matos",
+    "level": "Beginner, Intermediate",
+    "categories": "Vue",
+    "language": "Portuguese - Brazil",
+    "flags": "flag-icon-br"
+  },
+  {
+    "title": "Introdução ao FireBase",
+    "description": "Playlist do curso: introdução ao firebase",
+    "link": "https://www.youtube.com/watch?v=uP_v6RhnP5U&list=PLHlHvK2lnJnccBL9grcoRxv8CsLa9Q_4q",
+    "author": "Balta.io",
+    "level": "Beginner",
+    "categories": "Firebase",
+    "language": "Portuguese - Brazil",
+    "flags": "flag-icon-br"
+  },
+  {
+    "title": "Desvendando a linguagem Javascript",
+    "description": "Esse curso foca em explorar as principais características do Javascript",
+    "link": "https://www.youtube.com/watch?v=093dIOCNeIc&list=PLQCmSnNFVYnT1-oeDOSBnt164802rkegc",
+    "author": "Rodrigo Branas",
+    "level": "Beginner, Intermediate",
+    "categories": "JavaScript",
+    "language": "Portuguese - Brazil",
+    "flags": "flag-icon-br"
+  },
+  {
+    "title": "Curso de PHP",
+    "description": "Curso completo para quem quer aprender a criar sites utilizando as tecnologias de HTML5 + CSS3 + JavaScript de uma maneira simples e objetiva.",
+    "link": "https://www.cursoemvideo.com/course/curso-php-iniciante/",
+    "author": "Gustavo Guanabara",
+    "level": "Beginner",
+    "categories": "PHP",
+    "language": "Portuguese - Brazil",
+    "image": "https://www.cursoemvideo.com/wp-content/uploads/2017/01/curso-gratis-php.jpg",
+    "flags": "flag-icon-br"
+  },
+  {
+    "title": "Curso POO Java",
+    "description": "Curso de Orientação a Objetos com Java.",
+    "link": "https://www.cursoemvideo.com/course/curso-de-poo-java/",
+    "author": "Gustavo Guanabara",
+    "level": "Intermediate",
+    "categories": "Java",
+    "language": "Portuguese - Brazil",
+    "image": "https://www.cursoemvideo.com/wp-content/uploads/2017/01/POOJAVA420x294.png",
+    "flags": "flag-icon-br"
+  },
+  {
+    "title": "Curso de Java",
+    "description": ". Nesse curso de Java grátis e completo, o professor Gustavo Guanabara vai mostrar como criar aplicativos que utilizem Java para rodar em Desktop. Será usado Java SE 8 com IDE NetBeans e os exemplos serão feitos usando a API Swing, que cria interfaces gráficas atraentes.",
+    "link": "https://www.cursoemvideo.com/course/curso-java-iniciante/",
+    "author": "Gustavo Guanabara",
+    "level": "Beginner",
+    "categories": "Java",
+    "language": "Portuguese - Brazil",
+    "image": "https://www.cursoemvideo.com/wp-content/uploads/2017/01/curso-gratis-java.jpg",
+    "flags": "flag-icon-br"
+  },
+  {
+    "title": "Curso de Laravel Relationship",
+    "description": "Curso que ensina usar sistema de relacionamento do elloquent com laravel.",
+    "link": "https://www.youtube.com/watch?v=ylOBD8D0GBU&list=PLVSNL1PHDWvSk2zxNTYzGRnPMQTFyrYUi",
+    "author": "www.especializati.com.br",
+    "level": "Intermediate, Advanced",
+    "categories": "Laravel, PHP",
+    "language": "Portuguese - Brazil",
+    "image": "http://www.especializati.com.br/assets/uploads/imgs/conteudo/aulas-laravel-especializati.png"
+  },
+  {
+    "title": "Android Tutorial with Examples",
+    "description": "Complete android tutorial with examples",
+    "link": "https://www.tutlane.com/tutorial/android",
+    "author": "Suresh Dasari",
+    "level": "Beginner, Intermediate, Advanced",
+    "categories": "Android",
+    "language": "English",
+    "image": "https://www.tutlane.com/images/categorylogo/android.png"
+  },
+  {
+    "title": "C# Tutorial with Examples",
+    "description": "Complete c# tutorial with examples",
+    "link": "https://www.tutlane.com/tutorial/csharp",
+    "author": "Suresh Dasari",
+    "level": "Beginner, Intermediate, Advanced",
+    "categories": "C Sharp",
+    "language": "English",
+    "image": "https://www.tutlane.com/images/categorylogo/csharp.png"
+  },
+  {
+    "title": "AngularJS Tutorial with Examples",
+    "description": "Complete AngularJS Tutorial with examples",
+    "link": "https://www.tutlane.com/tutorial/angularjs",
+    "author": "Suresh Dasari",
+    "level": "Beginner, Intermediate, Advanced",
+    "categories": "AngularJs",
+    "language": "English",
+    "image": "https://www.tutlane.com/images/categorylogo/angularjs.png"
+  },
+  {
+    "title": "Git & GitHub Crash Course For Beginners",
+    "description": "Git and Github Crash course for beginners where you can learn fundamentals about these technologies",
+    "link": "https://www.youtube.com/watch?v=SWYqp7iY_Tc",
+    "author": "Brad Traversy",
+    "level": "Beginner",
+    "categories": "Git",
+    "language": "English",
+    "image": "http://www.stickpng.com/assets/images/5847f981cef1014c0b5e48be.png"
+  },
+  {
+    "title": "How to Contribute to an Open Source Project on GitHub",
+    "description": "“Feel free to submit a PR!” - words often found in GitHub issues, but met with confusion and fear by many. Getting started with contributing open source is not always straightforward and can be tricky. With this series, you’ll be equipped with the the tools, knowledge, and understanding you need to be productive and contribute to the wonderful world of open source projects. Much of this series speaks about GitHub, but most of the concepts are generally applicable to contributing to any open source project, regardless of where it’s hosted. So enjoy the course and start contributing to the projects you use and love today!",
+    "link": "https://egghead.io/courses/how-to-contribute-to-an-open-source-project-on-github",
+    "author": "Kent. C. Dodds",
+    "level": "Beginner, Intermediate",
+    "categories": "git",
+    "language": "English",
+    "image": "https://d2eip9sf3oo6c2.cloudfront.net/series/square_covers/000/000/032/full/EGH_JSopensource_final.png"
+  },
+  {
+    "title": "Developing a WordPress Theme from Scratch",
+    "description": "A tutorial walkthrough on how to turn any plain HTML website into a customizable website or blog.",
+    "link": "https://www.taniarascia.com/developing-a-wordpress-theme-from-scratch/",
+    "author": "Tania Rascia",
+    "level": "Beginner",
+    "categories": "WordPress",
+    "language": "English",
+    "image": "",
+    "flags": "flag-icon-us"
+  }
 ]

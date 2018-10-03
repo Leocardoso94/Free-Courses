@@ -1,7 +1,7 @@
 language: node_js
 
 node_js:
-  - '6'
+  - '8.9.4'
 
 cache:
   yarn: true
@@ -9,7 +9,4 @@ cache:
     - node_modules
 
 script:
-  - npm prune
-  - npm test
-  - npm run lint
   - bash ./deploy.sh
