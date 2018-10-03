@@ -1009,5 +1009,16 @@
     "language": "English",
     "image": "",
     "flags": "flag-icon-us"
+  },
+  {
+    "title": "The Beginner's Guide to React",
+    "description": "This course is for React newbies and those looking to get a better understanding of React fundamentals.",
+    "link": "https://egghead.io/courses/the-beginner-s-guide-to-react",
+    "author": "Kent C. Dodds",
+    "level": "Beginner",
+    "categories": "React",
+    "language": "English",
+    "image": "",
+    "flags": "flag-icon-us"
   }
 ]
