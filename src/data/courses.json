@@ -978,5 +978,15 @@
     "categories": "AngularJs",
     "language": "English",
     "image": "https://www.tutlane.com/images/categorylogo/angularjs.png"
+  },
+  {
+    "title": "Introduction to Linux",
+    "description": "Never learned Linux? Want a refresh? Take this course",
+    "link": "https://www.edx.org/course/introduction-to-linux",
+    "author": "Jerry Cooperstein",
+    "level": "Beginner, Intermediate",
+    "categories": "Linux",
+    "language": "English",
+    "image": "https://www.edx.org/sites/default/files/school/image/logo/lf_logo_new_pantone_200x101.png"
   }
 ]
