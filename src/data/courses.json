@@ -978,5 +978,15 @@
     "categories": "AngularJs",
     "language": "English",
     "image": "https://www.tutlane.com/images/categorylogo/angularjs.png"
+  },
+  {
+    "title": "Git & GitHub Crash Course For Beginners",
+    "description": "Git and Github Crash course for beginners where you can learn fundamentals about these technologies",
+    "link": "https://www.youtube.com/watch?v=SWYqp7iY_Tc",
+    "author": "Brad Traversy",
+    "level": "Beginner",
+    "categories": "Git",
+    "language": "English",
+    "image": "http://www.stickpng.com/assets/images/5847f981cef1014c0b5e48be.png"
   }
 ]
