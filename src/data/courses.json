@@ -998,5 +998,16 @@
     "categories": "git",
     "language": "English",
     "image": "https://d2eip9sf3oo6c2.cloudfront.net/series/square_covers/000/000/032/full/EGH_JSopensource_final.png"
+  },
+  {
+    "title": "Developing a WordPress Theme from Scratch",
+    "description": "A tutorial walkthrough on how to turn any plain HTML website into a customizable website or blog.",
+    "link": "https://www.taniarascia.com/developing-a-wordpress-theme-from-scratch/",
+    "author": "Tania Rascia",
+    "level": "Beginner",
+    "categories": "WordPress",
+    "language": "English",
+    "image": "",
+    "flags": "flag-icon-us"
   }
 ]

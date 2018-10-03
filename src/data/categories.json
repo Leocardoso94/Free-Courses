@@ -111,5 +111,9 @@
   {
     "title": "Go",
     "icon": "devicon-go-plain colored"
+  },
+  {
+    "title": "WordPress",
+    "icon": "devicon-wordpress-plain colored"
   }
 ]
