@@ -978,5 +978,16 @@
     "categories": "AngularJs",
     "language": "English",
     "image": "https://www.tutlane.com/images/categorylogo/angularjs.png"
+  },
+  {
+    "title": "Developing a WordPress Theme from Scratch",
+    "description": "A tutorial walkthrough on how to turn any plain HTML website into a customizable website or blog.",
+    "link": "https://www.taniarascia.com/developing-a-wordpress-theme-from-scratch/",
+    "author": "Tania Rascia",
+    "level": "Beginner",
+    "categories": "WordPress",
+    "language": "English",
+    "image": "",
+    "flags": "flag-icon-us"
   }
 ]
