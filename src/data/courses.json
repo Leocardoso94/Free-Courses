@@ -1020,5 +1020,16 @@
     "language": "English",
     "image": "",
     "flags": "flag-icon-us"
+  },
+  {
+    "title": "Building a chat app with React.js and Chatkit",
+    "description": "Learn React.js through building a real-world chat app.",
+    "link": "https://scrimba.com/g/greactchatkit",
+    "author": "Per Harald Borgen",
+    "level": "Beginner",
+    "categories": "React",
+    "language": "English",
+    "image": "",
+    "flags": "flag-icon-us"
   }
 ]
