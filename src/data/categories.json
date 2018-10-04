@@ -115,5 +115,9 @@
   {
     "title": "Linux",
     "icon": "devicons devicons-linux colored"
+  },
+  {
+    "title": "WordPress",
+    "icon": "devicon-wordpress-plain colored"
   }
 ]
