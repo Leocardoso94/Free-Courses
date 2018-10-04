@@ -1041,5 +1041,16 @@
     "language": "English",
     "image": "",
     "flags": "flag-icon-us"
+  },
+  {
+    "title": "Getting Started with Redux",
+    "description": "In this comprehensive tutorial, Dan Abramov - the creator of Redux - will teach you how to manage state in your React application with Redux.",
+    "link": "https://egghead.io/courses/getting-started-with-redux",
+    "author": "Dan Abramov",
+    "level": "Beginner, Intermediate",
+    "categories": "React",
+    "language": "English",
+    "image": "https://d2eip9sf3oo6c2.cloudfront.net/series/square_covers/000/000/025/full/EGH_Redux-New.png",
+    "flags": "flag-icon-us"
   }
 ]
