@@ -1041,5 +1041,14 @@
     "language": "English",
     "image": "",
     "flags": "flag-icon-us"
+  },
+  {
+        "title": "Learn Flexbox for Free",
+        "author": "Per Harald Borgen",
+        "language" : "English",
+        "categories": "CSS",
+        "link" : "https://scrimba.com/g/gflexbox",
+        "level":"Beginner",
+        "description": "Learn the fundamentals of Flexbox"
   }
 ]
