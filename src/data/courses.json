@@ -1052,5 +1052,15 @@
     "language": "English",
     "image": "",
     "flags": "flag-icon-us"
-  }
+  },
+  {
+    "title": "Vue.js + Firebase Authentication",
+    "description": "This Vue.js course will teach you how to use Firebase Authentication in your vue.js applications and allow your users to authenticate with their favorite third-party provider (Twitter, Github, Google, etc.) or plain ol' email and password - without writing any server-side code!",
+    "link": "https://vueschool.io/courses/vuejs-firebase-authentication",
+    "author": "Vueschool",
+    "level": "Beginner",
+    "categories": "vue",
+    "language": "English",
+    "flags": "flag-icon-us"
+  },
 ]
