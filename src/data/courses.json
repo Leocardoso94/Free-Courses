@@ -1,5 +1,16 @@
 [
   {
+    "title": "A Complete Beginner's Guide to Django",
+    "description": "From installation, preparation of the development environment, models, views, templates, URLs to more advanced topics such as migrations, testing, and deployment.",
+    "link": "https://simpleisbetterthancomplex.com/series/",
+    "author": "Vitor Freitas",
+    "level": "Beginner",
+    "categories": "django,python",
+    "language": "English",
+    "image": "https://simpleisbetterthancomplex.com/media/series/beginners-guide/1.11/featured.jpg",
+    "flags": "flag-icon-us"
+  },
+  {
     "title": "Django Girls Tutorial",
     "description": "From the basics of python and django to your application deployed on web!",
     "link": "https://tutorial.djangogirls.org/",
@@ -1050,5 +1061,16 @@
         "link" : "https://scrimba.com/g/gflexbox",
         "level":"Beginner",
         "description": "Learn the fundamentals of Flexbox"
+  },
+  {
+    "title": "Getting Started with Redux",
+    "description": "In this comprehensive tutorial, Dan Abramov - the creator of Redux - will teach you how to manage state in your React application with Redux.",
+    "link": "https://egghead.io/courses/getting-started-with-redux",
+    "author": "Dan Abramov",
+    "level": "Beginner, Intermediate",
+    "categories": "React",
+    "language": "English",
+    "image": "https://d2eip9sf3oo6c2.cloudfront.net/series/square_covers/000/000/025/full/EGH_Redux-New.png",
+    "flags": "flag-icon-us"
   }
 ]
