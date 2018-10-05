@@ -1052,5 +1052,14 @@
     "language": "English",
     "image": "",
     "flags": "flag-icon-us"
+  },
+  {
+        "title": "Learn CSS Grid",
+        "author": "Jonathan Suh",
+        "language" : "English",
+        "categories": "CSS",
+        "link" : "https://learncssgrid.com/",
+        "level":"Beginner",
+        "description": "Learn the fundamentals of Grid"
   }
 ]
