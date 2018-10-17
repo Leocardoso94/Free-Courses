@@ -190,6 +190,16 @@
     "flags": "flag-icon-us"
   },
   {
+    "title": "AngularJS For Beginners",
+    "description": "Create Web Applications, Create Hybrid Apps for Android & iOS,Create single page applications",
+    "link": "https://www.udemy.com/angularjs-for-beginners-udemy/",
+    "author": "Stone River eLearning",
+    "level": "Beginner - Intermediate",
+    "categories": "AngularJS",
+    "language": "English",
+    "flags": "flag-icon-us"
+  }
+  {
     "title": "Learn Redux",
     "description": "Dig deeper into React while learning Redux and React Router.",
     "link": "https://learnredux.com/",
