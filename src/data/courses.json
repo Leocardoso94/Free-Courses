@@ -1101,5 +1101,25 @@
     "language": "English",
     "image": "https://d2eip9sf3oo6c2.cloudfront.net/series/square_covers/000/000/025/full/EGH_Redux-New.png",
     "flags": "flag-icon-us"
+  },
+  {
+    "title": "Learn Flexbox for Free",
+    "description": "This is a beginner level flexbox course",
+    "coursesUrl": "https://scrimba.com/g/gflexbox",
+    "author": "per Harald Borgen",
+    "level": "Beginner",
+    "categories": "CSS",
+    "language": "English",
+    "flags": "flag-icon-us"
+  },
+  {
+    "title": "Curso: Criando APIs com NodeJs",
+    "description": "Curso: Criando APIs com NodeJs e MongoDB",
+    "coursesUrl": "https://www.youtube.com/playlist?list=PLHlHvK2lnJndvvycjBqQAbgEDqXxKLoqn",
+    "author": "Balta.io",
+    "level": "Beginner, Intermediate",
+    "categories": "JavaScript, Node",
+    "language": "Portuguese - Brazil",
+    "flags": "flag-icon-br"
   }
 ]
