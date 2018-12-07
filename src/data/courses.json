@@ -338,7 +338,11 @@
     "title": "React JS and Redux - Mastering Web Apps",
     "author": "David Katz",
     "language": "English",
-    "categories": ["javascript", "react", "redux"],
+    "categories": [
+      "javascript",
+      "react",
+      "redux"
+    ],
     "link": "https://www.udemy.com/react-js-and-redux-mastering-web-apps/?couponCode=GOHACKERS2",
     "level": "Beginner - Intermediate",
     "description": "Create the React JS & Redux apps you always wanted. Build 4 projects, discover development tricks, and master React!"
@@ -1105,7 +1109,7 @@
   {
     "title": "Learn Flexbox for Free",
     "description": "This is a beginner level flexbox course",
-    "coursesUrl": "https://scrimba.com/g/gflexbox",
+    "link": "https://scrimba.com/g/gflexbox",
     "author": "per Harald Borgen",
     "level": "Beginner",
     "categories": "CSS",
@@ -1115,11 +1119,29 @@
   {
     "title": "Curso: Criando APIs com NodeJs",
     "description": "Curso: Criando APIs com NodeJs e MongoDB",
-    "coursesUrl": "https://www.youtube.com/playlist?list=PLHlHvK2lnJndvvycjBqQAbgEDqXxKLoqn",
+    "link": "https://www.youtube.com/playlist?list=PLHlHvK2lnJndvvycjBqQAbgEDqXxKLoqn",
     "author": "Balta.io",
     "level": "Beginner, Intermediate",
     "categories": "JavaScript, Node",
     "language": "Portuguese - Brazil",
     "flags": "flag-icon-br"
+  },
+  {
+    "title": "Swift Tutorial with Examples",
+    "description": "Tutlane.com offered a best swift tutorial online for free with examples",
+    "link": "https://www.tutlane.com/tutorial/swift",
+    "author": "Suresh Dasari",
+    "level": "Beginner, Intermediate, Advanced",
+    "categories": "Swift",
+    "language": "English"
+  },
+  {
+    "title": "Node.js Tutorial with Examples",
+    "description": "Tutlane.com has provided a node.js tutorial with examples.",
+    "link": "https://www.tutlane.com/tutorial/nodejs",
+    "author": "Suresh Dasari",
+    "level": "Beginner, Intermediate, Advanced",
+    "categories": "Node",
+    "language": "English"
   }
 ]
