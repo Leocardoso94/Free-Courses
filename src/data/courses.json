@@ -413,6 +413,17 @@
     "flags": "flag-icon-br"
   },
   {
+    "title": "Materialize Tutorial",
+    "author": "The Net Ninja",
+    "language": "English",
+    "flags": "",
+    "categories": "Materialize",
+    "link": "https://www.thenetninja.co.uk/courses/materialize-tutorial",
+    "level": "Beginner - Intermediate",
+    "image": "",
+    "description": "Add Materialize to our web projects to quickly create clean & great-looking websites very quickly, with features such as collapsable menus, popups, tabs, a grid system, buttons and much more."
+  },
+  {
     "dayThatWasAdded": "2017-10-31T16:47:44.590Z",
     "title": "Curso CSS3 com Sass e Compass",
     "description": "Overview sobre essa nova maneira de escrever CSS que é o Sass e também um overview rápido sobre o framework de CSS3 Compass. Como essa aula é apenas um overview, não entrei em detalhes, vamos aprender todos os detalhes no decorrer do curso.",
