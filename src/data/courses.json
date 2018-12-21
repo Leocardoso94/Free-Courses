@@ -96,6 +96,17 @@
     "flags": "flag-icon-us"
   },
   {
+        "title": "Vue.js 2 Tutorial",
+        "author": "The Net Ninja",
+        "language": "English",
+        "flags": "",
+        "categories": "Vue",
+        "link": "https://www.thenetninja.co.uk/courses/vuejs-2-tutorial",
+        "level": "Beginner - Intermediate",
+        "image": "",
+        "description": "In this tutorial we will go from the ground up and explore how to create fully-fledged Vue applications with the Vue CLI and other features such as the Vue router."
+  },
+  {
     "title": "Intro to HTML and CSS",
     "description": "Learn to think like a front end developer",
     "link": "https://www.udacity.com/course/intro-to-html-and-css--ud304",
