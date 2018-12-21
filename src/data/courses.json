@@ -159,6 +159,17 @@
     "flags": "flag-icon-us"
   },
   {
+    "title": "Git & Github Tutorial",
+    "author": "The Net Ninja",
+    "language": "English",
+    "flags": "",
+    "categories": "Git",
+    "link": "https://www.thenetninja.co.uk/courses/git-github-tutorial",
+    "level": "Beginner - Intermediate",
+    "image": "",
+    "description": "Git is a version control system that will make your life easier when trying to keep track of changes you make, and versions of your code."
+  },
+  {
     "title": "Laravel 5 Fundamentals",
     "description": "A beginner level introduction to the Laravel framework",
     "link": "https://laracasts.com/series/laravel-5-fundamentals",
