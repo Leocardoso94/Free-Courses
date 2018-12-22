@@ -75,6 +75,17 @@
     "flags": "flag-icon-br"
   },
   {
+    "title": "SASS Tutorial",
+    "author": "The Net Ninja",
+    "language": "English",
+    "flags": "",
+    "categories": "Sass",
+    "link": "https://www.thenetninja.co.uk/courses/sass-tutorial",
+    "level": "Beginner - Intermediate",
+    "image": "",
+    "description": "Do all sorts of cool stuff with it such as nesting CSS rules, creating variables, mixins and much more, to make working with CSS that little bit easier and more fun."
+  },
+  {
     "title": "HTML & CSS",
     "description": "Learn how to create websites by structuring and styling your pages with HTML and CSS.",
     "link": "https://www.codecademy.com/tracks/web",
@@ -168,6 +179,17 @@
     "language": "English",
     "image": "https://s3.amazonaws.com/js30-cdn/sky--purple-kracked.jpg",
     "flags": "flag-icon-us"
+  },
+  {
+    "title": "Git & Github Tutorial",
+    "author": "The Net Ninja",
+    "language": "English",
+    "flags": "",
+    "categories": "Git",
+    "link": "https://www.thenetninja.co.uk/courses/git-github-tutorial",
+    "level": "Beginner - Intermediate",
+    "image": "",
+    "description": "Git is a version control system that will make your life easier when trying to keep track of changes you make, and versions of your code."
   },
   {
     "title": "Laravel 5 Fundamentals",
