@@ -708,17 +708,7 @@
     "categories": "javascript",
     "language": "English",
     "flags": "flag-icon-us"
-  },
-  {
-    "title": "Try PHP",
-    "description": "​​Explore the basics of PHP and learn what it takes to work within the one of the most popular web languages.",
-    "link": "https://www.codeschool.com/courses/try-php",
-    "author": "Hampton Paulk",
-    "level": "Beginner",
-    "categories": "php",
-    "language": "English",
-    "flags": "flag-icon-us"
-  },
+  },  
   {
     "daythatwasadded": "2017-11-21T17:37:42.791Z",
     "title": "Learn to Code",
