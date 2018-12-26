@@ -326,6 +326,17 @@
     "flags": "flag-icon-us"
   },
   {
+    "title": "PHP Tutorials",
+    "author": "mmtuts",
+    "language": "English",
+    "flags": "",
+    "categories": "PHP",
+    "link": "https://www.youtube.com/playlist?list=PL0eyrZgxdwhwBToawjm9faF1ixePexft-",
+    "level": "Beginner - Intermediate",
+    "image": "",
+    "description": "Beginner to Intermediate developers, who wants to do comfortable backend programming"
+  },
+  {
     "title": "Tango With Django",
     "description": "Hands-on guide for begginers to learn Django. Past editions free.",
     "link": "http://www.tangowithdjango.com",
