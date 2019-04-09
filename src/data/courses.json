@@ -514,7 +514,7 @@
   },
   {
     "title": "Rails Casts",
-    "description": "RailsCasts is produced by Ryan Bates (rbates on Twitter and ryanb on GitHub). A free episode will be released on the first Monday of each month featuring tips and tricks with Ruby on Rails. The screencasts are short and focus on one technique so you can quickly move on to applying it to your own project. The topics target the intermediate Rails developer, but beginners and experts will get something out of it as well. A Pro option is also available containing more screencasts each week.",
+    "description": "RailsCasts is produced by Ryan Bates (rbates on Twitter and ryanb on GitHub). A free episode was be released on the first Monday of each month from 2007-2013, featuring tips and tricks with Ruby on Rails. The screencasts are short and focus on one technique so you can quickly move on to applying it to your own project. The topics target the intermediate Rails developer, but beginners and experts will get something out of it as well.",
     "link": "http://railscasts.com/",
     "author": "Ryan Bates",
     "level": "Beginner, Intermediate, Advanced",
