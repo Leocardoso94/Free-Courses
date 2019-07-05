@@ -1,5 +1,16 @@
 [
   {
+    "title": "A Complete Beginner's Guide to Django",
+    "description": "From installation, preparation of the development environment, models, views, templates, URLs to more advanced topics such as migrations, testing, and deployment.",
+    "link": "https://simpleisbetterthancomplex.com/series/",
+    "author": "Vitor Freitas",
+    "level": "Beginner",
+    "categories": "django,python",
+    "language": "English",
+    "image": "https://simpleisbetterthancomplex.com/media/series/beginners-guide/1.11/featured.jpg",
+    "flags": "flag-icon-us"
+  },
+  {
     "title": "Django Girls Tutorial",
     "description": "From the basics of python and django to your application deployed on web!",
     "link": "https://tutorial.djangogirls.org/",
@@ -64,6 +75,17 @@
     "flags": "flag-icon-br"
   },
   {
+    "title": "SASS Tutorial",
+    "author": "The Net Ninja",
+    "language": "English",
+    "flags": "",
+    "categories": "Sass",
+    "link": "https://www.thenetninja.co.uk/courses/sass-tutorial",
+    "level": "Beginner - Intermediate",
+    "image": "",
+    "description": "Do all sorts of cool stuff with it such as nesting CSS rules, creating variables, mixins and much more, to make working with CSS that little bit easier and more fun."
+  },
+  {
     "title": "HTML & CSS",
     "description": "Learn how to create websites by structuring and styling your pages with HTML and CSS.",
     "link": "https://www.codecademy.com/tracks/web",
@@ -83,6 +105,17 @@
     "language": "English",
     "image": "https://internetingishard.com/img/interneting-is-hard-logo-97b225.svg",
     "flags": "flag-icon-us"
+  },
+  {
+        "title": "Vue.js 2 Tutorial",
+        "author": "The Net Ninja",
+        "language": "English",
+        "flags": "",
+        "categories": "Vue",
+        "link": "https://www.thenetninja.co.uk/courses/vuejs-2-tutorial",
+        "level": "Beginner - Intermediate",
+        "image": "",
+        "description": "In this tutorial we will go from the ground up and explore how to create fully-fledged Vue applications with the Vue CLI and other features such as the Vue router."
   },
   {
     "title": "Intro to HTML and CSS",
@@ -148,6 +181,17 @@
     "flags": "flag-icon-us"
   },
   {
+    "title": "Git & Github Tutorial",
+    "author": "The Net Ninja",
+    "language": "English",
+    "flags": "",
+    "categories": "Git",
+    "link": "https://www.thenetninja.co.uk/courses/git-github-tutorial",
+    "level": "Beginner - Intermediate",
+    "image": "",
+    "description": "Git is a version control system that will make your life easier when trying to keep track of changes you make, and versions of your code."
+  },
+  {
     "title": "Laravel 5 Fundamentals",
     "description": "A beginner level introduction to the Laravel framework",
     "link": "https://laracasts.com/series/laravel-5-fundamentals",
@@ -175,6 +219,16 @@
     "author": "Codecademy",
     "level": "Beginner - Intermediate",
     "categories": "python",
+    "language": "English",
+    "flags": "flag-icon-us"
+  },
+  {
+    "title": "AngularJS For Beginners",
+    "description": "Create Web Applications, Create Hybrid Apps for Android & iOS,Create single page applications",
+    "link": "https://www.udemy.com/angularjs-for-beginners-udemy/",
+    "author": "Stone River eLearning",
+    "level": "Beginner - Intermediate",
+    "categories": "AngularJS",
     "language": "English",
     "flags": "flag-icon-us"
   },
@@ -272,6 +326,17 @@
     "flags": "flag-icon-us"
   },
   {
+    "title": "PHP Tutorials",
+    "author": "mmtuts",
+    "language": "English",
+    "flags": "",
+    "categories": "PHP",
+    "link": "https://www.youtube.com/playlist?list=PL0eyrZgxdwhwBToawjm9faF1ixePexft-",
+    "level": "Beginner - Intermediate",
+    "image": "",
+    "description": "Beginner to Intermediate developers, who wants to do comfortable backend programming"
+  },
+  {
     "title": "Tango With Django",
     "description": "Hands-on guide for begginers to learn Django. Past editions free.",
     "link": "http://www.tangowithdjango.com",
@@ -317,7 +382,11 @@
     "title": "React JS and Redux - Mastering Web Apps",
     "author": "David Katz",
     "language": "English",
-    "categories": ["javascript", "react", "redux"],
+    "categories": [
+      "javascript",
+      "react",
+      "redux"
+    ],
     "link": "https://www.udemy.com/react-js-and-redux-mastering-web-apps/?couponCode=GOHACKERS2",
     "level": "Beginner - Intermediate",
     "description": "Create the React JS & Redux apps you always wanted. Build 4 projects, discover development tricks, and master React!"
@@ -388,6 +457,17 @@
     "flags": "flag-icon-br"
   },
   {
+    "title": "Materialize Tutorial",
+    "author": "The Net Ninja",
+    "language": "English",
+    "flags": "",
+    "categories": "Materialize",
+    "link": "https://www.thenetninja.co.uk/courses/materialize-tutorial",
+    "level": "Beginner - Intermediate",
+    "image": "",
+    "description": "Add Materialize to our web projects to quickly create clean & great-looking websites very quickly, with features such as collapsable menus, popups, tabs, a grid system, buttons and much more."
+  },
+  {
     "dayThatWasAdded": "2017-10-31T16:47:44.590Z",
     "title": "Curso CSS3 com Sass e Compass",
     "description": "Overview sobre essa nova maneira de escrever CSS que é o Sass e também um overview rápido sobre o framework de CSS3 Compass. Como essa aula é apenas um overview, não entrei em detalhes, vamos aprender todos os detalhes no decorrer do curso.",
@@ -434,7 +514,7 @@
   },
   {
     "title": "Rails Casts",
-    "description": "RailsCasts is produced by Ryan Bates (rbates on Twitter and ryanb on GitHub). A free episode will be released on the first Monday of each month featuring tips and tricks with Ruby on Rails. The screencasts are short and focus on one technique so you can quickly move on to applying it to your own project. The topics target the intermediate Rails developer, but beginners and experts will get something out of it as well. A Pro option is also available containing more screencasts each week.",
+    "description": "RailsCasts is produced by Ryan Bates (rbates on Twitter and ryanb on GitHub). A free episode was be released on the first Monday of each month from 2007-2013, featuring tips and tricks with Ruby on Rails. The screencasts are short and focus on one technique so you can quickly move on to applying it to your own project. The topics target the intermediate Rails developer, but beginners and experts will get something out of it as well.",
     "link": "http://railscasts.com/",
     "author": "Ryan Bates",
     "level": "Beginner, Intermediate, Advanced",
@@ -639,6 +719,17 @@
     "categories": "javascript",
     "language": "English",
     "flags": "flag-icon-us"
+  },
+  {
+    "title": "PHP programming language",
+    "author": "Mike Dane",
+    "language": "English",
+    "flags": "",
+    "categories": "PHP",
+    "link": "https://www.youtube.com/watch?v=OK_JCtrrv-c",
+    "level": "Beginner",
+    "image": "",
+    "description": "Learn the PHP programming language in this full course / tutorial. The course is designed for new programmers, and will introduce common programming topics using the PHP language."
   },
   {
     "title": "Try PHP",
@@ -980,6 +1071,16 @@
     "image": "https://www.tutlane.com/images/categorylogo/angularjs.png"
   },
   {
+    "title": "Introduction to Linux",
+    "description": "Never learned Linux? Want a refresh? Take this course",
+    "link": "https://www.edx.org/course/introduction-to-linux",
+    "author": "Jerry Cooperstein",
+    "level": "Beginner, Intermediate",
+    "categories": "Linux",
+    "language": "English",
+    "image": "https://www.edx.org/sites/default/files/school/image/logo/lf_logo_new_pantone_200x101.png"
+  },
+  {
     "title": "Git & GitHub Crash Course For Beginners",
     "description": "Git and Github Crash course for beginners where you can learn fundamentals about these technologies",
     "link": "https://www.youtube.com/watch?v=SWYqp7iY_Tc",
@@ -1009,5 +1110,104 @@
     "language": "English",
     "image": "",
     "flags": "flag-icon-us"
+  },
+  {
+    "title": "The Beginner's Guide to React",
+    "description": "This course is for React newbies and those looking to get a better understanding of React fundamentals.",
+    "link": "https://egghead.io/courses/the-beginner-s-guide-to-react",
+    "author": "Kent C. Dodds",
+    "level": "Beginner",
+    "categories": "React",
+    "language": "English",
+    "image": "",
+    "flags": "flag-icon-us"
+  },
+  {
+    "title": "Building a chat app with React.js and Chatkit",
+    "description": "Learn React.js through building a real-world chat app.",
+    "link": "https://scrimba.com/g/greactchatkit",
+    "author": "Per Harald Borgen",
+    "level": "Beginner",
+    "categories": "React",
+    "language": "English",
+    "image": "",
+    "flags": "flag-icon-us"
+  },
+  {
+    "title": "Learn CSS Grid",
+    "author": "Jonathan Suh",
+    "language": "English",
+    "categories": "CSS",
+    "link": "https://learncssgrid.com/",
+    "level": "Beginner",
+    "description": "Learn the fundamentals of Grid"
+  },
+  {
+    "title": "Vue.js + Firebase Authentication",
+    "description": "This Vue.js course will teach you how to use Firebase Authentication in your vue.js applications and allow your users to authenticate with their favorite third-party provider (Twitter, Github, Google, etc.) or plain ol' email and password - without writing any server-side code!",
+    "link": "https://vueschool.io/courses/vuejs-firebase-authentication",
+    "author": "Vueschool",
+    "level": "Beginner",
+    "categories": "vue",
+    "language": "English",
+    "flags": "flag-icon-us"
+  },
+  {
+    "title": "Learn Flexbox for Free",
+    "author": "Per Harald Borgen",
+    "language": "English",
+    "categories": "CSS",
+    "link": "https://scrimba.com/g/gflexbox",
+    "level": "Beginner",
+    "description": "Learn the fundamentals of Flexbox"
+  },
+  {
+    "title": "Getting Started with Redux",
+    "description": "In this comprehensive tutorial, Dan Abramov - the creator of Redux - will teach you how to manage state in your React application with Redux.",
+    "link": "https://egghead.io/courses/getting-started-with-redux",
+    "author": "Dan Abramov",
+    "level": "Beginner, Intermediate",
+    "categories": "React",
+    "language": "English",
+    "image": "https://d2eip9sf3oo6c2.cloudfront.net/series/square_covers/000/000/025/full/EGH_Redux-New.png",
+    "flags": "flag-icon-us"
+  },
+  {
+    "title": "Learn Flexbox for Free",
+    "description": "This is a beginner level flexbox course",
+    "link": "https://scrimba.com/g/gflexbox",
+    "author": "per Harald Borgen",
+    "level": "Beginner",
+    "categories": "CSS",
+    "language": "English",
+    "flags": "flag-icon-us"
+  },
+  {
+    "title": "Curso: Criando APIs com NodeJs",
+    "description": "Curso: Criando APIs com NodeJs e MongoDB",
+    "link": "https://www.youtube.com/playlist?list=PLHlHvK2lnJndvvycjBqQAbgEDqXxKLoqn",
+    "author": "Balta.io",
+    "level": "Beginner, Intermediate",
+    "categories": "JavaScript, Node",
+    "language": "Portuguese - Brazil",
+    "flags": "flag-icon-br"
+  },
+  {
+    "title": "Swift Tutorial with Examples",
+    "description": "Tutlane.com offered a best swift tutorial online for free with examples",
+    "link": "https://www.tutlane.com/tutorial/swift",
+    "author": "Suresh Dasari",
+    "level": "Beginner, Intermediate, Advanced",
+    "categories": "Swift",
+    "language": "English"
+  },
+  {
+    "title": "Node.js Tutorial with Examples",
+    "description": "Tutlane.com has provided a node.js tutorial with examples.",
+    "link": "https://www.tutlane.com/tutorial/nodejs",
+    "author": "Suresh Dasari",
+    "level": "Beginner, Intermediate, Advanced",
+    "categories": "Node",
+    "language": "English"
   }
 ]

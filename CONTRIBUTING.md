@@ -19,7 +19,7 @@ To add new course please follow steps:
 
 1. Fork this repo
 2. Go to the folder `/src/data`
-3. Open the `couses.json`
+3. Open the `courses.json`
 4. Add a new JSON Object, Example as follows:
 
 ```
