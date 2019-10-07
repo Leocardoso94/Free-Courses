@@ -1,5 +1,5 @@
 import React, { createContext } from 'react';
-import { API_URL } from '../utils';
+import categories from '../data/categories.json';
 
 const Categories = createContext();
 /* eslint react/prop-types: 0 */
@@ -12,21 +12,24 @@ export class CategoriesProvider extends React.Component {
     filterCategory: (value) => {
       this.setState({
         categories: this.state.allCategories.filter(category =>
-          category.title.toLowerCase().match(value.toLowerCase()))
+          category.title.toLowerCase().match(value.toLowerCase()), ),
       });
-    }
+    },
   };
 
   componentDidMount = async () => {
-    const categories = await (await fetch(`${API_URL}/categories.json`)).json();
     this.setState({
       categories: categories.sort((a, b) => (a.title < b.title ? -1 : 1)),
-      allCategories: categories.sort((a, b) => (a.title < b.title ? -1 : 1))
+      allCategories: categories.sort((a, b) => (a.title < b.title ? -1 : 1)),
     });
   };
 
   render() {
-    return <Categories.Provider value={this.state}>{this.props.children}</Categories.Provider>;
+    return (
+      <Categories.Provider value={this.state}>
+        {this.props.children}
+      </Categories.Provider>
+    );
   }
 }
 

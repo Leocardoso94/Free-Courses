@@ -1,6 +1,6 @@
 import React, { createContext } from 'react';
 import snakeCase from 'lodash.snakecase';
-import { API_URL } from '../utils';
+import allCourses from '../data/courses.json';
 
 const Course = createContext();
 /* eslint react/prop-types: 0 */
@@ -10,20 +10,20 @@ export class CourseProvider extends React.Component {
   state = {
     courses: [],
     findCourseById: id => this.state.courses.find(crs => crs.id === id),
-    loading: true
+    loading: true,
   };
 
   componentDidMount = async () => {
-    const courses = await (await fetch(`${API_URL}/courses.json`)).json();
-
     this.setState({
       loading: false,
-      courses: courses
+      courses: allCourses
         .map((course) => {
           const obj = {};
           obj.id = snakeCase(course.title + course.author);
           if (typeof course.categories === 'string') {
-            obj.categories = course.categories.replace(/ *, */g, ',').split(',');
+            obj.categories = course.categories
+              .replace(/ *, */g, ',')
+              .split(',');
           }
           if (typeof course.flags === 'string') {
             obj.flags = course.flags.split(',');
@@ -32,12 +32,16 @@ export class CourseProvider extends React.Component {
           return Object.assign(course, obj);
         })
         .slice(0)
-        .reverse()
+        .reverse(),
     });
   };
 
   render() {
-    return <Course.Provider value={this.state}>{this.props.children}</Course.Provider>;
+    return (
+      <Course.Provider value={this.state}>
+        {this.props.children}
+      </Course.Provider>
+    );
   }
 }
 
@@ -47,7 +51,12 @@ export const CoursesConsumer = Course.Consumer;
 export const withCourses = Component => props => (
   <CoursesConsumer>
     {({ courses, findCourseById, loading }) => (
-      <Component {...props} courses={courses} findCourseById={findCourseById} loading={loading} />
+      <Component
+        {...props}
+        courses={courses}
+        findCourseById={findCourseById}
+        loading={loading}
+      />
     )}
   </CoursesConsumer>
 );

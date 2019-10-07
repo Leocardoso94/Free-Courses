@@ -12,7 +12,8 @@
     "test": "mocha src/**/*spec.js --require babel-register",
     "test:coverage": "nyc npm test",
     "readme": "node readme.js",
-    "fix:lint": "eslint --fix --ext js --ext jsx src"
+    "fix:lint": "eslint --fix --ext js --ext jsx src",
+    "postbuild": "react-snap"
   },
   "nyc": {
     "reporter": [
@@ -87,9 +88,11 @@
     "postcss-loader": "^1.2.2",
     "react-addons-test-utils": "^15.6.0",
     "react-hot-loader": "^3.0.0-beta.6",
+    "react-snap": "^1.23.0",
     "react-test-renderer": "^15.6.1",
     "style-loader": "0.13.1",
-    "url-loader": "0.5.7"
+    "url-loader": "0.5.7",
+    "webpack-cli": "^3.3.9"
   },
   "jest": {
     "verbose": true,
@@ -108,5 +111,9 @@
     "moduleDirectories": [
       "node_modules"
     ]
+  },
+  "reactSnap": {
+    "source": "public",
+    "cacheAjaxRequests": true
   }
 }

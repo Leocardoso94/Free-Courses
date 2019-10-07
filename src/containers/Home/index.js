@@ -5,6 +5,7 @@ import Contributor from './contributor';
 import FaIcon from './../../components/Icons/fa-icon';
 import { TweetButton, FaceButton } from './../../components/ShareButtons';
 
+const REPO_API_PATH = 'https://api.github.com/repos/leocardoso94/free-courses';
 
 class Home extends Component {
   constructor(props) {
@@ -12,13 +13,13 @@ class Home extends Component {
 
     this.state = { contributors: [] };
 
-    fetch('https://api.github.com/repos/leocardoso94/free-courses')
-      .then(blob => blob.json()
-        .then(data => this.updateStars(data.stargazers_count)));
+    fetch(REPO_API_PATH)
+      .then(blob => blob.json())
+      .then(data => this.updateStars(data.stargazers_count));
 
-    fetch('https://api.github.com/repos/Leocardoso94/Free-Courses/contributors')
-      .then(blob => blob.json()
-        .then(data => this.updateContributors(data)));
+    fetch(`${REPO_API_PATH}/contributors`)
+      .then(blob => blob.json())
+      .then(data => this.updateContributors(data));
 
     this.contributorsList = this.contributorsList.bind(this);
   }
@@ -28,12 +29,13 @@ class Home extends Component {
   }
 
   contributorsList() {
-    return this.state.contributors
-      .map((contributor, index) => (<Contributor
+    return this.state.contributors.map((contributor, index) => (
+      <Contributor
         contributor={contributor}
         index={index}
         key={contributor.login}
-      />));
+      />
+    ));
   }
 
   updateStars(stars) {
@@ -83,29 +85,24 @@ class Home extends Component {
             <FaIcon icon="fa-star" color="#ff8f00" /> {this.state.stars} Stars
           </a>
           <br />
-          <span >Made with <FaIcon icon="fa-heart" color="red" />
+          <span>
+            Made with <FaIcon icon="fa-heart" color="red" />
             &nbsp;by
-            <a
-              target="_blank"
-              href="https://github.com/Leocardoso94"
-            >
+            <a target="_blank" href="https://github.com/Leocardoso94">
               &nbsp; @LeoCardoso94
             </a>
           </span>
           <br />
           <br />
-          <TweetButton text="https://freecourses.github.io/" title="Share" /><FaceButton text="https://freecourses.github.io/" title="Share" />
+          <TweetButton text="https://freecourses.github.io/" title="Share" />
+          <FaceButton text="https://freecourses.github.io/" title="Share" />
         </p>
 
         <h4>Special thanks to all contributors:</h4>
 
-        <ul className="contributors">
-          {this.contributorsList()}
-        </ul>
-
+        <ul className="contributors">{this.contributorsList()}</ul>
 
         <br />
-
       </ReactCSSTransitionGroup>
     );
   }
