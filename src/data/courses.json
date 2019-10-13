@@ -223,6 +223,15 @@
     "flags": "flag-icon-us"
   },
   {
+        "title": "Learn Python in One Video",
+        "author": "Derek Banas",
+        "language": "English",
+        "categories": "python",
+        "link": "https://www.youtube.com/watch?v=H1elmMBnykA&t=6s",
+        "level": "Beginner - Intermediate",
+        "description": "Ultimate Python tutorial in One Video by Derek Banas"
+   },
+  {
     "title": "AngularJS For Beginners",
     "description": "Create Web Applications, Create Hybrid Apps for Android & iOS,Create single page applications",
     "link": "https://www.udemy.com/angularjs-for-beginners-udemy/",
