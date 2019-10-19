@@ -86,6 +86,15 @@
     "description": "Do all sorts of cool stuff with it such as nesting CSS rules, creating variables, mixins and much more, to make working with CSS that little bit easier and more fun."
   },
   {
+    "title": "Node.js Crash Course",
+    "author": "Brad Traversy",
+    "language": "English",
+    "categories": "Node",
+    "link": "https://www.youtube.com/watch?v=fBNz5xF-Kx4&t=2815s",
+    "level": "Beginner - Intermediate",
+    "description": "In this Crash course we will explore Node.js fundamentals including modules such as path, url, fs, events and we will create an HTTP server from scratch without Express and deploy to Heroku."
+  },
+  {
     "title": "HTML & CSS",
     "description": "Learn how to create websites by structuring and styling your pages with HTML and CSS.",
     "link": "https://www.codecademy.com/tracks/web",
