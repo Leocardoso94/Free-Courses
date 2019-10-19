@@ -1040,6 +1040,15 @@
     "flags": "flag-icon-br"
   },
   {
+    "title": "Java Tutorial",
+    "description": "Learn Java in One Video by Derek Banas",
+    "link": "https://www.youtube.com/watch?v=n-xAqcBCws4",
+    "author": "Derek Banas",
+    "level": "Beginner - Intermediate",
+    "categories": "Java",
+    "language": "English",
+  },
+  {
     "title": "Curso de Laravel Relationship",
     "description": "Curso que ensina usar sistema de relacionamento do elloquent com laravel.",
     "link": "https://www.youtube.com/watch?v=ylOBD8D0GBU&list=PLVSNL1PHDWvSk2zxNTYzGRnPMQTFyrYUi",
