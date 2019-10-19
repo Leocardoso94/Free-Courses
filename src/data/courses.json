@@ -434,6 +434,15 @@
     "image": "https://udemy-images.udemy.com/course/240x135/1368248_af89.jpg"
   },
   {
+    "title": "Complete React Tutorial",
+    "description": "Basics of React, from the ground up, right through to creating full SPA's using Create React App, the React Router (v4) and Redux.",
+    "link": "https://www.youtube.com/playlist?list=PL4cUxeGkcC9ij8CfkAY2RAGb-tmkNwQHG",
+    "author": "The Net Ninja",
+    "level": "Beginner - Intermediate",
+    "categories": "React",
+    "language": "English",
+  },
+  {
     "title": "Learn Webpack 2 from scratch",
     "description": "Learn how to build web applications using Javascript's most popular build tool... Webpack 2",
     "link": "https://www.udemy.com/learn-webpack-2-from-scratch/",
