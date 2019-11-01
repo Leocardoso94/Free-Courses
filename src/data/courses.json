@@ -518,6 +518,17 @@
     "flags": "flag-icon-us"
   },
   {
+    "title": "Python3 na Web com Django",
+    "description": "Como desenvolver incríveis aplicações web de forma rápida. Desenvolva suas próprias aplicações web com Python 3 e Django. Tenha noção de como planejar o desenvolvimento de uma aplicação web. Entendenda como funciona uma aplicação web com Python.",
+    "link": "https://www.udemy.com/course/python-3-na-web-com-django-basico-intermediario/",
+    "author": "Gileno Alves Santa Cruz Filho",
+    "level": "Beginner, Intermediate",
+    "categories": "python",
+    "language": "Portuguese - Brazil",
+    "githubuser": "lilianhteixeira",
+    "flags": "flag-icon-br"
+  },
+  {
     "title": "Try Git",
     "description": "Learn how to use Git by reviewing the basic concepts of Git version control. Try out this introductory course that was created with GitHub.",
     "link": "https://www.codeschool.com/courses/try-git",
