@@ -119,5 +119,9 @@
   {
     "title": "WordPress",
     "icon": "devicon-wordpress-plain colored"
+  },
+  {
+    "title":"Backbone-js",
+    "icon":"devicon-backbonejs-plain colored"
   }
 ]

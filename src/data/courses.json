@@ -1256,5 +1256,14 @@
     "level": "Beginner, Intermediate, Advanced",
     "categories": "Node",
     "language": "English"
+  },
+  {
+    "title":"Backbone js Tutorial",
+    "description":"A backbone js course to learn how to structure web apps that run on browser",
+    "link":"https://www.youtube.com/watch?v=4t0n5k0X7ow&list=PLTjRvDozrdlwn9IsHWEs9IQv3HQob4bH3",
+    "author":"Mosh",
+    "level":"Beginner",
+    "categories":"Backbone-js",
+    "language":"English"
   }
 ]
