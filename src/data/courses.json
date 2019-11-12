@@ -1256,5 +1256,15 @@
     "level": "Beginner, Intermediate, Advanced",
     "categories": "Node",
     "language": "English"
-  }
+  },
+  {
+     "title": "Learn React for free",
+     "author": "Bob Ziroll",
+     "language": "English",
+     "flags": "flag-icon-us",
+     "categories": "React",
+     "link": "https://scrimba.com/g/glearnreact",
+     "level": "Beginner",
+     "description": "React tutorial course using interactive screencasts. You'll learn all the key concepts while building two apps and doing coding challenges along the way.",
+    }
 ]
