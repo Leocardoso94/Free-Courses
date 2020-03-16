@@ -1265,5 +1265,28 @@
     "level":"Beginner",
     "categories":"Backbone-js",
     "language":"English"
+  },
+  {
+    "title": "Wordpress Completo",
+    "description": "Curso de WordPress completo, atualizado, profissional, utilizando o editor de blocos Gutenberg e apenas ferramentas grátis para a criação de sites.",
+    "link": "https://www.youtube.com/playlist?list=PLHz_AreHm4dmDP_RWdiKekjTEmCuq_MW2",
+    "author": "Gustavo Guanabara",
+    "level": "Beginner, Intermediate",
+    "categories": "Wordpress",
+    "language": "Portuguese - Brazil",
+    "githubuser": "anacarolinahernandes",
+    "flags": "flag-icon-br"
+  },
+  {
+    "title": "JavaScript e ECMAScript para iniciantes",
+    "description": "Curso de JavaScript patrocinado pelo Google, voltado para iniciantes e para quem quiser aprender mais sobre ECMAScript, a versão padronizada do JS.",
+    "link": "https://www.youtube.com/playlist?list=PLHz_AreHm4dlsK3Nr9GVvXCbpQyHQl1o1",
+    "author": "Gustavo Guanabara",
+    "level": "Beginner",
+    "categories": "JavaScript",
+    "language": "Portuguese - Brazil",
+    "image": "https://pbs.twimg.com/media/D7nNSPLXsAIpkSi?format=jpg",
+    "githubuser": "anacarolinahernandes",
+    "flags": "flag-icon-br"
   }
 ]
