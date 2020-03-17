@@ -78,7 +78,7 @@
     "title": "SASS Tutorial",
     "author": "The Net Ninja",
     "language": "English",
-    "flags": "",
+    "flags": "flag-icon-us",
     "categories": "Sass",
     "link": "https://www.thenetninja.co.uk/courses/sass-tutorial",
     "level": "Beginner - Intermediate",
@@ -89,6 +89,7 @@
     "title": "Node.js Crash Course",
     "author": "Brad Traversy",
     "language": "English",
+    "flags": "flag-icon-us",
     "categories": "Node",
     "link": "https://www.youtube.com/watch?v=fBNz5xF-Kx4&t=2815s",
     "level": "Beginner - Intermediate",
@@ -116,15 +117,15 @@
     "flags": "flag-icon-us"
   },
   {
-        "title": "Vue.js 2 Tutorial",
-        "author": "The Net Ninja",
-        "language": "English",
-        "flags": "",
-        "categories": "Vue",
-        "link": "https://www.thenetninja.co.uk/courses/vuejs-2-tutorial",
-        "level": "Beginner - Intermediate",
-        "image": "",
-        "description": "In this tutorial we will go from the ground up and explore how to create fully-fledged Vue applications with the Vue CLI and other features such as the Vue router."
+    "title": "Vue.js 2 Tutorial",
+    "author": "The Net Ninja",
+    "language": "English",
+    "flags": "flag-icon-us",
+    "categories": "Vue",
+    "link": "https://www.thenetninja.co.uk/courses/vuejs-2-tutorial",
+    "level": "Beginner - Intermediate",
+    "image": "",
+    "description": "In this tutorial we will go from the ground up and explore how to create fully-fledged Vue applications with the Vue CLI and other features such as the Vue router."
   },
   {
     "title": "Intro to HTML and CSS",
@@ -193,7 +194,7 @@
     "title": "Git & Github Tutorial",
     "author": "The Net Ninja",
     "language": "English",
-    "flags": "",
+    "flags": "flag-icon-us",
     "categories": "Git",
     "link": "https://www.thenetninja.co.uk/courses/git-github-tutorial",
     "level": "Beginner - Intermediate",
@@ -232,14 +233,15 @@
     "flags": "flag-icon-us"
   },
   {
-        "title": "Learn Python in One Video",
-        "author": "Derek Banas",
-        "language": "English",
-        "categories": "python",
-        "link": "https://www.youtube.com/watch?v=H1elmMBnykA&t=6s",
-        "level": "Beginner - Intermediate",
-        "description": "Ultimate Python tutorial in One Video by Derek Banas"
-   },
+    "title": "Learn Python in One Video",
+    "author": "Derek Banas",
+    "language": "English",
+    "categories": "python",
+    "link": "https://www.youtube.com/watch?v=H1elmMBnykA&t=6s",
+    "level": "Beginner - Intermediate",
+    "description": "Ultimate Python tutorial in One Video by Derek Banas",
+    "flags": "flag-icon-us"
+  },
   {
     "title": "AngularJS For Beginners",
     "description": "Create Web Applications, Create Hybrid Apps for Android & iOS,Create single page applications",
@@ -347,7 +349,7 @@
     "title": "PHP Tutorials",
     "author": "mmtuts",
     "language": "English",
-    "flags": "",
+    "flags": "flag-icon-us",
     "categories": "PHP",
     "link": "https://www.youtube.com/playlist?list=PL0eyrZgxdwhwBToawjm9faF1ixePexft-",
     "level": "Beginner - Intermediate",
@@ -400,13 +402,10 @@
     "title": "React JS and Redux - Mastering Web Apps",
     "author": "David Katz",
     "language": "English",
-    "categories": [
-      "javascript",
-      "react",
-      "redux"
-    ],
+    "categories": ["javascript", "react", "redux"],
     "link": "https://www.udemy.com/react-js-and-redux-mastering-web-apps/?couponCode=GOHACKERS2",
     "level": "Beginner - Intermediate",
+    "flags": "flag-icon-us",
     "description": "Create the React JS & Redux apps you always wanted. Build 4 projects, discover development tricks, and master React!"
   },
   {
@@ -449,7 +448,8 @@
     "author": "The Net Ninja",
     "level": "Beginner - Intermediate",
     "categories": "React",
-    "language": "English"
+    "language": "English",
+    "flags": "flag-icon-us"
   },
   {
     "title": "Learn Webpack 2 from scratch",
@@ -487,7 +487,7 @@
     "title": "Materialize Tutorial",
     "author": "The Net Ninja",
     "language": "English",
-    "flags": "",
+    "flags": "flag-icon-us",
     "categories": "Materialize",
     "link": "https://www.thenetninja.co.uk/courses/materialize-tutorial",
     "level": "Beginner - Intermediate",
@@ -570,7 +570,8 @@
     "level": "Intermediate",
     "categories": "CSS",
     "language": "English, Portuguese - Brazil, Spanish, Italian, French, Others",
-    "image": "http://learnlayout.com/images/logo.png"
+    "image": "http://learnlayout.com/images/logo.png",
+    "flags": "flag-icon-us"
   },
   {
     "dayThatWasAdded": "2017-11-06T16:21:54.023Z",
@@ -581,7 +582,8 @@
     "level": "Beginner, Intermediate",
     "categories": "CSS",
     "language": "English",
-    "image": "https://flexbox.io/images/WTF/covers/1.jpg"
+    "image": "https://flexbox.io/images/WTF/covers/1.jpg",
+    "flags": "flag-icon-us"
   },
   {
     "title": "Angular 2 Tutorial",
@@ -762,7 +764,7 @@
     "title": "PHP programming language",
     "author": "Mike Dane",
     "language": "English",
-    "flags": "",
+    "flags": "flag-icon-us",
     "categories": "PHP",
     "link": "https://www.youtube.com/watch?v=OK_JCtrrv-c",
     "level": "Beginner",
@@ -800,6 +802,7 @@
     "level": "Beginner, Intermediate",
     "categories": "Laravel",
     "language": "English",
+    "flags": "flag-icon-us",
     "image": "https://www.tutorialspoint.com/laravel/images/laravel.jpg",
     "githubUser": "majidalavizadeh"
   },
@@ -812,6 +815,7 @@
     "level": "Beginner",
     "categories": "Python",
     "language": "English",
+    "flags": "flag-icon-us",
     "githubUser": "Fred-Barclay"
   },
   {
@@ -892,7 +896,8 @@
     "author": "Prof. Madhavan Mukund",
     "level": "Beginner-Intermediate",
     "categories": "Python",
-    "language": "English"
+    "language": "English",
+    "flags": "flag-icon-us"
   },
   {
     "title": "A Byte of Python",
@@ -901,7 +906,8 @@
     "author": "Swaroop C.H.",
     "level": "Beginner",
     "categories": "Python",
-    "language": "English"
+    "language": "English",
+    "flags": "flag-icon-us"
   },
   {
     "title": "Angular (v2.x e v4.x)",
@@ -927,7 +933,7 @@
     "title": "Java Hibernate Tutorial",
     "description": "This tutorial will teach you how to use Hibernate to develop your database based web applications in simple and easy steps",
     "link": "https://www.youtube.com/playlist?list=PL-nvlz_b2YHigPMfw2G37_D54386hdNQ4",
-    "author": " Vivekananda Reddy",
+    "author": "Vivekananda Reddy",
     "level": "Beginner, Intermediate",
     "categories": "Java",
     "language": "English",
@@ -947,7 +953,7 @@
     "title": "Cursos de Angular js",
     "description": "Cursos de Angular js",
     "link": "https://www.youtube.com/playlist?list=PLRjuMxvCRGQ6kaHKyiBhOGxeXKLYpOJuZ",
-    "author": " Ariel Bautista",
+    "author": "Ariel Bautista",
     "level": "Beginner",
     "categories": "AngularJs",
     "language": "Spanish",
@@ -1007,9 +1013,9 @@
   },
   {
     "title": "Vue JS Ninja",
-    "description": "Playlist do curso de Vue JS",
-    "link": "https://www.youtube.com/watch?v=07-TvnH7XNo&list=PLcoYAcR89n-qq1vGRbaUiV6Q9puy0qigW",
-    "author": "Tiago Matos",
+    "description": "Nessa série você vai aprender o básico do Vue.js e as suas principais funcionalidades como diretivas do tipo v-show, v-if, v-else, v-for, v-bind, eventos, filtros, componentes, slots, mixings, rota, Vue CLI e muito mais...",
+    "link": "https://www.youtube.com/playlist?list=PLcoYAcR89n-qq1vGRbaUiV6Q9puy0qigW",
+    "author": "Tiago Matos, Jeito Ninja",
     "level": "Beginner, Intermediate",
     "categories": "Vue",
     "language": "Portuguese - Brazil",
@@ -1018,7 +1024,7 @@
   {
     "title": "Introdução ao FireBase",
     "description": "Playlist do curso: introdução ao firebase",
-    "link": "https://www.youtube.com/watch?v=uP_v6RhnP5U&list=PLHlHvK2lnJnccBL9grcoRxv8CsLa9Q_4q",
+    "link": "https://www.youtube.com/playlist?list=PLHlHvK2lnJnccBL9grcoRxv8CsLa9Q_4q",
     "author": "Balta.io",
     "level": "Beginner",
     "categories": "Firebase",
@@ -1028,7 +1034,7 @@
   {
     "title": "Desvendando a linguagem Javascript",
     "description": "Esse curso foca em explorar as principais características do Javascript",
-    "link": "https://www.youtube.com/watch?v=093dIOCNeIc&list=PLQCmSnNFVYnT1-oeDOSBnt164802rkegc",
+    "link": "https://www.youtube.com/playlist?list=PLQCmSnNFVYnT1-oeDOSBnt164802rkegc",
     "author": "Rodrigo Branas",
     "level": "Beginner, Intermediate",
     "categories": "JavaScript",
@@ -1038,7 +1044,7 @@
   {
     "title": "Curso de PHP",
     "description": "Curso completo para quem quer aprender a criar sites utilizando as tecnologias de HTML5 + CSS3 + JavaScript de uma maneira simples e objetiva.",
-    "link": "https://www.cursoemvideo.com/course/curso-php-iniciante/",
+    "link": "https://www.youtube.com/playlist?list=PLHz_AreHm4dm4beCCCmW4xwpmLf6EHY9k",
     "author": "Gustavo Guanabara",
     "level": "Beginner",
     "categories": "PHP",
@@ -1048,8 +1054,8 @@
   },
   {
     "title": "Curso POO Java",
-    "description": "Curso de Orientação a Objetos com Java.",
-    "link": "https://www.cursoemvideo.com/course/curso-de-poo-java/",
+    "description": "Aborda os principais conceitos de Programação Orientada a Objetos (POO) como Classes, Objetos, instanciamento, abstração, encapsulamento, herança, polimorfismo e muito mais. Criado pelo professor Gustavo Guanabara para o Curso em Vídeo, explica todos os conceitos de POO de uma maneira simples, objetiva e divertida.",
+    "link": "https://www.youtube.com/playlist?list=PLHz_AreHm4dkqe2aR0tQK74m8SFe-aGsY",
     "author": "Gustavo Guanabara",
     "level": "Intermediate",
     "categories": "Java",
@@ -1058,9 +1064,9 @@
     "flags": "flag-icon-br"
   },
   {
-    "title": "Curso de Java",
-    "description": ". Nesse curso de Java grátis e completo, o professor Gustavo Guanabara vai mostrar como criar aplicativos que utilizem Java para rodar em Desktop. Será usado Java SE 8 com IDE NetBeans e os exemplos serão feitos usando a API Swing, que cria interfaces gráficas atraentes.",
-    "link": "https://www.cursoemvideo.com/course/curso-java-iniciante/",
+    "title": "Java para Iniciantes",
+    "description": "Nesse curso de Java grátis e completo, o professor Gustavo Guanabara vai mostrar como criar aplicativos que utilizem Java para rodar em Desktop. Será usado Java SE 8 com IDE NetBeans e os exemplos serão feitos usando a API Swing, que cria interfaces gráficas atraentes.",
+    "link": "https://www.youtube.com/playlist?list=PLHz_AreHm4dkI2ZdjTwZA4mPMxWTfNSpR",
     "author": "Gustavo Guanabara",
     "level": "Beginner",
     "categories": "Java",
@@ -1075,7 +1081,8 @@
     "author": "Derek Banas",
     "level": "Beginner - Intermediate",
     "categories": "Java",
-    "language": "English"
+    "language": "English",
+    "flags": "flag-icon-us"
   },
   {
     "title": "Curso de Laravel Relationship",
@@ -1085,7 +1092,8 @@
     "level": "Intermediate, Advanced",
     "categories": "Laravel, PHP",
     "language": "Portuguese - Brazil",
-    "image": "http://www.especializati.com.br/assets/uploads/imgs/conteudo/aulas-laravel-especializati.png"
+    "image": "http://www.especializati.com.br/assets/uploads/imgs/conteudo/aulas-laravel-especializati.png",
+    "flags": "flag-icon-br"
   },
   {
     "title": "Android Tutorial with Examples",
@@ -1095,7 +1103,8 @@
     "level": "Beginner, Intermediate, Advanced",
     "categories": "Android",
     "language": "English",
-    "image": "https://www.tutlane.com/images/categorylogo/android.png"
+    "image": "https://www.tutlane.com/images/categorylogo/android.png",
+    "flags": "flag-icon-us"
   },
   {
     "title": "C# Tutorial with Examples",
@@ -1105,7 +1114,8 @@
     "level": "Beginner, Intermediate, Advanced",
     "categories": "C Sharp",
     "language": "English",
-    "image": "https://www.tutlane.com/images/categorylogo/csharp.png"
+    "image": "https://www.tutlane.com/images/categorylogo/csharp.png",
+    "flags": "flag-icon-us"
   },
   {
     "title": "AngularJS Tutorial with Examples",
@@ -1115,7 +1125,8 @@
     "level": "Beginner, Intermediate, Advanced",
     "categories": "AngularJs",
     "language": "English",
-    "image": "https://www.tutlane.com/images/categorylogo/angularjs.png"
+    "image": "https://www.tutlane.com/images/categorylogo/angularjs.png",
+    "flags": "flag-icon-us"
   },
   {
     "title": "Introduction to Linux",
@@ -1125,7 +1136,8 @@
     "level": "Beginner, Intermediate",
     "categories": "Linux",
     "language": "English",
-    "image": "https://www.edx.org/sites/default/files/school/image/logo/lf_logo_new_pantone_200x101.png"
+    "image": "https://www.edx.org/sites/default/files/school/image/logo/lf_logo_new_pantone_200x101.png",
+    "flags": "flag-icon-us"
   },
   {
     "title": "Git & GitHub Crash Course For Beginners",
@@ -1135,7 +1147,8 @@
     "level": "Beginner",
     "categories": "Git",
     "language": "English",
-    "image": "http://www.stickpng.com/assets/images/5847f981cef1014c0b5e48be.png"
+    "image": "http://www.stickpng.com/assets/images/5847f981cef1014c0b5e48be.png",
+    "flags": "flag-icon-us"
   },
   {
     "title": "How to Contribute to an Open Source Project on GitHub",
@@ -1145,7 +1158,8 @@
     "level": "Beginner, Intermediate",
     "categories": "git",
     "language": "English",
-    "image": "https://d2eip9sf3oo6c2.cloudfront.net/series/square_covers/000/000/032/full/EGH_JSopensource_final.png"
+    "image": "https://d2eip9sf3oo6c2.cloudfront.net/series/square_covers/000/000/032/full/EGH_JSopensource_final.png",
+    "flags": "flag-icon-us"
   },
   {
     "title": "Developing a WordPress Theme from Scratch",
@@ -1187,7 +1201,8 @@
     "categories": "CSS",
     "link": "https://learncssgrid.com/",
     "level": "Beginner",
-    "description": "Learn the fundamentals of Grid"
+    "description": "Learn the fundamentals of Grid",
+    "flags": "flag-icon-us"
   },
   {
     "title": "Vue.js + Firebase Authentication",
@@ -1206,7 +1221,8 @@
     "categories": "CSS",
     "link": "https://scrimba.com/g/gflexbox",
     "level": "Beginner",
-    "description": "Learn the fundamentals of Flexbox"
+    "description": "Learn the fundamentals of Flexbox",
+    "flags": "flag-icon-us"
   },
   {
     "title": "Getting Started with Redux",
@@ -1246,7 +1262,8 @@
     "author": "Suresh Dasari",
     "level": "Beginner, Intermediate, Advanced",
     "categories": "Swift",
-    "language": "English"
+    "language": "English",
+    "flags": "flag-icon-us"
   },
   {
     "title": "Node.js Tutorial with Examples",
@@ -1258,12 +1275,38 @@
     "language": "English"
   },
   {
-    "title":"Backbone js Tutorial",
-    "description":"A backbone js course to learn how to structure web apps that run on browser",
-    "link":"https://www.youtube.com/watch?v=4t0n5k0X7ow&list=PLTjRvDozrdlwn9IsHWEs9IQv3HQob4bH3",
-    "author":"Mosh",
-    "level":"Beginner",
-    "categories":"Backbone-js",
-    "language":"English"
+    "title": "Backbone js Tutorial",
+    "description": "A backbone js course to learn how to structure web apps that run on browser",
+    "link": "https://www.youtube.com/watch?v=4t0n5k0X7ow&list=PLTjRvDozrdlwn9IsHWEs9IQv3HQob4bH3",
+    "author": "Mosh",
+    "level": "Beginner",
+    "categories": "Backbone-js",
+    "language": "English",
+    "flags": "flag-icon-us"
+  },
+  {
+    "dayThatWasAdded": "2020-03-16T20:33:37-0300",
+    "title": "Wordpress Completo",
+    "description": "Curso de WordPress completo, atualizado, profissional, utilizando o editor de blocos Gutenberg e apenas ferramentas grátis para a criação de sites.",
+    "link": "https://www.youtube.com/playlist?list=PLHz_AreHm4dmDP_RWdiKekjTEmCuq_MW2",
+    "author": "Gustavo Guanabara",
+    "level": "Beginner, Intermediate",
+    "categories": "Wordpress",
+    "language": "Portuguese - Brazil",
+    "githubuser": "anacarolinahernandes",
+    "flags": "flag-icon-br"
+  },
+  {
+    "dayThatWasAdded": "2020-03-16T20:33:37-0300",
+    "title": "JavaScript e ECMAScript para iniciantes",
+    "description": "Curso de JavaScript patrocinado pelo Google, voltado para iniciantes e para quem quiser aprender mais sobre ECMAScript, a versão padronizada do JS.",
+    "link": "https://www.youtube.com/playlist?list=PLHz_AreHm4dlsK3Nr9GVvXCbpQyHQl1o1",
+    "author": "Gustavo Guanabara",
+    "level": "Beginner",
+    "categories": "JavaScript",
+    "language": "Portuguese - Brazil",
+    "image": "https://pbs.twimg.com/media/D7nNSPLXsAIpkSi?format=jpg",
+    "githubuser": "anacarolinahernandes",
+    "flags": "flag-icon-br"
   }
 ]
