@@ -4,9 +4,10 @@ import { createBrowserHistory as createHistory } from "history";
 import ReactGA from "react-ga";
 import Header from "./containers/Header";
 import Contribute from "./containers/Contribute";
+import SideBar from "./containers/SideBar";
 
 // Containers
-// import Header from "./Header"; 
+// import Header from "./Header";
 // import SideBar from "./SideBar";
 // import Category from "./Category";
 // import Course from "./Course";
@@ -16,15 +17,18 @@ import Contribute from "./containers/Contribute";
 ReactGA.initialize("UA-108689470-1");
 const history = createHistory();
 
-history.listen((location) => {
+history.listen(location => {
   ReactGA.set({ page: location.pathname + location.hash });
   ReactGA.pageview(location.pathname + location.hash);
 });
 
-// const closeSideBar = () => {
-//   document.querySelector(".sidebar").classList.remove("open");
-//   document.querySelector("#menu-button").classList.remove("active");
-// };
+const closeSideBar = () => {
+  const sideBar = document.querySelector(".sidebar");
+  const menuButton = document.querySelector("#menu-button");
+
+  if (sideBar) sideBar.classList.remove("open");
+  if (menuButton) menuButton.classList.remove("active");
+};
 
 export default () => (
   <Router history={history}>
@@ -34,7 +38,7 @@ export default () => (
         path="/"
         render={() => (
           <div className="main">
-            {/* <SideBar closeSideBar={closeSideBar} /> */}
+            <SideBar closeSideBar={closeSideBar} />
             <div
               className="content"
               tabIndex={0}
