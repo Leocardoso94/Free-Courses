@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import FaIcon from "../../components/Icons/fa-icon";
 import { FaceButton, TweetButton } from "./../../components/ShareButtons";
 import Contributor from "./contributor";
+import { ReadingDoodle } from "react-open-doodles";
 import "./index.scss";
 
 export interface IContributor {
@@ -40,9 +41,9 @@ class Home extends Component {
         .catch(console.error)
     );
 
-    fetch(
-      "https://api.github.com/repos/Leocardoso94/Free-Courses/contributors"
-    ).then(blob => blob.json().then(data => this.updateContributors(data))).catch(console.error);
+    fetch("https://api.github.com/repos/Leocardoso94/Free-Courses/contributors")
+      .then(blob => blob.json().then(data => this.updateContributors(data)))
+      .catch(console.error);
   };
 
   updateContributors(contributors: IContributor[]) {
@@ -62,13 +63,15 @@ class Home extends Component {
     return (
       <div className="home">
         <h1 className="title">Free Courses</h1>
+        <div style={{ width: 250, margin: "0 auto" }}>
+          <ReadingDoodle></ReadingDoodle>
+        </div>
+        <h2>Welcome!</h2>
         <p>
-          <strong>Welcome!</strong>
-          <br />
           <br />
           This is a list of free courses about programming.
           <br />
-          You can contribute to the project adding more courses,
+          You can contribute to the project adding more courses,{" "}
           <a
             target="_blank"
             rel="noopener noreferrer"

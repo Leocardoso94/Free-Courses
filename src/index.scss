@@ -1,7 +1,7 @@
-@import url("https://fonts.googleapis.com/css?family=Playfair+Display:400,500i,700,900|Poppins:100,400,500i,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Baloo+2:400,700|Montserrat:300,400,700&display=swap");
 
 * {
-  font-family: "Poppins", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 *:focus {
@@ -14,7 +14,7 @@ h3,
 h4,
 b,
 strong {
-  font-family: "Playfair Display", serif;
+  font-family: "Baloo 2", cursive;
 }
 
 body {
@@ -67,7 +67,6 @@ body {
 a {
   color: #9c27b0;
   text-decoration: none;
-  font-family: "Poppins", sans-serif;
 }
 
 .initial-appear {

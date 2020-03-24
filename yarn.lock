@@ -9303,6 +9303,11 @@ react-is@^16.12.0, react-is@^16.6.0, react-is@^16.7.0, react-is@^16.8.1, react-i
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
   integrity sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==
 
+react-open-doodles@^1.0.5:
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/react-open-doodles/-/react-open-doodles-1.0.5.tgz#a84df9c42d14b8c4f9888f930d8a5fed277b871d"
+  integrity sha512-TGYuRDL2XX2PG/9ZH2MXfYi/vbQLRnvqPxfzNRc4X3Nxmsiz93kIRmT5OWbItadvqEwZTD4IncwHMSLOTUvSZQ==
+
 react-router-dom@^5.1.2:
   version "5.1.2"
   resolved "https://registry.yarnpkg.com/react-router-dom/-/react-router-dom-5.1.2.tgz#06701b834352f44d37fbb6311f870f84c76b9c18"
