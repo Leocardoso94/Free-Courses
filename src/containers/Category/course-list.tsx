@@ -1,12 +1,6 @@
 import React from "react";
-import Masonry from "react-masonry-component";
 import { Link } from "react-router-dom";
 import { Course } from "../../data/courses";
-
-const masonryOptions = {
-  transitionDuration: 0,
-  fitWidth: true
-};
 
 const CourseList: React.FC<{ coursesInCategory: Course[] }> = ({
   coursesInCategory
@@ -47,16 +41,7 @@ const CourseList: React.FC<{ coursesInCategory: Course[] }> = ({
     </li>
   ));
 
-  return (
-    <Masonry
-      elementType="ul"
-      options={masonryOptions}
-      disableImagesLoaded={false}
-      updateOnEachImageLoad
-    >
-      {courses}
-    </Masonry>
-  );
+  return <ul>{courses}</ul>;
 };
 
 export default CourseList;
