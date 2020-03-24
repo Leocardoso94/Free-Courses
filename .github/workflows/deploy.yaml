@@ -15,4 +15,5 @@ jobs:
         with:
           node-version: "13.x"
       - run: yarn
+      - run: node scripts/site-map-generator.js
       - run: ./deploy.sh
