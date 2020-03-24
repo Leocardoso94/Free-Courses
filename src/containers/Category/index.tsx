@@ -18,7 +18,7 @@ const renderContribute = (category: Category) => (
       <br />
       We do not have any listed course about {category.title}, yet.
       <br />
-      If you have any suggestion and would like to collaborate, please
+      If you have any suggestion and would like to collaborate, please {" "}
       <a href="https://github.com/Leocardoso94/Free-Courses" target="_blank">
         check How
       </a>

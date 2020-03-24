@@ -6,14 +6,8 @@ import Header from "./containers/Header";
 import Contribute from "./containers/Contribute";
 import SideBar from "./containers/SideBar";
 import CategoryContainer from "./containers/Category";
-
-// Containers
-// import Header from "./Header";
-// import SideBar from "./SideBar";
-
-// import Course from "./Course";
-// import Home from "./Home";
-// import Contribute from "./Contribute";
+import Home from "./containers/Home";
+import CourseContainer from "./containers/Course";
 
 ReactGA.initialize("UA-108689470-1");
 const history = createHistory();
@@ -44,12 +38,12 @@ export default () => (
               className="content"
               tabIndex={0}
               role="link"
-              // onKeyPress={() => closeSideBar()}
-              // onClick={() => closeSideBar()}
+              onKeyPress={() => closeSideBar()}
+              onClick={() => closeSideBar()}
             >
-              {/* <Route exact path="/" component={Home} /> */}
+              <Route exact path="/" component={Home} />
               <Route path="/category/:category" component={CategoryContainer} />
-              {/* <Route path="/course/:id" component={Course} /> */}
+              <Route path="/course/:id" component={CourseContainer} />
               <Route path="/contribute" component={Contribute} />
             </div>
           </div>
