@@ -16,7 +16,7 @@ const CourseContainer: FC<RouteComponentProps<{ id: string }>> = ({
     if (!course) history.push("/");
   }, [course, history]);
 
-  if (!course) return null;
+  if (!course) return <div></div>;
 
   return (
     <ReactCSSTransitionGroup
