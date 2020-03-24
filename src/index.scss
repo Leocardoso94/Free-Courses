@@ -1,7 +1,7 @@
-@import url("https://fonts.googleapis.com/css?family=Catamaran:400,700|Sniglet:400,700");
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display:400,500i,700,900|Poppins:100,400,500i,700&display=swap");
 
 * {
-  font-family: "Catamaran", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 *:focus {
@@ -13,7 +13,7 @@ h2,
 h3,
 h4,
 b {
-  font-family: "Sniglet", serif;
+  font-family: "Playfair Display", serif;
 }
 
 body {
@@ -66,7 +66,7 @@ body {
 a {
   color: #9c27b0;
   text-decoration: none;
-  font-family: "Sniglet", serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .initial-appear {
