@@ -1,5 +1,4 @@
 import React, { FC } from "react";
-import ReactCSSTransitionGroup from "react-addons-css-transition-group";
 import { RouteComponentProps } from "react-router-dom";
 import DevIcon from "../../components/Icons/dev-icon";
 import Loading from "../../components/Loading";
@@ -18,8 +17,12 @@ const renderContribute = (category: Category) => (
       <br />
       We do not have any listed course about {category.title}, yet.
       <br />
-      If you have any suggestion and would like to collaborate, please {" "}
-      <a href="https://github.com/Leocardoso94/Free-Courses" target="_blank">
+      If you have any suggestion and would like to collaborate, please{" "}
+      <a
+        href="https://github.com/Leocardoso94/Free-Courses"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
         check How
       </a>
     </p>
@@ -74,16 +77,7 @@ const CategoryContainer: FC<{
   if (loading) return <Loading />;
 
   return (
-    <ReactCSSTransitionGroup
-      transitionName="initial"
-      transitionAppear
-      transitionAppearTimeout={500}
-      transitionEnter={false}
-      transitionLeave={false}
-      id="category"
-      component="div"
-      className="category"
-    >
+    <div className="category">
       <BackButton />
       <h1 className="title">
         <DevIcon icon={category.icon} /> {category.title}
@@ -94,7 +88,7 @@ const CategoryContainer: FC<{
         <CourseList coursesInCategory={coursesInCategory} />
       )}
       <SimpleFooter title={category.title} />
-    </ReactCSSTransitionGroup>
+    </div>
   );
 };
 

@@ -14,6 +14,7 @@ const Contributor: React.FC<{ contributor: IContributor }> = ({
     />
     <a
       target="_blank"
+      rel="noopener noreferrer"
       className="contributor__link"
       href={contributor.html_url}
     >

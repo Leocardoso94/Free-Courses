@@ -1,9 +1,8 @@
 import React, { Component } from "react";
-import ReactCSSTransitionGroup from "react-addons-css-transition-group";
-import "./index.scss";
-import Contributor from "./contributor";
 import FaIcon from "../../components/Icons/fa-icon";
-import { TweetButton, FaceButton } from "./../../components/ShareButtons";
+import { FaceButton, TweetButton } from "./../../components/ShareButtons";
+import Contributor from "./contributor";
+import "./index.scss";
 
 export interface IContributor {
   login: string;
@@ -49,10 +48,7 @@ class Home extends Component {
 
   contributorsList() {
     return this.state.contributors.map((contributor, index) => (
-      <Contributor
-        contributor={contributor}
-        key={contributor.login}
-      />
+      <Contributor contributor={contributor} key={contributor.login} />
     ));
   }
 
@@ -61,15 +57,7 @@ class Home extends Component {
   }
   render() {
     return (
-      <ReactCSSTransitionGroup
-        transitionName="initial"
-        transitionAppear
-        transitionAppearTimeout={500}
-        transitionEnter={false}
-        transitionLeave={false}
-        component="div"
-        className="home"
-      >
+      <div className="home">
         <h1 className="title">Free Courses</h1>
         <p>
           <strong>Welcome!</strong>
@@ -80,6 +68,7 @@ class Home extends Component {
           You can contribute to the project adding more courses,
           <a
             target="_blank"
+            rel="noopener noreferrer"
             href="https://github.com/Leocardoso94/Free-Courses/blob/master/README.md"
           >
             see how
@@ -89,6 +78,7 @@ class Home extends Component {
           Free Courses is &nbsp;
           <a
             target="_blank"
+            rel="noopener noreferrer"
             href="https://github.com/Leocardoso94/Free-Courses"
           >
             open source.
@@ -97,6 +87,7 @@ class Home extends Component {
           <a
             className="stars"
             target="_blank"
+            rel="noopener noreferrer"
             href="https://github.com/Leocardoso94/Free-Courses"
           >
             <FaIcon icon="fa-github" color="#000" />
@@ -106,7 +97,11 @@ class Home extends Component {
           <span>
             Made with <FaIcon icon="fa-heart" color="red" />
             &nbsp;by
-            <a target="_blank" href="https://github.com/Leocardoso94">
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://github.com/Leocardoso94"
+            >
               &nbsp; @LeoCardoso94
             </a>
           </span>
@@ -121,7 +116,7 @@ class Home extends Component {
         <ul className="contributors">{this.contributorsList()}</ul>
 
         <br />
-      </ReactCSSTransitionGroup>
+      </div>
     );
   }
 }

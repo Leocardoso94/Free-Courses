@@ -1,5 +1,4 @@
 import React, { FC, useEffect } from "react";
-import ReactCSSTransitionGroup from "react-addons-css-transition-group";
 import { RouteComponentProps } from "react-router-dom";
 import BackButton from "../../components/BackButton";
 import { findCourseById } from "../../modules/course";
@@ -19,15 +18,7 @@ const CourseContainer: FC<RouteComponentProps<{ id: string }>> = ({
   if (!course) return <div></div>;
 
   return (
-    <ReactCSSTransitionGroup
-      transitionName="initial"
-      transitionAppear
-      transitionAppearTimeout={500}
-      transitionEnter={false}
-      transitionLeave={false}
-      component="div"
-      className="course-details"
-    >
+    <div className="course-details">
       <BackButton />
       <h1 className="title">{course.title}</h1>
       <h3>Author: {course.author}</h3>
@@ -41,12 +32,13 @@ const CourseContainer: FC<RouteComponentProps<{ id: string }>> = ({
           <a
             href="https://github.com/Leocardoso94/Free-Courses"
             target="_blank"
+            rel="noopener noreferrer"
           >
             Check How
           </a>
         </p>
       </div>
-    </ReactCSSTransitionGroup>
+    </div>
   );
 };
 
