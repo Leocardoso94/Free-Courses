@@ -1,0 +1,60 @@
+.back-button {
+    cursor: pointer;
+    display: block;
+    margin: 1em;
+    padding: 2px 1.5em;
+    border: none;
+    color: rgb(111, 26, 126);
+    vertical-align: middle;
+    z-index: 1;
+    font-size: 20px;
+    background: #fff;
+    overflow: hidden;
+    font-weight: bold;
+    transition: color 0.3s;
+    border-radius: 40px;
+    position: absolute;
+    top: 0px; // left: 0;
+    &:hover {
+        color: #fff;
+    }
+    &:before {
+        background: #7986cb;
+    }
+    &::after {
+        background: rgb(111, 26, 126);
+    }
+    &:before,
+    &::after {
+        content: '';
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        bottom: 100%;
+        left: 0;
+        z-index: -1;
+        transition: transform 0.3s;
+        transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1);
+        box-sizing: border-box;
+    }
+    &:hover::before,
+    &:hover::after {
+        -webkit-transform: translate3d(0, 100%, 0);
+        transform: translate3d(0, 100%, 0);
+    }
+    &:hover::after {
+        -webkit-transition-delay: 0.175s;
+        transition-delay: 0.175s;
+    }
+    &:hover::before,
+    &:hover::after {
+        -webkit-transform: translate3d(0, 100%, 0);
+        transform: translate3d(0, 100%, 0);
+    }
+    @media screen and (max-width: 900px) {
+        background: #2c3e50;
+        color: #fff;
+        top: -50px;
+        left: 0;
+    }
+}

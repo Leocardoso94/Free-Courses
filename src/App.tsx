@@ -5,11 +5,12 @@ import ReactGA from "react-ga";
 import Header from "./containers/Header";
 import Contribute from "./containers/Contribute";
 import SideBar from "./containers/SideBar";
+import CategoryContainer from "./containers/Category";
 
 // Containers
 // import Header from "./Header";
 // import SideBar from "./SideBar";
-// import Category from "./Category";
+
 // import Course from "./Course";
 // import Home from "./Home";
 // import Contribute from "./Contribute";
@@ -47,7 +48,7 @@ export default () => (
               // onClick={() => closeSideBar()}
             >
               {/* <Route exact path="/" component={Home} /> */}
-              {/* <Route path="/category/:category" component={Category} /> */}
+              <Route path="/category/:category" component={CategoryContainer} />
               {/* <Route path="/course/:id" component={Course} /> */}
               <Route path="/contribute" component={Contribute} />
             </div>
