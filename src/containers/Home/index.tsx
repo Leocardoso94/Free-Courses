@@ -34,12 +34,15 @@ class Home extends Component {
 
   componentDidMount = () => {
     fetch("https://api.github.com/repos/leocardoso94/free-courses").then(blob =>
-      blob.json().then(data => this.updateStars(data.stargazers_count))
+      blob
+        .json()
+        .then(data => this.updateStars(data.stargazers_count))
+        .catch(console.error)
     );
 
     fetch(
       "https://api.github.com/repos/Leocardoso94/Free-Courses/contributors"
-    ).then(blob => blob.json().then(data => this.updateContributors(data)));
+    ).then(blob => blob.json().then(data => this.updateContributors(data))).catch(console.error);
   };
 
   updateContributors(contributors: IContributor[]) {

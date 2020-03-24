@@ -1,0 +1,17 @@
+on:
+  push:
+    branches:
+      - master
+name: Deploy
+jobs:
+  deploy:
+    name: build
+    env: # Ou como uma variável de ambiente
+      GH_TOKEN: ${{ secrets.GH_TOKEN }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v1
+        with:
+          node-version: "13.x"
+      - run: ./deploy.sh
