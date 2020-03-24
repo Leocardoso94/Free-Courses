@@ -13,37 +13,37 @@ Please note we have a code of conduct, please follow it in all your interactions
 
 Add your course by filling this [Google Form](https://goo.gl/forms/S3AJKJlYPj9MqQj93)
 
-### Add JSON Object in code
+### Add a new object in code
 
 To add new course please follow steps:
 
 1. Fork this repo
 2. Go to the folder `/src/data`
-3. Open the `courses.json`
-4. Add a new JSON Object, Example as follows:
+3. Open the `courses.ts`
+4. Add a new object, Example as follows:
 
 ```
    {
-        "title": "title of course",
-        "author": "Author of course",
-        "language": "language of course",
-        "flags": "flag of the language" // this is optional        ,
-        "categories": "category 1,  category 2",
-        "link": "https://linkOfCouse.com/",
-        "level": "the level of course",
-        "description": "a short description of course",
+        title "title of course",
+        author "Author of course",
+        language "language of course",
+        flags "flag of the language" // this is optional        ,
+        categories "category 1,  category 2",
+        link "https://linkOfCouse.com/",
+        level "the level of course",
+        description "a short description of course",
         "image:" "https://linkToimage.com/image.png" // this is optional
     },
     {
-        "title": "JavaScript30",
-        "author": "Wes Bos",
-        "language": "English",
-        "flags": "flag-icon-us",
-        "categories": "javascript",
-        "link": "https://javascript30.com/",
-        "level": "Beginner - Intermediate",
-        "image": "",
-        "description": "Beginner to Intermediate developers and designers who want to become comfortable with both JavaScript fundamentals and working in the DOM without a library."
+        title "JavaScript30",
+        author "Wes Bos",
+        language "English",
+        flags "flag-icon-us",
+        categories "javascript",
+        link "https://javascript30.com/",
+        level "Beginner - Intermediate",
+        image "",
+        description "Beginner to Intermediate developers and designers who want to become comfortable with both JavaScript fundamentals and working in the DOM without a library."
     }
 ```
 
@@ -53,51 +53,49 @@ To add a new category:
 
 1. Fork this repo
 2. Go to the folder `/src/data`
-3. Open the `categories.json`
-4. Add a new JSON Object, Example as follows:
+3. Open the `categories.ts`
+4. Add a new object, Example as follows:
 
 ```
     {
-        "title": "Title of Category",
-        "icon": "icon of category"
+        title "Title of Category",
+        icon "icon of category"
     },
     {
-        "title": "JavaScript",
-        "icon": "devicon-javascript-plain colored"
+        title "JavaScript",
+        icon "devicon-javascript-plain colored"
     },
     {
-        "title": "Sass",
-        "icon": "devicons devicons-sass",
-        "iconColor": "#ffa"
+        title "Sass",
+        icon "devicons devicons-sass"
     }
 ```
 
 Icon classes can be found here: [Devicon](http://konpa.github.io/devicon/) or [Devicon Cheatsheet](http://vorillaz.github.io/devicons/#/cheat)
 
-
 ## Environment setup
 
 ### To run locally
 
-* You'll need to have [bower](https://bower.io/) and [node](https://nodejs.org/en/) installed in your system.
+- You'll need to have [bower](https://bower.io/) and [node](https://nodejs.org/en/) installed in your system.
 
 ```
 npm install && bower install
 ```
 
-* Run development server:
+- Run development server:
 
 ```
 npm start
 ```
 
-* Or you can run development server with [webpack-dashboard](https://github.com/FormidableLabs/webpack-dashboard):
+- Or you can run development server with [webpack-dashboard](https://github.com/FormidableLabs/webpack-dashboard):
 
 ```
 npm run dev
 ```
 
-* Open the Web browser to `http://localhost:8080/`
+- Open the Web browser to `http://localhost:8080/`
 
 ### To build the Production package
 
@@ -106,6 +104,7 @@ npm run build
 ```
 
 ### ESLint
+
 There is a `.eslintrc` config for ESLint ready with React plugin.
 
 To run linting, run:

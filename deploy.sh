@@ -4,8 +4,7 @@ set -e # exit with nonzero exit code if anything fails
 SOURCE_BRANCH="master"
 
 # run our compile script, discussed above
-npm run build
-
+yarn build
 
 # Pull requests and commits to other branches shouldn't try to deploy, just build to verify
 if [ "$TRAVIS_PULL_REQUEST" != "false" -o "$TRAVIS_BRANCH" != "$SOURCE_BRANCH" ]; then
@@ -13,9 +12,8 @@ if [ "$TRAVIS_PULL_REQUEST" != "false" -o "$TRAVIS_BRANCH" != "$SOURCE_BRANCH" ]
     exit 0
 fi
 
-
 # go to the out directory and create a *new* Git repo
-cd public
+cd build
 git init
 
 # inside this git repo we'll pretend to be a new user
@@ -31,4 +29,4 @@ git commit -m "Deploy to GitHub Pages"
 # repo's gh-pages branch. (All previous history on the gh-pages branch
 # will be lost, since we are overwriting it.) We redirect any output to
 # /dev/null to hide any sensitive credential data that might otherwise be exposed.
- git push --force  --quiet "https://${GH_TOKEN}@${GH_REF}"  master > /dev/null 2>&1
+git push --force --quiet "https://${GH_TOKEN}@${GH_REF}" master >/dev/null 2>&1
