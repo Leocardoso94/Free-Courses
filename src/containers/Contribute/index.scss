@@ -1,0 +1,21 @@
+div.contribute {
+    height: 100vh;
+    position: relative;
+    iframe {
+        width: 100%;
+        position: absolute;
+        height: 100%;
+        margin-bottom: 50px;
+    }
+    pre {
+        font-size: 12px;
+        line-height: 24px;
+        padding: 0 20px;
+        background-color: #f3f3f3;
+        border-radius: 20px;
+        white-space: pre-wrap;
+    }
+    ol li {
+        padding: 5px 0;
+    }
+}
