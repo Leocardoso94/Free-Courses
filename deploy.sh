@@ -6,12 +6,6 @@ SOURCE_BRANCH="master"
 # run our compile script, discussed above
 yarn build
 
-# Pull requests and commits to other branches shouldn't try to deploy, just build to verify
-if [ "$TRAVIS_PULL_REQUEST" != "false" -o "$TRAVIS_BRANCH" != "$SOURCE_BRANCH" ]; then
-    echo "Skipping deploy."
-    exit 0
-fi
-
 # go to the out directory and create a *new* Git repo
 cd build
 git init
