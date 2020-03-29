@@ -1444,6 +1444,18 @@ const courses: Course[] = [
     image: "https://pbs.twimg.com/media/D7nNSPLXsAIpkSi?format=jpg",
 
     flags: "flag-icon-br"
+  },
+  {
+    title: "Javascript ES6+ Curso 100% online e gratuito",
+    description:
+      "Você tem certeza que sabe JavaScript? Com todas as features que foram adicionadas podemos dizer que esta é uma nova linguagem, essencial para dominar ferramentas modernas como ReactJS, VueJS, Angular e React Native.",
+    link: "https://rocketseat.com.br/starter/curso-gratuito-javascript-es6",
+    author: "Diego Fernandes - Rocketseat",
+    level: "Beginner",
+    categories: "JavaScript",
+    language: "Portuguese - Brazil",
+    image: "https://rocketseat.com.br/static/images/cursos/es6.svg",
+    flags: "flag-icon-br"
   }
 ]
   .map(course => {
