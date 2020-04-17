@@ -17,7 +17,7 @@ const RenderCategoryItem: FC<{
       onClick={() => closeSideBar()}
       onKeyPress={() => closeSideBar()}
     >
-      {category.icon && <DevIcon icon={category.icon} />}
+      <DevIcon icon={category.icon} />
       {category.title}
     </Link>
   </li>
@@ -32,7 +32,7 @@ const SideBar: FC<{ closeSideBar: () => void }> = ({ closeSideBar }) => {
         <input
           className="search"
           placeholder=""
-          onChange={event => filterCategory(event.target.value)}
+          onChange={(event) => filterCategory(event.target.value)}
         />
         <ul>
           <li>
@@ -46,7 +46,7 @@ const SideBar: FC<{ closeSideBar: () => void }> = ({ closeSideBar }) => {
               All Courses
             </Link>
           </li>
-          {categories.map(category => (
+          {categories.map((category) => (
             <RenderCategoryItem
               category={category}
               closeSideBar={closeSideBar}
