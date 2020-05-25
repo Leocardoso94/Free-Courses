@@ -1,21 +1,14 @@
 import React from "react";
-import { Route, Router } from "react-router-dom";
-import { createBrowserHistory as createHistory } from "history";
 import ReactGA from "react-ga";
-import Header from "./containers/Header";
-import Contribute from "./containers/Contribute";
-import SideBar from "./containers/SideBar";
+import { BrowserRouter, Route } from "react-router-dom";
 import CategoryContainer from "./containers/Category";
-import Home from "./containers/Home";
+import Contribute from "./containers/Contribute";
 import CourseContainer from "./containers/Course";
+import Header from "./containers/Header";
+import Home from "./containers/Home";
+import SideBar from "./containers/SideBar";
 
 ReactGA.initialize("UA-108689470-1");
-const history = createHistory();
-
-history.listen(location => {
-  ReactGA.set({ page: location.pathname + location.hash });
-  ReactGA.pageview(location.pathname + location.hash);
-});
 
 const closeSideBar = () => {
   const sideBar = document.querySelector(".sidebar");
@@ -26,7 +19,7 @@ const closeSideBar = () => {
 };
 
 export default () => (
-  <Router history={history}>
+  <BrowserRouter>
     <div className="container">
       <Header />
       <Route
@@ -50,5 +43,5 @@ export default () => (
         )}
       />
     </div>
-  </Router>
+  </BrowserRouter>
 );
