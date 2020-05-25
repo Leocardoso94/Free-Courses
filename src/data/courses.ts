@@ -25,7 +25,7 @@ const courses: Course[] = [
     language: "English",
     image:
       "https://simpleisbetterthancomplex.com/media/series/beginners-guide/1.11/featured.jpg",
-    flags: "flag-icon-us"
+    flags: "flag-icon-us",
   },
   {
     title: "Django Girls Tutorial",
@@ -37,7 +37,7 @@ const courses: Course[] = [
     categories: "django,python",
     language: "English - Français - 简体中文 - Polski - Українська - Português",
     image: "https://tutorial.djangogirls.org/pt/images/application.png",
-    flags: "flag-icon-us,flag-icon-fr,flag-icon-es,flag-icon-cn,flag-icon-pl"
+    flags: "flag-icon-us,flag-icon-fr,flag-icon-es,flag-icon-cn,flag-icon-pl",
   },
   {
     title: "Django Tutorial for Beginners",
@@ -51,7 +51,7 @@ const courses: Course[] = [
     language: "English",
     image:
       "https://i.ytimg.com/vi/qgGIqRFvFFk/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLA-pkntIGBhO0V9Ni6L6sEGcIDIdA",
-    flags: "flag-icon-us"
+    flags: "flag-icon-us",
   },
   {
     title: "Getting Started with React",
@@ -63,7 +63,7 @@ const courses: Course[] = [
     language: "English",
     image:
       "https://cdn.scotch.io/1/QYfj3qQSSLywYDvBVrQu_getting-started-with-react.png.jpg",
-    flags: "flag-icon-us"
+    flags: "flag-icon-us",
   },
   {
     title: "Getting Started With Redux",
@@ -73,7 +73,7 @@ const courses: Course[] = [
     level: "Beginner - Intermediate",
     categories: "javascript,redux",
     language: "English",
-    flags: "flag-icon-us"
+    flags: "flag-icon-us",
   },
   {
     title: "The Road to learn React",
@@ -83,7 +83,7 @@ const courses: Course[] = [
     level: "Beginner",
     categories: "javascript,react",
     language: "English",
-    flags: "flag-icon-us"
+    flags: "flag-icon-us",
   },
   {
     title: "Git e Github para iniciantes",
@@ -95,7 +95,7 @@ const courses: Course[] = [
     categories: "git",
     language: "Portuguese",
     image: "https://udemy-images.udemy.com/course/480x270/849470_788a_2.jpg",
-    flags: "flag-icon-br"
+    flags: "flag-icon-br",
   },
   {
     title: "SASS Tutorial",
@@ -107,7 +107,7 @@ const courses: Course[] = [
     level: "Beginner - Intermediate",
     image: "",
     description:
-      "Do all sorts of cool stuff with it such as nesting CSS rules, creating variables, mixins and much more, to make working with CSS that little bit easier and more fun."
+      "Do all sorts of cool stuff with it such as nesting CSS rules, creating variables, mixins and much more, to make working with CSS that little bit easier and more fun.",
   },
   {
     title: "Node.js Crash Course",
@@ -118,7 +118,7 @@ const courses: Course[] = [
     link: "https://www.youtube.com/watch?v=fBNz5xF-Kx4&t=2815s",
     level: "Beginner - Intermediate",
     description:
-      "In this Crash course we will explore Node.js fundamentals including modules such as path, url, fs, events and we will create an HTTP server from scratch without Express and deploy to Heroku."
+      "In this Crash course we will explore Node.js fundamentals including modules such as path, url, fs, events and we will create an HTTP server from scratch without Express and deploy to Heroku.",
   },
   {
     title: "HTML & CSS",
@@ -129,7 +129,7 @@ const courses: Course[] = [
     level: "Beginner",
     categories: "html,css",
     language: "English - Portuguese(Brazil) - Español - Français",
-    flags: "flag-icon-us flag-icon-br,flag-icon-es,flag-icon-fr"
+    flags: "flag-icon-us flag-icon-br,flag-icon-es,flag-icon-fr",
   },
   {
     title: "HTML & CSS",
@@ -141,7 +141,7 @@ const courses: Course[] = [
     language: "English",
     image:
       "https://internetingishard.com/img/interneting-is-hard-logo-97b225.svg",
-    flags: "flag-icon-us"
+    flags: "flag-icon-us",
   },
   {
     title: "Vue.js 2 Tutorial",
@@ -153,7 +153,7 @@ const courses: Course[] = [
     level: "Beginner - Intermediate",
     image: "",
     description:
-      "In this tutorial we will go from the ground up and explore how to create fully-fledged Vue applications with the Vue CLI and other features such as the Vue router."
+      "In this tutorial we will go from the ground up and explore how to create fully-fledged Vue applications with the Vue CLI and other features such as the Vue router.",
   },
   {
     title: "Intro to HTML and CSS",
@@ -163,7 +163,7 @@ const courses: Course[] = [
     level: "Beginner",
     categories: "html,css",
     language: "English",
-    flags: "flag-icon-us"
+    flags: "flag-icon-us",
   },
   {
     title: "Intro to Javascript",
@@ -174,7 +174,7 @@ const courses: Course[] = [
     level: "Beginner",
     categories: "javascript",
     language: "English",
-    flags: "flag-icon-us"
+    flags: "flag-icon-us",
   },
   {
     title: "Introduction To JavaScript",
@@ -185,7 +185,7 @@ const courses: Course[] = [
     level: "Beginner",
     categories: "javascript",
     language: "English",
-    flags: "flag-icon-us"
+    flags: "flag-icon-us",
   },
   {
     title: "Java Tutorial for Complete Beginners",
@@ -196,7 +196,7 @@ const courses: Course[] = [
     categories: "Java",
     language: "English",
     image: "https://udemy-images.udemy.com/course/240x135/24823_963e_14.jpg",
-    flags: "flag-icon-us"
+    flags: "flag-icon-us",
   },
   {
     title: "JavaScript DOM Crash Course",
@@ -208,7 +208,7 @@ const courses: Course[] = [
     categories: "javascript",
     language: "English",
     image: "https://i.ytimg.com/vi/wK2cBMcDTss/maxresdefault.jpg",
-    flags: "flag-icon-us"
+    flags: "flag-icon-us",
   },
   {
     title: "JavaScript30",
@@ -220,7 +220,7 @@ const courses: Course[] = [
     categories: "javascript",
     language: "English",
     image: "https://s3.amazonaws.com/js30-cdn/sky--purple-kracked.jpg",
-    flags: "flag-icon-us"
+    flags: "flag-icon-us",
   },
   {
     title: "Git & Github Tutorial",
@@ -232,7 +232,7 @@ const courses: Course[] = [
     level: "Beginner - Intermediate",
     image: "",
     description:
-      "Git is a version control system that will make your life easier when trying to keep track of changes you make, and versions of your code."
+      "Git is a version control system that will make your life easier when trying to keep track of changes you make, and versions of your code.",
   },
   {
     title: "Laravel 5 Fundamentals",
@@ -242,7 +242,7 @@ const courses: Course[] = [
     level: "Beginner",
     categories: "laravel",
     language: "English",
-    flags: "flag-icon-us"
+    flags: "flag-icon-us",
   },
   {
     title: "Learn ES6 (ECMAScript 2015)",
@@ -255,7 +255,7 @@ const courses: Course[] = [
     language: "English",
     image:
       "https://d2eip9sf3oo6c2.cloudfront.net/series/square_covers/000/000/049/full/EGH_LearnES6_Final.png?1496436434",
-    flags: "flag-icon-us"
+    flags: "flag-icon-us",
   },
   {
     title: "Learn Python",
@@ -266,7 +266,7 @@ const courses: Course[] = [
     level: "Beginner - Intermediate",
     categories: "python",
     language: "English",
-    flags: "flag-icon-us"
+    flags: "flag-icon-us",
   },
   {
     title: "Learn Python in One Video",
@@ -276,7 +276,7 @@ const courses: Course[] = [
     link: "https://www.youtube.com/watch?v=H1elmMBnykA&t=6s",
     level: "Beginner - Intermediate",
     description: "Ultimate Python tutorial in One Video by Derek Banas",
-    flags: "flag-icon-us"
+    flags: "flag-icon-us",
   },
   {
     title: "AngularJS For Beginners",
@@ -287,7 +287,7 @@ const courses: Course[] = [
     level: "Beginner - Intermediate",
     categories: "AngularJS",
     language: "English",
-    flags: "flag-icon-us"
+    flags: "flag-icon-us",
   },
   {
     title: "Learn Redux",
@@ -297,7 +297,7 @@ const courses: Course[] = [
     level: "Beginner - Intermediate",
     categories: "react,redux",
     language: "English",
-    flags: "flag-icon-us"
+    flags: "flag-icon-us",
   },
   {
     title: "Learn Sass",
@@ -308,7 +308,7 @@ const courses: Course[] = [
     level: "Beginner",
     categories: "css,sass",
     language: "English",
-    flags: "flag-icon-us"
+    flags: "flag-icon-us",
   },
   {
     title: "Learn Vue 2: Step By Step",
@@ -318,7 +318,7 @@ const courses: Course[] = [
     level: "Beginner",
     categories: "javascript,vue",
     language: "English",
-    flags: "flag-icon-us"
+    flags: "flag-icon-us",
   },
   {
     title: "Make a Website",
@@ -329,7 +329,7 @@ const courses: Course[] = [
     level: "Beginner",
     categories: "html,css",
     language: "English",
-    flags: "flag-icon-us"
+    flags: "flag-icon-us",
   },
   {
     title: "Node JS Tutorial for Beginners",
@@ -343,7 +343,7 @@ const courses: Course[] = [
     language: "English",
     image:
       "https://i.ytimg.com/vi/w-7RQ46RgxU/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLB5gRmx7HePeS9235lqbx2uoJq5bA",
-    flags: "flag-icon-us"
+    flags: "flag-icon-us",
   },
   {
     title: "React 16 Definitivo",
@@ -354,7 +354,7 @@ const courses: Course[] = [
     categories: "react",
     language: "Portuguese",
     image: "https://udemy-images.udemy.com/course/240x135/1378412_4da7_2.jpg",
-    flags: "flag-icon-br"
+    flags: "flag-icon-br",
   },
   {
     title: "React-fundamentals - Start Learning React",
@@ -367,7 +367,7 @@ const courses: Course[] = [
     language: "English",
     image:
       "http://www.fellyph.com.br/blog/wp-content/uploads/2016/06/react-js.png",
-    flags: "flag-icon-us"
+    flags: "flag-icon-us",
   },
   {
     title: "Server-side Development with NodeJS, Express and MongoDB",
@@ -377,7 +377,7 @@ const courses: Course[] = [
     level: "Beginner - Intermediate",
     categories: "MongoDB,Express,node",
     language: "English",
-    flags: "flag-icon-us"
+    flags: "flag-icon-us",
   },
   {
     title: "Social Network",
@@ -388,7 +388,7 @@ const courses: Course[] = [
     level: "Beginner - Intermediate",
     categories: "php,html,laravel",
     language: "English",
-    flags: "flag-icon-us"
+    flags: "flag-icon-us",
   },
   {
     title: "PHP Tutorials",
@@ -401,7 +401,7 @@ const courses: Course[] = [
     level: "Beginner - Intermediate",
     image: "",
     description:
-      "Beginner to Intermediate developers, who wants to do comfortable backend programming"
+      "Beginner to Intermediate developers, who wants to do comfortable backend programming",
   },
   {
     title: "Tango With Django",
@@ -412,7 +412,7 @@ const courses: Course[] = [
     level: "Beginner",
     categories: "Python,django",
     language: "English",
-    flags: "flag-icon-us"
+    flags: "flag-icon-us",
   },
   {
     title: "Vue JS 2.0 - Mastering Web Apps",
@@ -424,7 +424,7 @@ const courses: Course[] = [
     level: "Beginner - Intermediate",
     categories: "javascript,vue",
     language: "English",
-    flags: "flag-icon-us"
+    flags: "flag-icon-us",
   },
   {
     title: "Vue JS - Hexschool",
@@ -434,7 +434,7 @@ const courses: Course[] = [
     level: "Beginner",
     categories: "vue",
     language: "正體中文",
-    flags: "flag-icon-tw"
+    flags: "flag-icon-tw",
   },
   {
     title: "Swift 3 and Xcode 8",
@@ -446,7 +446,7 @@ const courses: Course[] = [
     categories: "Swift",
     language: "English",
 
-    flags: "flag-icon-us"
+    flags: "flag-icon-us",
   },
   {
     title: "React JS and Redux - Mastering Web Apps",
@@ -458,7 +458,7 @@ const courses: Course[] = [
     level: "Beginner - Intermediate",
     flags: "flag-icon-us",
     description:
-      "Create the React JS & Redux apps you always wanted. Build 4 projects, discover development tricks, and master React!"
+      "Create the React JS & Redux apps you always wanted. Build 4 projects, discover development tricks, and master React!",
   },
   {
     title: "Ruby on Rails para iniciantes",
@@ -470,7 +470,7 @@ const courses: Course[] = [
     categories: "Rails",
     language: "Portuguese",
 
-    flags: "flag-icon-br"
+    flags: "flag-icon-br",
   },
   {
     title: "Try Docker",
@@ -481,7 +481,7 @@ const courses: Course[] = [
     level: "Beginner - Intermediate",
     categories: "Docker",
     language: "English",
-    flags: "flag-icon-us"
+    flags: "flag-icon-us",
   },
   {
     title: "Swift - The Ultimate Guide To Mac and iOS Development",
@@ -494,7 +494,7 @@ const courses: Course[] = [
     categories: "Swift",
     language: "English",
     flags: "flag-icon-us",
-    image: "https://udemy-images.udemy.com/course/240x135/1368248_af89.jpg"
+    image: "https://udemy-images.udemy.com/course/240x135/1368248_af89.jpg",
   },
   {
     title: "Complete React Tutorial",
@@ -506,7 +506,7 @@ const courses: Course[] = [
     level: "Beginner - Intermediate",
     categories: "React",
     language: "English",
-    flags: "flag-icon-us"
+    flags: "flag-icon-us",
   },
   {
     title: "Learn Webpack 2 from scratch",
@@ -517,7 +517,7 @@ const courses: Course[] = [
     level: "Beginner - Intermediate",
     categories: "Webpack",
     language: "English",
-    flags: "flag-icon-us"
+    flags: "flag-icon-us",
   },
   {
     title: "Curso Angular 4",
@@ -528,7 +528,7 @@ const courses: Course[] = [
     level: "Beginner - Intermediate",
     categories: "Angular",
     language: "Portuguese",
-    flags: "flag-icon-br"
+    flags: "flag-icon-br",
   },
   {
     title: "Curso de Materialize CSS",
@@ -541,7 +541,7 @@ const courses: Course[] = [
     categories: "Materialize,CSS",
     language: "Portuguese - Brazil",
 
-    flags: "flag-icon-br"
+    flags: "flag-icon-br",
   },
   {
     title: "Materialize Tutorial",
@@ -553,7 +553,7 @@ const courses: Course[] = [
     level: "Beginner - Intermediate",
     image: "",
     description:
-      "Add Materialize to our web projects to quickly create clean & great-looking websites very quickly, with features such as collapsable menus, popups, tabs, a grid system, buttons and much more."
+      "Add Materialize to our web projects to quickly create clean & great-looking websites very quickly, with features such as collapsable menus, popups, tabs, a grid system, buttons and much more.",
   },
   {
     title: "Curso CSS3 com Sass e Compass",
@@ -565,7 +565,7 @@ const courses: Course[] = [
     categories: "Sass,CSS",
     language: "Portuguese - Brazil",
 
-    flags: "flag-icon-br"
+    flags: "flag-icon-br",
   },
   {
     title: "Intro to Python for Data Science",
@@ -578,7 +578,7 @@ const courses: Course[] = [
     language: "English",
     image:
       "https://assets.datacamp.com/production/course_735/shields/original/shield_image_course_735_20171006-213-1p9i00n?1507253517",
-    flags: "flag-icon-us"
+    flags: "flag-icon-us",
   },
   {
     title: "Python3 na Web com Django",
@@ -591,7 +591,7 @@ const courses: Course[] = [
     categories: "python",
     language: "Portuguese - Brazil",
 
-    flags: "flag-icon-br"
+    flags: "flag-icon-br",
   },
   {
     title: "Try Git",
@@ -604,7 +604,7 @@ const courses: Course[] = [
     language: "English",
     image:
       "https://d1ffx7ull4987f.cloudfront.net/images/achievements/large_badge/621/level-1-on-try-git-b54d1cd9fa940e4a3c1925056d38eca2.png",
-    flags: "flag-icon-us"
+    flags: "flag-icon-us",
   },
   {
     title: "MongoDB University",
@@ -617,7 +617,7 @@ const courses: Course[] = [
     language: "English",
     image:
       "https://university.mongodb.com/static/images/svg/university-logo.svg",
-    flags: "flag-icon-us"
+    flags: "flag-icon-us",
   },
   {
     title: "Rails Casts",
@@ -630,7 +630,7 @@ const courses: Course[] = [
     language: "English",
     image:
       "http://railscasts.com/assets/railscasts_logo-7101a7cd0a48292a0c07276981855edb.png",
-    flags: "flag-icon-us"
+    flags: "flag-icon-us",
   },
   {
     title: "Learn CSS Layout",
@@ -642,7 +642,7 @@ const courses: Course[] = [
     categories: "CSS",
     language: "English, Portuguese - Brazil, Spanish, Italian, French, Others",
     image: "http://learnlayout.com/images/logo.png",
-    flags: "flag-icon-us"
+    flags: "flag-icon-us",
   },
   {
     title: "What The Flexbox?!",
@@ -654,7 +654,7 @@ const courses: Course[] = [
     categories: "CSS",
     language: "English",
     image: "https://flexbox.io/images/WTF/covers/1.jpg",
-    flags: "flag-icon-us"
+    flags: "flag-icon-us",
   },
   {
     title: "Angular 2 Tutorial",
@@ -665,7 +665,7 @@ const courses: Course[] = [
     level: "Beginner, Intermediate",
     categories: "Angular",
     language: "English",
-    flags: "flag-icon-us"
+    flags: "flag-icon-us",
   },
   {
     title: "Express Foundation",
@@ -676,7 +676,7 @@ const courses: Course[] = [
     level: "Beginner",
     categories: "express, node",
     language: "English",
-    flags: "flag-icon-us"
+    flags: "flag-icon-us",
   },
   {
     title: "Flask Mega Tutorial",
@@ -689,7 +689,7 @@ const courses: Course[] = [
     categories: "FLask",
     language: "English",
 
-    flags: "flag-icon-us"
+    flags: "flag-icon-us",
   },
   {
     title: "Eloquent JavaScript",
@@ -702,7 +702,7 @@ const courses: Course[] = [
     language: "English",
     image: "http://eloquentjavascript.net/img/cover.png",
 
-    flags: "flag-icon-us"
+    flags: "flag-icon-us",
   },
   {
     title: "Python School",
@@ -715,7 +715,7 @@ const courses: Course[] = [
     language: "English",
     image: "http://pythonschool.net/news/images/learn_to_program.jpg",
 
-    flags: "flag-icon-us"
+    flags: "flag-icon-us",
   },
   {
     title: "Aprende Vue2 y Firebase paso a paso ",
@@ -728,7 +728,7 @@ const courses: Course[] = [
     image:
       "https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://www.filepicker.io/api/file/GZHIaVwKQkyufoJD7ip5",
 
-    flags: "flag-icon-es"
+    flags: "flag-icon-es",
   },
   {
     title: "Try jQuery",
@@ -739,7 +739,7 @@ const courses: Course[] = [
     level: "Beginner",
     categories: "jquery",
     language: "English",
-    flags: "flag-icon-us"
+    flags: "flag-icon-us",
   },
   {
     title: "Introduction to jQuery",
@@ -749,7 +749,7 @@ const courses: Course[] = [
     level: "Beginner",
     categories: "jquery",
     language: "English",
-    flags: "flag-icon-us"
+    flags: "flag-icon-us",
   },
   {
     title: "Try Laravel",
@@ -760,7 +760,7 @@ const courses: Course[] = [
     level: "Beginner,Intermediate",
     categories: "laravel",
     language: "English",
-    flags: "flag-icon-us"
+    flags: "flag-icon-us",
   },
   {
     title: "DotNET Free courses",
@@ -771,7 +771,7 @@ const courses: Course[] = [
     level: "Beginner,Intermediate,Advanced",
     categories: "dotnet,csharp",
     language: "English",
-    flags: "flag-icon-us"
+    flags: "flag-icon-us",
   },
   {
     title: "React Native Basics: Build a Currency Converter",
@@ -784,7 +784,7 @@ const courses: Course[] = [
     categories: "React Native",
     language: "English",
 
-    flags: "flag-icon-us"
+    flags: "flag-icon-us",
   },
   {
     title: "How to Use Git and GitHub",
@@ -796,7 +796,7 @@ const courses: Course[] = [
     categories: "Git",
     language: "English",
 
-    flags: "flag-icon-us"
+    flags: "flag-icon-us",
   },
   {
     title: "React Foundation",
@@ -807,7 +807,7 @@ const courses: Course[] = [
     level: "Beginner",
     categories: "react",
     language: "English",
-    flags: "flag-icon-us"
+    flags: "flag-icon-us",
   },
   {
     title: "Node and MongoDB Foundation",
@@ -817,7 +817,7 @@ const courses: Course[] = [
     level: "Beginner",
     categories: "node,mongodb",
     language: "English",
-    flags: "flag-icon-us"
+    flags: "flag-icon-us",
   },
   {
     title: "Try Python",
@@ -828,7 +828,7 @@ const courses: Course[] = [
     level: "Beginner",
     categories: "python",
     language: "English",
-    flags: "flag-icon-us"
+    flags: "flag-icon-us",
   },
   {
     title: "Try Ember",
@@ -839,7 +839,7 @@ const courses: Course[] = [
     level: "Beginner",
     categories: "javascript",
     language: "English",
-    flags: "flag-icon-us"
+    flags: "flag-icon-us",
   },
   {
     title: "PHP programming language",
@@ -851,7 +851,7 @@ const courses: Course[] = [
     level: "Beginner",
     image: "",
     description:
-      "Learn the PHP programming language in this full course / tutorial. The course is designed for new programmers, and will introduce common programming topics using the PHP language."
+      "Learn the PHP programming language in this full course / tutorial. The course is designed for new programmers, and will introduce common programming topics using the PHP language.",
   },
   {
     title: "Try PHP",
@@ -862,7 +862,7 @@ const courses: Course[] = [
     level: "Beginner",
     categories: "php",
     language: "English",
-    flags: "flag-icon-us"
+    flags: "flag-icon-us",
   },
   {
     title: "Learn to Code",
@@ -873,7 +873,7 @@ const courses: Course[] = [
     categories: "GO",
     language: "English",
 
-    flags: "flag-icon-us"
+    flags: "flag-icon-us",
   },
   {
     title: "Laravel Tutorial",
@@ -885,7 +885,7 @@ const courses: Course[] = [
     categories: "Laravel",
     language: "English",
     flags: "flag-icon-us",
-    image: "https://www.tutorialspoint.com/laravel/images/laravel.jpg"
+    image: "https://www.tutorialspoint.com/laravel/images/laravel.jpg",
   },
   {
     title: "Learn Python the Hard Way",
@@ -896,7 +896,7 @@ const courses: Course[] = [
     level: "Beginner",
     categories: "Python",
     language: "English",
-    flags: "flag-icon-us"
+    flags: "flag-icon-us",
   },
   {
     title: "Python tutorials step by step",
@@ -907,7 +907,7 @@ const courses: Course[] = [
     level: "Beginner",
     categories: "python",
     language: "English",
-    flags: "flag-icon-us"
+    flags: "flag-icon-us",
   },
   {
     title: "Introduction to Node.js",
@@ -918,7 +918,7 @@ const courses: Course[] = [
     level: "Beginner",
     categories: "nodejs",
     language: "English",
-    flags: "flag-icon-us"
+    flags: "flag-icon-us",
   },
   {
     title: "Git I",
@@ -929,7 +929,7 @@ const courses: Course[] = [
     level: "Beginner",
     categories: "git",
     language: "English",
-    flags: "flag-icon-us"
+    flags: "flag-icon-us",
   },
   {
     title: "Introduction to Git for Data Science",
@@ -941,7 +941,7 @@ const courses: Course[] = [
     level: "Beginner,intermediate",
     categories: "git",
     language: "English",
-    flags: "flag-icon-us"
+    flags: "flag-icon-us",
   },
   {
     title: "Learning Vue 1.0: Step By Step",
@@ -951,7 +951,7 @@ const courses: Course[] = [
     level: "Beginner",
     categories: "vue",
     language: "English",
-    flags: "flag-icon-us"
+    flags: "flag-icon-us",
   },
   {
     title: "Python para zumbis",
@@ -961,7 +961,7 @@ const courses: Course[] = [
     level: "Beginner",
     categories: "Python",
     language: "Portuguese - Brazil",
-    flags: "flag-icon-br"
+    flags: "flag-icon-br",
   },
   {
     title: "Angular 5",
@@ -974,7 +974,7 @@ const courses: Course[] = [
     language: "English",
     flags: "flag-icon-us",
     image:
-      "https://codecraft.tv/assets/images/courses/angular/angular.w555.playicon.noptim.jpg"
+      "https://codecraft.tv/assets/images/courses/angular/angular.w555.playicon.noptim.jpg",
   },
   {
     title: "Programming, Data Structures and Algorithms in Python",
@@ -985,7 +985,7 @@ const courses: Course[] = [
     level: "Beginner-Intermediate",
     categories: "Python",
     language: "English",
-    flags: "flag-icon-us"
+    flags: "flag-icon-us",
   },
   {
     title: "A Byte of Python",
@@ -996,7 +996,7 @@ const courses: Course[] = [
     level: "Beginner",
     categories: "Python",
     language: "English",
-    flags: "flag-icon-us"
+    flags: "flag-icon-us",
   },
   {
     title: "Angular (v2.x e v4.x)",
@@ -1007,7 +1007,7 @@ const courses: Course[] = [
     level: "Beginner, Intermediate",
     categories: "Angular",
     language: "Portuguese - Brazil",
-    flags: "flag-icon-br"
+    flags: "flag-icon-br",
   },
   {
     title: "AngularJS",
@@ -1018,7 +1018,7 @@ const courses: Course[] = [
     level: "Beginner, Intermediate",
     categories: "AngularJs",
     language: "Portuguese - Brazil",
-    flags: "flag-icon-br"
+    flags: "flag-icon-br",
   },
   {
     title: "Java Hibernate Tutorial",
@@ -1030,7 +1030,7 @@ const courses: Course[] = [
     level: "Beginner, Intermediate",
     categories: "Java",
     language: "English",
-    flags: "flag-icon-us"
+    flags: "flag-icon-us",
   },
   {
     title: "Curso de JavaScript desde 0",
@@ -1041,7 +1041,7 @@ const courses: Course[] = [
     level: "Beginner",
     categories: "JavaScript",
     language: "Spanish",
-    flags: "flag-icon-es"
+    flags: "flag-icon-es",
   },
   {
     title: "Cursos de Angular js",
@@ -1052,7 +1052,7 @@ const courses: Course[] = [
     level: "Beginner",
     categories: "AngularJs",
     language: "Spanish",
-    flags: "flag-icon-es"
+    flags: "flag-icon-es",
   },
   {
     title: "Powering Up With React",
@@ -1063,7 +1063,7 @@ const courses: Course[] = [
     level: "Beginner",
     categories: "react",
     language: "English",
-    flags: "flag-icon-us"
+    flags: "flag-icon-us",
   },
   {
     title: "CSS GRID",
@@ -1076,7 +1076,7 @@ const courses: Course[] = [
     language: "English",
     image:
       "https://res.cloudinary.com/wesbos/image/fetch/q_auto,f_auto/https://courses.wesbos.com/images/GRID-poster.png",
-    flags: "flag-icon-us"
+    flags: "flag-icon-us",
   },
   {
     title: "Under-the-hood:REACTJS",
@@ -1087,7 +1087,7 @@ const courses: Course[] = [
     level: "Intermediate",
     categories: "react",
     language: "English - Chinese - Korean",
-    flags: "flag-icon-us, flag-icon-kr, flag-icon-cn"
+    flags: "flag-icon-us, flag-icon-kr, flag-icon-cn",
   },
   {
     title: "Basic programming using Python",
@@ -1098,7 +1098,7 @@ const courses: Course[] = [
     level: "Beginner",
     categories: "Python",
     flags: "flag-icon-us",
-    language: "English"
+    language: "English",
   },
   {
     title: "Practical JavaScript",
@@ -1110,7 +1110,7 @@ const courses: Course[] = [
     language: "English",
     image:
       "https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:1440/https://d2vvqscadf4c1f.cloudfront.net/Ge2Mtr9TT7W8TqrYWCqh_Pattern-1.gif",
-    flags: "flag-icon-us"
+    flags: "flag-icon-us",
   },
   {
     title: "Vue JS Ninja",
@@ -1122,7 +1122,7 @@ const courses: Course[] = [
     level: "Beginner, Intermediate",
     categories: "Vue",
     language: "Portuguese - Brazil",
-    flags: "flag-icon-br"
+    flags: "flag-icon-br",
   },
   {
     title: "Introdução ao FireBase",
@@ -1133,7 +1133,7 @@ const courses: Course[] = [
     level: "Beginner",
     categories: "Firebase",
     language: "Portuguese - Brazil",
-    flags: "flag-icon-br"
+    flags: "flag-icon-br",
   },
   {
     title: "Desvendando a linguagem Javascript",
@@ -1145,7 +1145,7 @@ const courses: Course[] = [
     level: "Beginner, Intermediate",
     categories: "JavaScript",
     language: "Portuguese - Brazil",
-    flags: "flag-icon-br"
+    flags: "flag-icon-br",
   },
   {
     title: "Curso de PHP",
@@ -1159,7 +1159,7 @@ const courses: Course[] = [
     language: "Portuguese - Brazil",
     image:
       "https://www.cursoemvideo.com/wp-content/uploads/2017/01/curso-gratis-php.jpg",
-    flags: "flag-icon-br"
+    flags: "flag-icon-br",
   },
   {
     title: "Curso POO Java",
@@ -1173,7 +1173,7 @@ const courses: Course[] = [
     language: "Portuguese - Brazil",
     image:
       "https://www.cursoemvideo.com/wp-content/uploads/2017/01/POOJAVA420x294.png",
-    flags: "flag-icon-br"
+    flags: "flag-icon-br",
   },
   {
     title: "Java para Iniciantes",
@@ -1187,7 +1187,7 @@ const courses: Course[] = [
     language: "Portuguese - Brazil",
     image:
       "https://www.cursoemvideo.com/wp-content/uploads/2017/01/curso-gratis-java.jpg",
-    flags: "flag-icon-br"
+    flags: "flag-icon-br",
   },
   {
     title: "Java Tutorial",
@@ -1197,7 +1197,7 @@ const courses: Course[] = [
     level: "Beginner - Intermediate",
     categories: "Java",
     language: "English",
-    flags: "flag-icon-us"
+    flags: "flag-icon-us",
   },
   {
     title: "Curso de Laravel Relationship",
@@ -1211,7 +1211,7 @@ const courses: Course[] = [
     language: "Portuguese - Brazil",
     image:
       "http://www.especializati.com.br/assets/uploads/imgs/conteudo/aulas-laravel-especializati.png",
-    flags: "flag-icon-br"
+    flags: "flag-icon-br",
   },
   {
     title: "Android Tutorial with Examples",
@@ -1222,7 +1222,7 @@ const courses: Course[] = [
     categories: "Android",
     language: "English",
     image: "https://www.tutlane.com/images/categorylogo/android.png",
-    flags: "flag-icon-us"
+    flags: "flag-icon-us",
   },
   {
     title: "C# Tutorial with Examples",
@@ -1233,7 +1233,7 @@ const courses: Course[] = [
     categories: "C Sharp",
     language: "English",
     image: "https://www.tutlane.com/images/categorylogo/csharp.png",
-    flags: "flag-icon-us"
+    flags: "flag-icon-us",
   },
   {
     title: "AngularJS Tutorial with Examples",
@@ -1244,7 +1244,7 @@ const courses: Course[] = [
     categories: "AngularJs",
     language: "English",
     image: "https://www.tutlane.com/images/categorylogo/angularjs.png",
-    flags: "flag-icon-us"
+    flags: "flag-icon-us",
   },
   {
     title: "Introduction to Linux",
@@ -1256,7 +1256,7 @@ const courses: Course[] = [
     language: "English",
     image:
       "https://www.edx.org/sites/default/files/school/image/logo/lf_logo_new_pantone_200x101.png",
-    flags: "flag-icon-us"
+    flags: "flag-icon-us",
   },
   {
     title: "Git & GitHub Crash Course For Beginners",
@@ -1268,7 +1268,7 @@ const courses: Course[] = [
     categories: "Git",
     language: "English",
     image: "http://www.stickpng.com/assets/images/5847f981cef1014c0b5e48be.png",
-    flags: "flag-icon-us"
+    flags: "flag-icon-us",
   },
   {
     title: "How to Contribute to an Open Source Project on GitHub",
@@ -1282,7 +1282,7 @@ const courses: Course[] = [
     language: "English",
     image:
       "https://d2eip9sf3oo6c2.cloudfront.net/series/square_covers/000/000/032/full/EGH_JSopensource_final.png",
-    flags: "flag-icon-us"
+    flags: "flag-icon-us",
   },
   {
     title: "Developing a WordPress Theme from Scratch",
@@ -1295,7 +1295,7 @@ const courses: Course[] = [
     categories: "WordPress",
     language: "English",
     image: "",
-    flags: "flag-icon-us"
+    flags: "flag-icon-us",
   },
   {
     title: "The Beginner's Guide to React",
@@ -1307,7 +1307,7 @@ const courses: Course[] = [
     categories: "React",
     language: "English",
     image: "",
-    flags: "flag-icon-us"
+    flags: "flag-icon-us",
   },
   {
     title: "Building a chat app with React.js and Chatkit",
@@ -1318,7 +1318,7 @@ const courses: Course[] = [
     categories: "React",
     language: "English",
     image: "",
-    flags: "flag-icon-us"
+    flags: "flag-icon-us",
   },
   {
     title: "Learn CSS Grid",
@@ -1328,7 +1328,7 @@ const courses: Course[] = [
     link: "https://learncssgrid.com/",
     level: "Beginner",
     description: "Learn the fundamentals of Grid",
-    flags: "flag-icon-us"
+    flags: "flag-icon-us",
   },
   {
     title: "Vue.js + Firebase Authentication",
@@ -1339,7 +1339,7 @@ const courses: Course[] = [
     level: "Beginner",
     categories: "vue",
     language: "English",
-    flags: "flag-icon-us"
+    flags: "flag-icon-us",
   },
   {
     title: "Learn Flexbox for Free",
@@ -1349,7 +1349,7 @@ const courses: Course[] = [
     link: "https://scrimba.com/g/gflexbox",
     level: "Beginner",
     description: "Learn the fundamentals of Flexbox",
-    flags: "flag-icon-us"
+    flags: "flag-icon-us",
   },
   {
     title: "Getting Started with Redux",
@@ -1362,7 +1362,7 @@ const courses: Course[] = [
     language: "English",
     image:
       "https://d2eip9sf3oo6c2.cloudfront.net/series/square_covers/000/000/025/full/EGH_Redux-New.png",
-    flags: "flag-icon-us"
+    flags: "flag-icon-us",
   },
   {
     title: "Learn Flexbox for Free",
@@ -1372,7 +1372,7 @@ const courses: Course[] = [
     level: "Beginner",
     categories: "CSS",
     language: "English",
-    flags: "flag-icon-us"
+    flags: "flag-icon-us",
   },
   {
     title: "Curso: Criando APIs com NodeJs",
@@ -1383,7 +1383,7 @@ const courses: Course[] = [
     level: "Beginner, Intermediate",
     categories: "JavaScript, Node",
     language: "Portuguese - Brazil",
-    flags: "flag-icon-br"
+    flags: "flag-icon-br",
   },
   {
     title: "Swift Tutorial with Examples",
@@ -1394,7 +1394,7 @@ const courses: Course[] = [
     level: "Beginner, Intermediate, Advanced",
     categories: "Swift",
     language: "English",
-    flags: "flag-icon-us"
+    flags: "flag-icon-us",
   },
   {
     title: "Node.js Tutorial with Examples",
@@ -1404,7 +1404,7 @@ const courses: Course[] = [
     level: "Beginner, Intermediate, Advanced",
     categories: "Node",
     language: "English",
-    flags: "flag-icon-us"
+    flags: "flag-icon-us",
   },
   {
     title: "Backbone js Tutorial",
@@ -1416,7 +1416,7 @@ const courses: Course[] = [
     level: "Beginner",
     categories: "Backbone-js",
     language: "English",
-    flags: "flag-icon-us"
+    flags: "flag-icon-us",
   },
   {
     title: "Wordpress Completo",
@@ -1429,7 +1429,7 @@ const courses: Course[] = [
     categories: "Wordpress",
     language: "Portuguese - Brazil",
 
-    flags: "flag-icon-br"
+    flags: "flag-icon-br",
   },
   {
     title: "JavaScript e ECMAScript para iniciantes",
@@ -1443,7 +1443,7 @@ const courses: Course[] = [
     language: "Portuguese - Brazil",
     image: "https://pbs.twimg.com/media/D7nNSPLXsAIpkSi?format=jpg",
 
-    flags: "flag-icon-br"
+    flags: "flag-icon-br",
   },
   {
     title: "Javascript ES6+ Curso 100% online e gratuito",
@@ -1455,10 +1455,22 @@ const courses: Course[] = [
     categories: "JavaScript",
     language: "Portuguese - Brazil",
     image: "https://rocketseat.com.br/static/images/cursos/es6.svg",
-    flags: "flag-icon-br"
-  }
+    flags: "flag-icon-br",
+  },
+  {
+    title: "Learn Git in 15 Minutes",
+    description:
+      "In this Course, we'll go over all the important stuff you need to know to get started using Git.  We cover git add, git commit, git branch, git checkout, and git merge!",
+    link: "https://www.youtube.com/watch?v=USjZcfj8yxE",
+    author: "Colt Steel",
+    level: "Beginner, Intermediate",
+    categories: "git",
+    language: "English",
+    image: "https://rocketseat.com.br/static/images/cursos/es6.svg",
+    flags: "flag-icon-us",
+  },
 ]
-  .map(course => {
+  .map((course) => {
     return {
       ...course,
       id: snakeCase(course.title + course.author),
@@ -1469,7 +1481,7 @@ const courses: Course[] = [
       flags:
         typeof course.flags === "string"
           ? course.flags.split(",")
-          : course.flags
+          : course.flags,
     };
   })
   .reverse();
