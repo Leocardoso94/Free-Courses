@@ -269,6 +269,15 @@ const courses: Course[] = [
     flags: "flag-icon-us",
   },
   {
+    title: "Python Tutorial - Python for Beginners [2020]",
+    description: "Learn Python quickly & easily (in 1 hour)! ",
+    link: "https://www.youtube.com/watch?v=kqtD5dpn9C8",
+    author: "Programming with Mosh",
+    level: "Beginner",
+    categories: "python",
+    language: "English",
+  },
+  {
     title: "Learn Python in One Video",
     author: "Derek Banas",
     language: "English",
