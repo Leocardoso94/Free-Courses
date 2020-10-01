@@ -86,6 +86,18 @@ const courses: Course[] = [
     flags: "flag-icon-us",
   },
   {
+    title: "The Ultimate GIT 5-day Challenge",
+    description:
+      "A quick way to determine if working with GIT is something you want to learn more about.",
+    link: "https://www.udemy.com/course/the-ultimate-git-5-day-challenge/",
+    author: "Udemy",
+    level: "Beginner",
+    categories: "Git",
+    language: "English",
+
+    flags: "flag-icon-us",
+  },
+  {
     title: "Git e Github para iniciantes",
     description:
       "Tudo que você precisa para começar a versionar seus arquivos e contribuir com a comunidade opensource.",
