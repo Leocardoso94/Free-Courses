@@ -1481,6 +1481,19 @@ const courses: Course[] = [
     language: "English",
     flags: "flag-icon-us",
   },
+  {
+    title: "Build a Web App with React",
+    description:
+      "A free, 5-part video course with interactive code examples that will help you learn React.",
+    link: "https://blog.glitch.com/post/react-starter-kit",
+    author: "Glitch Team",
+    level: "Beginner - Intermediate",
+    categories: "javascript",
+    language: "English",
+    flags: "flag-icon-us",
+    image:
+      "https://images.prismic.io/glitch-cms/2-react-starter-kit-1.jpg?auto=compress,format&rect=0,0,860,500&w=860&h=500",
+  },
 ]
   .map((course) => {
     return {
