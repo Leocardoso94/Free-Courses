@@ -1469,16 +1469,16 @@ const courses: Course[] = [
     image: "https://rocketseat.com.br/static/images/cursos/es6.svg",
     flags: "flag-icon-br",
   },
+
   {
-    title: "Learn Git in 15 Minutes",
+    title: "Introduction to TypeScript",
     description:
-      "In this Course, we'll go over all the important stuff you need to know to get started using Git.  We cover git add, git commit, git branch, git checkout, and git merge!",
-    link: "https://www.youtube.com/watch?v=USjZcfj8yxE",
-    author: "Colt Steel",
+      "Learn to supercharge your web-applications with the powerful typed language from Microsoft!",
+    link: "https://www.udemy.com/share/101tQEA0oTdltbRng=/",
+    author: "Daniel Stern",
     level: "Beginner, Intermediate",
-    categories: "git",
+    categories: "TypeScript",
     language: "English",
-    image: "https://rocketseat.com.br/static/images/cursos/es6.svg",
     flags: "flag-icon-us",
   },
 ]
