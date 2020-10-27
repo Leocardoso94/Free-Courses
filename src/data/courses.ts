@@ -247,6 +247,16 @@ const courses: Course[] = [
       "Git is a version control system that will make your life easier when trying to keep track of changes you make, and versions of your code.",
   },
   {
+    title: "Git and GitHub for Beginners - Crash Course",
+    author: "FreeCodeCamp",
+    language: "English",
+    categories: "Git",
+    link: "youtube.com/watch?v=RGOj5yH7evk",
+    level: "Beginner",
+    description:
+      "Beginner Friendly Git and Github crash course",
+  },
+  {
     title: "Laravel 5 Fundamentals",
     description: "A beginner level introduction to the Laravel framework",
     link: "https://laracasts.com/series/laravel-5-fundamentals",
