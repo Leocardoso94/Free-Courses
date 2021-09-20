@@ -134,6 +134,10 @@ const categories: Category[] = [
     title: "Backbone-js",
     icon: "devicon-backbonejs-plain colored",
   },
+  {
+    title: "Flutter",
+    icon: "devicon-flutter-plain colored",
+  },
 ];
 
 export default categories;
