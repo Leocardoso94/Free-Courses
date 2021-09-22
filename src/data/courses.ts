@@ -76,6 +76,15 @@ const courses: Course[] = [
     flags: "flag-icon-us",
   },
   {
+    title: "JavaScript Tutorial",
+    description: "Build Flappy Bird and Doodle Jump Game",
+    link: "https://www.youtube.com/watch?v=8xPsg6yv7TU",
+    author: "FreeCodeCamp",
+    level: "Beginner - Intermediate",
+    categories: "javascript",
+    language: "English"
+  },
+  {
     title: "The Road to learn React",
     description: "Your journey to master plain React",
     link: "https://roadtoreact.com/",
