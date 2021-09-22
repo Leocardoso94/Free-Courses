@@ -15,7 +15,7 @@ const togleActive = () => {
   if (subMenu) subMenu.classList.toggle("active");
 };
 
-export default () => (
+const Header = () => (
   <div id="header" className="header">
     <button
       className="menu-button"
@@ -55,3 +55,5 @@ export default () => (
     </div>
   </div>
 );
+
+export default Header;

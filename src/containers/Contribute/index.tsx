@@ -1,7 +1,7 @@
 import React from "react";
 import "./index.scss";
 
-export default () => (
+const Contribute = () => (
   <div className="contribute">
     <h1 className="title">Contribute</h1>
     <p>
@@ -20,3 +20,5 @@ export default () => (
     </div>
   </div>
 );
+
+export default Contribute
