@@ -14,6 +14,6 @@ jobs:
       - uses: actions/setup-node@v1
         with:
           node-version: "13.x"
-      - run: yarn
+      - run: npm i
       - run: node scripts/site-map-generator.js
       - run: ./deploy.sh
