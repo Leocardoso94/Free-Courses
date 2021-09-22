@@ -52,7 +52,7 @@ const courses: Course[] = [
     image:
       "https://i.ytimg.com/vi/qgGIqRFvFFk/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLA-pkntIGBhO0V9Ni6L6sEGcIDIdA",
     flags: "flag-icon-us",
-  },
+  },        
   {
     title: "Getting Started with React",
     description: "Basic Intro to React",
@@ -289,6 +289,16 @@ const courses: Course[] = [
     level: "Beginner - Intermediate",
     description: "Ultimate Python tutorial in One Video by Derek Banas",
     flags: "flag-icon-us",
+  },
+  {
+    title: "Intermediate Python Programming Course",
+    description:
+      "Intermediate level Python course in which first, you will get a review of basic concepts such as lists, strings, and dictionaries, but with an emphasis on some lesser known capabilities. ",
+    link: "https://www.youtube.com/watch?v=HGOBQPFzWKo",
+    author: "FreeCodeCamp",
+    level: "Intermediate",
+    categories: "python",
+    language: "English",
   },
   {
     title: "AngularJS For Beginners",
