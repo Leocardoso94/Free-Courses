@@ -18,7 +18,8 @@ const closeSideBar = () => {
   if (menuButton) menuButton.classList.remove("active");
 };
 
-export default () => (
+
+const App = () => (
   <BrowserRouter>
     <div className="container">
       <Header />
@@ -45,3 +46,5 @@ export default () => (
     </div>
   </BrowserRouter>
 );
+
+export default App
