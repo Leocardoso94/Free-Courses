@@ -1669,6 +1669,17 @@ const courses: Course[] = [
     flags: "flag-icon-tr",
     image: "https://i.ytimg.com/vi/1d92ipW7Mx8/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBqwviTRXjVztsP66WWwFQKacfr1Q",
   },
+  {
+    title: "Golang Eğitimi",
+    description: "Yeni Başlayanlar İçin GO(LANG)",
+    link: "https://youtube.com/playlist?list=PL-Hkw4CrSVq96dPr33xTdBjSgn9wKLHPa",
+    author: "Gürcan Çekiç",
+    level: "Beginner - Intermediate",
+    categories: "go",
+    language: "Turkish",
+    flags: "flag-icon-tr",
+    image: "https://i.ytimg.com/vi/qJqx7dxWW8I/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLDJUw0xzhfS2hUfSx1mq08yTQaWrQ",
+  },
 ]
   .map((course) => {
     return {
