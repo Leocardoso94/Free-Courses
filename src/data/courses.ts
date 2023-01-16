@@ -1559,6 +1559,21 @@ const courses: Course[] = [
     flags: "flag-icon-tr",
     image: "https://miro.medium.com/max/1400/0*-jhnXzZ3HsnoeC_s.jpg",
   },
+
+  {
+    title: "Selenium",
+    description:
+      "Selenium Webdriver With Java",
+    link: "https://testautomationu.applitools.com/selenium-webdriver-tutorial-java/",
+    author: "Angie Jones",
+    level: "Beginner",
+    categories: "Selenium",
+    language: "English",
+    image:
+      "https://www.pngkit.com/view/u2r5a9i1q8a9t4y3_applitools-on-twitter-selenium-webdriver-icon/",
+    flags: "flag-icon-us",
+  },
+  
 ]
   .map((course) => {
     return {
