@@ -138,6 +138,10 @@ const categories: Category[] = [
     title: "Flutter",
     icon: "devicon-flutter-plain colored",
   },
+  {
+    title: "Selenium",
+    icon: "devicon-selenium-original colored",
+  },
 ];
 
 export default categories;
