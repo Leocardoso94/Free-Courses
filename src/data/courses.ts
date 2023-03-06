@@ -1559,6 +1559,16 @@ const courses: Course[] = [
     flags: "flag-icon-tr",
     image: "https://miro.medium.com/max/1400/0*-jhnXzZ3HsnoeC_s.jpg",
   },
+  {title: "İleri Seviye C# ve OOP Dersleri",
+    description: "Herkese merhaba. Bu eğitim serimizi izleyerek C# dilinde kendinizi ileri seviyeye götürebilir ve nesne yönelimli programlamanın(OOP) mantığını kavrayabilirsiniz. Nesne yönelimli programlamanın yanı sıra bu serimizde C# ile ilgili ayrıntıları da öğrenebilirsiniz. Eğitim serimizdeki videoları izledikten sonra mutlaka örnek yaparak bunları pekiştirmeniz lazım, aksi takdirde ezberden öteye gitmez.",
+    link: "https://youtube.com/playlist?list=PLa6kneNR-u-3MDmvdsRhLHYQ6fnCiqywb",
+    author: "Gürkan Hasan Karaman",
+    level: "Intermadiate - Advanced",
+    categories: "C Sharp",
+    language: "Turkish",
+    flags: "flag-icon-tr",
+    image: "https://www.hizliresim.com/jyu6e31",
+  },
 ]
   .map((course) => {
     return {
