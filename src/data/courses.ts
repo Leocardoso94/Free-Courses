@@ -43,8 +43,7 @@ const courses: Course[] = [
     title: "Django Tutorial for Beginners",
     description:
       "Official tutorials for thenewboston Django Tutorials for Beginners series!",
-    link:
-      "https://www.youtube.com/playlist?list=PL6gx4Cwl9DGBlmzzFcLgDhKTTfNLfX1IK",
+    link: "https://www.youtube.com/playlist?list=PL6gx4Cwl9DGBlmzzFcLgDhKTTfNLfX1IK",
     author: "thenewboston",
     level: "Beginner",
     categories: "django,python",
@@ -213,8 +212,7 @@ const courses: Course[] = [
   {
     title: "JavaScript DOM Crash Course",
     description: "A crash course focuses on the DOM.",
-    link:
-      "https://www.youtube.com/watch?v=0ik6X4DJKCc&list=PLillGF-RfqbYE6Ik_EuXA2iZFcE082B3s",
+    link: "https://www.youtube.com/watch?v=0ik6X4DJKCc&list=PLillGF-RfqbYE6Ik_EuXA2iZFcE082B3s",
     author: "Traversy Media",
     level: "Beginner",
     categories: "javascript",
@@ -347,8 +345,7 @@ const courses: Course[] = [
     title: "Node JS Tutorial for Beginners",
     description:
       "Yo ninjas, in this Node JS tutorial series for beginners, we'll be walking step by step through what Node JS is, and how it all works. We'll also be creating a Node JS application from scratch using express, and hook it up to MongoDB - a noSQL database perfect for using with Node.",
-    link:
-      "https://www.youtube.com/playlist?list=PL4cUxeGkcC9gcy9lrvMJ75z9maRw4byYp",
+    link: "https://www.youtube.com/playlist?list=PL4cUxeGkcC9gcy9lrvMJ75z9maRw4byYp",
     author: "The Net Ninja",
     level: "Beginner - Intermediate",
     categories: "node,express,mongodb",
@@ -408,8 +405,7 @@ const courses: Course[] = [
     language: "English",
     flags: "flag-icon-us",
     categories: "PHP",
-    link:
-      "https://www.youtube.com/playlist?list=PL0eyrZgxdwhwBToawjm9faF1ixePexft-",
+    link: "https://www.youtube.com/playlist?list=PL0eyrZgxdwhwBToawjm9faF1ixePexft-",
     level: "Beginner - Intermediate",
     image: "",
     description:
@@ -430,8 +426,7 @@ const courses: Course[] = [
     title: "Vue JS 2.0 - Mastering Web Apps",
     description:
       "Create the VueJS 2.0 apps you always wanted. Build 5 apps, learn development secrets, VueRouter, Vuex, & more!",
-    link:
-      "https://www.udemy.com/vue-web-apps/?couponCode=GOHACKERS&pmtag=CTBO1202&siteID=MhbOGzq4cI4-kW.oXEWO9ehhdCszMpyOUw&LSNPUBID=MhbOGzq4cI4",
+    link: "https://www.udemy.com/vue-web-apps/?couponCode=GOHACKERS&pmtag=CTBO1202&siteID=MhbOGzq4cI4-kW.oXEWO9ehhdCszMpyOUw&LSNPUBID=MhbOGzq4cI4",
     author: "David Katz",
     level: "Beginner - Intermediate",
     categories: "javascript,vue",
@@ -451,8 +446,7 @@ const courses: Course[] = [
   {
     title: "Swift 3 and Xcode 8",
     description: "App Development for IOS, Spring 2017",
-    link:
-      "https://www.youtube.com/watch?v=ilQ-tq772VI&list=PLPA-ayBrweUz32NSgNZdl0_QISw-f12Ai",
+    link: "https://www.youtube.com/watch?v=ilQ-tq772VI&list=PLPA-ayBrweUz32NSgNZdl0_QISw-f12Ai",
     author: "Paul Hegarty - Stanford",
     level: "Beginner, Intermediate",
     categories: "Swift",
@@ -465,8 +459,7 @@ const courses: Course[] = [
     author: "David Katz",
     language: "English",
     categories: ["javascript", "react", "redux"],
-    link:
-      "https://www.udemy.com/react-js-and-redux-mastering-web-apps/?couponCode=GOHACKERS2",
+    link: "https://www.udemy.com/react-js-and-redux-mastering-web-apps/?couponCode=GOHACKERS2",
     level: "Beginner - Intermediate",
     flags: "flag-icon-us",
     description:
@@ -475,8 +468,7 @@ const courses: Course[] = [
   {
     title: "Ruby on Rails para iniciantes",
     description: "Playlist do Curso de Ruby on Rails para Iniciantes",
-    link:
-      "https://www.youtube.com/playlist?list=PLe3LRfCs4go-mkvHRMSXEOG-HDbzesyaP",
+    link: "https://www.youtube.com/playlist?list=PLe3LRfCs4go-mkvHRMSXEOG-HDbzesyaP",
     author: "Jackson Pires",
     level: "Beginner",
     categories: "Rails",
@@ -499,8 +491,7 @@ const courses: Course[] = [
     title: "Swift - The Ultimate Guide To Mac and iOS Development",
     description:
       "Learn how to use Swift, a language that is created by the world's largest company 'Apple'.",
-    link:
-      "https://www.udemy.com/swift-ios-mac/?couponCode=SWIFT_FREE&siteID=UeOSfRUOS3E-gGVwlTaKcegJYuXJhwOQjQ&LSNPUBID=UeOSfRUOS3E",
+    link: "https://www.udemy.com/swift-ios-mac/?couponCode=SWIFT_FREE&siteID=UeOSfRUOS3E-gGVwlTaKcegJYuXJhwOQjQ&LSNPUBID=UeOSfRUOS3E",
     author: "Frahaan Hussain",
     level: "Beginner - Intermediate",
     categories: "Swift",
@@ -512,8 +503,7 @@ const courses: Course[] = [
     title: "Complete React Tutorial",
     description:
       "Basics of React, from the ground up, right through to creating full SPA's using Create React App, the React Router (v4) and Redux.",
-    link:
-      "https://www.youtube.com/playlist?list=PL4cUxeGkcC9ij8CfkAY2RAGb-tmkNwQHG",
+    link: "https://www.youtube.com/playlist?list=PL4cUxeGkcC9ij8CfkAY2RAGb-tmkNwQHG",
     author: "The Net Ninja",
     level: "Beginner - Intermediate",
     categories: "React",
@@ -534,8 +524,7 @@ const courses: Course[] = [
   {
     title: "Curso Angular 4",
     description: "Playlist do Curso de Angular 4/2",
-    link:
-      "https://www.youtube.com/watch?v=tPOMG0D57S0&list=PLGxZ4Rq3BOBoSRcKWEdQACbUCNWLczg2G",
+    link: "https://www.youtube.com/watch?v=tPOMG0D57S0&list=PLGxZ4Rq3BOBoSRcKWEdQACbUCNWLczg2G",
     author: "Loiane Groner",
     level: "Beginner - Intermediate",
     categories: "Angular",
@@ -546,8 +535,7 @@ const courses: Course[] = [
     title: "Curso de Materialize CSS",
     description:
       "O curso consiste na criação de sites responsivos usando as principais ferramentas do framework Materialize CSS. Abordamos desde o básico ao avançado, ou seja, a configuração do ambiente e a instalação do framework até a criação de um site responsivo e agradável de forma correta.",
-    link:
-      "https://www.youtube.com/watch?v=khT9AyUuLOs&list=PLwXQLZ3FdTVGJxKF3ShplF8nMuuxldlEk",
+    link: "https://www.youtube.com/watch?v=khT9AyUuLOs&list=PLwXQLZ3FdTVGJxKF3ShplF8nMuuxldlEk",
     author: "Node Studio Treinamentos",
     level: "Beginner",
     categories: "Materialize,CSS",
@@ -596,8 +584,7 @@ const courses: Course[] = [
     title: "Python3 na Web com Django",
     description:
       "Como desenvolver incríveis aplicações web de forma rápida. Desenvolva suas próprias aplicações web com Python 3 e Django. Tenha noção de como planejar o desenvolvimento de uma aplicação web. Entendenda como funciona uma aplicação web com Python.",
-    link:
-      "https://www.udemy.com/course/python-3-na-web-com-django-basico-intermediario/",
+    link: "https://www.udemy.com/course/python-3-na-web-com-django-basico-intermediario/",
     author: "Gileno Alves Santa Cruz Filho",
     level: "Beginner, Intermediate",
     categories: "python",
@@ -671,8 +658,7 @@ const courses: Course[] = [
   {
     title: "Angular 2 Tutorial",
     description: "Playlist for Angular 2 Tutorial",
-    link:
-      "https://www.youtube.com/watch?v=zj7_4VDFQPA&list=PLC3y8-rFHvwg5gEu2KF4sbGvpUqMRSBSW",
+    link: "https://www.youtube.com/watch?v=zj7_4VDFQPA&list=PLC3y8-rFHvwg5gEu2KF4sbGvpUqMRSBSW",
     author: "Codevolution",
     level: "Beginner, Intermediate",
     categories: "Angular",
@@ -694,8 +680,7 @@ const courses: Course[] = [
     title: "Flask Mega Tutorial",
     description:
       "A series of articles that explore the basic to advanced concept of  writing web applications in Python using the Flask micro-framework.",
-    link:
-      "https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world",
+    link: "https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world",
     author: "Miguel Grinberg",
     level: "Beginner",
     categories: "FLask",
@@ -789,8 +774,7 @@ const courses: Course[] = [
     title: "React Native Basics: Build a Currency Converter",
     description:
       "Learn to Use Navigation, Setup Redux, Design Components, Work with a Remote API, and More",
-    link:
-      "https://learn.handlebarlabs.com/p/react-native-basics-build-a-currency-converter",
+    link: "https://learn.handlebarlabs.com/p/react-native-basics-build-a-currency-converter",
     author: "Spencer Carli",
     level: "Beginner",
     categories: "React Native",
@@ -947,8 +931,7 @@ const courses: Course[] = [
     title: "Introduction to Git for Data Science",
     description:
       "Version control is one of the power tools of programming. It allows you to keep track of what you did when, undo any changes you have decided you don't want, and collaborate at scale with other people. This course will introduce you to Git, a modern version control tool that is very popular with data scientists and software developers alike, and show you how it can help you get more done in less time and with less pain.",
-    link:
-      "https://www.datacamp.com/courses/introduction-to-git-for-data-science",
+    link: "https://www.datacamp.com/courses/introduction-to-git-for-data-science",
     author: "Greg Wilson",
     level: "Beginner,intermediate",
     categories: "git",
@@ -1024,8 +1007,7 @@ const courses: Course[] = [
   {
     title: "AngularJS",
     description: "Tudo sobre angularjs",
-    link:
-      "https://www.youtube.com/playlist?list=PLQCmSnNFVYnTD5p2fR4EXmtlR6jQJMbPb",
+    link: "https://www.youtube.com/playlist?list=PLQCmSnNFVYnTD5p2fR4EXmtlR6jQJMbPb",
     author: "Rodrigo Branas",
     level: "Beginner, Intermediate",
     categories: "AngularJs",
@@ -1036,8 +1018,7 @@ const courses: Course[] = [
     title: "Java Hibernate Tutorial",
     description:
       "This tutorial will teach you how to use Hibernate to develop your database based web applications in simple and easy steps",
-    link:
-      "https://www.youtube.com/playlist?list=PL-nvlz_b2YHigPMfw2G37_D54386hdNQ4",
+    link: "https://www.youtube.com/playlist?list=PL-nvlz_b2YHigPMfw2G37_D54386hdNQ4",
     author: "Vivekananda Reddy",
     level: "Beginner, Intermediate",
     categories: "Java",
@@ -1047,8 +1028,7 @@ const courses: Course[] = [
   {
     title: "Curso de JavaScript desde 0",
     description: "Curso de JavaScript desde 1",
-    link:
-      "https://www.youtube.com/playlist?list=PLU8oAlHdN5BmpobVmj1IlneKlVLJ84TID",
+    link: "https://www.youtube.com/playlist?list=PLU8oAlHdN5BmpobVmj1IlneKlVLJ84TID",
     author: " pildorasinformaticas",
     level: "Beginner",
     categories: "JavaScript",
@@ -1058,8 +1038,7 @@ const courses: Course[] = [
   {
     title: "Cursos de Angular js",
     description: "Cursos de Angular js",
-    link:
-      "https://www.youtube.com/playlist?list=PLRjuMxvCRGQ6kaHKyiBhOGxeXKLYpOJuZ",
+    link: "https://www.youtube.com/playlist?list=PLRjuMxvCRGQ6kaHKyiBhOGxeXKLYpOJuZ",
     author: "Ariel Bautista",
     level: "Beginner",
     categories: "AngularJs",
@@ -1128,8 +1107,7 @@ const courses: Course[] = [
     title: "Vue JS Ninja",
     description:
       "Nessa série você vai aprender o básico do Vue.js e as suas principais funcionalidades como diretivas do tipo v-show, v-if, v-else, v-for, v-bind, eventos, filtros, componentes, slots, mixings, rota, Vue CLI e muito mais...",
-    link:
-      "https://www.youtube.com/playlist?list=PLcoYAcR89n-qq1vGRbaUiV6Q9puy0qigW",
+    link: "https://www.youtube.com/playlist?list=PLcoYAcR89n-qq1vGRbaUiV6Q9puy0qigW",
     author: "Tiago Matos, Jeito Ninja",
     level: "Beginner, Intermediate",
     categories: "Vue",
@@ -1139,8 +1117,7 @@ const courses: Course[] = [
   {
     title: "Introdução ao FireBase",
     description: "Playlist do curso: introdução ao firebase",
-    link:
-      "https://www.youtube.com/playlist?list=PLHlHvK2lnJnccBL9grcoRxv8CsLa9Q_4q",
+    link: "https://www.youtube.com/playlist?list=PLHlHvK2lnJnccBL9grcoRxv8CsLa9Q_4q",
     author: "Balta.io",
     level: "Beginner",
     categories: "Firebase",
@@ -1151,8 +1128,7 @@ const courses: Course[] = [
     title: "Desvendando a linguagem Javascript",
     description:
       "Esse curso foca em explorar as principais características do Javascript",
-    link:
-      "https://www.youtube.com/playlist?list=PLQCmSnNFVYnT1-oeDOSBnt164802rkegc",
+    link: "https://www.youtube.com/playlist?list=PLQCmSnNFVYnT1-oeDOSBnt164802rkegc",
     author: "Rodrigo Branas",
     level: "Beginner, Intermediate",
     categories: "JavaScript",
@@ -1163,8 +1139,7 @@ const courses: Course[] = [
     title: "Curso de PHP",
     description:
       "Curso completo para quem quer aprender a criar sites utilizando as tecnologias de HTML5 + CSS3 + JavaScript de uma maneira simples e objetiva.",
-    link:
-      "https://www.youtube.com/playlist?list=PLHz_AreHm4dm4beCCCmW4xwpmLf6EHY9k",
+    link: "https://www.youtube.com/playlist?list=PLHz_AreHm4dm4beCCCmW4xwpmLf6EHY9k",
     author: "Gustavo Guanabara",
     level: "Beginner",
     categories: "PHP",
@@ -1177,8 +1152,7 @@ const courses: Course[] = [
     title: "Curso POO Java",
     description:
       "Aborda os principais conceitos de Programação Orientada a Objetos (POO) como Classes, Objetos, instanciamento, abstração, encapsulamento, herança, polimorfismo e muito mais. Criado pelo professor Gustavo Guanabara para o Curso em Vídeo, explica todos os conceitos de POO de uma maneira simples, objetiva e divertida.",
-    link:
-      "https://www.youtube.com/playlist?list=PLHz_AreHm4dkqe2aR0tQK74m8SFe-aGsY",
+    link: "https://www.youtube.com/playlist?list=PLHz_AreHm4dkqe2aR0tQK74m8SFe-aGsY",
     author: "Gustavo Guanabara",
     level: "Intermediate",
     categories: "Java",
@@ -1191,8 +1165,7 @@ const courses: Course[] = [
     title: "Java para Iniciantes",
     description:
       "Nesse curso de Java grátis e completo, o professor Gustavo Guanabara vai mostrar como criar aplicativos que utilizem Java para rodar em Desktop. Será usado Java SE 8 com IDE NetBeans e os exemplos serão feitos usando a API Swing, que cria interfaces gráficas atraentes.",
-    link:
-      "https://www.youtube.com/playlist?list=PLHz_AreHm4dkI2ZdjTwZA4mPMxWTfNSpR",
+    link: "https://www.youtube.com/playlist?list=PLHz_AreHm4dkI2ZdjTwZA4mPMxWTfNSpR",
     author: "Gustavo Guanabara",
     level: "Beginner",
     categories: "Java",
@@ -1215,8 +1188,7 @@ const courses: Course[] = [
     title: "Curso de Laravel Relationship",
     description:
       "Curso que ensina usar sistema de relacionamento do elloquent com laravel.",
-    link:
-      "https://www.youtube.com/watch?v=ylOBD8D0GBU&list=PLVSNL1PHDWvSk2zxNTYzGRnPMQTFyrYUi",
+    link: "https://www.youtube.com/watch?v=ylOBD8D0GBU&list=PLVSNL1PHDWvSk2zxNTYzGRnPMQTFyrYUi",
     author: "www.especializati.com.br",
     level: "Intermediate, Advanced",
     categories: "Laravel, PHP",
@@ -1286,8 +1258,7 @@ const courses: Course[] = [
     title: "How to Contribute to an Open Source Project on GitHub",
     description:
       "“Feel free to submit a PR!” - words often found in GitHub issues, but met with confusion and fear by many. Getting started with contributing open source is not always straightforward and can be tricky. With this series, you’ll be equipped with the the tools, knowledge, and understanding you need to be productive and contribute to the wonderful world of open source projects. Much of this series speaks about GitHub, but most of the concepts are generally applicable to contributing to any open source project, regardless of where it’s hosted. So enjoy the course and start contributing to the projects you use and love today!",
-    link:
-      "https://egghead.io/courses/how-to-contribute-to-an-open-source-project-on-github",
+    link: "https://egghead.io/courses/how-to-contribute-to-an-open-source-project-on-github",
     author: "Kent. C. Dodds",
     level: "Beginner, Intermediate",
     categories: "git",
@@ -1300,8 +1271,7 @@ const courses: Course[] = [
     title: "Developing a WordPress Theme from Scratch",
     description:
       "A tutorial walkthrough on how to turn any plain HTML website into a customizable website or blog.",
-    link:
-      "https://www.taniarascia.com/developing-a-wordpress-theme-from-scratch/",
+    link: "https://www.taniarascia.com/developing-a-wordpress-theme-from-scratch/",
     author: "Tania Rascia",
     level: "Beginner",
     categories: "WordPress",
@@ -1389,8 +1359,7 @@ const courses: Course[] = [
   {
     title: "Curso: Criando APIs com NodeJs",
     description: "Curso: Criando APIs com NodeJs e MongoDB",
-    link:
-      "https://www.youtube.com/playlist?list=PLHlHvK2lnJndvvycjBqQAbgEDqXxKLoqn",
+    link: "https://www.youtube.com/playlist?list=PLHlHvK2lnJndvvycjBqQAbgEDqXxKLoqn",
     author: "Balta.io",
     level: "Beginner, Intermediate",
     categories: "JavaScript, Node",
@@ -1422,8 +1391,7 @@ const courses: Course[] = [
     title: "Backbone js Tutorial",
     description:
       "A backbone js course to learn how to structure web apps that run on browser",
-    link:
-      "https://www.youtube.com/watch?v=4t0n5k0X7ow&list=PLTjRvDozrdlwn9IsHWEs9IQv3HQob4bH3",
+    link: "https://www.youtube.com/watch?v=4t0n5k0X7ow&list=PLTjRvDozrdlwn9IsHWEs9IQv3HQob4bH3",
     author: "Mosh",
     level: "Beginner",
     categories: "Backbone-js",
@@ -1434,8 +1402,7 @@ const courses: Course[] = [
     title: "Wordpress Completo",
     description:
       "Curso de WordPress completo, atualizado, profissional, utilizando o editor de blocos Gutenberg e apenas ferramentas grátis para a criação de sites.",
-    link:
-      "https://www.youtube.com/playlist?list=PLHz_AreHm4dmDP_RWdiKekjTEmCuq_MW2",
+    link: "https://www.youtube.com/playlist?list=PLHz_AreHm4dmDP_RWdiKekjTEmCuq_MW2",
     author: "Gustavo Guanabara",
     level: "Beginner, Intermediate",
     categories: "Wordpress",
@@ -1447,8 +1414,7 @@ const courses: Course[] = [
     title: "JavaScript e ECMAScript para iniciantes",
     description:
       "Curso de JavaScript patrocinado pelo Google, voltado para iniciantes e para quem quiser aprender mais sobre ECMAScript, a versão padronizada do JS.",
-    link:
-      "https://www.youtube.com/playlist?list=PLHz_AreHm4dlsK3Nr9GVvXCbpQyHQl1o1",
+    link: "https://www.youtube.com/playlist?list=PLHz_AreHm4dlsK3Nr9GVvXCbpQyHQl1o1",
     author: "Gustavo Guanabara",
     level: "Beginner",
     categories: "JavaScript",
@@ -1506,7 +1472,8 @@ const courses: Course[] = [
   },
   {
     title: "Pre-Flutter & Dart: Everything To Know Before You Start!",
-    description: "The Only Course You Need Before You Begin Learning Flutter & Dart! Can It Lead To A Career For You?",
+    description:
+      "The Only Course You Need Before You Begin Learning Flutter & Dart! Can It Lead To A Career For You?",
     link: "https://www.udemy.com/course/pre-google-flutter-and-dart-everything-you-need-to-know/",
     author: "Farid Ul Haq",
     level: "Beginner",
@@ -1527,8 +1494,10 @@ const courses: Course[] = [
     image: "https://img-c.udemycdn.com/course/480x270/2831314_6e47_2.jpg",
   },
   {
-    title: "Flutter Crash Course for Beginners 2021 - Build a Flutter App with Google's Flutter & Dart",
-    description: "In this Free Flutter Introduction for Beginners, you will get start with Flutter and learn how to build an iOS and Android app with Flutter! You will actually build a Flutter App with Google’s Flutter & Dart",
+    title:
+      "Flutter Crash Course for Beginners 2021 - Build a Flutter App with Google's Flutter & Dart",
+    description:
+      "In this Free Flutter Introduction for Beginners, you will get start with Flutter and learn how to build an iOS and Android app with Flutter! You will actually build a Flutter App with Google’s Flutter & Dart",
     link: "https://youtu.be/x0uinJvhNxI",
     author: "AcadMind",
     level: "Beginner - Intermadiate",
@@ -1538,8 +1507,10 @@ const courses: Course[] = [
     image: "https://i.ytimg.com/vi/x0uinJvhNxI/hq720.jpg",
   },
   {
-    title: "Flutter Course - Full Tutorial for Beginners (Build iOS and Android Apps)",
-    description: "Learn Flutter, Google’s groundbreaking multi-platform mobile development framework to create apps for Android and iOS. In this course, Nick Manning from fluttercrashcourse.com teaches you how to get up and running with Flutter quickly and effectively. Nick has been a Flutter engineer since 2017 and has boiled down this real-world know-how into a clear-cut, realistic and step-by-step crash course. Flutter apps are written in the Dart programming language",
+    title:
+      "Flutter Course - Full Tutorial for Beginners (Build iOS and Android Apps)",
+    description:
+      "Learn Flutter, Google’s groundbreaking multi-platform mobile development framework to create apps for Android and iOS. In this course, Nick Manning from fluttercrashcourse.com teaches you how to get up and running with Flutter quickly and effectively. Nick has been a Flutter engineer since 2017 and has boiled down this real-world know-how into a clear-cut, realistic and step-by-step crash course. Flutter apps are written in the Dart programming language",
     link: "https://youtu.be/pTJJsmejUOQ",
     author: "Nick Manning from fluttercrashcourse.com",
     level: "Beginner - Intermadiate",
@@ -1550,7 +1521,8 @@ const courses: Course[] = [
   },
   {
     title: "En Baştan Yazılıma Başlama Eğitimi; Flutter Dart Başlangıç Düzeyi",
-    description: "Bu youtube oynatma listesindeki videolarla flutter ve dart ile tanışabilirsiniz. Böylece birçok platforma tek bir kod yazarak uygulama geliştirmenin temellerini atmış olacaksınız.",
+    description:
+      "Bu youtube oynatma listesindeki videolarla flutter ve dart ile tanışabilirsiniz. Böylece birçok platforma tek bir kod yazarak uygulama geliştirmenin temellerini atmış olacaksınız.",
     link: "https://youtu.be/UFOEB2luPn0?list=PLrWGe5fM0LZ4PSm2Gcz1N6Z9IzyPZnkyR",
     author: "Mehmet Ali Bayram",
     level: "Beginner - Intermadiate",
@@ -1558,6 +1530,18 @@ const courses: Course[] = [
     language: "Turkish",
     flags: "flag-icon-tr",
     image: "https://miro.medium.com/max/1400/0*-jhnXzZ3HsnoeC_s.jpg",
+  },
+  {
+    title: "APIs",
+    description:
+      "Explore the key concepts that underpin API development and the principles of representational state transfer architectural style (REST) architecture.",
+    link: "https://www.coursera.org/learn/apis",
+    author: "Taught by Meta Staff",
+    level: "Intermadiate",
+    categories: "django",
+    language: "English",
+    flags: "flag-icon-us",
+    image: "",
   },
 ]
   .map((course) => {
