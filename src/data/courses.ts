@@ -1559,6 +1559,17 @@ const courses: Course[] = [
     flags: "flag-icon-tr",
     image: "https://miro.medium.com/max/1400/0*-jhnXzZ3HsnoeC_s.jpg",
   },
+  {
+        title "0 dan ileri sevitye JavaScript Kursu",
+        author "Enes Bayram",
+        language "Turkish",
+        flags "flag-icon-tr",
+        categories "javascript",
+        link "https://www.youtube.com/watch?v=mcwBvvThO40&list=PLURN6mxdcwL86Q8tCF1Ef6G6rN2jAg5Ht&pp=iAQB",
+        level "Beginner - Intermediate",
+        image "https://i.ytimg.com/vi/mcwBvvThO40/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLBRgfEc9r2MTityHR5v06hZg4UxSA",
+        description "Yeni başlayanlar için detaylı javascript öğrenme kursu."
+    }
 ]
   .map((course) => {
     return {
