@@ -40,6 +40,18 @@ const courses: Course[] = [
     flags: "flag-icon-us,flag-icon-fr,flag-icon-es,flag-icon-cn,flag-icon-pl",
   },
   {
+    title: "Python Django 101: Step 1 to become a Data Science Expert",
+    description:
+      "Free Python Django Course with Certificate!",
+    link: "https://www.simplilearn.com/free-python-django-course-skillup",
+    author: "simplilearn",
+    level: "Beginner",
+    categories: "django,python",
+    language: "English",
+    image: "https://www.simplilearn.com/ice9/skillupcertificates/Python_Django_101.jpg",
+    flags: "flag-icon-us",
+  },
+  {
     title: "Django Tutorial for Beginners",
     description:
       "Official tutorials for thenewboston Django Tutorials for Beginners series!",
