@@ -1559,6 +1559,17 @@ const courses: Course[] = [
     flags: "flag-icon-tr",
     image: "https://miro.medium.com/max/1400/0*-jhnXzZ3HsnoeC_s.jpg",
   },
+  {
+    title: "React Dersleri",
+    description: "React'a yeni başlayan biri bile olsanız bu dersi tamamladığınızda ileri seviye React uygulamaları geliştirebilirsiniz.",
+    link: "https://www.youtube.com/watch?v=wSDZyaLlCeo&list=PLURN6mxdcwL-xIXzq92ZJN9yRW7Q0mjzw",
+    author: "Mehmet Büyükgümüş",
+    level: "Beginner",
+    categories: "react",
+    language: "Turkish",
+    flags: "flag-icon-tr",
+    image: "https://scontent-cdg4-2.xx.fbcdn.net/v/t39.30808-6/326521811_2260392980806390_8741163396557706376_n.png?_nc_cat=109&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=i5eFDmva0TsQ7kNvgGMfAuE&_nc_zt=23&_nc_ht=scontent-cdg4-2.xx&_nc_gid=AGNYqn6jPiWIyYnzUIZYlz6&oh=00_AYBnzhiyALKSv7nIWCQvcZkBOLDGQdzcPnrZ1J33TEYfFQ&oe=673C7123"
+  }
 ]
   .map((course) => {
     return {
