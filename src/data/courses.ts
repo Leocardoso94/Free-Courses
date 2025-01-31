@@ -1559,6 +1559,17 @@ const courses: Course[] = [
     flags: "flag-icon-tr",
     image: "https://miro.medium.com/max/1400/0*-jhnXzZ3HsnoeC_s.jpg",
   },
+  {
+    title: "Learn Go Programming Language",
+    description: "Whether you're a beginner eager to dive into programming or an experienced developer looking to expand your skill set, this playlist provides valuable insights and practical knowledge to help you become proficient in Go. Start your journey today and unlock the potential of one of the industry's most powerful and efficient programming languages.",
+    link: "https://www.youtube.com/watch?v=JoJ8Sw5Yb4c&list=PLRAV69dS1uWQGDQoBYMZWKjzuhCaOnBpa",
+    author: "Hitesh Choudhary",
+    level: "Beginner, Intermediate",
+    categories: "GO",
+    language: "English",
+    flags: "flag-icon-us",
+    image: "https://i.ytimg.com/vi/JoJ8Sw5Yb4c/hqdefault.jpg?sqp=-oaymwEiCKgBEF5IWvKriqkDFQgBFQAAAAAYASUAAMhCPQCAokN4AQ==&rs=AOn4CLDum16sWflAk7_T7yubMSiCngVY5w",
+  },
 ]
   .map((course) => {
     return {
